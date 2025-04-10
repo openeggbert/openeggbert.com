@@ -1,0 +1,168 @@
+/* Basic style for the entire page */
+body {
+  padding: 20px;
+  background-color: #fff9e6; /* Light yellow background for the page */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern and readable font */
+  color: #333; /* Dark gray text color for good contrast */
+  line-height: 1.6; /* Improved text readability */
+  margin: auto;
+  max-width: 1000px;
+}
+
+/* Style for the main banner */
+#main_banner {
+  background-color: #ffeb3b; /* Light yellow for a prominent banner */
+  margin: 0;
+  padding: 15px; /* More space for better appearance */
+  text-align: center; /* Center text */
+  border-top-left-radius: 12px; /* Rounded corners for a modern look */
+  border-top-right-radius: 12px; /* Rounded corners for a modern look */
+
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Soft shadow for emphasis */
+  font-size: 2em; /* Increased font size for importance */
+  font-weight: bold; /* Highlight text */
+  color: #333; /* Dark gray text color for contrast */
+}
+
+/* Combined Breadcrumb and Hierarchical Navigation Panel */
+#breadcrumb_hierarchy_panel {
+  padding: 10px;
+  background-color: #ffffff; /* Light yellow background */
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  font-weight: normal;
+  border: 0px solid #ffa967;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Soft shadow for emphasis */
+}
+
+#breadcrumb_hierarchy_panel a {
+  color: #f57f17; /* Dark yellow color for links */
+  text-decoration: none;
+}
+
+#breadcrumb_hierarchy_panel a:hover {
+  text-decoration: underline;
+  color: #e65100; /* Darker yellow color on hover */
+}
+
+#breadcrumb_hierarchy_panel span {
+  color: #795548; /* Brown color for the current page */
+}
+
+/* Hierarchical Navigation Panel */
+#hierarchy_panel {
+  display: inline-block; /* Inline layout */
+  padding-top: 10px;
+}
+
+#hierarchy_panel a {
+  color: #f57f17; /* Dark yellow color for links */
+  text-decoration: none;
+}
+
+#hierarchy_panel a:hover {
+  text-decoration: underline;
+  color: #e65100; /* Darker yellow color on hover */
+}
+
+#hierarchy_panel a + a::before {
+  content: "|";
+  color: #f57f17; /* Dark yellow color for separators */
+  margin: 0 8px;
+}
+
+/* Style for navigation menu */
+nav {
+  padding: 15px;
+  background-color: #fff3e0; /* Light orange background for navigation */
+  border-bottom-left-radius: 8px; /* Rounded corners for a modern look */
+  border-bottom-right-radius: 8px; /* Rounded corners for a modern look */
+  border-bottom: 3px solid #ffca28; /* Light yellow bottom border */
+  margin-bottom: 20px; /* Space below navigation */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for separation */
+}
+
+/* Navigation list style */
+nav ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Display list items in a row */
+  justify-content: center; /* Center align list items */
+}
+
+/* Navigation link style */
+nav li {
+  margin: 0 15px; /* Space between list items */
+}
+
+/* Style for links in the navigation menu */
+nav a {
+  color: #ff6f00; /* Light orange color for links */
+  text-decoration: none; /* No underline for a modern look */
+  font-weight: bold; /* Highlight links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #e64a19; /* Darker orange color on hover */
+}
+
+/* Style for main content area */
+main {
+  padding: 20px;
+  background-color: #ffffff; /* White background for contrasting content */
+  border-radius: 12px; /* Rounded corners for a modern look */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Soft shadow for emphasis */
+  min-height:300px;
+}
+
+/* Style for lists */
+ul {
+  padding-left: 20px; /* Space on the left side of the list */
+}
+
+li {
+  margin-bottom: 12px; /* Space between list items */
+  font-size: 1.1em; /* Increased font size for better readability */
+}
+
+/* Style for the footer */
+footer {
+  padding: 15px;
+  background-color: #ffeb3b; /* Light yellow for the footer */
+  text-align: center; /* Center text */
+  border-top: 3px solid #ffca28; /* Light yellow top border */
+  margin-top: 20px; /* Space above footer */
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.1); /* Soft shadow for separation */
+  font-size: 0.9em; /* Smaller font size for the footer */
+  color: #333; /* Dark gray text color for contrast */
+}
+
+/* Responsive design for navigation menu and banner on small screens */
+@media (max-width: 768px) {
+  #main_banner {
+    font-size: 1.5em; /* Smaller font size for the banner on smaller screens */
+    padding: 10px; /* Reduce padding for better fit */
+  }
+
+  nav {
+    padding: 10px; /* Reduce padding for navigation on smaller screens */
+  }
+
+  nav a {
+    font-size: 0.9em; /* Smaller font size for navigation links */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack list items vertically on smaller screens */
+    align-items: center; /* Center align list items */
+  }
+
+  nav li {
+    margin: 10px 0; /* Space between list items when stacked */
+  }
+}
+figure {border: 2px solid rgba(140,140,140,0.2);padding:10px;margin-left:10px;margin-right:10px;}
+img {max-width:100%!important;}
