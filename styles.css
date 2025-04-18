@@ -238,3 +238,21 @@ padding-top: 5px;
     font-family: Arial, sans-serif;
     white-space: nowrap;
 }
+
+code {
+background: black;
+color: white;
+font-weight: bold;
+padding: 10px;
+border: 2px solid green;
+margin-top: 5px;
+display: block;
+font-size: 125%;
+}
+
+#toc {
+			border: 1px solid #ccc;
+			padding: 10px;
+			margin-bottom: 20px;
+			background-color: #f9f9f9;
+}
