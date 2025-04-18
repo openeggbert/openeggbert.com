@@ -1,6 +1,7 @@
 :root {
   --dark-yellow-color: #f57f17;
   --light-orange-color: #fff3e0;
+  --yellow-color: #ffeb3b;
 
 }
 
@@ -17,7 +18,7 @@ body {
 
 /* Style for the main banner */
 #main_banner {
-  background-color: #ffeb3b; /* Light yellow for a prominent banner */
+  background-color: var(--yellow-color); /* Light yellow for a prominent banner */
   margin: 0;
   padding: 15px; /* More space for better appearance */
   text-align: center; /* Center text */
@@ -46,7 +47,7 @@ body {
 }
 
 #breadcrumb_hierarchy_panel a {
-  color: var(--dark-yellow-color);; /* Dark yellow color for links */
+  color: var(--dark-yellow-color); /* Dark yellow color for links */
   text-decoration: none;
 }
 
@@ -59,6 +60,11 @@ body {
   color: #795548; /* Brown color for the current page */
 }
 
+#breadcrumb {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--yellow-color);
+}
+
 /* Hierarchical Navigation Panel */
 #hierarchy_panel {
   display: inline-block; /* Inline layout */
@@ -66,7 +72,7 @@ body {
 }
 
 #hierarchy_panel a {
-  color: var(--dark-yellow-color);; /* Dark yellow color for links */
+  color: var(--dark-yellow-color); /* Dark yellow color for links */
   text-decoration: none;
 }
 
@@ -77,8 +83,20 @@ body {
 
 #hierarchy_panel a + a::before {
   content: "|";
-  color: var(--dark-yellow-color);; /* Dark yellow color for separators */
+  color: var(--dark-yellow-color); /* Dark yellow color for separators */
   margin: 0 8px;
+}
+#breadcrumb::before, #hierarchy_panel::before {
+font-weight: normal;
+/*color: var(--dark-yellow-color);*/
+color: #666;
+font-style: normal;
+}
+#breadcrumb::before {
+content: "Path: ";
+}
+#hierarchy_panel::before {
+content: "Children: ";
 }
 
 /* Style for navigation menu */
@@ -141,7 +159,7 @@ li {
 /* Style for the footer */
 footer {
   padding: 15px;
-  background-color: #ffeb3b; /* Light yellow for the footer */
+  background-color: var(--yellow-color); /* Light yellow for the footer */
   text-align: center; /* Center text */
   border-top: 3px solid #ffca28; /* Light yellow top border */
   margin-top: 20px; /* Space above footer */
