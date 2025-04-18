@@ -21,20 +21,22 @@ function loadContent() {
     const headings = document.querySelectorAll('h2, h3, h4');
 
     const toggleButton = document.createElement('button');
-    toggleButton.textContent = getCookie('tocShown') === 'false' ? 'Show Content' : 'Hide Content';
+    toggleButton.textContent = getCookie('tocShown') === 'true' ? 'Hide Content' : 'Show Content';
     toggleButton.style.fontSize = "125%";
     toggleButton.style.padding = "5px";
     toggleButton.style.marginBottom = "20px";
 
     toggleButton.onclick = () => {
-        const isShown = toc.style.display === 'none';
-        toc.style.display = isShown ? 'block' : 'none';
+        const isShown = toc.style.display === 'block';
+        toc.style.display = isShown ? 'none' : 'block';
         setCookie('tocShown', !isShown, 30);
-        toggleButton.textContent = isShown ? 'Hide Content' : 'Show Content';
+        toggleButton.textContent = isShown ? 'Show Content' : 'Hide Content';
     };
 
     if (getCookie('tocShown') === 'true') {
-        toc.style.display = 'none';
+        toc.style.display = 'block';
+    } else {
+        toc.style.display= 'none';
     }
 
     toc.innerHTML = '<h2>Content:</h2><ul></ul>';
