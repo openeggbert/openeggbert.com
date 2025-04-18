@@ -218,6 +218,9 @@ th,td {
     padding: 0;
     display: flex;
     gap: 8px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+    margin-top: 60px;
 }
 
 #tags::before {
