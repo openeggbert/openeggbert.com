@@ -212,3 +212,26 @@ th {
 th,td {
   padding: 5px;
 }
+
+#tags {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+}
+
+#tags::before {
+content: "Tags: ";
+font-weight: bold;
+padding-top: 5px;
+}
+
+#tags li {
+    background-color: #007acc;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+}
