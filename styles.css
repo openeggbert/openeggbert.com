@@ -1,3 +1,9 @@
+:root {
+  --dark-yellow-color: #f57f17;
+  --light-orange-color: #fff3e0;
+
+}
+
 /* Basic style for the entire page */
 body {
   padding: 20px;
@@ -6,7 +12,7 @@ body {
   color: #333; /* Dark gray text color for good contrast */
   line-height: 1.6; /* Improved text readability */
   margin: auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 /* Style for the main banner */
@@ -35,9 +41,12 @@ body {
   border: 0px solid #ffa967;
   box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Soft shadow for emphasis */
 }
+#panel_current {
+  font-weight: bold;
+}
 
 #breadcrumb_hierarchy_panel a {
-  color: #f57f17; /* Dark yellow color for links */
+  color: var(--dark-yellow-color);; /* Dark yellow color for links */
   text-decoration: none;
 }
 
@@ -57,7 +66,7 @@ body {
 }
 
 #hierarchy_panel a {
-  color: #f57f17; /* Dark yellow color for links */
+  color: var(--dark-yellow-color);; /* Dark yellow color for links */
   text-decoration: none;
 }
 
@@ -68,14 +77,14 @@ body {
 
 #hierarchy_panel a + a::before {
   content: "|";
-  color: #f57f17; /* Dark yellow color for separators */
+  color: var(--dark-yellow-color);; /* Dark yellow color for separators */
   margin: 0 8px;
 }
 
 /* Style for navigation menu */
 nav {
   padding: 15px;
-  background-color: #fff3e0; /* Light orange background for navigation */
+  background-color: var(--light-orange-color); /* Light orange background for navigation */
   border-bottom-left-radius: 8px; /* Rounded corners for a modern look */
   border-bottom-right-radius: 8px; /* Rounded corners for a modern look */
   border-bottom: 3px solid #ffca28; /* Light yellow bottom border */
@@ -102,6 +111,7 @@ nav a {
   color: #ff6f00; /* Light orange color for links */
   text-decoration: none; /* No underline for a modern look */
   font-weight: bold; /* Highlight links */
+  font-size: 110%;
 }
 
 nav a:hover {
@@ -163,6 +173,24 @@ footer {
   nav li {
     margin: 10px 0; /* Space between list items when stacked */
   }
+  body {
+     padding: 5px;
+  }
 }
 figure {border: 2px solid rgba(140,140,140,0.2);padding:10px;margin-left:10px;margin-right:10px;}
 img {max-width:100%!important;}
+
+/* Tables */
+table, th, td {
+  border: 1px solid;
+}
+table {
+   border-collapse: collapse;
+   }
+th {
+  color: var(--dark-yellow-color);
+  background: var(--light-orange-color);
+}
+th,td {
+  padding: 5px;
+}
