@@ -51,7 +51,8 @@ function loadContent() {
         const link = document.createElement('a');
 
         heading.id = `heading-${index}`;
-        link.href = "file:///" + getCurrentRelativePath() + `#heading-${index}`;
+        //link.href = "file:///" + getCurrentRelativePath() + `#heading-${index}`;
+        link.href = `/${getCurrentRelativePath()}#heading-${index}`;
         link.textContent = heading.textContent;
 
         listItem.appendChild(link);
