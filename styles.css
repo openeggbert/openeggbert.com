@@ -195,7 +195,9 @@ footer {
      padding: 5px;
   }
 }
-figure {border: 2px solid rgba(140,140,140,0.2);padding:10px;margin-left:10px;margin-right:10px;}
+
+figure {border: 2px solid rgba(140,140,140,0.2);padding:10px;max-width: 600px;margin-left:0px;}
+
 img {max-width:100%!important;}
 
 /* Tables */
@@ -259,7 +261,7 @@ font-size: 125%;
 }
 
 /* Headers */
-h1{font-size:250%;}
+h1{font-size:250%; border-bottom: 2px solid #bbb;}
 h2{font-size:180%;}
 h3{font-size:120%;}
 /*h4{}*/
@@ -303,4 +305,34 @@ h4 {
 
 h4::before {
     content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) " ";
+}
+
+.infobox {
+float:right;border:1px solid black;text-align:left;margin-left:10px;
+}
+
+.infobox tr:first-child th:first-child {
+text-align:center;font-size:125%;
+}
+section a:hover {
+  background: #fffd8d;
+  transition: background 0.3s ease;
+}
+
+
+#toggleButton {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#toggleButton:hover {
+  background-color: #e65100;
+  transform: scale(1.05);
+}
 }

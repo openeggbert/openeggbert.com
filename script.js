@@ -24,7 +24,8 @@ function loadContent() {
     toggleButton.textContent = getCookie('tocShown') === 'true' ? 'Hide Content' : 'Show Content';
     //toggleButton.style.fontSize = "110%";
     toggleButton.style.padding = "5px";
-    toggleButton.style.marginBottom = "10px";
+    toggleButton.style.margin = "0px";
+    toggleButton.id= "toggleButton"
 
     toggleButton.onclick = () => {
         const isShown = toc.style.display === 'block';
