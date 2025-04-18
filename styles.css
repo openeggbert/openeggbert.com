@@ -31,6 +31,14 @@ body {
   color: #333; /* Dark gray text color for contrast */
 }
 
+
+
+
+
+
+
+
+
 /* Combined Breadcrumb and Hierarchical Navigation Panel */
 #breadcrumb_hierarchy_panel {
   padding: 10px;
@@ -42,6 +50,7 @@ body {
   border: 0px solid #ffa967;
   box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Soft shadow for emphasis */
 }
+
 #panel_current {
   font-weight: bold;
 }
@@ -63,41 +72,54 @@ body {
 #breadcrumb {
   padding-bottom: 8px;
   border-bottom: 1px solid var(--yellow-color);
+  font-weight: bold;
 }
 
 /* Hierarchical Navigation Panel */
 #hierarchy_panel {
-  display: inline-block; /* Inline layout */
+  display: flex; /* Flex layout for folder-like appearance */
+  flex-wrap: wrap;
+  gap: 10px; /* Space between items */
   padding-top: 10px;
 }
 
 #hierarchy_panel a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: var(--yellow-color); /* Light folder-like color */
+  border-radius: 4px; /* Rounded corners for folder-like style */
   color: var(--dark-yellow-color); /* Dark yellow color for links */
   text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Soft shadow for depth */
 }
 
 #hierarchy_panel a:hover {
-  text-decoration: underline;
-  color: #e65100; /* Darker yellow color on hover */
+  background-color: #e65100; /* Darker yellow on hover */
+  color: #ffffff; /* White text on hover */
+  text-decoration: none;
 }
 
-#hierarchy_panel a + a::before {
-  content: "|";
-  color: var(--dark-yellow-color); /* Dark yellow color for separators */
-  margin: 0 8px;
-}
 #breadcrumb::before, #hierarchy_panel::before {
-font-weight: normal;
-/*color: var(--dark-yellow-color);*/
-color: #666;
-font-style: normal;
+  font-weight: normal;
+  color: #666;
+  font-style: normal;
 }
+
 #breadcrumb::before {
-content: "Path: ";
+  content: "Path: ";
+  padding-right:55px;
 }
+
 #hierarchy_panel::before {
-content: "Children: ";
+  padding-top:5px;
+  content: "Subpages: ";
 }
+
+
+
+
+
 
 /* Style for navigation menu */
 nav {
@@ -261,7 +283,9 @@ font-size: 125%;
 }
 
 /* Headers */
-h1{font-size:250%; border-bottom: 2px solid #bbb;}
+h1{font-size:250%; border-bottom:}
+main section h1{border-bottom: 2px solid #bbb;}
+
 h2{font-size:180%;}
 h3{font-size:120%;}
 /*h4{}*/
