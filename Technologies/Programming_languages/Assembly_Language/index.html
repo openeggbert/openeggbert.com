@@ -49,7 +49,7 @@
   <main>
     <section>
       <h1>Assembly Language</h1>
-      <div id="tocButton"></div></div><div id="toc"></div>
+      <div id="tocButton"></div><div id="toc"></div>
       <p>
         Only the <a href="Page_Does_Not_Yet_Exist/index.html">x86 instruction set</a>, version <a href="Page_Does_Not_Yet_Exist/index.html">i586</a> (processor <a href="Page_Does_Not_Yet_Exist/index.html">Pentium 100</a>) is mostly described here.
 
@@ -187,9 +187,9 @@
         <code>_start:</code><br>
 
   <h3>Comments</h3>
-        Comments starts with the semicolon (;) character.
+        Comments starts with the semicolon (;) character.<br>
 
-        One comment cannot be on more lines. Assembly language comments are only one-line.
+        One comment cannot be on more lines. Assembly language comments are only one-line.<br>
 
         Comments (;) can start on a new line or after an instruction
 
@@ -207,7 +207,7 @@
 
   <h3>Syntax of Assembly Language Statements</h3>
         Assembly language statements are entered one statement per line.
-        [label]   mnemonic   [operands]   [;comment]
+        <code>[label]   mnemonic   [operands]   [;comment]</code>
 
   <h3>Hello World program in the Assembly Language</h3>
 
@@ -235,29 +235,29 @@ _start:
 </pre>
 
 <h4>Explanation</h4>
-      1. '''Section .data''': Defines the data segment, which contains the string "Hello, World!".
+        <ol>
+            <li><b>Section .data</b>: Defines the data segment, which contains the string "Hello, World!".</li>
 
-      2. '''Section .text''': Defines the code segment where the program starts executing.
+            <li><b>Section .text</b>: Defines the code segment where the program starts executing.</li>
 
-      3. '''System Call (int 0x80)''': This is the interface to Linux system calls.
-      - '''eax = 4''': Specifies the '''sys_write''' system call, which writes to a file descriptor (stdout in this case).
-      - '''ebx = 1''': Specifies the file descriptor for standard output.
-      - '''ecx = msg''': Points to the memory address of the message string.
-      - '''edx = 13''': Specifies the length of the string.
-      4. The program exits with a status of 0 ('''xor ebx, ebx''' clears the register).
-
+            <li><b>System Call (int 0x80)</b>: This is the interface to Linux system calls.
+                <pre>
+ - '''eax = 4''': Specifies the '''sys_write''' system call, which writes to a file descriptor (stdout in this case).
+ - '''ebx = 1''': Specifies the file descriptor for standard output.
+ - '''ecx = msg''': Points to the memory address of the message string.
+ - '''edx = 13''': Specifies the length of the string.</pre>
+            </li>
+      <li>The program exits with a status of 0 ('''xor ebx, ebx''' clears the register).</li>
+        </ol>
 <h4>Compilation and Execution</h4>
       To assemble and run this code on a Linux system, follow these steps:
-      # Save the code in a file (e.g., '''hello.asm''' or any name you prefer).
-      # Assemble and link it:
+      <ol><li>Save the code in a file (e.g., '''hello.asm''' or any name you prefer).</li>
+      <li>Assemble and link it:
       <pre>
 nasm -f elf32 hello.asm -o hello.o
-ld -m elf_i386 -s -o hello hello.o
-</pre>
-      # Run the resulting executable:
-      <pre>
-./hello
-</pre>
+ld -m elf_i386 -s -o hello hello.o</pre></li>
+      <li>Run the resulting executable:
+          <pre>./hello</pre></li></ol>
 
       This program will print "Hello, World!" to the screen.
 
@@ -265,8 +265,9 @@ ld -m elf_i386 -s -o hello hello.o
       See: <a href="Page_Does_Not_Yet_Exist/index.html">I586 registers</a>
 
   <h2>External links</h2>
-      https://www.tutorialspoint.com/assembly_programming/index.htm
-
+        <ul>
+      <li><a href="https://www.tutorialspoint.com/assembly_programming/index.htm">https://www.tutorialspoint.com/assembly_programming/index.htm</a></li>
+        </ul>
 
       </p>
       <ul id="tags"><li>X86</li></ul>

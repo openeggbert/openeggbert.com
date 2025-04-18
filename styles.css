@@ -239,7 +239,7 @@ padding-top: 5px;
     white-space: nowrap;
 }
 
-code {
+code,pre {
 background: black;
 color: white;
 font-weight: bold;
@@ -256,4 +256,51 @@ font-size: 125%;
 			margin-bottom: 10px;
 			background-color: #f9f9f9;
 			font-size: 90%;
+}
+
+/* Headers */
+h1{font-size:250%;}
+h2{font-size:180%;}
+h3{font-size:120%;}
+/*h4{}*/
+
+
+/*h1{}*/
+h2{color:#4169E1;}
+h3{color:#228B22;}
+h4{color:#FF8C00;}
+
+body {
+    counter-reset: h2-counter;
+}
+
+h2 {
+    counter-reset: h3-counter;
+    counter-increment: h2-counter;
+}
+
+h2.ignore-counter {
+    counter-increment: none;
+}
+
+
+h2::before {
+    content: counter(h2-counter) ". ";
+}
+
+h3 {
+    counter-reset: h4-counter;
+    counter-increment: h3-counter;
+}
+
+h3::before {
+    content: counter(h2-counter) "." counter(h3-counter) " ";
+}
+
+h4 {
+    counter-increment: h4-counter;
+}
+
+h4::before {
+    content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) " ";
 }

@@ -39,11 +39,12 @@ function loadContent() {
         toc.style.display = 'none';
     }
 
-    toc.innerHTML = '<h2>Content:</h2><ul></ul>';
+    toc.innerHTML = '<h2 class="ignore-counter">Content:</h2><ul></ul>';
     const tocList = toc.querySelector('ul');
     let lastH2 = null, lastH3 = null;
 
     let someHeaders = false;
+
     headings.forEach((heading, index) => {
         if(!someHeaders) someHeaders = true;
         const listItem = document.createElement('li');
@@ -72,5 +73,12 @@ function loadContent() {
     tocButton.appendChild(toggleButton);
     } else {
     toc.style.display = 'none';
+
+
+
+
+
+
+
     }
 }
