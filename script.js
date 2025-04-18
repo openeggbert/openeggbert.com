@@ -22,9 +22,9 @@ function loadContent() {
 
     const toggleButton = document.createElement('button');
     toggleButton.textContent = getCookie('tocShown') === 'true' ? 'Hide Content' : 'Show Content';
-    toggleButton.style.fontSize = "125%";
+    //toggleButton.style.fontSize = "110%";
     toggleButton.style.padding = "5px";
-    toggleButton.style.marginBottom = "20px";
+    toggleButton.style.marginBottom = "10px";
 
     toggleButton.onclick = () => {
         const isShown = toc.style.display === 'block';
@@ -36,14 +36,16 @@ function loadContent() {
     if (getCookie('tocShown') === 'true') {
         toc.style.display = 'block';
     } else {
-        toc.style.display= 'none';
+        toc.style.display = 'none';
     }
 
     toc.innerHTML = '<h2>Content:</h2><ul></ul>';
     const tocList = toc.querySelector('ul');
     let lastH2 = null, lastH3 = null;
 
+    let someHeaders = false;
     headings.forEach((heading, index) => {
+        if(!someHeaders) someHeaders = true;
         const listItem = document.createElement('li');
         const link = document.createElement('a');
 
@@ -66,5 +68,9 @@ function loadContent() {
             lastH3.appendChild(listItem);
         }
     });
+    if(someHeaders) {
     tocButton.appendChild(toggleButton);
+    } else {
+    toc.style.display = 'none';
+    }
 }
