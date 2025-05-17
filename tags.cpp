@@ -8,6 +8,7 @@
 namespace fs = std::filesystem;
 
 // Structure to store tag associations
+// Each tag (std::string) maps to a vector of {path, hyperlink} pairs.
 std::map<std::string, std::vector<std::pair<std::string, std::string>>> tagsMap;
 
 // Function to process individual HTML files
