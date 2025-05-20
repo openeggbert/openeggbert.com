@@ -294,6 +294,8 @@ h3{font-size:120%;}
 h2{color:#4169E1;}
 h3{color:#228B22;}
 h4{color:#FF8C00;}
+h5{color: #a600ff;}
+h6{color: #c3b903;}
 
 body {
     counter-reset: h2-counter;
@@ -329,6 +331,23 @@ h4 {
 h4::before {
     content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) " ";
 }
+
+h5 {
+  counter-increment: h5-counter;
+}
+
+h5::before {
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) " ";
+}
+
+h6 {
+  counter-increment: h6-counter;
+}
+
+h6::before {
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) "." counter(h6-counter) " ";
+}
+
 
 .infobox {
 float:right;border:1px solid black;text-align:left;margin-left:10px;
