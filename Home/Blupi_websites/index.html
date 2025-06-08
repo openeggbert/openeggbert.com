@@ -1,69 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open Eggbert - Blupi websites</title>
-  <meta name="description" content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos." />
-  <meta name="keywords" content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA" />
-  <meta name="author" content="Robert Vokáč">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Blupi websites</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
 
-  <base href="../.." target="_self">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
-  <script type="text/javascript" src="script.js"></script>
+    <base href="../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
 </head>
- <body onload="loadContent()">
-  <header>
+<body onload="loadContent()">
+<header>
     <h1 id="main_banner">Open Eggbert</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Blupi/index.html">Blupi</a></li>
-        <li><a href="Projects/index.html">Projects</a></li>
-        <li><a href="Technologies/index.html">Technologies</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
     </nav>
 
-  </header>
+</header>
 
-  <!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-  <div id="breadcrumb_hierarchy_panel">
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
     <div id="breadcrumb">
-      <a href="index.html">Home</a> /
-      <span id="panel_current">Blupi websites</span>
+        <a href="index.html">Home</a> /
+        <span id="panel_current">Blupi websites</span>
     </div>
     <div id="hierarchy_panel">
-      <a href="index.html">..</a>
+        <a href="index.html">..</a>
     </div>
-  </div>
+</div>
 
 
-
-  <main>
+<main>
     <section>
-      <h1>Blupi websites</h1>
-      <div id="tocButton"></div><div id="toc"></div>
+        <h1>Blupi websites</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
 
-<ul>
-  <li>1955 - <a href="Page_Does_Not_Yet_Exist/index.html">Bill Gates</a> was born.</li>
-  <li>1958 - <a href="Page_Does_Not_Yet_Exist/index.html">Daniel Roux</a> was born</li>
-  <li>1975 - the <a href="Page_Does_Not_Yet_Exist/index.html">Microsoft</a> technology company was founded</li>
-  <li>1991- the first version of the <a href="Page_Does_Not_Yet_Exist/index.html">Linux</a> <a href="Page_Does_Not_Yet_Exist/index.html">operating system</a> was released</li>
-  <li>1998-09-13 - Speedy Blupi I was. This day is the birth day of Speedy Blupi, which should we celebrated</li>
-  <li>2001 - Speedy Blupi II was released</li>
-  <li>2013 - <a href="Page_Does_Not_Yet_Exist/index.html">Speedy Blupi for Windows Phone</a> was released</li>
-  <li>2019 - Windows Store for Windows Phone platform was killed by Microsoft</li>
-  <li>Summer 2024 - Speedy Eggbert II was partially decompiled using Ghidra and the original Planet Blupi source code</li>
-  <li>Autumn 2024 - Speedy Blupi for Windows Phone was decompiled using ILSpy and make playeble on modern platforms</li>
-  <li>March 2025 - Speedy Blupi for Windows Phone was started being rewritten to C++</li>
-</ul>
+      <style>
+        table a {
+            max-width: 800px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: inline-block;
+        }
+
+      </style>
+        These are "Speedy Blupi" related websites.
+
+        They are downloadable as WARC files at: <a href="https://drive.openeggbert.com/blupiwarc"></a>.
+        <ul>
+            <li>You can replay these WARC files at <a href="https://replayweb.page/">https://replayweb.page/</a> or use
+                tools like PyWB.
+            </li>
+        </ul>
+
+        <b>Backlog:</b>
+        <ul>
+            <li><a href="https://archive.org/details/BlupiExplorer_DOS_DE">https://archive.org/details/BlupiExplorer_DOS_DE</a>
+            </li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Url</th>
+                <th>Status</th>
+            </tr>
+
+
+
+          <tr><td>1</td><td><a target="_blank" href="https://www.myabandonware.com/game/speedy-blupi-ex0">https://www.myabandonware.com/game/speedy-blupi-ex0</a></td><td>analysed </td></tr>
+          <tr><td>2</td><td><a target="_blank" href="https://www.rockpapershotgun.com/speedy-eggberts-level-editor-made-it-the-best-game-to-ever-score-4">https://www.rockpapershotgun.com/speedy-eggberts-level-editor-made-it-the-best-game-to-ever-score-4</a></td><td>analysed </td></tr>
+          <tr><td>3</td><td><a target="_blank" href="https://lostmedia.fandom.com/ru/wiki/La_Guerre_des_Blup_(%D0%BA%D0%BE%D0%BC%D0%B8%D0%BA%D1%81_%D1%84%D1%80%D0%B0%D0%BD%D1%88%D0%B8%D0%B7%D1%8B_Blupi,_1974)">https://lostmedia.fandom.com/ru/wiki/La_Guerre_des_Blup_(%D0%BA%D0%BE%D0%BC%D0%B8%D0%BA%D1%81_%D1%84%D1%80%D0%B0%D0%BD%D1%88%D0%B8%D0%B7%D1%8B_Blupi,_1974)</a></td><td>analysed </td></tr>
+          <tr><td>4</td><td><a target="_blank" href="http://www.ceebot.com">http://www.ceebot.com</a></td><td>analysed </td></tr>
+          <tr><td>5</td><td><a target="_blank" href="https://speedy-blupi.fandom.com">https://speedy-blupi.fandom.com</a></td><td>analysed </td></tr>
+          <tr><td>6</td><td><a target="_blank" href="https://www.speedrun.com/blupi">https://www.speedrun.com/blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>7</td><td><a target="_blank" href="https://www.speedrun.com/blupi2">https://www.speedrun.com/blupi2</a></td><td>not yet analysed </td></tr>
+          <tr><td>8</td><td><a target="_blank" href="https://github.com/colobot/colobot/issues/896">https://github.com/colobot/colobot/issues/896</a></td><td>not yet analysed </td></tr>
+          <tr><td>9</td><td><a target="_blank" href="https://archive.org/details/speedy-eggbert">https://archive.org/details/speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>10</td><td><a target="_blank" href="https://archive.org/details/seggbert-2">https://archive.org/details/seggbert-2</a></td><td>not yet analysed </td></tr>
+          <tr><td>11</td><td><a target="_blank" href="https://www.blupi.org">https://www.blupi.org</a></td><td>not yet analysed </td></tr>
+          <tr><td>12</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/SpeedyEggbert">https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/SpeedyEggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>13</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Blupi_Wiki">https://blupi.fandom.com/wiki/Blupi_Wiki</a></td><td>not yet analysed </td></tr>
+          <tr><td>14</td><td><a target="_blank" href="https://obviam.net/posts/2012/02.libgdx-create-prototype-tutorial-part1/">https://obviam.net/posts/2012/02.libgdx-create-prototype-tutorial-part1/</a></td><td>not yet analysed </td></tr>
+          <tr><td>15</td><td><a target="_blank" href="https://indiedevs.net/viewtopic.php?t=101">https://indiedevs.net/viewtopic.php?t=101</a></td><td>not yet analysed </td></tr>
+          <tr><td>16</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Blupi">https://blupi.fandom.com/wiki/Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>17</td><td><a target="_blank" href="https://igrozoom.ru/brodilki/500857-reaktivnyy-egbert-speedy-eggbert.html">https://igrozoom.ru/brodilki/500857-reaktivnyy-egbert-speedy-eggbert.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>18</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/List_of_Blupi_games">https://blupi.fandom.com/wiki/List_of_Blupi_games</a></td><td>not yet analysed </td></tr>
+          <tr><td>19</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Eggbert_-_Modification_tutorial">https://blupi.fandom.com/wiki/Speedy_Eggbert_-_Modification_tutorial</a></td><td>not yet analysed </td></tr>
+          <tr><td>20</td><td><a target="_blank" href="https://forum.winworldpc.com/discussion/8935/speedy-eggbert-1-amp-2">https://forum.winworldpc.com/discussion/8935/speedy-eggbert-1-amp-2</a></td><td>not yet analysed </td></tr>
+          <tr><td>21</td><td><a target="_blank" href="https://www.solvusoft.com/en/file-extensions/software/epsitec-sa/speedy-eggbert">https://www.solvusoft.com/en/file-extensions/software/epsitec-sa/speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>22</td><td><a target="_blank" href="https://steamcommunity.com/discussions/forum/12/2381701715716987338/?l=norwegian">https://steamcommunity.com/discussions/forum/12/2381701715716987338/?l=norwegian</a></td><td>not yet analysed </td></tr>
+          <tr><td>23</td><td><a target="_blank" href="https://retronauts.com/article/1246/reconsidered-speedy-eggbert">https://retronauts.com/article/1246/reconsidered-speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>24</td><td><a target="_blank" href="https://www.myabandonware.com/game/blupi-at-home-ex8">https://www.myabandonware.com/game/blupi-at-home-ex8</a></td><td>not yet analysed </td></tr>
+          <tr><td>25</td><td><a target="_blank" href="https://www.myabandonware.com/game/planet-blupi-ewz">https://www.myabandonware.com/game/planet-blupi-ewz</a></td><td>not yet analysed </td></tr>
+          <tr><td>26</td><td><a target="_blank" href="https://www.mobygames.com/game/26645/speedy-blupi">https://www.mobygames.com/game/26645/speedy-blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>27</td><td><a target="_blank" href="https://www.mobygames.com/game/6457/speedy-blupi-ii">https://www.mobygames.com/game/6457/speedy-blupi-ii</a></td><td>not yet analysed </td></tr>
+          <tr><td>28</td><td><a target="_blank" href="https://docs.google.com/document/d/17S8ukCRAL0UBnQd4Oz403YAQNryHonrozRTPNUgtz1Y">https://docs.google.com/document/d/17S8ukCRAL0UBnQd4Oz403YAQNryHonrozRTPNUgtz1Y</a></td><td>not yet analysed </td></tr>
+          <tr><td>29</td><td><a target="_blank" href="https://werat.dev/blog/how-wine-works-101">https://werat.dev/blog/how-wine-works-101</a></td><td>not yet analysed </td></tr>
+          <tr><td>30</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/YMMV/SpeedyEggbert">https://tvtropes.org/pmwiki/pmwiki.php/YMMV/SpeedyEggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>31</td><td><a target="_blank" href="http://speedy-eggbert.com-download.biz">http://speedy-eggbert.com-download.biz</a></td><td>not yet analysed </td></tr>
+          <tr><td>32</td><td><a target="_blank" href="https://www.amazon.in/Speedy-Eggbert-Offline-PC-Game/dp/B09B2KLRDL">https://www.amazon.in/Speedy-Eggbert-Offline-PC-Game/dp/B09B2KLRDL</a></td><td>not yet analysed </td></tr>
+          <tr><td>33</td><td><a target="_blank" href="https://zarkonnen.github.io/SwissGamesShowcase/speedyblupi.html">https://zarkonnen.github.io/SwissGamesShowcase/speedyblupi.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>34</td><td><a target="_blank" href="https://www.igdb.com/games/speedy-eggbert">https://www.igdb.com/games/speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>35</td><td><a target="_blank" href="https://vas709.webs.com/apps/blog">https://vas709.webs.com/apps/blog</a></td><td>not yet analysed </td></tr>
+          <tr><td>36</td><td><a target="_blank" href="https://superuser.com/questions/12525/pause-break-key-on-modern-keyboards/875912#875912">https://superuser.com/questions/12525/pause-break-key-on-modern-keyboards/875912#875912</a></td><td>not yet analysed </td></tr>
+          <tr><td>37</td><td><a target="_blank" href="https://obviam.net/posts/2013/01.libgdx-prototype-tutorial-part1-animation/">https://obviam.net/posts/2013/01.libgdx-prototype-tutorial-part1-animation/</a></td><td>not yet analysed </td></tr>
+          <tr><td>38</td><td><a target="_blank" href="https://blupi.org/letter.html">https://blupi.org/letter.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>39</td><td><a target="_blank" href="https://www.pcpuzzle.com/forum/viewtopic.php?t=22102">https://www.pcpuzzle.com/forum/viewtopic.php?t=22102</a></td><td>not yet analysed </td></tr>
+          <tr><td>40</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/User_blog:JesseRoxII/Speedy_Eggbert_Hex_Editing_Tutorial">https://blupi.fandom.com/wiki/User_blog:JesseRoxII/Speedy_Eggbert_Hex_Editing_Tutorial</a></td><td>not yet analysed </td></tr>
+          <tr><td>41</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi">https://blupi.fandom.com/wiki/Speedy_Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>42</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Category:Characters">https://blupi.fandom.com/wiki/Category:Characters</a></td><td>not yet analysed </td></tr>
+          <tr><td>43</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Category:Games">https://blupi.fandom.com/wiki/Category:Games</a></td><td>not yet analysed </td></tr>
+          <tr><td>44</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Category:Levels">https://blupi.fandom.com/wiki/Category:Levels</a></td><td>not yet analysed </td></tr>
+          <tr><td>45</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Master_Robot">https://blupi.fandom.com/wiki/Master_Robot</a></td><td>not yet analysed </td></tr>
+          <tr><td>46</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Bulldozer">https://blupi.fandom.com/wiki/Bulldozer</a></td><td>not yet analysed </td></tr>
+          <tr><td>47</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Spider">https://blupi.fandom.com/wiki/Spider</a></td><td>not yet analysed </td></tr>
+          <tr><td>48</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Category:Enemies">https://blupi.fandom.com/wiki/Category:Enemies</a></td><td>not yet analysed </td></tr>
+          <tr><td>49</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Blupi_at_Home">https://blupi.fandom.com/wiki/Blupi_at_Home</a></td><td>not yet analysed </td></tr>
+          <tr><td>50</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Blupi_Explorer">https://blupi.fandom.com/wiki/Blupi_Explorer</a></td><td>not yet analysed </td></tr>
+          <tr><td>51</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Blupi%27s_Travels">https://blupi.fandom.com/wiki/Blupi%27s_Travels</a></td><td>not yet analysed </td></tr>
+          <tr><td>52</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Blupimania">https://blupi.fandom.com/wiki/Blupimania</a></td><td>not yet analysed </td></tr>
+          <tr><td>53</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert_2_New_Levels_Mods">https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert_2_New_Levels_Mods</a></td><td>analysed </td></tr>
+          <tr><td>54</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert_2_The_Dream_Land">https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert_2_The_Dream_Land</a></td><td>not yet analysed </td></tr>
+          <tr><td>55</td><td><a target="_blank" href="http://www.trygames.com/game/aff=egames/vid=73f30be9d9c207d1165a15ba9b738848">http://www.trygames.com/game/aff=egames/vid=73f30be9d9c207d1165a15ba9b738848</a></td><td>not yet analysed </td></tr>
+          <tr><td>56</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Toto_a_la_campagne">https://blupi.fandom.com/wiki/Toto_a_la_campagne</a></td><td>not yet analysed </td></tr>
+          <tr><td>57</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Planet_Blupi">https://blupi.fandom.com/wiki/Planet_Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>58</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Category:Speedy_Blupi_Levels">https://blupi.fandom.com/wiki/Category:Speedy_Blupi_Levels</a></td><td>not yet analysed </td></tr>
+          <tr><td>59</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>60</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_HUB">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_HUB</a></td><td>not yet analysed </td></tr>
+          <tr><td>61</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>62</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>63</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>64</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>65</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_5">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_5</a></td><td>not yet analysed </td></tr>
+          <tr><td>66</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_6">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_6</a></td><td>not yet analysed </td></tr>
+          <tr><td>67</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_7">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Demo_Level_7</a></td><td>not yet analysed </td></tr>
+          <tr><td>68</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_HUB">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_HUB</a></td><td>not yet analysed </td></tr>
+          <tr><td>69</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>70</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>71</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>72</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>73</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_5">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_5</a></td><td>not yet analysed </td></tr>
+          <tr><td>74</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_6">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Dream_Level_6</a></td><td>not yet analysed </td></tr>
+          <tr><td>75</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Final_Level">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Final_Level</a></td><td>not yet analysed </td></tr>
+          <tr><td>76</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_HUB">https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_HUB</a></td><td>not yet analysed </td></tr>
+          <tr><td>77</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>78</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>79</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>80</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_House_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>81</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>82</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>83</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>84</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>85</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_5">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Kids_Level_5</a></td><td>not yet analysed </td></tr>
+          <tr><td>86</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Main_HUB">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Main_HUB</a></td><td>not yet analysed </td></tr>
+          <tr><td>87</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_HUB">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_HUB</a></td><td>not yet analysed </td></tr>
+          <tr><td>88</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>89</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>90</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>91</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_5">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_5</a></td><td>not yet analysed </td></tr>
+          <tr><td>92</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_6">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_6</a></td><td>not yet analysed </td></tr>
+          <tr><td>93</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_7">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_7</a></td><td>not yet analysed </td></tr>
+          <tr><td>94</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_8">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Mechanic_Level_8</a></td><td>not yet analysed </td></tr>
+          <tr><td>95</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>96</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>97</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>98</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>99</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_5">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_5</a></td><td>not yet analysed </td></tr>
+          <tr><td>100</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_6">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_6</a></td><td>not yet analysed </td></tr>
+          <tr><td>101</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_7">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_7</a></td><td>not yet analysed </td></tr>
+          <tr><td>102</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_8">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_8</a></td><td>not yet analysed </td></tr>
+          <tr><td>103</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_9">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_9</a></td><td>not yet analysed </td></tr>
+          <tr><td>104</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_10">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Multiplayer_Level_10</a></td><td>not yet analysed </td></tr>
+          <tr><td>105</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_HUB">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_HUB</a></td><td>not yet analysed </td></tr>
+          <tr><td>106</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>107</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>108</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>109</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>110</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_5">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Rock_Level_5</a></td><td>not yet analysed </td></tr>
+          <tr><td>111</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_HUB">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_HUB</a></td><td>not yet analysed </td></tr>
+          <tr><td>112</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_1">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_1</a></td><td>not yet analysed </td></tr>
+          <tr><td>113</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_2">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>114</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_3">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>115</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_4">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_4</a></td><td>not yet analysed </td></tr>
+          <tr><td>116</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_5">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Techno_Level_5</a></td><td>not yet analysed </td></tr>
+          <tr><td>117</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/Speedy_Blupi_-_Tutorial_Level">https://blupi.fandom.com/wiki/Speedy_Blupi_-_Tutorial_Level</a></td><td>not yet analysed </td></tr>
+          <tr><td>118</td><td><a target="_blank" href="http://timigi.com/Stuff/Archive/blueribbon/msmp.html">http://timigi.com/Stuff/Archive/blueribbon/msmp.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>119</td><td><a target="_blank" href="https://www.cheatbook.de/files/speedyeggbert2.htm">https://www.cheatbook.de/files/speedyeggbert2.htm</a></td><td>not yet analysed </td></tr>
+          <tr><td>120</td><td><a target="_blank" href="https://www.cheater.cz/pc-hry/speedy-egbert-2/cheat/6110">https://www.cheater.cz/pc-hry/speedy-egbert-2/cheat/6110</a></td><td>not yet analysed </td></tr>
+          <tr><td>121</td><td><a target="_blank" href="https://www.cheater.cz/pc-hry/speedy-egbert/cheat/6111">https://www.cheater.cz/pc-hry/speedy-egbert/cheat/6111</a></td><td>not yet analysed </td></tr>
+          <tr><td>122</td><td><a target="_blank" href="http://www.didel.com/Dauphin.pdf">http://www.didel.com/Dauphin.pdf</a></td><td>not yet analysed </td></tr>
+          <tr><td>123</td><td><a target="_blank" href="http://www.windowsphone.com/en-us/store/app/speedy-blupi/3bf4e1f1-0c49-45a2-97e4-7d9fcfc6bd18">http://www.windowsphone.com/en-us/store/app/speedy-blupi/3bf4e1f1-0c49-45a2-97e4-7d9fcfc6bd18</a></td><td>not yet analysed </td></tr>
+          <tr><td>124</td><td><a target="_blank" href="https://en.wikipedia.org/wiki/Speedy_Eggbert">https://en.wikipedia.org/wiki/Speedy_Eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>125</td><td><a target="_blank" href="https://archive.org/details/microsoft-music-producer_202210">https://archive.org/details/microsoft-music-producer_202210</a></td><td>not yet analysed </td></tr>
+          <tr><td>126</td><td><a target="_blank" href="https://obviam.net/posts/2013/02.libgdx-jumping-gravity-movement-tutorial-part3/">https://obviam.net/posts/2013/02.libgdx-jumping-gravity-movement-tutorial-part3/</a></td><td>not yet analysed </td></tr>
+          <tr><td>127</td><td><a target="_blank" href="https://archive.org/details/speedy-eggbert-mod-versions">https://archive.org/details/speedy-eggbert-mod-versions</a></td><td>not yet analysed </td></tr>
+          <tr><td>128</td><td><a target="_blank" href="https://obviam.net/posts/2013/04.libgdx-collision-detection-tutorial-part4/">https://obviam.net/posts/2013/04.libgdx-collision-detection-tutorial-part4/</a></td><td>not yet analysed </td></tr>
+          <tr><td>129</td><td><a target="_blank" href="https://www.reddit.com/r/speedyeggbert/comments/nylubl/old_animation_from_2011_made_by_my_sister">https://www.reddit.com/r/speedyeggbert/comments/nylubl/old_animation_from_2011_made_by_my_sister</a></td><td>not yet analysed </td></tr>
+          <tr><td>130</td><td><a target="_blank" href="https://wmouse.ru/Games.files/Games2_eggbert.php">https://wmouse.ru/Games.files/Games2_eggbert.php</a></td><td>not yet analysed </td></tr>
+          <tr><td>131</td><td><a target="_blank" href="https://gamefaqs.gamespot.com/pc/953387-speedy-eggbert-2/cheats">https://gamefaqs.gamespot.com/pc/953387-speedy-eggbert-2/cheats</a></td><td>not yet analysed </td></tr>
+          <tr><td>132</td><td><a target="_blank" href="https://x.com/MusicDecomposer/status/1144434529249087488">https://x.com/MusicDecomposer/status/1144434529249087488</a></td><td>not yet analysed </td></tr>
+          <tr><td>133</td><td><a target="_blank" href="https://www.cheatbook.de/files/speddyeggbe.htm">https://www.cheatbook.de/files/speddyeggbe.htm</a></td><td>not yet analysed </td></tr>
+          <tr><td>134</td><td><a target="_blank" href="https://kotaku.com/games/speedy-eggbert">https://kotaku.com/games/speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>135</td><td><a target="_blank" href="https://zarkonnen.github.io/SwissGamesShowcase/speedyeggbert.html">https://zarkonnen.github.io/SwissGamesShowcase/speedyeggbert.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>136</td><td><a target="_blank" href="https://archive.org/details/speedy-eggbert-egames">https://archive.org/details/speedy-eggbert-egames</a></td><td>not yet analysed </td></tr>
+          <tr><td>137</td><td><a target="_blank" href="https://www.24heures.ch/portrait-de-daniel-roux-le-papa-de-blupi-amuse-plusieurs-generations-601231142870">https://www.24heures.ch/portrait-de-daniel-roux-le-papa-de-blupi-amuse-plusieurs-generations-601231142870</a></td><td>not yet analysed </td></tr>
+          <tr><td>138</td><td><a target="_blank" href="https://swissgames.garden/people/daniel-roux">https://swissgames.garden/people/daniel-roux</a></td><td>not yet analysed </td></tr>
+          <tr><td>139</td><td><a target="_blank" href="https://x.com/epsitec/status/944285372128944128">https://x.com/epsitec/status/944285372128944128</a></td><td>not yet analysed </td></tr>
+          <tr><td>140</td><td><a target="_blank" href="https://www.reddit.com/r/speedyeggbert/comments/7a1uxz/a_strange_bug_in_the_game">https://www.reddit.com/r/speedyeggbert/comments/7a1uxz/a_strange_bug_in_the_game</a></td><td>not yet analysed </td></tr>
+          <tr><td>141</td><td><a target="_blank" href="https://legendsworld.net/adventure/game/6914">https://legendsworld.net/adventure/game/6914</a></td><td>not yet analysed </td></tr>
+          <tr><td>142</td><td><a target="_blank" href="http://duckattack.de/sonstigee.htm">http://duckattack.de/sonstigee.htm</a></td><td>not yet analysed </td></tr>
+          <tr><td>143</td><td><a target="_blank" href="https://www.reddit.com/r/speedyeggbert/comments/416tmq/this_game_was_a_huge_part_of_my_childhood">https://www.reddit.com/r/speedyeggbert/comments/416tmq/this_game_was_a_huge_part_of_my_childhood</a></td><td>not yet analysed </td></tr>
+          <tr><td>144</td><td><a target="_blank" href="https://imgur.com/a/speedy-eggbert-art-sqceP">https://imgur.com/a/speedy-eggbert-art-sqceP</a></td><td>not yet analysed </td></tr>
+          <tr><td>145</td><td><a target="_blank" href="https://tcrf.net/Notes:Speedy_Blupi_2">https://tcrf.net/Notes:Speedy_Blupi_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>146</td><td><a target="_blank" href="https://datacrystal.tcrf.net/wiki/Speedy_Blupi_2">https://datacrystal.tcrf.net/wiki/Speedy_Blupi_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>147</td><td><a target="_blank" href="https://datacrystal.tcrf.net/wiki/Speedy_Blupi_2/RAM_map">https://datacrystal.tcrf.net/wiki/Speedy_Blupi_2/RAM_map</a></td><td>not yet analysed </td></tr>
+          <tr><td>148</td><td><a target="_blank" href="https://www.abcgames.cz/?p=cheaty_zobraz&id=12487">https://www.abcgames.cz/?p=cheaty_zobraz&id=12487</a></td><td>not yet analysed </td></tr>
+          <tr><td>149</td><td><a target="_blank" href="https://lutris.net/games/speedy-blupi-ii">https://lutris.net/games/speedy-blupi-ii</a></td><td>not yet analysed </td></tr>
+          <tr><td>150</td><td><a target="_blank" href="https://uspto.report/TM/76170016">https://uspto.report/TM/76170016</a></td><td>not yet analysed </td></tr>
+          <tr><td>151</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/BLP">https://speedy-blupi.fandom.com/wiki/BLP</a></td><td>analysed </td></tr>
+          <tr><td>152</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Cheats">https://speedy-blupi.fandom.com/wiki/Cheats</a></td><td>analysed </td></tr>
+          <tr><td>153</td><td><a target="_blank" href="https://camp2.rectangle.zone/index.php?title=Blupi">https://camp2.rectangle.zone/index.php?title=Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>154</td><td><a target="_blank" href="https://2th.me/a/Gaming/f1012/3007919">https://2th.me/a/Gaming/f1012/3007919</a></td><td>not yet analysed </td></tr>
+          <tr><td>155</td><td><a target="_blank" href="https://obviam.net/posts/2010/08.the-game-loop/">https://obviam.net/posts/2010/08.the-game-loop/</a></td><td>not yet analysed </td></tr>
+          <tr><td>156</td><td><a target="_blank" href="https://obviam.net/posts/2010/09.measuring-fps/">https://obviam.net/posts/2010/09.measuring-fps/</a></td><td>not yet analysed </td></tr>
+          <tr><td>157</td><td><a target="_blank" href="https://www.rts.ch/info/sciences-tech/2024/article/blupi-le-heros-suisse-du-jeu-video-des-annees-90-fait-son-grand-retour-28614507.html">https://www.rts.ch/info/sciences-tech/2024/article/blupi-le-heros-suisse-du-jeu-video-des-annees-90-fait-son-grand-retour-28614507.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>158</td><td><a target="_blank" href="https://legendsworld.net/adventure/game/6930">https://legendsworld.net/adventure/game/6930</a></td><td>not yet analysed </td></tr>
+          <tr><td>159</td><td><a target="_blank" href="https://fr.wikipedia.org/wiki/Blupi">https://fr.wikipedia.org/wiki/Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>160</td><td><a target="_blank" href="https://www.freegameempire.com/games/Blupi-Explorer">https://www.freegameempire.com/games/Blupi-Explorer</a></td><td>not yet analysed </td></tr>
+          <tr><td>161</td><td><a target="_blank" href="https://www.twitch.tv/directory/category/speedy-eggbert">https://www.twitch.tv/directory/category/speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>162</td><td><a target="_blank" href="https://www.seriebox.com/jeux-video/speedy-blupi__pc.html">https://www.seriebox.com/jeux-video/speedy-blupi__pc.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>163</td><td><a target="_blank" href="https://hmong.in.th/wiki/Speedy_Eggbert">https://hmong.in.th/wiki/Speedy_Eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>164</td><td><a target="_blank" href="https://ogdb.eu/index.php?section=title&titleid=25367">https://ogdb.eu/index.php?section=title&titleid=25367</a></td><td>not yet analysed </td></tr>
+          <tr><td>165</td><td><a target="_blank" href="https://github.com/blupi-games/speedyblupi-data/issues/2">https://github.com/blupi-games/speedyblupi-data/issues/2</a></td><td>not yet analysed </td></tr>
+          <tr><td>166</td><td><a target="_blank" href="https://www.dosgames.com/forum/viewtopic.php?t=28228">https://www.dosgames.com/forum/viewtopic.php?t=28228</a></td><td>not yet analysed </td></tr>
+          <tr><td>167</td><td><a target="_blank" href="https://fr.freedownloadmanager.org/Windows-PC/Speedy-Eggbert.html">https://fr.freedownloadmanager.org/Windows-PC/Speedy-Eggbert.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>168</td><td><a target="_blank" href="http://www.ceebot.com/blupi/blupi-f.php">http://www.ceebot.com/blupi/blupi-f.php</a></td><td>not yet analysed </td></tr>
+          <tr><td>169</td><td><a target="_blank" href="https://puzzlefactory.com/es/tags/speedy%20eggbert">https://puzzlefactory.com/es/tags/speedy%20eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>170</td><td><a target="_blank" href="https://en-academic.com/dic.nsf/enwiki/1238239">https://en-academic.com/dic.nsf/enwiki/1238239</a></td><td>not yet analysed </td></tr>
+          <tr><td>171</td><td><a target="_blank" href="https://en-academic.com/dic.nsf/enwiki/502142">https://en-academic.com/dic.nsf/enwiki/502142</a></td><td>not yet analysed </td></tr>
+          <tr><td>172</td><td><a target="_blank" href="https://www.retrolorian.com/en/speedy-blupi-15913">https://www.retrolorian.com/en/speedy-blupi-15913</a></td><td>not yet analysed </td></tr>
+          <tr><td>173</td><td><a target="_blank" href="https://s.sasisa.me/smart/games/game.php?id=8343">https://s.sasisa.me/smart/games/game.php?id=8343</a></td><td>not yet analysed </td></tr>
+          <tr><td>174</td><td><a target="_blank" href="https://ru.frwiki.wiki/wiki/Blupi">https://ru.frwiki.wiki/wiki/Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>175</td><td><a target="_blank" href="http://www.filefacts.com/epsitec-speedy-eggbert-info">http://www.filefacts.com/epsitec-speedy-eggbert-info</a></td><td>not yet analysed </td></tr>
+          <tr><td>176</td><td><a target="_blank" href="https://en.wikipedia.org/wiki/Game_engine_recreation">https://en.wikipedia.org/wiki/Game_engine_recreation</a></td><td>not yet analysed </td></tr>
+          <tr><td>177</td><td><a target="_blank" href="https://en.wikipedia.org/wiki/Clone_(computing)">https://en.wikipedia.org/wiki/Clone_(computing)</a></td><td>not yet analysed </td></tr>
+          <tr><td>178</td><td><a target="_blank" href="https://tcrf.net/Category:Blupi_series">https://tcrf.net/Category:Blupi_series</a></td><td>not yet analysed </td></tr>
+          <tr><td>179</td><td><a target="_blank" href="https://www.epsitec.ch/support/history/dates.htm">https://www.epsitec.ch/support/history/dates.htm</a></td><td>not yet analysed </td></tr>
+          <tr><td>180</td><td><a target="_blank" href="https://www.moregameslike.com/speedy-eggbert">https://www.moregameslike.com/speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>181</td><td><a target="_blank" href="https://linuxfr.org/news/liberation-du-jeu-planete-blupi">https://linuxfr.org/news/liberation-du-jeu-planete-blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>182</td><td><a target="_blank" href="https://blupi.org/download/ark/la_guerre_des_blup_partage.pdf">https://blupi.org/download/ark/la_guerre_des_blup_partage.pdf</a></td><td>not yet analysed </td></tr>
+          <tr><td>183</td><td><a target="_blank" href="https://letempsarchives.ch/page/LNQ_1997_09_12/43/article/10009251">https://letempsarchives.ch/page/LNQ_1997_09_12/43/article/10009251</a></td><td>not yet analysed </td></tr>
+          <tr><td>184</td><td><a target="_blank" href="https://scriptorium.bcu-lausanne.ch/zoom/323171/view?page=89&p=separate&tool=info&view=0,0,2556,3526">https://scriptorium.bcu-lausanne.ch/zoom/323171/view?page=89&p=separate&tool=info&view=0,0,2556,3526</a></td><td>not yet analysed </td></tr>
+          <tr><td>185</td><td><a target="_blank" href="https://play.google.com/store/apps/dev?id=8034737771858360925">https://play.google.com/store/apps/dev?id=8034737771858360925</a></td><td>not yet analysed </td></tr>
+          <tr><td>186</td><td><a target="_blank" href="https://www.museebolo.ch/memoires_vives/une-aventure-vaudoise-de-l-interface-graphique">https://www.museebolo.ch/memoires_vives/une-aventure-vaudoise-de-l-interface-graphique</a></td><td>not yet analysed </td></tr>
+          <tr><td>187</td><td><a target="_blank" href="https://swissgames.garden/games/blupimania">https://swissgames.garden/games/blupimania</a></td><td>not yet analysed </td></tr>
+          <tr><td>188</td><td><a target="_blank" href="https://swissgames.garden/games/speedy-blupi">https://swissgames.garden/games/speedy-blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>189</td><td><a target="_blank" href="https://cresus.ch/fr/historique">https://cresus.ch/fr/historique</a></td><td>not yet analysed </td></tr>
+          <tr><td>190</td><td><a target="_blank" href="https://play.google.com/store/apps/details?id=org.blupi.helpblupi">https://play.google.com/store/apps/details?id=org.blupi.helpblupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>191</td><td><a target="_blank" href="https://maniabricks.com">https://maniabricks.com</a></td><td>not yet analysed </td></tr>
+          <tr><td>192</td><td><a target="_blank" href="https://en.wikipedia.org/wiki/Platformer">https://en.wikipedia.org/wiki/Platformer</a></td><td>not yet analysed </td></tr>
+          <tr><td>193</td><td><a target="_blank" href="https://www.egames.com/game/speedy%2Beggbert%2B2.html">https://www.egames.com/game/speedy%2Beggbert%2B2.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>194</td><td><a target="_blank" href="http://www.allgame.com/game.php?id=23221&tab=overview">http://www.allgame.com/game.php?id=23221&tab=overview</a></td><td>not yet analysed </td></tr>
+          <tr><td>195</td><td><a target="_blank" href="https://app4smart.com/en/wp/2957-speedy-blupi.html">https://app4smart.com/en/wp/2957-speedy-blupi.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>196</td><td><a target="_blank" href="http://jummy.pw/~jummy">http://jummy.pw/~jummy</a></td><td>not yet analysed </td></tr>
+          <tr><td>197</td><td><a target="_blank" href="https://archive.org/details/speedyeggbert_">https://archive.org/details/speedyeggbert_</a></td><td>not yet analysed </td></tr>
+          <tr><td>198</td><td><a target="_blank" href="https://archive.org/details/speedy_demo">https://archive.org/details/speedy_demo</a></td><td>not yet analysed </td></tr>
+          <tr><td>199</td><td><a target="_blank" href="https://archive.org/details/speedy-eggbert-2">https://archive.org/details/speedy-eggbert-2</a></td><td>not yet analysed </td></tr>
+          <tr><td>200</td><td><a target="_blank" href="https://drive.google.com/drive/folders/1dLqtnyfVo3vySw0uA7_s1sDEClQQ_Bi4">https://drive.google.com/drive/folders/1dLqtnyfVo3vySw0uA7_s1sDEClQQ_Bi4</a></td><td>not yet analysed </td></tr>
+          <tr><td>201</td><td><a target="_blank" href="https://vas709.webs.com/games">https://vas709.webs.com/games</a></td><td>not yet analysed </td></tr>
+          <tr><td>202</td><td><a target="_blank" href="https://windows-phone-7.su/game-xbox/1232-speedy-blupi.html">https://windows-phone-7.su/game-xbox/1232-speedy-blupi.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>203</td><td><a target="_blank" href="https://savagemessiahzine.com/sec__/forum/index.php?showtopic=434453">https://savagemessiahzine.com/sec__/forum/index.php?showtopic=434453</a></td><td>not yet analysed </td></tr>
+          <tr><td>204</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/CameraScrew">https://tvtropes.org/pmwiki/pmwiki.php/Main/CameraScrew</a></td><td>not yet analysed </td></tr>
+          <tr><td>205</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/GoodBadBugs">https://tvtropes.org/pmwiki/pmwiki.php/Main/GoodBadBugs</a></td><td>not yet analysed </td></tr>
+          <tr><td>206</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/MorePopularSpinOff">https://tvtropes.org/pmwiki/pmwiki.php/Main/MorePopularSpinOff</a></td><td>not yet analysed </td></tr>
+          <tr><td>207</td><td><a target="_blank" href="https://mb.srb2.org/addons/blupi.2049">https://mb.srb2.org/addons/blupi.2049</a></td><td>not yet analysed </td></tr>
+          <tr><td>208</td><td><a target="_blank" href="http://vas709blog.blogspot.com/2016/06/faqs.html">http://vas709blog.blogspot.com/2016/06/faqs.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>209</td><td><a target="_blank" href="https://rawg.io/games/speedy-blupi">https://rawg.io/games/speedy-blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>210</td><td><a target="_blank" href="https://tcrf.net/Speedy_Blupi_2/Version_Differences">https://tcrf.net/Speedy_Blupi_2/Version_Differences</a></td><td>not yet analysed </td></tr>
+          <tr><td>211</td><td><a target="_blank" href="https://tcrf.net/Speedy_Blupi">https://tcrf.net/Speedy_Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>212</td><td><a target="_blank" href="https://tcrf.net/Development:Speedy_Blupi">https://tcrf.net/Development:Speedy_Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>213</td><td><a target="_blank" href="https://tcrf.net/Speedy_Blupi_2">https://tcrf.net/Speedy_Blupi_2</a></td><td>not yet analysed </td></tr>
+          <tr><td>214</td><td><a target="_blank" href="https://tcrf.net/Speedy_Blupi_2/Updated_Features">https://tcrf.net/Speedy_Blupi_2/Updated_Features</a></td><td>not yet analysed </td></tr>
+          <tr><td>215</td><td><a target="_blank" href="https://www.famicomworld.com/forum/index.php?topic=11776.0">https://www.famicomworld.com/forum/index.php?topic=11776.0</a></td><td>not yet analysed </td></tr>
+          <tr><td>216</td><td><a target="_blank" href="https://en.wikipedia.org/wiki/EGames_(video_game_developer)">https://en.wikipedia.org/wiki/EGames_(video_game_developer)</a></td><td>not yet analysed </td></tr>
+          <tr><td>217</td><td><a target="_blank" href="https://www.gog.com/wishlist/games/speedy_eggbert_blupi">https://www.gog.com/wishlist/games/speedy_eggbert_blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>218</td><td><a target="_blank" href="https://branddb.wipo.int/en/quicksearch/brand/CH501993000002322?sort=score%20desc&start=0&rows=30&asStructure=%7B%22_id%22:%2253d3%22,%22boolean%22:%22AND%22,%22bricks%22:%5B%7B%22_id%22:%2253d4%22,%22key%22:%22brandName%22,%22value%22:%22blupi%22,%22strategy%22:%22Simple%22%7D%5D%7D&_=1718551274937&fg=_void_&i=6">https://branddb.wipo.int/en/quicksearch/brand/CH501993000002322?sort=score%20desc&start=0&rows=30&asStructure=%7B%22_id%22:%2253d3%22,%22boolean%22:%22AND%22,%22bricks%22:%5B%7B%22_id%22:%2253d4%22,%22key%22:%22brandName%22,%22value%22:%22blupi%22,%22strategy%22:%22Simple%22%7D%5D%7D&_=1718551274937&fg=_void_&i=6</a></td><td>not yet analysed </td></tr>
+          <tr><td>219</td><td><a target="_blank" href="https://yoritoshi.wordpress.com/2011/10/14/review-pc-speedy-blupieggbert-1-e-2">https://yoritoshi.wordpress.com/2011/10/14/review-pc-speedy-blupieggbert-1-e-2</a></td><td>not yet analysed </td></tr>
+          <tr><td>220</td><td><a target="_blank" href="https://gamicus.fandom.com/wiki/Speedy_Eggbert">https://gamicus.fandom.com/wiki/Speedy_Eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>221</td><td><a target="_blank" href="https://gameideas.fandom.com/wiki/Speedy_Eggbert_3">https://gameideas.fandom.com/wiki/Speedy_Eggbert_3</a></td><td>not yet analysed </td></tr>
+          <tr><td>222</td><td><a target="_blank" href="https://civitai.com/posts/1544662/speedy-eggbert-blupi-v10-showcase">https://civitai.com/posts/1544662/speedy-eggbert-blupi-v10-showcase</a></td><td>not yet analysed </td></tr>
+          <tr><td>223</td><td><a target="_blank" href="https://zariiisen.blogg.se/2011/june/speedy-eggbert.html">https://zariiisen.blogg.se/2011/june/speedy-eggbert.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>224</td><td><a target="_blank" href="https://www.techtudo.com.br/tudo-sobre/speedy-eggbert-2-1/">https://www.techtudo.com.br/tudo-sobre/speedy-eggbert-2-1/</a></td><td>not yet analysed </td></tr>
+          <tr><td>225</td><td><a target="_blank" href="http://wwwtunegames.blogspot.com/2012/10/speedy-eggbert-2.html">http://wwwtunegames.blogspot.com/2012/10/speedy-eggbert-2.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>226</td><td><a target="_blank" href="https://www.squakenet.com/game/speedy-eggbert/">https://www.squakenet.com/game/speedy-eggbert/</a></td><td>not yet analysed </td></tr>
+          <tr><td>227</td><td><a target="_blank" href="https://gamesdb.launchbox-app.com/games/details/71793-speedy-eggbert-2">https://gamesdb.launchbox-app.com/games/details/71793-speedy-eggbert-2</a></td><td>not yet analysed </td></tr>
+          <tr><td>228</td><td><a target="_blank" href="https://appdb.winehq.org/objectManager.php?sClass=application&iId=13050">https://appdb.winehq.org/objectManager.php?sClass=application&iId=13050</a></td><td>not yet analysed </td></tr>
+          <tr><td>229</td><td><a target="_blank" href="https://www.retrolorian.com/speedy-blupi-15913">https://www.retrolorian.com/speedy-blupi-15913</a></td><td>not yet analysed </td></tr>
+          <tr><td>230</td><td><a target="_blank" href="https://4pda.to/forum/index.php?showtopic=434453">https://4pda.to/forum/index.php?showtopic=434453</a></td><td>not yet analysed </td></tr>
+          <tr><td>231</td><td><a target="_blank" href="https://www.amazon.co.uk/eGames-Speedy-Eggbert/dp/B00005RUM5">https://www.amazon.co.uk/eGames-Speedy-Eggbert/dp/B00005RUM5</a></td><td>not yet analysed </td></tr>
+          <tr><td>232</td><td><a target="_blank" href="https://www.moddb.com/games/blupi-bouncers/">https://www.moddb.com/games/blupi-bouncers/</a></td><td>not yet analysed </td></tr>
+          <tr><td>233</td><td><a target="_blank" href="https://archive.org/details/speedy-eggbert_german_2008">https://archive.org/details/speedy-eggbert_german_2008</a></td><td>not yet analysed </td></tr>
+          <tr><td>234</td><td><a target="_blank" href="https://cs.ubunlog.com/planeta-blupi-herní-strategie-dobrodružství">https://cs.ubunlog.com/planeta-blupi-herní-strategie-dobrodružství</a></td><td>not yet analysed </td></tr>
+          <tr><td>235</td><td><a target="_blank" href="https://einblicke.hypotheses.org/2226">https://einblicke.hypotheses.org/2226</a></td><td>not yet analysed </td></tr>
+          <tr><td>236</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>237</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>238</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>239</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>240</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>241</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>242</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>243</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>244</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>245</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>246</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>247</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>248</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>249</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>250</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>251</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>252</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>253</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>254</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>255</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>256</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>257</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>258</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>259</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>260</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>261</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>262</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>263</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>264</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>265</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>266</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>267</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>268</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>269</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>270</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>271</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>272</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>273</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>274</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>275</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>276</td><td><a target="_blank" href="http://www.dkc-atlas.com/forum/viewtopic.php?f=6&t=1344">http://www.dkc-atlas.com/forum/viewtopic.php?f=6&t=1344</a></td><td>not yet analysed </td></tr>
+          <tr><td>277</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>278</td><td><a target="_blank" href="https://archive.org/details/speedy-eggbert-modern">https://archive.org/details/speedy-eggbert-modern</a></td><td>not yet analysed </td></tr>
+          <tr><td>279</td><td><a target="_blank" href="https://www.betaarchive.com/forum/viewtopic.php?t=36869">https://www.betaarchive.com/forum/viewtopic.php?t=36869</a></td><td>not yet analysed </td></tr>
+          <tr><td>280</td><td><a target="_blank" href="http://www.bay12forums.com/smf/index.php?topic=50980.0">http://www.bay12forums.com/smf/index.php?topic=50980.0</a></td><td>not yet analysed </td></tr>
+          <tr><td>281</td><td><a target="_blank" href="https://smaky.ch/portraits/daniel-roux">https://smaky.ch/portraits/daniel-roux</a></td><td>not yet analysed </td></tr>
+          <tr><td>282</td><td><a target="_blank" href="https://media.discordapp.net/attachments/684566221340803095/703732636375580732/blupi_hd.png?ex=6691ac97&is=66905b17&hm=4b917a0fadb8fb21d0fa4f7c24572cbe3988a1bde4a733945b1a4797974c2227&=&format=webp&quality=lossless&width=1157&height=651">https://media.discordapp.net/attachments/684566221340803095/703732636375580732/blupi_hd.png?ex=6691ac97&is=66905b17&hm=4b917a0fadb8fb21d0fa4f7c24572cbe3988a1bde4a733945b1a4797974c2227&=&format=webp&quality=lossless&width=1157&height=651</a></td><td>not yet analysed </td></tr>
+          <tr><td>283</td><td><a target="_blank" href="http://www.blupi.com">http://www.blupi.com</a></td><td>not yet analysed </td></tr>
+          <tr><td>284</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>285</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>286</td><td><a target="_blank" href="http://download.pandaapp.com/windows-phone-app/speedy-blupi-1.0.0.5-id6635.html">http://download.pandaapp.com/windows-phone-app/speedy-blupi-1.0.0.5-id6635.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>287</td><td><a target="_blank" href="http://www.gamewinners.com/DOSWIN/blspeedyblupi.htm">http://www.gamewinners.com/DOSWIN/blspeedyblupi.htm</a></td><td>not yet analysed </td></tr>
+          <tr><td>288</td><td><a target="_blank" href="https://pcpuzzle.com/forum/viewtopic.php?f=31&t=22102&p=272096&hilit=blupi#p272096">https://pcpuzzle.com/forum/viewtopic.php?f=31&t=22102&p=272096&hilit=blupi#p272096</a></td><td>not yet analysed </td></tr>
+          <tr><td>289</td><td><a target="_blank" href="https://www.chaptercheats.com/cheats/pc/18039/speedy-blupi-cheat-codes">https://www.chaptercheats.com/cheats/pc/18039/speedy-blupi-cheat-codes</a></td><td>not yet analysed </td></tr>
+          <tr><td>290</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>291</td><td><a target="_blank" href="http://devel.schroetersa.ch/blupi.org/download/ark/la_guerre_des_blup_partage.pdf">http://devel.schroetersa.ch/blupi.org/download/ark/la_guerre_des_blup_partage.pdf</a></td><td>not yet analysed </td></tr>
+          <tr><td>292</td><td><a target="_blank" href="https://actu.epfl.ch/news/swiss-video-games-preserved-as-part-of-cultural-he">https://actu.epfl.ch/news/swiss-video-games-preserved-as-part-of-cultural-he</a></td><td>not yet analysed </td></tr>
+          <tr><td>293</td><td><a target="_blank" href="https://cohost.org/OrganicSuperlube/tagged/MicroSoft%20Music%20Producer">https://cohost.org/OrganicSuperlube/tagged/MicroSoft%20Music%20Producer</a></td><td>not yet analysed </td></tr>
+          <tr><td>294</td><td><a target="_blank" href="https://puzzlefactory.pl/pl/tagi/speedy%20eggbert">https://puzzlefactory.pl/pl/tagi/speedy%20eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>295</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>296</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>297</td><td><a target="_blank" href="https://duckstack.substack.com/p/egregious-excellence">https://duckstack.substack.com/p/egregious-excellence</a></td><td>not yet analysed </td></tr>
+          <tr><td>298</td><td><a target="_blank" href="https://swissgames.garden/games/speedy-blupi-speedy-eggbert">https://swissgames.garden/games/speedy-blupi-speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>299</td><td><a target="_blank" href="https://desciclopedia.org/wiki/Speedy_Eggbert">https://desciclopedia.org/wiki/Speedy_Eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>300</td><td><a target="_blank" href="https://vgmaps.de/maps/pc/speedy-eggbert.php">https://vgmaps.de/maps/pc/speedy-eggbert.php</a></td><td>not yet analysed </td></tr>
+          <tr><td>301</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Animation_overflow_bug">https://speedy-blupi.fandom.com/wiki/Animation_overflow_bug</a></td><td>analysed </td></tr>
+          <tr><td>302</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Animation_overflow_glitch">https://speedy-blupi.fandom.com/wiki/Animation_overflow_glitch</a></td><td>analysed </td></tr>
+          <tr><td>303</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Block_0000">https://speedy-blupi.fandom.com/wiki/Block_0000</a></td><td>analysed </td></tr>
+          <tr><td>304</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Block_001E">https://speedy-blupi.fandom.com/wiki/Block_001E</a></td><td>analysed </td></tr>
+          <tr><td>305</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Block_001F">https://speedy-blupi.fandom.com/wiki/Block_001F</a></td><td>analysed </td></tr>
+          <tr><td>306</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Block_0020">https://speedy-blupi.fandom.com/wiki/Block_0020</a></td><td>analysed </td></tr>
+          <tr><td>307</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Block_00ED">https://speedy-blupi.fandom.com/wiki/Block_00ED</a></td><td>analysed </td></tr>
+          <tr><td>308</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Block_FFFF">https://speedy-blupi.fandom.com/wiki/Block_FFFF</a></td><td>analysed </td></tr>
+          <tr><td>309</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Blocks_0020%E2%80%930022">https://speedy-blupi.fandom.com/wiki/Blocks_0020%E2%80%930022</a></td><td>analysed </td></tr>
+          <tr><td>310</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Bricks_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Bricks_World_(Speedy_Blupi_2)</a></td><td>analysed </td></tr>
+          <tr><td>311</td><td><a target="_blank" href="https://en.wikipedia.org/wiki/Drop-in_replacement">https://en.wikipedia.org/wiki/Drop-in_replacement</a></td><td>not yet analysed </td></tr>
+          <tr><td>312</td><td><a target="_blank" href="https://archive.org/details/SpeedyBlupiII">https://archive.org/details/SpeedyBlupiII</a></td><td>not yet analysed </td></tr>
+          <tr><td>313</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Cave_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Cave_World_(Speedy_Blupi_2)</a></td><td>analysed </td></tr>
+          <tr><td>314</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Cheese_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Cheese_World_(Speedy_Blupi_2)</a></td><td>analysed </td></tr>
+          <tr><td>315</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Controls">https://speedy-blupi.fandom.com/wiki/Controls</a></td><td>analysed </td></tr>
+          <tr><td>316</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Demo_Level_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Demo_Level_1_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>317</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Demo_Level_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Demo_Level_2_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>318</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Demo_Level_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Demo_Level_3_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>319</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Demo_Level_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Demo_Level_4_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>320</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Demo_Level_5_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Demo_Level_5_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>321</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Demo_Level_6_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Demo_Level_6_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>322</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Demo_Level_7_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Demo_Level_7_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>323</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Dream_1_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>324</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Dream_2_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>325</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Dream_3_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>326</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Dream_4_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>327</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_5_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Dream_5_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>328</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_6_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Dream_6_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>329</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_World">https://speedy-blupi.fandom.com/wiki/Dream_World</a></td><td>analysed </td></tr>
+          <tr><td>330</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Dream_World_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Dream_World_(Speedy_Blupi)</a></td><td>analysed </td></tr>
+          <tr><td>331</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Final_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Final_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>332</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Game_over_warp_bug">https://speedy-blupi.fandom.com/wiki/Game_over_warp_bug</a></td><td>not yet analysed </td></tr>
+          <tr><td>333</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Game_over_warp_glitch">https://speedy-blupi.fandom.com/wiki/Game_over_warp_glitch</a></td><td>not yet analysed </td></tr>
+          <tr><td>334</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Game_speed">https://speedy-blupi.fandom.com/wiki/Game_speed</a></td><td>not yet analysed </td></tr>
+          <tr><td>335</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Glue_boosting">https://speedy-blupi.fandom.com/wiki/Glue_boosting</a></td><td>not yet analysed </td></tr>
+          <tr><td>336</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Houses_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Houses_1_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>337</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Houses_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Houses_2_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>338</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Houses_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Houses_3_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>339</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Houses_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Houses_4_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>340</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Houses_World_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Houses_World_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>341</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Houses_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Houses_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>342</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_1_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>343</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_2_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>344</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_3_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>345</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_4_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>346</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_5_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_5_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>347</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_World_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_World_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>348</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Kid%27s_Stuff_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>349</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Level_190_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Level_190_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>350</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Level_200_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Level_200_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>351</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/List_of_blocks">https://speedy-blupi.fandom.com/wiki/List_of_blocks</a></td><td>not yet analysed </td></tr>
+          <tr><td>352</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/List_of_errors">https://speedy-blupi.fandom.com/wiki/List_of_errors</a></td><td>not yet analysed </td></tr>
+          <tr><td>353</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/List_of_games_developed_by_Epsitec_SA">https://speedy-blupi.fandom.com/wiki/List_of_games_developed_by_Epsitec_SA</a></td><td>not yet analysed </td></tr>
+          <tr><td>354</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/List_of_versions">https://speedy-blupi.fandom.com/wiki/List_of_versions</a></td><td>not yet analysed </td></tr>
+          <tr><td>355</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Main_Page">https://speedy-blupi.fandom.com/wiki/Main_Page</a></td><td>not yet analysed </td></tr>
+          <tr><td>356</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_1_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>357</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_2_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>358</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_3_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>359</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_4_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>360</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_5_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_5_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>361</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_6_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_6_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>362</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_7_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_7_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>363</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_8_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_8_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>364</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_World_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mechanical_World_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>365</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mechanical_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Mechanical_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>366</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Mission_100_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Mission_100_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>367</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Moving_entity_glitch">https://speedy-blupi.fandom.com/wiki/Moving_entity_glitch</a></td><td>not yet analysed </td></tr>
+          <tr><td>368</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_10_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_10_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>369</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_1_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>370</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_2_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>371</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_3_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>372</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_4_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>373</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_5_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_5_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>374</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_6_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_6_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>375</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_7_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_7_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>376</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_8_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_8_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>377</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_9_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Multiplayer_Level_9_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>378</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Palace_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Palace_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>379</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Personal_bomb_over_glue_glitch">https://speedy-blupi.fandom.com/wiki/Personal_bomb_over_glue_glitch</a></td><td>not yet analysed </td></tr>
+          <tr><td>380</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Personal_bomb_over_tank_glitch">https://speedy-blupi.fandom.com/wiki/Personal_bomb_over_tank_glitch</a></td><td>not yet analysed </td></tr>
+          <tr><td>381</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Pipes_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Pipes_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>382</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Rocks_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Rocks_1_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>383</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Rocks_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Rocks_2_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>384</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Rocks_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Rocks_3_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>385</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Rocks_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Rocks_4_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>386</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Rocks_5_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Rocks_5_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>387</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Rocks_World_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Rocks_World_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>388</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Rocks_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Rocks_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>389</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Secret_tech-block">https://speedy-blupi.fandom.com/wiki/Secret_tech-block</a></td><td>not yet analysed </td></tr>
+          <tr><td>390</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Slime_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Slime_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>391</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Special_tech-blocks">https://speedy-blupi.fandom.com/wiki/Special_tech-blocks</a></td><td>not yet analysed </td></tr>
+          <tr><td>392</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Speedy_Blupi_Wiki">https://speedy-blupi.fandom.com/wiki/Speedy_Blupi_Wiki</a></td><td>not yet analysed </td></tr>
+          <tr><td>393</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Square_tech-blocks">https://speedy-blupi.fandom.com/wiki/Square_tech-blocks</a></td><td>not yet analysed </td></tr>
+          <tr><td>394</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Start,_level_0_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Start,_level_0_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>395</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Start,_mission_0_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Start,_mission_0_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>396</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Start_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Start_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>397</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Start_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Start_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>398</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Start_(Speedy_Blupi_DEMO)">https://speedy-blupi.fandom.com/wiki/Start_(Speedy_Blupi_DEMO)</a></td><td>not yet analysed </td></tr>
+          <tr><td>399</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Table_of_level_connections">https://speedy-blupi.fandom.com/wiki/Table_of_level_connections</a></td><td>not yet analysed </td></tr>
+          <tr><td>400</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical,_mission_0_(Speedy_Blupi_DEMO)">https://speedy-blupi.fandom.com/wiki/Technical,_mission_0_(Speedy_Blupi_DEMO)</a></td><td>not yet analysed </td></tr>
+          <tr><td>401</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_(Speedy_Blupi_DEMO)">https://speedy-blupi.fandom.com/wiki/Technical_(Speedy_Blupi_DEMO)</a></td><td>not yet analysed </td></tr>
+          <tr><td>402</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_1_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Technical_1_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>403</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_2_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Technical_2_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>404</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_3_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Technical_3_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>405</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_4_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Technical_4_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>406</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_5_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Technical_5_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>407</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_5_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Technical_5_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>408</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_World_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Technical_World_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>409</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Technical_World_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Technical_World_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>410</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Training">https://speedy-blupi.fandom.com/wiki/Training</a></td><td>not yet analysed </td></tr>
+          <tr><td>411</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Training_(Speedy_Blupi)">https://speedy-blupi.fandom.com/wiki/Training_(Speedy_Blupi)</a></td><td>not yet analysed </td></tr>
+          <tr><td>412</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Training_(Speedy_Blupi_2)">https://speedy-blupi.fandom.com/wiki/Training_(Speedy_Blupi_2)</a></td><td>not yet analysed </td></tr>
+          <tr><td>413</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Triangular_tech-blocks">https://speedy-blupi.fandom.com/wiki/Triangular_tech-blocks</a></td><td>not yet analysed </td></tr>
+          <tr><td>414</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Units_of_measurement">https://speedy-blupi.fandom.com/wiki/Units_of_measurement</a></td><td>not yet analysed </td></tr>
+          <tr><td>415</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Unused_content">https://speedy-blupi.fandom.com/wiki/Unused_content</a></td><td>not yet analysed </td></tr>
+          <tr><td>416</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Wall_ejection">https://speedy-blupi.fandom.com/wiki/Wall_ejection</a></td><td>not yet analysed </td></tr>
+          <tr><td>417</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Wooden_case_glitch">https://speedy-blupi.fandom.com/wiki/Wooden_case_glitch</a></td><td>not yet analysed </td></tr>
+          <tr><td>418</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Special:Categories">https://speedy-blupi.fandom.com/wiki/Special:Categories</a></td><td>not yet analysed </td></tr>
+          <tr><td>419</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Blocks">https://speedy-blupi.fandom.com/wiki/Category:Blocks</a></td><td>not yet analysed </td></tr>
+          <tr><td>420</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Browse">https://speedy-blupi.fandom.com/wiki/Category:Browse</a></td><td>not yet analysed </td></tr>
+          <tr><td>421</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Candidates_for_deletion">https://speedy-blupi.fandom.com/wiki/Category:Candidates_for_deletion</a></td><td>not yet analysed </td></tr>
+          <tr><td>422</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Disambiguations">https://speedy-blupi.fandom.com/wiki/Category:Disambiguations</a></td><td>not yet analysed </td></tr>
+          <tr><td>423</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Errors">https://speedy-blupi.fandom.com/wiki/Category:Errors</a></td><td>not yet analysed </td></tr>
+          <tr><td>424</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Images">https://speedy-blupi.fandom.com/wiki/Category:Images</a></td><td>not yet analysed </td></tr>
+          <tr><td>425</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Incomplete_pages">https://speedy-blupi.fandom.com/wiki/Category:Incomplete_pages</a></td><td>not yet analysed </td></tr>
+          <tr><td>426</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Levels">https://speedy-blupi.fandom.com/wiki/Category:Levels</a></td><td>not yet analysed </td></tr>
+          <tr><td>427</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Levels_with_bottomless_pits">https://speedy-blupi.fandom.com/wiki/Category:Levels_with_bottomless_pits</a></td><td>not yet analysed </td></tr>
+          <tr><td>428</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Levels_with_counterparts">https://speedy-blupi.fandom.com/wiki/Category:Levels_with_counterparts</a></td><td>not yet analysed </td></tr>
+          <tr><td>429</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Levels_with_no_chests">https://speedy-blupi.fandom.com/wiki/Category:Levels_with_no_chests</a></td><td>not yet analysed </td></tr>
+          <tr><td>430</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Levels_with_no_hazards">https://speedy-blupi.fandom.com/wiki/Category:Levels_with_no_hazards</a></td><td></td></tr>
+          <tr><td>431</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Levels_with_version_differences">https://speedy-blupi.fandom.com/wiki/Category:Levels_with_version_differences</a></td><td>not yet analysed </td></tr>
+          <tr><td>432</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Levels_with_water">https://speedy-blupi.fandom.com/wiki/Category:Levels_with_water</a></td><td>not yet analysed </td></tr>
+          <tr><td>433</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Prerelease">https://speedy-blupi.fandom.com/wiki/Category:Prerelease</a></td><td>not yet analysed </td></tr>
+          <tr><td>434</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Speedy_Blupi_2_Levels">https://speedy-blupi.fandom.com/wiki/Category:Speedy_Blupi_2_Levels</a></td><td>not yet analysed </td></tr>
+          <tr><td>435</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Speedy_Blupi_DEMO_Levels">https://speedy-blupi.fandom.com/wiki/Category:Speedy_Blupi_DEMO_Levels</a></td><td>not yet analysed </td></tr>
+          <tr><td>436</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Speedy_Blupi_Levels">https://speedy-blupi.fandom.com/wiki/Category:Speedy_Blupi_Levels</a></td><td>not yet analysed </td></tr>
+          <tr><td>437</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Template_documentation">https://speedy-blupi.fandom.com/wiki/Category:Template_documentation</a></td><td>not yet analysed </td></tr>
+          <tr><td>438</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Templates">https://speedy-blupi.fandom.com/wiki/Category:Templates</a></td><td>not yet analysed </td></tr>
+          <tr><td>439</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:To_investigate">https://speedy-blupi.fandom.com/wiki/Category:To_investigate</a></td><td>not yet analysed </td></tr>
+          <tr><td>440</td><td><a target="_blank" href="https://speedy-blupi.fandom.com/wiki/Category:Videos">https://speedy-blupi.fandom.com/wiki/Category:Videos</a></td><td>not yet analysed </td></tr>
+          <tr><td>441</td><td><a target="_blank" href="https://games.multimedia.cx/speedy-eggbert">https://games.multimedia.cx/speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>442</td><td><a target="_blank" href="https://es.wikipedia.org/wiki/Speedy_Eggbert">https://es.wikipedia.org/wiki/Speedy_Eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>443</td><td><a target="_blank" href="https://www.amazon.de/-/en/dp/B0001LNKJG">https://www.amazon.de/-/en/dp/B0001LNKJG</a></td><td>not yet analysed </td></tr>
+          <tr><td>444</td><td><a target="_blank" href="https://colobot.info/forum/showthread.php?tid=925">https://colobot.info/forum/showthread.php?tid=925</a></td><td>not yet analysed </td></tr>
+          <tr><td>445</td><td><a target="_blank" href="https://tcrf.net/Talk:Speedy_Blupi">https://tcrf.net/Talk:Speedy_Blupi</a></td><td>not yet analysed </td></tr>
+          <tr><td>446</td><td><a target="_blank" href="https://gamesdb.launchbox-app.com/games/details/71794-speedy-eggbert">https://gamesdb.launchbox-app.com/games/details/71794-speedy-eggbert</a></td><td>not yet analysed </td></tr>
+          <tr><td>447</td><td><a target="_blank" href="https://speedy-eggbert.software.informer.com/1.0">https://speedy-eggbert.software.informer.com/1.0</a></td><td>not yet analysed </td></tr>
+          <tr><td>448</td><td><a target="_blank" href="https://speedy-eggbert.software.informer.com">https://speedy-eggbert.software.informer.com</a></td><td>not yet analysed </td></tr>
+          <tr><td>449</td><td><a target="_blank" href="https://speedy-eggbert.software.informer.com/0.8">https://speedy-eggbert.software.informer.com/0.8</a></td><td>not yet analysed </td></tr>
+          <tr><td>450</td><td><a target="_blank" href="http://juegosliberados.blogspot.com/2017">http://juegosliberados.blogspot.com/2017</a></td><td>not yet analysed </td></tr>
+          <tr><td>451</td><td><a target="_blank" href="https://juegosliberados.blogspot.com/2017/10/speedy-blupi.html">https://juegosliberados.blogspot.com/2017/10/speedy-blupi.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>452</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert_2_-_Level_Design_Contest_(SE2_Mods)">https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert_2_-_Level_Design_Contest_(SE2_Mods)</a></td><td>not yet analysed </td></tr>
+          <tr><td>453</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/User_blog:Vas709/Speedy_Eggbert_-_The_Eggventure">https://blupi.fandom.com/wiki/User_blog:Vas709/Speedy_Eggbert_-_The_Eggventure</a></td><td>not yet analysed </td></tr>
+          <tr><td>454</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>455</td><td><a target="_blank" href="https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert%2B_(Plus)_(SE1_Mods)">https://blupi.fandom.com/wiki/User_blog:Somari_taken/Speedy_Eggbert%2B_(Plus)_(SE1_Mods)</a></td><td>not yet analysed </td></tr>
+          <tr><td>456</td><td><a target="_blank" href="https://colobot.info/forum/showthread.php?tid=922">https://colobot.info/forum/showthread.php?tid=922</a></td><td>not yet analysed </td></tr>
+          <tr><td>457</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>458</td><td><a target="_blank" href="https://rutracker.org/forum/viewtopic.php?t=3775145">https://rutracker.org/forum/viewtopic.php?t=3775145</a></td><td>not yet analysed </td></tr>
+          <tr><td>459</td><td><a target="_blank" href="https://www.giantbomb.com/speedy-eggbert/3025-4716/games">https://www.giantbomb.com/speedy-eggbert/3025-4716/games</a></td><td>not yet analysed </td></tr>
+          <tr><td>460</td><td><a target="_blank" href="https://www.giantbomb.com/speedy-eggbert/3030-6997">https://www.giantbomb.com/speedy-eggbert/3030-6997</a></td><td>not yet analysed </td></tr>
+          <tr><td>461</td><td><a target="_blank" href="https://www.giantbomb.com/speedy-eggbert-2/3030-27827">https://www.giantbomb.com/speedy-eggbert-2/3030-27827</a></td><td>not yet analysed </td></tr>
+          <tr><td>462</td><td><a target="_blank" href="https://www.giantbomb.com/eggbert/3005-40599">https://www.giantbomb.com/eggbert/3005-40599</a></td><td>not yet analysed </td></tr>
+          <tr><td>463</td><td><a target="_blank" href="http://zarkonnen.github.io/SwissGamesShowcase/speedyeggbert2.html">http://zarkonnen.github.io/SwissGamesShowcase/speedyeggbert2.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>464</td><td><a target="_blank" href="https://www.gog.com/forum/general_archive/check_out_speedy_blupi_1_2_win_a_2d_platformer_or_1_of_3_specific_games/page1">https://www.gog.com/forum/general_archive/check_out_speedy_blupi_1_2_win_a_2d_platformer_or_1_of_3_specific_games/page1</a></td><td>not yet analysed </td></tr>
+          <tr><td>465</td><td><a target="_blank" href="https://www.gog.com/forum/general_archive/check_out_speedy_blupi_1_2_win_a_2d_platformer_or_1_of_3_specific_games/page2">https://www.gog.com/forum/general_archive/check_out_speedy_blupi_1_2_win_a_2d_platformer_or_1_of_3_specific_games/page2</a></td><td>not yet analysed </td></tr>
+          <tr><td>466</td><td><a target="_blank" href="https://www.gog.com/forum/general_archive/check_out_speedy_blupi_1_2_win_a_2d_platformer_or_1_of_3_specific_games/page3">https://www.gog.com/forum/general_archive/check_out_speedy_blupi_1_2_win_a_2d_platformer_or_1_of_3_specific_games/page3</a></td><td>not yet analysed </td></tr>
+          <tr><td>467</td><td><a target="_blank" href="https://morebooks.de/shop-ui/shop/product/978-613-7-52651-4">https://morebooks.de/shop-ui/shop/product/978-613-7-52651-4</a></td><td>not yet analysed </td></tr>
+          <tr><td>468</td><td><a target="_blank" href="https://www.giantbomb.com/epsitec-sa/3010-20147">https://www.giantbomb.com/epsitec-sa/3010-20147</a></td><td>not yet analysed </td></tr>
+          <tr><td>469</td><td><a target="_blank" href="https://www.giantbomb.com/egames-inc/3010-586">https://www.giantbomb.com/egames-inc/3010-586</a></td><td>not yet analysed </td></tr>
+          <tr><td>470</td><td><a target="_blank" href="https://www.steamgriddb.com/game/5266327">https://www.steamgriddb.com/game/5266327</a></td><td>not yet analysed </td></tr>
+          <tr><td>471</td><td><a target="_blank" href="https://www.cs.cornell.edu/courses/cs3152/2024sp/resources/engine">https://www.cs.cornell.edu/courses/cs3152/2024sp/resources/engine</a></td><td>not yet analysed </td></tr>
+          <tr><td>472</td><td><a target="_blank" href="https://www.jeuxvideo.com/wikis-soluce-astuces/wiki-de-speedy-eggbert-2/351058">https://www.jeuxvideo.com/wikis-soluce-astuces/wiki-de-speedy-eggbert-2/351058</a></td><td>not yet analysed </td></tr>
+          <tr><td>473</td><td><a target="_blank" href="https://www.jeuxvideo.com/wikis-soluce-astuces/cheat-codes/229305">https://www.jeuxvideo.com/wikis-soluce-astuces/cheat-codes/229305</a></td><td>not yet analysed </td></tr>
+          <tr><td>474</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>475</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>476</td><td><a target="_blank" href="https://datacrystal.tcrf.net/wiki/RAM_map">https://datacrystal.tcrf.net/wiki/RAM_map</a></td><td>not yet analysed </td></tr>
+          <tr><td>477</td><td><a target="_blank" href="https://www.rts.ch/info/sciences-tech/2024/article/blupi-le-heros-suisse-du-jeu-video-fait-son-grand-retour-28614507.html">https://www.rts.ch/info/sciences-tech/2024/article/blupi-le-heros-suisse-du-jeu-video-fait-son-grand-retour-28614507.html</a></td><td>not yet analysed </td></tr>
+          <tr><td>478</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/OneUp">https://tvtropes.org/pmwiki/pmwiki.php/Main/OneUp</a></td><td>not yet analysed </td></tr>
+          <tr><td>479</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/TwoAndAHalfD">https://tvtropes.org/pmwiki/pmwiki.php/Main/TwoAndAHalfD</a></td><td>not yet analysed </td></tr>
+          <tr><td>480</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/AbnormalAmmo">https://tvtropes.org/pmwiki/pmwiki.php/Main/AbnormalAmmo</a></td><td>not yet analysed </td></tr>
+          <tr><td>481</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/AnimalMecha">https://tvtropes.org/pmwiki/pmwiki.php/Main/AnimalMecha</a></td><td>not yet analysed </td></tr>
+          <tr><td>482</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/Bizarrchitecture">https://tvtropes.org/pmwiki/pmwiki.php/Main/Bizarrchitecture</a></td><td>not yet analysed </td></tr>
+          <tr><td>483</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/BlobMonster">https://tvtropes.org/pmwiki/pmwiki.php/Main/BlobMonster</a></td><td>not yet analysed </td></tr>
+          <tr><td>484</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/BlockPuzzle">https://tvtropes.org/pmwiki/pmwiki.php/Main/BlockPuzzle</a></td><td>not yet analysed </td></tr>
+          <tr><td>485</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/BombDisposal">https://tvtropes.org/pmwiki/pmwiki.php/Main/BombDisposal</a></td><td>not yet analysed </td></tr>
+          <tr><td>486</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/BottomlessMagazines">https://tvtropes.org/pmwiki/pmwiki.php/Main/BottomlessMagazines</a></td><td>not yet analysed </td></tr>
+          <tr><td>487</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/BottomlessPits">https://tvtropes.org/pmwiki/pmwiki.php/Main/BottomlessPits</a></td><td>not yet analysed </td></tr>
+          <tr><td>488</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/ClassicCheatCode">https://tvtropes.org/pmwiki/pmwiki.php/Main/ClassicCheatCode</a></td><td>not yet analysed </td></tr>
+          <tr><td>489</td><td><a target="_blank" href="FREESLOT" style="display:none">FREESLOT</a></td><td>not yet analysed </td></tr>
+          <tr><td>490</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/CoolBoard">https://tvtropes.org/pmwiki/pmwiki.php/Main/CoolBoard</a></td><td>not yet analysed </td></tr>
+          <tr><td>491</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/ConspicuousElectricObstacle">https://tvtropes.org/pmwiki/pmwiki.php/Main/ConspicuousElectricObstacle</a></td><td>not yet analysed </td></tr>
+          <tr><td>492</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/ConspicuouslySelectivePerception">https://tvtropes.org/pmwiki/pmwiki.php/Main/ConspicuouslySelectivePerception</a></td><td>not yet analysed </td></tr>
+          <tr><td>493</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/ConvectionSchmonvection">https://tvtropes.org/pmwiki/pmwiki.php/Main/ConvectionSchmonvection</a></td><td>not yet analysed </td></tr>
+          <tr><td>494</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/CoveredInGunge">https://tvtropes.org/pmwiki/pmwiki.php/Main/CoveredInGunge</a></td><td>not yet analysed </td></tr>
+          <tr><td>495</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/DeathFromAbove">https://tvtropes.org/pmwiki/pmwiki.php/Main/DeathFromAbove</a></td><td>not yet analysed </td></tr>
+          <tr><td>496</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/DeathIsTheOnlyOption">https://tvtropes.org/pmwiki/pmwiki.php/Main/DeathIsTheOnlyOption</a></td><td>not yet analysed </td></tr>
+          <tr><td>497</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/DefeatEqualsExplosion">https://tvtropes.org/pmwiki/pmwiki.php/Main/DefeatEqualsExplosion</a></td><td>not yet analysed </td></tr>
+          <tr><td>498</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/EvilLaugh">https://tvtropes.org/pmwiki/pmwiki.php/Main/EvilLaugh</a></td><td>not yet analysed </td></tr>
+          <tr><td>499</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/HalfTheManHeUsedToBe">https://tvtropes.org/pmwiki/pmwiki.php/Main/HalfTheManHeUsedToBe</a></td><td>not yet analysed </td></tr>
+          <tr><td>500</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/HelicopterPack">https://tvtropes.org/pmwiki/pmwiki.php/Main/HelicopterPack</a></td><td>not yet analysed </td></tr>
+          <tr><td>501</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/HubLevel">https://tvtropes.org/pmwiki/pmwiki.php/Main/HubLevel</a></td><td>not yet analysed </td></tr>
+          <tr><td>502</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/IdleAnimation">https://tvtropes.org/pmwiki/pmwiki.php/Main/IdleAnimation</a></td><td>not yet analysed </td></tr>
+          <tr><td>503</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/ImplausibleBoardingSkills">https://tvtropes.org/pmwiki/pmwiki.php/Main/ImplausibleBoardingSkills</a></td><td>not yet analysed </td></tr>
+          <tr><td>504</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/InexplicableTreasureChests">https://tvtropes.org/pmwiki/pmwiki.php/Main/InexplicableTreasureChests</a></td><td>not yet analysed </td></tr>
+          <tr><td>505</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/InterfaceScrew">https://tvtropes.org/pmwiki/pmwiki.php/Main/InterfaceScrew</a></td><td>not yet analysed </td></tr>
+          <tr><td>506</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/LevelEditor">https://tvtropes.org/pmwiki/pmwiki.php/Main/LevelEditor</a></td><td>not yet analysed </td></tr>
+          <tr><td>507</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/LevelGoal">https://tvtropes.org/pmwiki/pmwiki.php/Main/LevelGoal</a></td><td>not yet analysed </td></tr>
+          <tr><td>508</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/LockAndKeyPuzzle">https://tvtropes.org/pmwiki/pmwiki.php/Main/LockAndKeyPuzzle</a></td><td>not yet analysed </td></tr>
+          <tr><td>509</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/MadeOfExplodium">https://tvtropes.org/pmwiki/pmwiki.php/Main/MadeOfExplodium</a></td><td>not yet analysed </td></tr>
+          <tr><td>510</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/MarathonLevel">https://tvtropes.org/pmwiki/pmwiki.php/Main/MarathonLevel</a></td><td>not yet analysed </td></tr>
+          <tr><td>511</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/MissionPackSequel">https://tvtropes.org/pmwiki/pmwiki.php/Main/MissionPackSequel</a></td><td>not yet analysed </td></tr>
+          <tr><td>512</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/MooksButNoBosses">https://tvtropes.org/pmwiki/pmwiki.php/Main/MooksButNoBosses</a></td><td>not yet analysed </td></tr>
+          <tr><td>513</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/NoBodyLeftBehind">https://tvtropes.org/pmwiki/pmwiki.php/Main/NoBodyLeftBehind</a></td><td>not yet analysed </td></tr>
+          <tr><td>514</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/NoPlotNoProblem">https://tvtropes.org/pmwiki/pmwiki.php/Main/NoPlotNoProblem</a></td><td>not yet analysed </td></tr>
+          <tr><td>515</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/NoWaterProofingInTheFuture">https://tvtropes.org/pmwiki/pmwiki.php/Main/NoWaterProofingInTheFuture</a></td><td>not yet analysed </td></tr>
+          <tr><td>516</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/NostalgiaLevel">https://tvtropes.org/pmwiki/pmwiki.php/Main/NostalgiaLevel</a></td><td>not yet analysed </td></tr>
+          <tr><td>517</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/NumberedSequels">https://tvtropes.org/pmwiki/pmwiki.php/Main/NumberedSequels</a></td><td>not yet analysed </td></tr>
+          <tr><td>518</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/PowerUpFood">https://tvtropes.org/pmwiki/pmwiki.php/Main/PowerUpFood</a></td><td>not yet analysed </td></tr>
+          <tr><td>519</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/RespawnOnTheSpot">https://tvtropes.org/pmwiki/pmwiki.php/Main/RespawnOnTheSpot</a></td><td>not yet analysed </td></tr>
+          <tr><td>520</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/SeaMine">https://tvtropes.org/pmwiki/pmwiki.php/Main/SeaMine</a></td><td>not yet analysed </td></tr>
+          <tr><td>521</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/UnintentionallyUnwinnable">https://tvtropes.org/pmwiki/pmwiki.php/Main/UnintentionallyUnwinnable</a></td><td>not yet analysed </td></tr>
+          <tr><td>522</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/WhatTheHellPlayer">https://tvtropes.org/pmwiki/pmwiki.php/Main/WhatTheHellPlayer</a></td><td>not yet analysed </td></tr>
+          <tr><td>523</td><td><a target="_blank" href="https://tvtropes.org/pmwiki/pmwiki.php/Main/WingedSoulFliesOffAtDeath">https://tvtropes.org/pmwiki/pmwiki.php/Main/WingedSoulFliesOffAtDeath</a></td><td></td></tr>
+
+
+
+        </table>
+
+
+
 
     </section>
-  </main>
+</main>
 
 <footer>
-  <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless otherwise noted.</p>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
 </footer>
 </body>
 </html>
