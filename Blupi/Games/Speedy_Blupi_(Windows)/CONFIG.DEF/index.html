@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - CONFIG.DEF</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<style>
+    th {text-align: left;}
+</style>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="Blupi/index.html">Blupi</a> /
+        <a href="Blupi/Games/index.html">Games</a> /
+        <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Windows)</a> /
+        <span id="panel_current"><a
+                href="Blupi/Games/Speedy_Blupi_(Windows)/CONFIG.DEF/index.html">CONFIG.DEF</a></span>
+
+
+    </div>
+    <div id="hierarchy_panel">
+        <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Go Up</a>
+        <!--      <a href="Blupi/Programming_languages/index.html">Programming languages</a>-->
+        <!--      <a href="Blupi/Platforms/index.html">Platforms</a>-->
+        <!--      <a href="Blupi/Libraries/index.html">Libraries</a>-->
+        <!--      <a href="Blupi/Other/index.html">Other</a>-->
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>CONFIG.DEF</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+        CONFIG.DEF is a text configuration file placed in the DATA directory
+        <br>
+        This file has different names between games: CONFIG.DEF, Config.def, config.def
+        <br>
+        It has differences between games.
+        <br>
+        Note: Possible values 0 or 1 means disabled or enabled.
+
+        <table>
+            <tr>
+                <th>Key</th>
+                <th>Description</th>
+                <th>Possible values</th>
+                <th>Example</th>
+                <th>Default or initial value</th>
+                <th>Mandatory</th>
+                <th>Supported in games</th>
+            <tr>
+            <tr>
+                <td>FullScreen=0</td>
+                <td></td>
+                <td>0,1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>Yes</td>
+                <td>SBD,SB1,SB2,SED,SE1,SE2,OE3</td>
+            <tr>
+            <tr>
+                <td>TrueColor</td>
+                <td></td>
+                <td>8,16,24</td>
+                <td></td>
+                <td></td>
+                <td>Yes</td>
+                <td></td>
+            <tr>
+            <tr>
+                <td>MouseType</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Yes</td>
+                <td></td>
+            <tr>
+            <tr>
+                <td>SpeedRate</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Yes</td>
+                <td></td>
+            <tr>
+            <tr>
+                <td>Timer</td>
+                <td></td>
+                <td>a number</td>
+                <td>50ms</td>
+                <td>50ms</td>
+                <td>Yes</td>
+                <td></td>
+            <tr>
+            <tr>
+                <td>StrictCompatibility</td>
+                <td>If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled.
+                </td>
+                <td>0,1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>No</td>
+                <td>OE3</td>
+            <tr>
+            <tr>
+                <td>DisplayResolutionStandard</td>
+                <td>VGA:width=640 height=480 QuadVGA:width=1280 height=960</td>
+                <td>VGA, QuadVGA</td>
+                <td>QuadVGA</td>
+                <td>QuadVGA</td>
+                <td>No</td>
+                <td>OE3</td>
+            <tr>
+            <tr>
+                <td>Cheats</td>
+                <td>If enabled, cheats will be enabled, otherwise cheats will be disabled.</td>
+                <td>0,1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>No</td>
+                <td>OE3</td>
+            <tr>
+
+        </table>
+        <h3>Across versions</h3>
+
+<pre>
+        FullScreen=0
+        TrueColor=8
+        MouseType=1
+        SpeedRate=1
+        Timer=50ms
+        StrictCompatibility=0</pre>
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
