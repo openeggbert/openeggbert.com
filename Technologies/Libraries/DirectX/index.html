@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - DirectX</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="Technologies/index.html">Technologies</a> /
+        <a href="Technologies/Libraries/index.html">Libraries</a> /
+        <span id="panel_current">DirectX</span>
+
+    </div>
+    <div id="hierarchy_panel">
+        <a href="Technologies/Libraries/index.html">Go Up</a>
+        <!--        <a href="Technologies/Libraries/XNA/index.html">XNA</a>-->
+        <!--        <a href="Technologies/Libraries/DirectX/index.html">DirectX</a>-->
+        <!--        <a href="Technologies/Libraries/DirectX/index.html">DirectX</a>-->
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>DirectX</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+
+        DirectX is a collection of application programming interfaces (APIs) developed by Microsoft. It is designed to
+        handle tasks related to multimedia, especially game programming and video, on Microsoft platforms. DirectX
+        enables software developers to create high-performance applications, such as video games, that can utilize
+        advanced graphics and sound capabilities.
+
+        <h2> Introduction </h2>
+
+        <h3> History </h3>
+        DirectX was originally called Game SDK and was later renamed to DirectX, because Microsoft was naming their
+        technologies with an X at the end.
+        <br>
+        DirectX was introduced by Microsoft in the Fall of 1995.
+
+        <h3> DirectX 3 components </h3>
+        DirectDraw, DirectSound, DirectPlay, DirectInput, Direct3D and DirectSetup.
+
+        <h3> DirectDraw </h3>
+        Provides ultra-fast access to video hardware.
+        <br>
+        Used for rendering 2D graphics.
+        <br>
+        Now largely replaced by Direct3D.
+
+        <h3> DirectSound </h3>
+        Provides tools for playing and manipulating sound effects and music.
+
+        <h3> DirectPlay </h3>
+        Multi-player games over a network or the Internet.
+        <br>
+        Offers networking capabilities for multiplayer games (over the Internet or local network). It is now deprecated.
+
+        <h3> DirectInput </h3>
+        Handles input devices like keyboards, mice, joysticks and game controllers.
+
+        <h3> Direct3D </h3>
+        Handles 3D graphics rendering.
+        <br>
+        A core part of modern game development for rendering complex scenes and visual effects.
+
+        <h3> DirectSetup </h3>
+        Automatic installing the DirectX components on the user's system.
+
+        <h3> Other possibilities for games writtten in Direct X </h3>
+        <ul>
+            <li>Windows built-in user interface</li>
+            <li>Windows API</li>
+        </ul>
+        <h2> Importance of DirectX </h2>
+
+        <ul>
+            <li><strong>Performance</strong>: It provides low-level access to hardware, allowing developers to optimize
+                their applications for better performance.
+            </li>
+            <li><strong>Hardware Compatibility</strong>: DirectX acts as a bridge between software and hardware,
+                ensuring compatibility across different graphics cards, sound cards, and other hardware components.
+            </li>
+            <li><strong>Graphics and Gaming</strong>: DirectX has been instrumental in the growth of PC gaming, enabling
+                realistic visuals, advanced effects, and immersive environments.
+            </li>
+        </ul>
+
+        <h2> Comparison of DirectX 3 and DirectX 5 </h2>
+        DirectX 3 and DirectX 5 represent two different versions of Microsoft's DirectX API, used for multimedia and
+        game development. Here's a breakdown of the differences between them:
+
+        <h3>Release Date:</h3>
+        <strong>DirectX 3:</strong> Released in 1996.
+        <br>
+        <strong>DirectX 5:</strong> Released in 1997.
+
+        <h3>Feature Enhancements:</h3>
+
+        <h4>DirectX 3:</h4>
+        Introduced basic 3D graphics rendering capabilities.
+        <br>Supported DirectDraw, DirectSound, and DirectInput for handling 2D graphics, sound, and input devices.
+        <br>Limited hardware acceleration for 3D rendering, as most early 3D graphics cards were still emerging.
+        <h4>DirectX 5:</h4>
+        Improved 3D acceleration support compared to DirectX 3.
+        <br> Introduced better support for more advanced 3D rendering techniques such as texture mapping, alpha
+        blending, and more efficient handling of 3D polygons.
+        <br> Enhanced Direct3D with new features like fog effects, specular lighting, and z-buffering.
+        <br> Improved support for multiple input devices and sound.
+
+        <h3>DirectSound:</h3>
+
+        <h4>DirectX 3:</h4>
+        DirectSound provided basic audio capabilities, including simple playback of audio files and the ability to
+        manage multiple sound buffers.
+        <h4>DirectX 5:</h4>
+        Improved audio management, allowing for more sophisticated mixing of sounds.
+        <br>Added better support for environmental audio effects (like echo and reverb) and positional audio, which
+        could improve immersion for games or multimedia applications using stereo or multi-channel sound setups.
+
+        <h3>DirectDraw (2D Graphics):</h3>
+
+        <h4>DirectX 3:</h4>
+        DirectDraw allowed developers to directly manipulate video memory for 2D rendering. It supported basic
+        2D operations such as blitting (bit block transfer), page flipping, and surface creation.
+        <h4>DirectX 5:</h4>
+        Enhanced performance for 2D operations and better management of video memory.
+        <br>Added improved support for hardware-accelerated blitting and stretching, which could boost the
+        performance of 2D games or multimedia applications.
+        <br>Improved support for higher resolutions and color depths, benefiting 2D graphics.
+
+        <h3>DirectInput:</h3>
+
+        <h4>DirectX 3:</h4>
+        Provided basic support for handling input devices like keyboards, mice, and joysticks. The input system
+        was straightforward but lacked advanced features for more complex control schemes.
+        <h4>DirectX 5:</h4>
+        Expanded support for additional input devices and improved responsiveness.
+        <br>Added support for more complex input configurations, allowing developers to manage multiple input
+        devices simultaneously or use more advanced control schemes (e.g., force feedback for joysticks).
+
+        <h3>Performance and Stability:</h3>
+
+        <h4>DirectX 3:</h4>
+        While functional, the APIs were not as optimized, and performance could be limited, especially on
+        lower-end systems.
+        <h4>DirectX 5:</h4>
+        More optimizations across the API, leading to better performance in handling sound, input, and 2D
+        graphics.
+        <br>Improved stability, with bug fixes and enhancements that made it a more reliable API for developers to
+        work with.
+
+        <h3>Developer Tools and Documentation:</h3>
+
+        <h4>DirectX 3:</h4>
+        Basic tools and documentation, but there were fewer resources for developers.
+        <h4>DirectX 5:</h4>
+        Improved developer tools, including better debugging and profiling capabilities.
+        <br>More comprehensive documentation, making it easier for developers to adopt DirectX and improve the
+        quality of their multimedia applications.
+
+        <h3>Direct3D (3D Rendering):</h3>
+
+        <h4>DirectX 3:</h4> Direct3D was still quite primitive, with limited support for complex rendering
+        techniques. It was mainly used in early 3D games and simulations, and developers had to work around its
+        limitations.
+        <h4>DirectX 5:</h4> Direct3D saw significant improvements, with more robust support for real-time 3D
+        rendering, making it more suitable for 3D gaming. It began to take advantage of new hardware features, which
+        was crucial for better performance and visual effects in games.
+
+        <h3>Compatibility and Hardware Support:</h3>
+
+        <h4>DirectX 3:</h4> Compatible with early 3D hardware but didn’t fully utilize the capabilities of more
+        advanced graphics cards.
+        <h4>DirectX 5:</h4> Provided better hardware support and could tap into the growing market of more powerful
+        GPUs like the 3dfx Voodoo series, ATI Rage, and NVIDIA Riva cards, allowing developers to take advantage of
+        better graphics performance.
+
+        <h3>Adoption and Impact:</h3>
+        In summary, <strong>DirectX 5</strong> brought substantial improvements over <strong>DirectX
+        3</strong>, particularly in 3D graphics rendering and hardware acceleration,
+        which made it much more suitable for the growing demands of the gaming industry at the time.
+
+        <h4>DirectX 3:
+        </h4> Was foundational in establishing DirectX as a standard for game development on Windows, but it was
+        still limited in terms of features and performance.
+        <h4>DirectX 5:</h4> Became more widely adopted, with many games developed specifically for this version. It
+        marked the beginning of more visually impressive PC games due to improved 3D support and
+        hardware acceleration.
+
+
+        <h3> Summary: </h3>
+        The differences between <strong>DirectX 3</strong> and <strong>DirectX 5</strong> (without
+        3D focus) include improvements in sound (DirectSound),
+        better performance for 2D graphics (DirectDraw), enhanced input device handling
+        (DirectInput), and overall optimizations that resulted in better performance,
+        stability, and developer support.
+
+        <h2> Basics </h2>
+
+        <h3> Pixel </h3>
+        The graphics shown by the monitor consists of pixels.
+        <br>
+        Pixel is the smallest are on the screen, that can be set to a specific color.
+        <br>
+        So, monitor consists of grids, where each cell is the pixel.
+        <br>
+        One pixel is obviously stored in the computer as one, two, three or four bytes of memory.
+
+        <h2> Books </h2>
+
+        <h3> DirectX Complete </h3>
+
+        Root, Michael D 1998
+
+        <h3> Win32 Game Developers Guide With Directx 3 </h3>
+        https://archive.org/details/win32gamedevelop0000kolb
+<br>
+        https://www.worldofbooks.com/en-gb/products/directx-3-developer-s-guide-book-keith-weiner-9781571690302
+        <br>
+        https://books.google.pl/books/about/Win32_Game_Developer_s_Guide_with_Direct.html?id=ZHEMAAAACAAJ&redir_esc=y
+        <br>
+        https://www.abebooks.com/9781571690302/Win32-Game-Developers-Guide-Directx-1571690301/plp
+        <br>
+        https://www.amazon.com/Win32-Game-Developers-Guide-Directx/dp/1571690301
+
+        <h3> Inside DirectX </h3>
+        Author: Brett R. Moffett
+        <br>
+        https://archive.org/details/insidedirectx0000barg/page/n583/mode/2up
+        <br>
+        https://www.abebooks.com/servlet/BookDetailsPL?bi=31432713024&cm_sp=SEARCHREC-_-WIDGET-L-_-BDP-R&searchurl=ds%3D30%26rollup%3Don%26sortby%3D17%26tn%3Ddirectx
+        <br>
+        https://www.ebay.co.uk/itm/304264612255
+        <br>
+        https://www.amazon.com/Inside-DirectX-Microsoft-Programming-Bradley/dp/1572316969/
+
+        <h3> Tricks of the Windows Game Programming Gurus </h3>
+        Author: André LaMothe
+        <br>
+        https://theswissbay.ch/pdf/Gentoomen%20Library/Game%20Development/Programming/Tricks%20of%20the%20Windows%20Game%20Programming%20Gurus%20-%20Fundamentals%20of%202D%20and%203D%20Game%20Programming.pdf
+        <br>
+        https://archive.org/details/tricksofwindowsg00lamo
+        <br>
+        https://www.amazon.com/Tricks-Windows-Game-Programming-Gurus/dp/0672313618
+
+        <h3> Windows Game Programming for Dummies </h3>
+        Author: André LaMothe
+        <br>
+        https://archive.org/details/windowsgameprog000lamo
+
+        <h3> The Zen of Direct3D Game Programming </h3>
+        This book target DirectX7, but it also covers the DirectX basics, which are useful also
+        understand the later versions
+        <br>
+        Author: Peter Walsh
+
+        <h3> High perfomance Windows graphics programming : create fast graphics with
+            DirectDraw </h3>
+        Author: Trujillo, Stan
+        <br>
+        https://archive.org/details/highperfomancewi0000truj
+
+        <h3> DirectDraw Programming (1996) </h3>
+        https://archive.org/details/direct-draw-programming-1996
+
+        <h2> External links </h2>
+        http://www.directxtutorial.com/
+        <br>
+        https://library.thedatadungeon.com/
+        <br>
+        https://web.archive.org/web/20050212092634/http://www.geocities.com/SiliconValley/Way/3390/
+
+
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
