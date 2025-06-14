@@ -198,7 +198,285 @@
         structure. Supporting most .NET-based languages, it works seamlessly with C# and VB.NET, with partial support
         for F#. The compiler handles nearly all .NET runtime features, including pointers and P/Invoke, and can
         translate most of the open-source Base Class Library (BCL).
-        <br><br>
+
+<h2>Comparison of C Sharp and Java</h2>
+
+
+        C# and Java are similar programming languages, but have some differences.
+
+        <h3>Structures in C# vs. Classes in Java</h3>
+
+        <ul>
+            <li>In C#, struct is a value type, meaning it gets copied when assigned or passed to a method.</li>
+            <li>In Java, there are no structures—only classes, which are always reference types.</li>
+        </ul>
+
+        <h4>Solution:</h4>
+
+        <ul>
+            <li>Replace struct in C# with a class in Java. Remember that Java classes behave as references, so they won’t be copied automatically.</li>
+            <li>If you need value-type behavior, implement a copy method (e.g., clone() or a copy constructor).</li>
+        </ul>
+
+        <pre><code>public class MyStruct {
+   private int value;
+   public MyStruct(int value) {
+       this.value = value;
+   }
+   public MyStruct copy() { // Copy method
+       return new MyStruct(this.value);
+   }
+   public int getValue() {
+       return value;
+   }
+   public void setValue(int value) {
+       this.value = value;
+   }
+}
+</code></pre>
+
+        <h3>Handling References</h3>
+
+        <ul>
+            <li>In <strong>C#</strong>, you can use <code>ref</code> or <code>out</code> to pass variables by reference, allowing methods to modify their values.</li>
+            <li>In <strong>Java</strong>, there’s no equivalent feature, but you can achieve similar functionality using wrappers.</li>
+        </ul>
+
+        <p><strong>Solution:</strong></p>
+
+        <ul>
+            <li>Define a simple wrapper class:</li>
+        </ul>
+
+        <pre><code>public class Ref&lt;T&gt; {
+   public T value;
+   public Ref(T value) {
+       this.value = value;
+   }
+}
+</code></pre>
+
+        <ul>
+            <li>Use the wrapper to mimic ref behavior:</li>
+        </ul>
+
+        <pre><code>public static void modifyValue(Ref&lt;Integer&gt; ref) {
+       ref.value += 10;
+   }
+   public static void main(String[] args) {
+       Ref&lt;Integer&gt; myValue = new Ref&lt;&gt;(5);
+       modifyValue(myValue);
+       System.out.println(myValue.value);  // Output: 15
+   }
+</code></pre>
+
+        <h3>Object Properties</h3>
+
+        <ul>
+            <li><strong>C#</strong> supports properties for classes and structs with automatic <code>get</code> and <code>set</code> accessors:</li>
+        </ul>
+
+        <pre><code>public int Value { get; set; }</code></pre>
+
+        <ul>
+            <li><strong>Java</strong> uses explicit getter and setter methods:</li>
+        </ul>
+
+        <p>To convert C# code to Java: Convert properties to methods</p>
+
+        <pre><code>public class MyStruct {
+       private int value;
+       public int getValue() {
+           return value;
+       }
+       public void setValue(int value) {
+           this.value = value;
+       }
+   }
+</code></pre>
+
+        <h3>Delegates and Events</h3>
+
+        <h4>C# has delegates and events for callbacks:</h4>
+
+        <pre><code>public delegate void MyDelegate(string message);
+public event MyDelegate MyEvent;
+</code></pre>
+
+        <h4>Java doesn’t have delegates. Use interfaces or lambdas instead:</h4>
+
+        <pre><code>public interface MyEventListener {
+   void onEvent();
+}
+public class MyClass {
+   private List&lt;MyEventListener&gt; listeners = new ArrayList&lt;&gt;();
+   public void addListener(MyEventListener listener) {
+       listeners.add(listener);
+   }
+   public void fireEvent() {
+       for (MyEventListener listener : listeners) {
+           listener.onEvent();
+       }
+   }
+}
+</code></pre>
+
+        <h3>Nullable Value Types</h3>
+
+        <h4>C# supports nullable value types with Nullable&lt;T&gt; or the ? syntax:</h4>
+
+        <pre><code>int? nullableInt = null;</code></pre>
+
+        <h4>Java uses wrapper classes like Integer for nullability:</h4>
+
+        <pre><code>Integer nullableInt = null;</code></pre>
+
+        <h3>LINQ</h3>
+
+        <h4>LINQ in C# provides powerful querying and data manipulation:</h4>
+
+        <pre><code>var filtered = myList.Where(x =&gt; x &gt; 10).ToList();</code></pre>
+
+        <h4>In Java, use the Stream API:</h4>
+
+        <pre><code>List&lt;Integer&gt; filtered = myList.stream()
+                              .filter(x -&gt; x &gt; 10)
+                              .collect(Collectors.toList());
+</code></pre>
+
+        <h3>Operator Overloading</h3>
+
+        <h4>C# supports operator overloading:</h4>
+
+        <pre><code>public static MyClass operator +(MyClass a, MyClass b) {
+   return new MyClass(a.Value + b.Value);
+}
+</code></pre>
+
+        <h4>Java does not. Use methods instead:</h4>
+
+        <pre><code>public MyClass add(MyClass other) {
+   return new MyClass(this.value + other.value);
+}
+</code></pre>
+
+        <h3>Using Statement</h3>
+
+        <h4>C# has the using statement for automatic resource management:</h4>
+
+        <pre><code>using (var stream = new FileStream("file.txt")) {
+   // ...
+}
+</code></pre>
+
+        <h4>Java uses try-with-resources:</h4>
+
+        <pre><code>try (FileInputStream stream = new FileInputStream("file.txt")) {
+   // ...
+}
+</code></pre>
+
+        <h3>Static Classes</h3>
+
+        <h4>C# allows static classes:</h4>
+
+        <pre><code>public static class MyUtils {
+   public static int Add(int a, int b) =&gt; a + b;
+}
+</code></pre>
+
+        <h4>In Java, use a class with private constructors and static methods:</h4>
+
+        <pre><code>public class MyUtils {
+   private MyUtils() {}
+   public static int add(int a, int b) {
+       return a + b;
+   }
+}
+</code></pre>
+
+        <h3>Namespaces vs. Packages</h3>
+
+        <h4>C# uses namespace for code organization:</h4>
+
+        <pre><code>namespace MyApp.Utilities {
+   public class MyClass { }
+}
+</code></pre>
+
+        <h4>Java uses package and requires a matching directory structure:</h4>
+
+        <pre><code>package myapp.utilities;
+public class MyClass { }
+</code></pre>
+
+        <h3>Enums</h3>
+
+        <h4>C# enums can have explicit values:</h4>
+
+        <pre><code>public enum Color {
+   Red = 1,
+   Green = 2,
+   Blue = 3
+}
+</code></pre>
+
+        <h4>Java enums do not support explicit values directly:</h4>
+
+        <pre><code>public enum Color {
+   RED, GREEN, BLUE
+}
+</code></pre>
+
+        <h3>Interfaces and Default Methods</h3>
+
+        <h4>C# supports default implementations in interfaces:</h4>
+
+        <pre><code>public interface IMyInterface {
+   void DoSomething() =&gt; Console.WriteLine("Default implementation");
+}
+</code></pre>
+
+        <h4>Java also supports default methods, but only from Java 8 onward:</h4>
+
+        <pre><code>public interface MyInterface {
+   default void doSomething() {
+       System.out.println("Default implementation");
+   }
+}
+</code></pre>
+
+        <h3>String Interpolation</h3>
+
+        <h4>C# supports string interpolation:</h4>
+
+        <pre><code>string message = $"Hello, {name}!";</code></pre>
+
+        <h4>In Java, use String.format or concatenation:</h4>
+
+        <pre><code>String message = String.format("Hello, %s!", name);</code></pre>
+
+        <h3>Exceptions</h3>
+
+        <p>C# does not distinguish between checked and unchecked exceptions.</p>
+
+        <p>Java requires checked exceptions (IOException, SQLException, etc.) to be handled or declared with throws.</p>
+
+        <h3>Dynamic Typing</h3>
+
+        <p>C# supports dynamic typing with the dynamic keyword.</p>
+
+        <p>Java does not have a direct equivalent. Use reflection or Object.</p>
+
+        <h3>Definition of multidimensional array</h3>
+
+        <p>C#: <code>int [1,2]</code></p>
+
+        <p>Java: <code>int[1][2]</code></p>
+
+
+        <h2>External links</h2>
+
         <b>Official website:</b> <a href="http://jsil.org/">http://jsil.org/</a>
 
     </section>
