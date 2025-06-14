@@ -1,77 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open Eggbert - Assembly Language</title>
-  <meta name="description" content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos." />
-  <meta name="keywords" content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA" />
-  <meta name="author" content="Robert Vokáč">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Assembly Language</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
 
-  <base href="../../.." target="_self">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
-  <script type="text/javascript" src="script.js"></script>
+    <base href="../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
 </head>
- <body onload="loadContent()">
-  <header>
+<body onload="loadContent()">
+<header>
     <div id="main_banner">Open Eggbert</div>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About/index.html">About</a></li>
-        <li><a href="Blupi/index.html">Blupi</a></li>
-        <li><a href="Projects/index.html">Projects</a></li>
-        <li><a href="Technologies/index.html">Technologies</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
     </nav>
 
-  </header>
+</header>
 
-  <!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-  <div id="breadcrumb_hierarchy_panel">
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
     <div id="breadcrumb">
-      <a href="Technologies/index.html">Technologies</a> /
-      <a href="Technologies/Programming_languages/index.html">Programming languages</a> /
+        <a href="Technologies/index.html">Technologies</a> /
+        <a href="Technologies/Programming_languages/index.html">Programming languages</a> /
 
-      <span id="panel_current">Assembly_Language</span>
+        <span id="panel_current">Assembly_Language</span>
     </div>
     <div id="hierarchy_panel">
-      <a href="Technologies/Programming_languages/index.html">Go Up</a>
-<!--      <a href="Technologies/Programming_languages/index.html">Programming languages</a>-->
-<!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
-<!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
-<!--      <a href="Technologies/Other/index.html">Other</a>-->
+        <a href="Technologies/Programming_languages/index.html">Go Up</a>
+        <!--      <a href="Technologies/Programming_languages/index.html">Programming languages</a>-->
+        <!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
+        <!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
+        <!--      <a href="Technologies/Other/index.html">Other</a>-->
     </div>
-  </div>
-  
-  
-  <main>
+</div>
+
+
+<main>
     <section>
-      <h1>Assembly Language</h1>
-      <div id="tocButton"></div><div id="toc"></div>
-      <p>
-        Only the <a href="Page_Does_Not_Yet_Exist/index.html">x86 instruction set</a>, version <a href="Page_Does_Not_Yet_Exist/index.html">i586</a> (processor <a href="Page_Does_Not_Yet_Exist/index.html">Pentium 100</a>) is mostly described here.
+        <h1>Assembly Language</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+        <p>
+            Only the <a href="Page_Does_Not_Yet_Exist/index.html">x86 instruction set</a>, version <a
+                href="Page_Does_Not_Yet_Exist/index.html">i586</a> (processor <a
+                href="Page_Does_Not_Yet_Exist/index.html">Pentium 100</a>) is mostly described here.
 
-        See: <a href="Page_Does_Not_Yet_Exist/index.html">X86 instruction set</a>
+            See: <a href="Page_Does_Not_Yet_Exist/index.html">X86 instruction set</a>
 
-    <h2>Basics</h2>
+        <h2>Basics</h2>
 
-  <h3>What is Assembly Language</h3>
+        <h3>What is Assembly Language</h3>
         Assembly language is a low-level programming language for a computer or other programmable device.
 
-  <h3>What is the difference between the Assembly language and high-level programming languages</h3>
+        <h3>What is the difference between the Assembly language and high-level programming languages</h3>
         Each assembly languages is specific for a given computer architecture (instruction set).
 
         High level programming languages are mostly portable across multiple systems.
 
-  <h3>How is the source code of an high-level programming language converted to the executable machine code</h3>
+        <h3>How is the source code of an high-level programming language converted to the executable machine code</h3>
         Via a Compiler
 
-  <h3>How is the source code of an assembly language converted to the executable machine code</h3>
+        <h3>How is the source code of an assembly language converted to the executable machine code</h3>
         Via an Assembler
 
-  <h3>List examples of some assemblers</h3>
+        <h3>List examples of some assemblers</h3>
 
         <ul>
             <li>NASM - Free, well documented, can be used on both Linux and Windows</li>
@@ -80,102 +85,105 @@
             <li>GAS - GNU Assembler</li>
         </ul>
 
-  <h3>Why Assembly languages exist?</h3>
+        <h3>Why Assembly languages exist?</h3>
         Each computer has a microprocessor with arithmetical, logical and control activities.
 
         Each family of processors has its own set of instructions.
 
-        Processors understands only machine language instructions, which are ones and zeros. But develop software only using ones and zeros is too hard and complex. As the solution there are the assembly languages for each the instruction sets, instructions are represented with symbolic code and a more understandable form.
+        Processors understands only machine language instructions, which are ones and zeros. But develop software only
+        using ones and zeros is too hard and complex. As the solution there are the assembly languages for each the
+        instruction sets, instructions are represented with symbolic code and a more understandable form.
 
-  <h3>Advantages of understanding the assembly language</h3>
+        <h3>Advantages of understanding the assembly language</h3>
         You will know:
-<ul>
-      <li>How applications communicate with the operating system, processor and BIOS</li>
-      <li>The ways, data is represented in memory and other external devices</li>
-      <li>Access and execution of instructions by the processor</li>
-      <li>Access and processing data by instructions</li>
-</ul>
+        <ul>
+            <li>How applications communicate with the operating system, processor and BIOS</li>
+            <li>The ways, data is represented in memory and other external devices</li>
+            <li>Access and execution of instructions by the processor</li>
+            <li>Access and processing data by instructions</li>
+        </ul>
 
-  <h3>Advantages of the assembly language</h3>
+        <h3>Advantages of the assembly language</h3>
         Less RAM
 
         Less execution time
 
         Suitable for time-critical jobs
 
-  <h3>List 3 basic parts of the computer hardware related to the computing part</h3>
+        <h3>List 3 basic parts of the computer hardware related to the computing part</h3>
         Processor, memory and registers.
 
-  <h3>Describe shortly processor</h3>
+        <h3>Describe shortly processor</h3>
         Processor executes program instructions.
 
-  <h3>Describe shortly registers</h3>
+        <h3>Describe shortly registers</h3>
         Registers hold data and address.
 
-  <h3>Describe shortly memory</h3>
-        Storage for data. The transfer speed much higher than the speed of an HDD or SDD. The transfer speed is lower than the speed of registers.
+        <h3>Describe shortly memory</h3>
+        Storage for data. The transfer speed much higher than the speed of an HDD or SDD. The transfer speed is lower
+        than the speed of registers.
 
-  <h3>What is a bit</h3>
+        <h3>What is a bit</h3>
         The smallest unit of the storage is a bit, which can be ON (1) or OFF (0).
 
-  <h3>What is the name for a group of 8 bits?</h3>
+        <h3>What is the name for a group of 8 bits?</h3>
         Group of 8 related bits is name a byte.
 
-  <h3>Which data sizes are supported by the processor?</h3>
-      <ul>
-        <li>  Word: a 2-byte data item</li>
-        <li>  Doubleword: a 4-byte (32 bit) data item</li>
-        <li>  Quadword: an 8-byte (64 bit) data item</li>
-        <li>  Paragraph: a 16-byte (128 bit) area</li>
-        <li>  Kilobyte: 1024 bytes</li>
-        <li>  Megabyte: 1,048,576 bytes</li>
+        <h3>Which data sizes are supported by the processor?</h3>
+        <ul>
+            <li> Word: a 2-byte data item</li>
+            <li> Doubleword: a 4-byte (32 bit) data item</li>
+            <li> Quadword: an 8-byte (64 bit) data item</li>
+            <li> Paragraph: a 16-byte (128 bit) area</li>
+            <li> Kilobyte: 1024 bytes</li>
+            <li> Megabyte: 1,048,576 bytes</li>
         </ul>
-  <h3>Binary number system</h3>
+        <h3>Binary number system</h3>
         The base is 2.
 
-  <h3>Hexadecimal number system</h3>
+        <h3>Hexadecimal number system</h3>
         The base is 16.
 
-  <h3>Octal number system</h3>
+        <h3>Octal number system</h3>
         The base is 8.
 
-  <h3>Decimal number system</h3>
+        <h3>Decimal number system</h3>
         The base is 10.
 
-  <h3>What are the steps of an execution cycle of the processor</h3>
-<ul>
-      <li>Fetching the instruction from memory</li>
-      <li>Decoding or identifying the instruction</li>
-      <li>Executing the instruction</li>
-</ul>
+        <h3>What are the steps of an execution cycle of the processor</h3>
+        <ul>
+            <li>Fetching the instruction from memory</li>
+            <li>Decoding or identifying the instruction</li>
+            <li>Executing the instruction</li>
+        </ul>
 
-  <h3>How processor stores and loads the data</h3>
+        <h3>How processor stores and loads the data</h3>
         Storing and loading is done in the reverse-byte sequence
 
-  <h3>Kinds of memory addressing</h3>
-  <ul>
-    <li>Absolute address - a direct reference of specific location.</li>
-    <li>Segment address (or offset) - starting address of a memory segment with the offset value.</li>
-  </ul>
-    <h2>Assembly syntax</h2>
+        <h3>Kinds of memory addressing</h3>
+        <ul>
+            <li>Absolute address - a direct reference of specific location.</li>
+            <li>Segment address (or offset) - starting address of a memory segment with the offset value.</li>
+        </ul>
+        <h2>Assembly syntax</h2>
 
-  <h3>Parts of an assembly program</h3>
-    <ul>
-      <li>data section</li>
-      <li>bss section</li>
-      <li>text section</li>
-    </ul>
-  <h3>Data section</h3>
+        <h3>Parts of an assembly program</h3>
+        <ul>
+            <li>data section</li>
+            <li>bss section</li>
+            <li>text section</li>
+        </ul>
+        <h3>Data section</h3>
         Used for declaring constants - which do not change at the runtime<br>
 
         The start of this sections is declared as: section.data
 
-  <h3>Bss section</h3>
+        <h3>Bss section</h3>
         Used for declaring variables<br>
 
         The start of this sections is declared as: bss.data
 
-  <h3>Text section</h3>
+        <h3>Text section</h3>
         Used for declaring the code.<br>
 
         The start of this sections is declared as:
@@ -186,34 +194,37 @@
 
         <code>_start:</code><br>
 
-  <h3>Comments</h3>
+        <h3>Comments</h3>
         Comments starts with the semicolon (;) character.<br>
 
         One comment cannot be on more lines. Assembly language comments are only one-line.<br>
 
         Comments (;) can start on a new line or after an instruction
 
-  <h3>Types of Assembly Language Statements</h3>
-<ul>
-  <li>Executable instructions or instructions,</li>
-  <li> Assembler directives or pseudo-ops, and</li>
-  <li> Macros.</li>
-</ul>
-        Executable instructions, or simply "instructions," direct the processor's actions. Each one includes an operation code (opcode) and corresponds to a single machine language instruction.
-<br>
-        Assembler directives, or pseudo-ops, provide guidance to the assembler on aspects of the assembly process. They are non-executable and do not produce machine language instructions.
-<br>
+        <h3>Types of Assembly Language Statements</h3>
+        <ul>
+            <li>Executable instructions or instructions,</li>
+            <li> Assembler directives or pseudo-ops, and</li>
+            <li> Macros.</li>
+        </ul>
+        Executable instructions, or simply "instructions," direct the processor's actions. Each one includes an
+        operation code (opcode) and corresponds to a single machine language instruction.
+        <br>
+        Assembler directives, or pseudo-ops, provide guidance to the assembler on aspects of the assembly process. They
+        are non-executable and do not produce machine language instructions.
+        <br>
         Macros act as a mechanism for text substitution.
 
-  <h3>Syntax of Assembly Language Statements</h3>
+        <h3>Syntax of Assembly Language Statements</h3>
         Assembly language statements are entered one statement per line.
-        <code>[label]   mnemonic   [operands]   [;comment]</code>
+        <code>[label] mnemonic [operands] [;comment]</code>
 
-  <h3>Hello World program in the Assembly Language</h3>
+        <h3>Hello World program in the Assembly Language</h3>
 
-        This example shows how to write a simple program in assembly for the x86 architecture that prints "Hello, World!" to the screen using Linux system calls.
+        This example shows how to write a simple program in assembly for the x86 architecture that prints "Hello,
+        World!" to the screen using Linux system calls.
 
-      <pre>
+        <pre>
 section .data
     msg db 'Hello, World!', 0    ; null-terminated string
 
@@ -234,7 +245,7 @@ _start:
     int 0x80                      ; invoke the system call
 </pre>
 
-<h4>Explanation</h4>
+        <h4>Explanation</h4>
         <ol>
             <li><b>Section .data</b>: Defines the data segment, which contains the string "Hello, World!".</li>
 
@@ -247,34 +258,43 @@ _start:
  - '''ecx = msg''': Points to the memory address of the message string.
  - '''edx = 13''': Specifies the length of the string.</pre>
             </li>
-      <li>The program exits with a status of 0 ('''xor ebx, ebx''' clears the register).</li>
+            <li>The program exits with a status of 0 ('''xor ebx, ebx''' clears the register).</li>
         </ol>
-<h4>Compilation and Execution</h4>
-      To assemble and run this code on a Linux system, follow these steps:
-      <ol><li>Save the code in a file (e.g., '''hello.asm''' or any name you prefer).</li>
-      <li>Assemble and link it:
-      <pre>
+        <h4>Compilation and Execution</h4>
+        To assemble and run this code on a Linux system, follow these steps:
+        <ol>
+            <li>Save the code in a file (e.g., '''hello.asm''' or any name you prefer).</li>
+            <li>Assemble and link it:
+                <pre>
 nasm -f elf32 hello.asm -o hello.o
-ld -m elf_i386 -s -o hello hello.o</pre></li>
-      <li>Run the resulting executable:
-          <pre>./hello</pre></li></ol>
+ld -m elf_i386 -s -o hello hello.o</pre>
+            </li>
+            <li>Run the resulting executable:
+                <pre>./hello</pre>
+            </li>
+        </ol>
 
-      This program will print "Hello, World!" to the screen.
+        This program will print "Hello, World!" to the screen.
 
-<h3>What are i586 registers</h3>
-      See: <a href="Page_Does_Not_Yet_Exist/index.html">I586 registers</a>
+        <h3>What are i586 registers</h3>
+        See: <a href="Page_Does_Not_Yet_Exist/index.html">I586 registers</a>
 
-  <h2>External links</h2>
+        <h2>External links</h2>
         <ul>
-      <li><a href="https://www.tutorialspoint.com/assembly_programming/index.htm">https://www.tutorialspoint.com/assembly_programming/index.htm</a></li>
+            <li><a href="https://www.tutorialspoint.com/assembly_programming/index.htm">https://www.tutorialspoint.com/assembly_programming/index.htm</a>
+            </li>
         </ul>
 
-      <ul id="tags"><li>X86</li></ul>
+        <ul id="tags">
+            <li>X86</li>
+        </ul>
     </section>
-  </main>
+</main>
 
 <footer>
-  <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless otherwise noted.</p>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
 </footer>
 </body>
 </html>

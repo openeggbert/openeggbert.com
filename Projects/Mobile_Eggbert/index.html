@@ -1,111 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Open Eggbert - Mobile Eggbert</title>
-  <meta name="description" content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos." />
-  <meta name="keywords" content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA" />
-  <meta name="author" content="Robert Vokáč">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Mobile Eggbert</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
 
-  <base href="../.." target="_self">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
-  <script type="text/javascript" src="script.js"></script>
+    <base href="../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
 </head>
- <body onload="loadContent()">
-  <header>
+<body onload="loadContent()">
+<header>
     <div id="main_banner">Open Eggbert</div>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About/index.html">About</a></li>
-        <li><a href="Blupi/index.html">Blupi</a></li>
-        <li><a href="Projects/index.html">Projects</a></li>
-        <li><a href="Technologies/index.html">Technologies</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
     </nav>
 
-  </header>
+</header>
 
-  <!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-  <div id="breadcrumb_hierarchy_panel">
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
     <div id="breadcrumb">
-      <a href="Projects/index.html">Projects</a> /
-      <span id="panel_current">Mobile Eggbert</span>
+        <a href="Projects/index.html">Projects</a> /
+        <span id="panel_current">Mobile Eggbert</span>
     </div>
     <div id="hierarchy_panel">
-      <a href="Projects/index.html">Go Up</a>
-<!--      <a href="Technologies/Other/Asm.js/index.html">Asm.js</a>-->
-<!--      <a href="Technologies/Other/Emscripten/index.html">Emscripten</a>-->
-<!--      <a href="Technologies/Other/WebAssembly/index.html">WebAssembly</a>-->
-<!--      <a href="Technologies/Other/Microsoft/index.html">Microsoft</a>-->
+        <a href="Projects/index.html">Go Up</a>
+        <!--      <a href="Technologies/Other/Asm.js/index.html">Asm.js</a>-->
+        <!--      <a href="Technologies/Other/Emscripten/index.html">Emscripten</a>-->
+        <!--      <a href="Technologies/Other/WebAssembly/index.html">WebAssembly</a>-->
+        <!--      <a href="Technologies/Other/Microsoft/index.html">Microsoft</a>-->
     </div>
-  </div>
-  
-  
-  <main>
-    <section>
-      <h1>Mobile Eggbert</h1>
-      <div id="tocButton"></div><div id="toc"></div>
+</div>
 
-<style>
-     table a {
-    max-width: 200px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    display: inline-block;
-}
-</style>
+
+<main>
+    <section>
+        <h1>Mobile Eggbert</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+        <style>
+            table a {
+           max-width: 200px;
+           overflow: hidden;
+           white-space: nowrap;
+           text-overflow: ellipsis;
+           display: inline-block;
+       }
+        </style>
         <table class="infobox">
             <tr>
                 <th colspan="2">Mobile Eggbert</th>
             </tr>
-            <tr><th>Release date (C#)</th><td>25th November 2024</td></tr>
-            <tr><th>Release date (C++)</th><td>Not yet</td></tr>
-            <tr><th>Github (C++)</th><td><a href="https://github.com/openeggbert/mobile-eggbert" target="_blank">https://github.com/openeggbert/mobile-eggbert</a></td></tr>
-            <tr><th>Github (C# Core)</th><td><a href="https://github.com/openeggbert/mobile-eggbert-core" target="_blank">https://github.com/openeggbert/mobile-eggbert-core</a></td></tr>
-            <tr><th>Github (C# MonoGame Android)</th><td><a href="https://github.com/openeggbert/mobile-eggbert-monogame-android" target="_blank">https://github.com/openeggbert/mobile-eggbert-monogame-android</a></td></tr>
-            <tr><th>Github (C# MonoGame Desktop)</th><td><a href="https://github.com/openeggbert/mobile-eggbert-monogame-desktop" target="_blank">https://github.com/openeggbert/mobile-eggbert-monogame-desktop</a></td></tr>
-            <tr><th>Github (C# FNA Desktop)</th><td><a href="https://github.com/openeggbert/mobile-eggbert-fna-desktop" target="_blank">https://github.com/openeggbert/mobile-eggbert-fna-desktop</a></td></tr>
-            <tr><th>Github (C# KNI Web)</th><td><a href="https://github.com/openeggbert/mobile-eggbert-kni-web" target="_blank">https://github.com/openeggbert/mobile-eggbert-kni-web</a></td></tr>
-            <tr><th>Programming languages</th><td><a href="aaa" target="_blank">C#, C++</a></td></tr>
-            <tr><th>Game frameworks</th><td>MonoGame, FNA, KNI, CNA, XNA 4.0, SDL 3</td></tr>
+            <tr>
+                <th>Release date (C#)</th>
+                <td>25th November 2024</td>
+            </tr>
+            <tr>
+                <th>Release date (C++)</th>
+                <td>Not yet</td>
+            </tr>
+            <tr>
+                <th>Github (C++)</th>
+                <td><a href="https://github.com/openeggbert/mobile-eggbert" target="_blank">https://github.com/openeggbert/mobile-eggbert</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Github (C# Core)</th>
+                <td><a href="https://github.com/openeggbert/mobile-eggbert-core" target="_blank">https://github.com/openeggbert/mobile-eggbert-core</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Github (C# MonoGame Android)</th>
+                <td><a href="https://github.com/openeggbert/mobile-eggbert-monogame-android" target="_blank">https://github.com/openeggbert/mobile-eggbert-monogame-android</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Github (C# MonoGame Desktop)</th>
+                <td><a href="https://github.com/openeggbert/mobile-eggbert-monogame-desktop" target="_blank">https://github.com/openeggbert/mobile-eggbert-monogame-desktop</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Github (C# FNA Desktop)</th>
+                <td><a href="https://github.com/openeggbert/mobile-eggbert-fna-desktop" target="_blank">https://github.com/openeggbert/mobile-eggbert-fna-desktop</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Github (C# KNI Web)</th>
+                <td><a href="https://github.com/openeggbert/mobile-eggbert-kni-web" target="_blank">https://github.com/openeggbert/mobile-eggbert-kni-web</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Programming languages</th>
+                <td><a href="aaa" target="_blank">C#, C++</a></td>
+            </tr>
+            <tr>
+                <th>Game frameworks</th>
+                <td>MonoGame, FNA, KNI, CNA, XNA 4.0, SDL 3</td>
+            </tr>
         </table>
 
 
-
-
-        Mobile Eggbert is a <a href="Page_Does_Not_Yet_Exist/index.html">2D</a> <a href="Page_Does_Not_Yet_Exist/index.html">platformer</a> <a href="Page_Does_Not_Yet_Exist/index.html">game</a> based on <a href="Page_Does_Not_Yet_Exist/index.html">Speedy Blupi for Windows Phone</a>.
-<br>
-        The <a href="Page_Does_Not_Yet_Exist/index.html">ILSpy</a> decompiler was used to get back the <a href="Page_Does_Not_Yet_Exist/index.html">C Sharp|C#</a> <a href="Page_Does_Not_Yet_Exist/index.html">source code</a> of <a href="Page_Does_Not_Yet_Exist/index.html">Speedy Blupi for Windows Phone</a>. The decompiled source code is not the same, as the original was. Comments and names of local variables are lost.
+        Mobile Eggbert is a <a href="Page_Does_Not_Yet_Exist/index.html">2D</a> <a
+            href="Page_Does_Not_Yet_Exist/index.html">platformer</a> <a
+            href="Page_Does_Not_Yet_Exist/index.html">game</a> based on <a href="Page_Does_Not_Yet_Exist/index.html">Speedy
+        Blupi for Windows Phone</a>.
         <br>
-        The discontinued <a href="Page_Does_Not_Yet_Exist/index.html">XNA</a> 4 game framework is replaced by <a href="Page_Does_Not_Yet_Exist/index.html">MonoGame</a> game framework. MonoGame is almost a <a href="Page_Does_Not_Yet_Exist/index.html">drop-in replacement</a> for the XNA. There are several implementations of XNA 4.0 game framework (like <a href="Page_Does_Not_Yet_Exist/index.html">FNA</a> or others).
+        The <a href="Page_Does_Not_Yet_Exist/index.html">ILSpy</a> decompiler was used to get back the <a
+            href="Page_Does_Not_Yet_Exist/index.html">C Sharp|C#</a> <a href="Page_Does_Not_Yet_Exist/index.html">source
+        code</a> of <a href="Page_Does_Not_Yet_Exist/index.html">Speedy Blupi for Windows Phone</a>. The decompiled
+        source code is not the same, as the original was. Comments and names of local variables are lost.
+        <br>
+        The discontinued <a href="Page_Does_Not_Yet_Exist/index.html">XNA</a> 4 game framework is replaced by <a
+            href="Page_Does_Not_Yet_Exist/index.html">MonoGame</a> game framework. MonoGame is almost a <a
+            href="Page_Does_Not_Yet_Exist/index.html">drop-in replacement</a> for the XNA. There are several
+        implementations of XNA 4.0 game framework (like <a href="Page_Does_Not_Yet_Exist/index.html">FNA</a> or others).
         <br>
         See also: <a href="Page_Does_Not_Yet_Exist/index.html">Alternative implementations of XNA</a>
         <br>
         Work on Mobile Eggbert started on 23rd November 2024.
         <br>
-        Already on 23rd November 2024 the game was successfully decompiled and made runnable without any errors on desktop (Windows and Linux). The support for mouse and keyboard was added.
+        Already on 23rd November 2024 the game was successfully decompiled and made runnable without any errors on
+        desktop (Windows and Linux). The support for mouse and keyboard was added.
         <br>
-        On 25th November Mobile Eggbert was released for Windows and Linux: <a href="https://drive.openeggbert.com/Mobile_Eggbert/">https://drive.openeggbert.com/Mobile_Eggbert/</a>
-        <ul><li>It works without any issues.</li></ul>
+        On 25th November Mobile Eggbert was released for Windows and Linux: <a
+            href="https://drive.openeggbert.com/Mobile_Eggbert/">https://drive.openeggbert.com/Mobile_Eggbert/</a>
+        <ul>
+            <li>It works without any issues.</li>
+        </ul>
 
-<h2>Why Mobile Eggbert was created</h2>
+        <h2>Why Mobile Eggbert was created</h2>
         Mobile Eggbert was started, because:
-<ol>
-        <li> <a href="Page_Does_Not_Yet_Exist/index.html">Windows Phone</a> is a discontinued closed-source proprietary mobile <a href="Page_Does_Not_Yet_Exist/index.html">operating system</a> (developed by <a href="Page_Does_Not_Yet_Exist/index.html">Microsoft</a> company for <a href="Page_Does_Not_Yet_Exist/index.html">smart phones</a>).</li>
-        <li> Devices with Windows Phones are no more produced. Windows Phone operating system cannot be installed on other modern devices.</li>
-        <li> Without physical device with Windows Phone installed the emulator is the only way to run Speedy Blupi (2013) nowdays. But the emulator probably will not work in the future, as it is a closed-source proprietary technology.</li>
-        <li> Because the source code of Speedy Blupi (2013) is not available, it is not possible to make improvements or bug fixes.</li>
-</ol>
-<h2>Current status</h2>
+        <ol>
+            <li><a href="Page_Does_Not_Yet_Exist/index.html">Windows Phone</a> is a discontinued closed-source
+                proprietary mobile <a href="Page_Does_Not_Yet_Exist/index.html">operating system</a> (developed by <a
+                        href="Page_Does_Not_Yet_Exist/index.html">Microsoft</a> company for <a
+                        href="Page_Does_Not_Yet_Exist/index.html">smart phones</a>).
+            </li>
+            <li> Devices with Windows Phones are no more produced. Windows Phone operating system cannot be installed on
+                other modern devices.
+            </li>
+            <li> Without physical device with Windows Phone installed the emulator is the only way to run Speedy Blupi
+                (2013) nowdays. But the emulator probably will not work in the future, as it is a closed-source
+                proprietary technology.
+            </li>
+            <li> Because the source code of Speedy Blupi (2013) is not available, it is not possible to make
+                improvements or bug fixes.
+            </li>
+        </ol>
+        <h2>Current status</h2>
         Mobile Eggbert works on Windows and Linux.
-<br>
-        Mobile Eggbert starts on Android, but it is buggy: scaling is wrong, touch controls are not working correctly, worlds are not loading.
+        <br>
+        Mobile Eggbert starts on Android, but it is buggy: scaling is wrong, touch controls are not working correctly,
+        worlds are not loading.
 
-<h2>Issues and the future</h2>
+        <h2>Issues and the future</h2>
         Mobile Eggbert is buggy on Android and must be fixed.
         <br>
         Accelerometer support is not yet available. It will be added for the Android platform.
@@ -118,42 +180,61 @@
         <br>
         Porting to FNA or an alternative XNA 4.0 is planned to be done.
         <br>
-        If the C# version will be kept, then there will be probably 3 modules: mobile-eggbert-core, mobile-eggbert-desktop and mobile-eggbert-android.
+        If the C# version will be kept, then there will be probably 3 modules: mobile-eggbert-core,
+        mobile-eggbert-desktop and mobile-eggbert-android.
         <br>
         Mobile Eggbert is being just rewritten to C++. MonoGame is replaced by CNA.
 
-<h2>Reasons to Rewrite Mobile Eggbert in C++ and CNA</h2>
+        <h2>Reasons to Rewrite Mobile Eggbert in C++ and CNA</h2>
         <ul>
 
-        <li> <b>Performance Gains</b> – C++ allows for more efficient memory management and CPU usage, improving the game's responsiveness.</li>
-        <li> <b>Direct Hardware Access</b> – CNA (built on SDL 3) provides direct access to graphics, input, and sound hardware, leading to better optimization.</li>
-        <li> <b>Cross-Platform Compatibility</b> – SDL-based frameworks ensure support across Windows, Linux, and macOS without relying on .NET.</li>
-        <li> <b>Future-Proofing</b> – XNA has been deprecated, and MonoGame is tied to .NET, which evolves frequently. C++ offers long-term stability.</li>
-        <li> <b>Console Support</b> – SDL-based frameworks are commonly used for developing console games.</li>
-        <li> <b>Better Dependency Management</b> – C++ eliminates .NET version dependency issues encountered with MonoGame.</li>
+            <li><b>Performance Gains</b> – C++ allows for more efficient memory management and CPU usage, improving the
+                game's responsiveness.
+            </li>
+            <li><b>Direct Hardware Access</b> – CNA (built on SDL 3) provides direct access to graphics, input, and
+                sound hardware, leading to better optimization.
+            </li>
+            <li><b>Cross-Platform Compatibility</b> – SDL-based frameworks ensure support across Windows, Linux, and
+                macOS without relying on .NET.
+            </li>
+            <li><b>Future-Proofing</b> – XNA has been deprecated, and MonoGame is tied to .NET, which evolves
+                frequently. C++ offers long-term stability.
+            </li>
+            <li><b>Console Support</b> – SDL-based frameworks are commonly used for developing console games.</li>
+            <li><b>Better Dependency Management</b> – C++ eliminates .NET version dependency issues encountered with
+                MonoGame.
+            </li>
         </ul>
-<h2>Reasons not to Rewrite Mobile Eggbert in C++ and CNA</h2>
+        <h2>Reasons not to Rewrite Mobile Eggbert in C++ and CNA</h2>
         <ul>
-        <li> <b>Development Complexity</b> – C++ requires manual memory management and has a steeper learning curve compared to C#.</li>
-        <li> <b>Less Built-in Features</b> – CNA may require more custom coding for engine components that MonoGame provides natively.</li>
-        <li> <b>Longer Development Time</b> – Transitioning to C++ might take longer due to lower-level coding requirements.</li>
+            <li><b>Development Complexity</b> – C++ requires manual memory management and has a steeper learning curve
+                compared to C#.
+            </li>
+            <li><b>Less Built-in Features</b> – CNA may require more custom coding for engine components that MonoGame
+                provides natively.
+            </li>
+            <li><b>Longer Development Time</b> – Transitioning to C++ might take longer due to lower-level coding
+                requirements.
+            </li>
         </ul>
-<h2>External links</h2>
+        <h2>External links</h2>
         <ul>
-        <li><a href="https://docs.monogame.net/articles/getting_started/index.html">https://docs.monogame.net/articles/getting_started/index.html</a></li>
+            <li><a href="https://docs.monogame.net/articles/getting_started/index.html">https://docs.monogame.net/articles/getting_started/index.html</a>
+            </li>
 
-        <li><a href="https://www.codeproject.com/Articles/754354/Port-a-2D-libgdx-game-to-MonoGame">https://www.codeproject.com/Articles/754354/Port-a-2D-libgdx-game-to-MonoGame</a></li>
+            <li><a href="https://www.codeproject.com/Articles/754354/Port-a-2D-libgdx-game-to-MonoGame">https://www.codeproject.com/Articles/754354/Port-a-2D-libgdx-game-to-MonoGame</a>
+            </li>
 
         </ul>
 
 
-
-      
     </section>
-  </main>
+</main>
 
 <footer>
-  <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless otherwise noted.</p>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
 </footer>
 </body>
 </html>
