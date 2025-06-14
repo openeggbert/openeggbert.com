@@ -5,6 +5,7 @@
 ```
 
 ## Example
+
 ```
 TITLE
 <title>AAA</title>
@@ -32,7 +33,6 @@ BASE
 <!--      <a href="Blupi/Other/index.html">Other</a>-->
     </div>
   </div>
-  
   
 <h1>AAA</h1>
 ```

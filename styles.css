@@ -227,6 +227,8 @@ table, th, td {
 }
 table {
    border-collapse: collapse;
+   display: block;
+     overflow-x: auto;
    }
 th {
   color: var(--dark-yellow-color);
