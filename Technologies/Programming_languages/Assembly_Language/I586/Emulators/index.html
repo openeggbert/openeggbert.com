@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Emulators</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="Technologies/index.html">Technologies</a> /
+        <a href="Technologies/Programming_languages/index.html">Programming languages</a> /
+        <a href="Technologies/Programming_languages/Assembly_Language/index.html">Assembly Language</a> /
+        <a href="Technologies/Programming_languages/Assembly_Language/I586/index.html">I586</a> /
+        <span id="panel_current">Emulators</span>
+    </div>
+    <div id="hierarchy_panel">
+
+        <a href="Technologies/Programming_languages/Assembly_Language/I586/index.html">Go Up</a>
+        <!--        <a href="Technologies/Programming_languages/Assembly_Language/I586/Emulator/index.html">Emulators</a>-->
+        <!--      <a href="Technologies/Programming_languages/index.html">Programming languages</a>-->
+        <!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
+        <!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
+        <!--      <a href="Technologies/Other/index.html">Other</a>-->
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>Emulators</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+        <h2>Choosing a tool</h2>
+        For pure Pentium 100 emulation, where you need to faithfully emulate the behavior of the older processor at the clock cycle level, Bochs or PCem will be best. For running applications that do not require timing accuracy but just functional compatibility, QEMU or even DOSBox may be suitable.
+
+<h2>Speedy Blupi </h2>
+        The Pentium 100 emulation should be sufficient for the 1998 game Speedy Blupi, which requires DirectX 3 and C++ 98, as long as the emulator can provide sufficient speed and compatibility with the Pentium instruction set and also supports DirectX 3.
+<br>
+        To run this game in an emulated environment, consider the following options:
+        <br>
+        PCem - This emulator is very accurate at emulating older processors including the Pentium and has good support for older graphics and sound cards. This makes it suitable for games that require specific versions of DirectX, such as DirectX 3.
+        <br>
+        QEMU - It can also be used if emulation of specific hardware is not required. However, DirectX 3 support may be limited, as QEMU focuses on basic functional emulation rather than the details of late 1990s graphical interfaces.
+        <br>
+        VirtualBox with Windows 98 - If you prefer virtualization, it is possible to create a virtual machine with Windows 98 on which you can install DirectX 3 and run the game directly. VirtualBox will not emulate the Pentium 100 exactly, but it will generally offer sufficient performance and compatibility for older games.
+        <br>
+        When it comes to DirectX 3, it is important to have sufficient graphics output support in the emulator or virtual machine so that the game runs smoothly and without visual issues.
+
+
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
