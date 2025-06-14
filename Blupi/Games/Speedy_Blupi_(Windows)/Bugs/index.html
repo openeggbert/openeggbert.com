@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Bugs</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<style>
+    th {text-align: left;}
+</style>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="Blupi/index.html">Blupi</a> /
+        <a href="Blupi/Games/index.html">Games</a> /
+        <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Windows)</a> /
+        <span id="panel_current"><a href="Blupi/Games/Speedy_Blupi_(Windows)/Bugs/index.html">Bugs</a></span>
+
+
+    </div>
+    <div id="hierarchy_panel">
+        <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Go Up</a>
+        <!--      <a href="Blupi/Programming_languages/index.html">Programming languages</a>-->
+        <!--      <a href="Blupi/Platforms/index.html">Platforms</a>-->
+        <!--      <a href="Blupi/Libraries/index.html">Libraries</a>-->
+        <!--      <a href="Blupi/Other/index.html">Other</a>-->
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>Bugs</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+
+        A glitch is an unintentional mistake caused by some type of malfunction.
+        <br>
+        A bug is a noticeable flaw in the software that can be consistently reproduced.
+        <br>
+        Lag refers to a delay in the transmission of information.
+
+        <h2> More players play a single player missions together </h2>
+        <strong>How to reproduce:</strong>
+        <ol>
+            <li>Player 1 saves the game during a multiplayer game by pressing F3 and loads with F4</li>
+            <li>Players 2, 3 and 4 do the same (Players 1, 2, 3 and 4 have to save and load the same level)</li>
+            <li>Players 1, 2, 3 and 4 can play a single player missions together. Goal and chests will be still in the
+                single player level.
+            </li>
+        </ol>
+        Since players don't share items, most levels become impossible to complete.
+
+        <h2> Entity animation overflow glitch </h2>
+        The <strong>animation overflow glitch</strong> is affecting all known versions of Speedy Blupi/Eggbert I/II/1/2.
+        <a href="https://speedy-blupi.fandom.com/wiki/Animation_overflow_glitch">https://speedy-blupi.fandom.com/wiki/Animation_overflow_glitch</a>
+
+        <ul>
+            <li>The severity of the impact varies across the versions.</li>
+        </ul>
+
+        In Speedy Blupi I this glitch causes graphical corruption on many entities.
+
+        <ul>
+            <li> This glitch was almost entirely fixed in Speedy Blupi II</li>
+        </ul>
+
+        This glitch happens when a level is played for an extended period of time.
+
+        <h3> How to reproduce </h3>
+        Dynamic entities have an animation counter, this counter uses 16-bit signed integer.
+
+        <ul>
+            <li> 16-bit signed integer has range of -32768 through +32767.</li>
+        </ul>
+
+        Many of these counters start at 0 and increment every frame.
+
+        <ul>
+            <li> This means, that after passing 32768 frames an integer overflow happens</li>
+        </ul>
+
+        The default count of frames per second is 20, in this case it takes 27 minutes and 18.4 seconds of in-game time
+        to reach overflow, or 13 minutes and 39.2 seconds when in double speed mode.
+
+        <ul>
+            <li> When this overflow happens, then the animation counter gains a negative value (-32768).</li>
+        </ul>
+
+        This bug was mostly resolved in the sequel.
+
+        <h3> Fix </h3>
+        This glitch was mostly fixed in Speedy Blupi 2.
+        <ul>
+            <li>When the animation counters surpasses 32700, then the animation counter is set to 0.</li>
+            <li> This causes a noticeable "stutter". Reason: entities suddenly jump back to their first frame of
+                animation. However, this is only an one-time issue and not a lasting effect. This glitch is much less
+                severe in Speedy Blupi 2.
+            </li>
+        </ul>
+        <h3> Example </h3>
+        <strong>An example of the bug in Rocks 5 (Speedy Blupi):</strong>
+        <br>
+        <img src="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Bugs/SB1_Rocks_5_animation_overflow_bug.png">
+
+        <h2> Blupi animation overflow glitch </h2>
+        This glitch is similar to "Entity animation overflow glitch".
+        <br>
+        This glitch impacts Blupi's animations.
+        <br>
+        Blupi's animation counter relies on a 32-bit signed integer, which ranges from -2,147,483,648 to +2,147,483,647.
+        <br>
+        Running at 20 frames per second, the counter takes about 3.4 years to overflow (or 1.7 years in double speed
+        mode) if there is no player input during that period.
+
+        <h2> Color bug </h2>
+        Both versions 1 and 2 are impacted.
+
+        <strong>How to reproduce:</strong>
+        <ol>
+            <li>Player plays as a Blupi other than yellow in multiplayer mode</li>
+            <li>Player returns to a single player level without closing the game</li>
+        </ol>
+        <strong>Effects:</strong>
+        <ol>
+
+            <li>The color of player's personal bomb will still the same, as was the selected Blupi color in the
+                multiplayer
+            </li>
+            <li>The yellow bombs will explode, player can still collect the color bomb of color used in the
+                multiplayer
+            </li>
+        </ol>
+        <h2> Invisible block immunity </h2>
+        Both the homing bombs and Blupi riding helicopter or hovercraft are affected by this bug.
+        <br>
+        The impact is, that Blupi or homing bombs can travel through invisible blocks (like there would be no invisible
+        block)
+
+        <h2> Fake walls </h2>
+        This is a glitch. Create a moving platform, but do not define the second position.
+        Then such wall will be visually the same as the other walls, but Blupi/Eggbert can walk through.
+        This can be used to create secret walls. <a href="Page_Does_Not_Yet_Exist/index.html">Level editor</a>
+
+        <h2> Items and objects like moving platforms </h2>
+        Items (elements) and objects can act like moving platforms, even this was not intended by the developer of the
+        game.
+
+        <h2> Some inanimated objects can become animated </h2>
+
+        <h2> Combining elements to create new, unintended types of obstacles </h2>
+        For example:
+        <ul>
+            <li>Lollipop power-up: makes player run faster and jump higher</li>
+            <li>Wind: makes one-way corridors.</li>
+        </ul>
+        <strong>Effect:</strong> The speed boost provided by the lollipops let the player push through the wind.
+
+
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
