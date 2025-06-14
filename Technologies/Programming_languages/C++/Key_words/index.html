@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Key words</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="Technologies/index.html">Technologies</a> /
+        <a href="Technologies/Programming_languages/index.html">Programming languages</a> /
+        <a href="Technologies/Programming_languages/C++/index.html">C++</a> /
+
+        <span id="panel_current">Key words</span>
+    </div>
+    <div id="hierarchy_panel">
+        <a href="Technologies/Programming_languages/C++/index.html">Go Up</a>
+        <!--      <a href="Technologies/Programming_languages/index.html">Programming languages</a>-->
+        <!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
+        <!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
+        <!--      <a href="Technologies/Other/index.html">Other</a>-->
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>Key words</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+
+
+
+
+        <h2>Understanding Keywords in C++</h2>
+        <p>
+            Keywords are reserved words in C++ that have a predefined meaning in the language. These words cannot be used as identifiers (like variable names, function names, or class names) because they serve a special purpose within the language’s syntax. C++ is a rich, complex language, and its keywords define the core structure of the language, such as data types, control structures, and object-oriented programming concepts.
+        </p>
+        <p>
+            In this article, we’ll explore the most important C++ keywords, breaking them down into categories for clarity.
+        </p>
+
+        <h2>Complete List of C++ Keywords</h2>
+        <p>
+            The following is a complete list of reserved keywords in the C++ language. These keywords were introduced in C++ and are currently part of the language's syntax. They cannot be used as identifiers (variable names, function names, etc.).
+        </p>
+        <p>
+            The keywords are divided into groups based on the C++ version in which they were introduced:
+        </p>
+        <ul>
+            <li><strong>C++98</strong> (and earlier) contains the keywords available from the beginning.</li>
+            <li><strong>C++11</strong> introduces a significant number of new keywords.</li>
+            <li><strong>C++14</strong> and <strong>C++17</strong> do not introduce any new keywords.</li>
+            <li><strong>C++20</strong> introduces a few new keywords for concepts and coroutines.</li>
+        </ul>
+
+        <h3>Keywords in C++98 (and earlier)</h3>
+        <p>
+            and, and_eq, asm, auto, bitand, bitor, break, case, catch, char, class, compl, const, const_cast, continue, decltype, default, delete, do, double, dynamic_cast, else, enum, explicit, export, extern, false, float, for, friend, goto, if, inline, int, long, mutable, namespace, new, not, not_eq, operator, or, or_eq, private, protected, public, register, reinterpret_cast, return, short, signed, sizeof, static, static_cast, struct, switch, template, this, throw, true, try, typedef, typeid, typename, union, unsigned, using, virtual, void, volatile, wchar_t, while, xor, xor_eq
+        </p>
+
+        <h3>Keywords in C++11</h3>
+        <p>
+            alignas, alignof, auto, constexpr, decltype, delete, nullptr, noexcept, static_assert, thread_local
+        </p>
+
+        <h3>Keywords in C++14</h3>
+        <p>No new keywords were introduced in C++14.</p>
+
+        <h3>Keywords in C++17</h3>
+        <p>No new keywords were introduced in C++17.</p>
+
+        <h3>Keywords in C++20</h3>
+        <p>
+            concept, co_await, co_return, co_yield, requires
+        </p>
+
+        <h3>Keywords Introduced in C++23</h3>
+        <ul>
+            <li><strong>import</strong>: Used to include modules, facilitating better modularity and faster compilation times.</li>
+            <li><strong>module</strong>: Defines a module, a collection of code and data that can be imported by other parts of a program.</li>
+            <li><strong>pre</strong> (anticipated): Expected to be introduced in C++26, likely related to preconditions or similar concepts.</li>
+            <li><strong>post</strong> (anticipated): Also expected in C++26, likely pertaining to postconditions or related features.</li>
+            <li><strong>trivially_relocatable_if_eligible</strong> (anticipated): A proposed keyword for C++26, potentially indicating trivially relocatable types under certain conditions.</li>
+        </ul>
+
+        <h3>Keywords Introduced in C++26 (Anticipated)</h3>
+        <ul>
+            <li><strong>hazard_pointer</strong> (anticipated): A proposed feature for lock-free concurrent programming, allowing threads to safely access shared objects.</li>
+            <li><strong>rcu</strong> (anticipated): User-space Read-Copy-Update, a synchronization mechanism aimed at improving performance in multithreaded applications.</li>
+        </ul>
+
+        <h2>1. Control Flow Keywords</h2>
+        <p>
+            Control flow keywords help manage the execution flow of programs. These keywords determine how loops, conditionals, and function execution are handled in C++ programs.
+        </p>
+
+        <h3>if</h3>
+        <p>Used to make decisions based on conditions.</p>
+        <pre><code>if (x > 0) {
+    // do something
+}
+</code></pre>
+
+        <h3>else</h3>
+        <pre><code>if (x > 0) {
+    // do something
+} else {
+    // do something else
+}
+</code></pre>
+
+        <h3>switch, case, default</h3>
+        <pre><code>switch (x) {
+    case 1:
+        // do something
+        break;
+    case 2:
+        // do something else
+        break;
+    default:
+        // default case
+        break;
+}
+</code></pre>
+
+        <h3>for, while, do</h3>
+        <h4>for</h4>
+        <pre><code>for (int i = 0; i &lt; 10; ++i) {
+    // loop body
+}
+</code></pre>
+
+        <h4>while</h4>
+        <pre><code>while (x &lt; 10) {
+    // loop body
+}
+</code></pre>
+
+        <h4>do</h4>
+        <pre><code>do {
+    // loop body
+} while (x &lt; 10);
+</code></pre>
+
+        <h3>break</h3>
+        <pre><code>while (true) {
+    if (x == 5) {
+        break; // exit the loop
+    }
+}
+</code></pre>
+
+        <h3>continue</h3>
+        <pre><code>for (int i = 0; i &lt; 10; ++i) {
+    if (i == 5) {
+        continue; // skip the rest of the loop when i is 5
+    }
+}
+</code></pre>
+
+        <h2>2. Data Type Keywords</h2>
+
+        <h3>int</h3>
+        <pre><code>int x = 5;
+</code></pre>
+
+        <h3>char</h3>
+        <pre><code>char c = 'A';
+</code></pre>
+
+        <h3>float, double</h3>
+        <pre><code>float f = 3.14f;
+double d = 3.14159;
+</code></pre>
+
+        <h3>bool</h3>
+        <pre><code>bool flag = true;
+</code></pre>
+
+        <h3>void</h3>
+        <pre><code>void function() {
+    // no return value
+}
+</code></pre>
+
+        <h2>3. Storage Class Keywords</h2>
+
+        <h3>static</h3>
+        <pre><code>static int count = 0;
+</code></pre>
+
+        <h3>extern</h3>
+        <pre><code>extern int count;
+</code></pre>
+
+        <h3>register</h3>
+        <pre><code>register int count;
+</code></pre>
+
+        <h3>mutable</h3>
+        <pre><code>class MyClass {
+public:
+    mutable int x;
+};
+</code></pre>
+
+        <h2>4. Object-Oriented Programming Keywords</h2>
+
+        <h3>class</h3>
+        <pre><code>class MyClass {
+public:
+    int x;
+    void display() {
+        std::cout << x << std::endl;
+    }
+};
+</code></pre>
+
+        <h3>struct</h3>
+        <pre><code>struct MyStruct {
+    int x;
+};
+</code></pre>
+
+        <h3>public, private, protected</h3>
+        <pre><code>class MyClass {
+private:
+    int x;
+public:
+    void setX(int val) {
+        x = val;
+    }
+};
+</code></pre>
+
+        <h3>virtual</h3>
+        <pre><code>virtual void display();
+</code></pre>
+
+        <h3>override</h3>
+        <pre><code>void display() override;
+</code></pre>
+
+        <h3>new, delete</h3>
+        <pre><code>int* p = new int(5);
+delete p;
+</code></pre>
+
+        <h3>this</h3>
+        <pre><code>class MyClass {
+public:
+    void print() {
+        std::cout << this << std::endl;
+    }
+};
+</code></pre>
+
+        <h3>friend</h3>
+        <pre><code>class MyClass {
+private:
+    int x;
+public:
+    friend void show(MyClass&);
+};
+</code></pre>
+
+        <h2>5. Other Keywords</h2>
+
+        <h3>return</h3>
+        <pre><code>return 5;
+</code></pre>
+
+        <h3>const</h3>
+        <pre><code>const int x = 10;
+</code></pre>
+
+        <h3>sizeof</h3>
+        <pre><code>std::cout << sizeof(int);
+</code></pre>
+
+        <h3>typeid</h3>
+        <pre><code>typeid(x).name();
+</code></pre>
+
+        <h3>namespace</h3>
+        <pre><code>namespace MyNamespace {
+    int x = 5;
+}
+</code></pre>
+
+        <h3>template</h3>
+        <pre><code>template &lt;typename T&gt;
+T add(T a, T b) {
+    return a + b;
+}
+</code></pre>
+
+        <h2>Conclusion</h2>
+        <p>
+            C++ keywords form the foundation of the language’s syntax and control structures. Understanding these keywords is essential for writing correct and efficient C++ programs. From managing control flow to defining data types and implementing object-oriented principles, the variety of keywords enables a flexible and powerful programming environment. As you continue learning and practicing C++, you’ll encounter more advanced uses of these keywords, including templates, lambda functions, and type inference.
+        </p>
+
+
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
