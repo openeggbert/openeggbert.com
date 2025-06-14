@@ -57,124 +57,115 @@
         <div id="tocButton"></div>
         <div id="toc"></div>
 
-
-        <blockquote>
-            "The correct title of this article is <strong>C#</strong>. The substitution of the # is due to technical restrictions."
+        <blockquote><strong>Note:</strong> The correct title of this article is <strong>C#</strong>. The substitution of
+            the <code>#</code> symbol is due to technical limitations.
         </blockquote>
-
-        <h2>What is C#</h2>
+        <h2>What is C#?</h2>
+        <p><strong>C#</strong> (pronounced "C-sharp") is a modern, general-purpose, high-level programming language
+            developed by Microsoft. It supports multiple programming paradigms, including object-oriented, functional,
+            and component-oriented programming. </p>
         <ul>
-            <li>General-purpose high-level programming language supporting multiple paradigms.</li>
-            <li>Very similar to Java programming language.</li>
-            <li>Invented by Anders Hejlsberg, Scott Wiltamuth, and Peter Golde from Microsoft.</li>
-            <li>First distributed in 2000.</li>
-            <li>Official documentation:
-                <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">learn.microsoft.com</a>
+            <li>Designed for productivity, safety, and strong software engineering principles.</li>
+            <li>Has a syntax and design philosophy similar to Java.</li>
+            <li>Invented by <strong>Anders Hejlsberg</strong>, along with <strong>Scott Wiltamuth</strong> and <strong>Peter
+                Golde</strong>.
+            </li>
+            <li>First released in <strong>2000</strong> as part of Microsoft’s .NET initiative.</li>
+            <li>Continually evolving, with each new version adding powerful features like LINQ, async/await, pattern
+                matching, and records.
+            </li>
+            <li>Official documentation: <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">learn.microsoft.com/dotnet/csharp</a>
             </li>
         </ul>
-
         <h2>C# Runtimes</h2>
+        <p>C# code requires a runtime environment to execute. These runtimes provide services such as memory management,
+            just-in-time compilation, and exception handling.</p>
         <ul>
-            <li><strong>.NET Framework</strong> (now discontinued): The original closed-source runtime and compiler developed by Microsoft.</li>
-            <li><strong>Mono</strong>: A free and open-source cross-platform compiler and runtime, started in 2004.</li>
-            <li><strong>.NET Core</strong>: Free and open-source runtime from Microsoft, first published in 2016. Later renamed to simply ".NET".</li>
+            <li><strong>.NET Framework:</strong> The original runtime for C#, now discontinued. It was Windows-only and
+                closed-source.
+            </li>
+            <li><strong>Mono:</strong> An open-source, cross-platform C# compiler and runtime, started in 2004 to bring
+                .NET to Linux and mobile devices.
+            </li>
+            <li><strong>.NET Core / .NET:</strong> A modern, open-source, cross-platform runtime developed by Microsoft.
+                Initially called .NET Core (2016), the platform was unified under the ".NET" name starting from .NET 5
+                in 2020.
+            </li>
         </ul>
-
-        <h2>C# Web Browser Runtimes</h2>
+        <h2>C# in the Web Browser</h2>
+        <p>Several projects allow C# to run inside web browsers using transpilation or WebAssembly:</p>
         <ul>
-            <li>Bridge.NET</li>
-            <li>CSHTML5</li>
-            <li><a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" target="_blank">Blazor</a></li>
+            <li><strong>Bridge.NET:</strong> Converts C# code into JavaScript.</li>
+            <li><strong>CSHTML5:</strong> Converts C# and XAML into HTML5/JavaScript.</li>
+            <li><strong>Blazor:</strong> A Microsoft framework that allows C# code to run in the browser via
+                WebAssembly. <a href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor" target="_blank">Blazor
+                    official site</a></li>
         </ul>
-
-        <h2>Relation to Speedy Blupi for Windows Phone</h2>
-        <p>
-            Speedy Blupi for Windows Phone was written using C# 4.0, although not all features of the language were used.<br>
-            C# 4.0 was released in 2010, three years before the game’s release.
-        </p>
-
-        <h2>C# Decompilers</h2>
-
+        <h2>C# in Speedy Blupi for Windows Phone</h2>
+        <p> The Windows Phone version of <strong>Speedy Blupi</strong> was written in <strong>C# 4.0</strong>, though
+            not all language features were used. C# 4.0 was released in 2010, three years before the game launched. </p>
+        <h2>Popular C# Decompilers</h2>
+        <p>Decompilers allow developers to inspect compiled .NET assemblies (typically in IL - Intermediate Language)
+            and convert them back to readable C# code.</p>
         <h3>DnSpy</h3>
-        <p>
-            DnSpy is an unofficial revival of the well-known .NET debugger and assembly editor.<br>
-            <a href="https://github.com/dnSpyEx/dnSpy" target="_blank">GitHub: dnSpyEx/dnSpy</a>
-        </p>
-
+        <p> A powerful .NET debugger and decompiler, now maintained as a community project.<br> <a
+                href="https://github.com/dnSpyEx/dnSpy" target="_blank">GitHub: dnSpyEx/dnSpy</a></p>
         <h3>ILSpy</h3>
-        <p>
-            ILSpy is a .NET decompiler with support for PDF generation.<br>
-            <a href="https://github.com/icsharpcode/ILSpy" target="_blank">GitHub: icsharpcode/ILSpy</a>
-        </p>
-
+        <p> An open-source .NET decompiler with support for metadata inspection and PDF export.<br> <a
+                href="https://github.com/icsharpcode/ILSpy" target="_blank">GitHub: ICSharpCode/ILSpy</a></p>
         <h3>Telerik JustDecompile</h3>
-        <p>
-            A discontinued C# decompiler.<br>
-            <a href="https://www.telerik.com/products/decompiler.aspx" target="_blank">Website</a>
-        </p>
-
-        <h2>C# Books</h2>
+        <p> A once-popular C# decompiler from Telerik. It has since been discontinued.<br> <a
+                href="https://www.telerik.com/products/decompiler.aspx" target="_blank">Archived site</a></p>
+        <h2>Recommended C# Books</h2>
         <ul>
-            <li>"Programming C# 4.0" by Ian Griffiths</li>
-            <li>"C# 4.0 in a Nutshell" by Joseph Albahari and Ben Albahari</li>
-            <li>"Pro C# 2010 and the .NET 4 Platform" by Andrew Troelsen</li>
-            <li>"Essential C# 4.0" by Mark Michaelis</li>
+            <li><em>Programming C# 4.0</em> by Ian Griffiths</li>
+            <li><em>C# 4.0 in a Nutshell</em> by Joseph Albahari & Ben Albahari</li>
+            <li><em>Pro C# 2010 and the .NET 4 Platform</em> by Andrew Troelsen</li>
+            <li><em>Essential C# 4.0</em> by Mark Michaelis</li>
         </ul>
-
         <h2>.NET Compact Framework 4.0</h2>
-        <p>
-            The <strong>.NET Compact Framework 4.0</strong> (CF) is a lightweight version of the .NET Framework 4.0, designed for resource-constrained devices such as mobile phones and embedded systems (e.g., PDAs, Windows CE, and Windows Phone 7).
-        </p>
-
-        <h3>1. Supported Platforms and Target Devices</h3>
+        <p> The <strong>.NET Compact Framework 4.0</strong> is a streamlined version of the full .NET Framework designed
+            for embedded systems and mobile devices with limited resources. </p>
+        <h3>Key Differences from Full .NET Framework:</h3>
+        <ol>
+            <li><strong>Target Platforms:</strong><br> .NET CF targets mobile devices and embedded systems (e.g.,
+                Windows Mobile, PDAs), whereas the full .NET Framework targets desktops and servers.
+            </li>
+            <li><strong>Size and Optimization:</strong><br> .NET CF is significantly smaller and optimized for devices
+                with limited RAM, storage, and CPU power.
+            </li>
+            <li><strong>API Coverage:</strong><br> .NET CF includes only a subset of the full .NET libraries. Notably:
+                <ul>
+                    <li>No WPF (Windows Presentation Foundation)</li>
+                    <li>Limited WCF (Windows Communication Foundation) support</li>
+                    <li>Partial support for ADO.NET and other advanced features</li>
+                </ul>
+            </li>
+            <li><strong>Garbage Collection:</strong><br> GC in .NET CF is designed to be lighter and more
+                memory-efficient, though it may result in different performance characteristics than desktop GC.
+            </li>
+            <li><strong>UI Support:</strong><br> Uses basic Windows Forms. WPF is not supported due to hardware
+                limitations.
+            </li>
+            <li><strong>Performance:</strong><br> Optimized for fast startup and low resource consumption. Code must be
+                written with memory and CPU usage in mind.
+            </li>
+            <li><strong>Portability:</strong><br> Applications built for .NET CF are not compatible with the full .NET
+                Framework without modification.
+            </li>
+            <li><strong>Development Tools:</strong><br> Visual Studio (up to 2010) with specific templates is required.
+                Support has been phased out in modern development environments.
+            </li>
+        </ol>
+        <h3>Summary:</h3>
         <ul>
-            <li><strong>.NET Framework 4.0:</strong> Full-featured desktop computers and servers.</li>
-            <li><strong>.NET CF 4.0:</strong> Devices with limited resources like mobile devices and embedded systems.</li>
-        </ul>
-
-        <h3>2. Size and Optimization</h3>
-        <ul>
-            <li>CF is significantly smaller and optimized for low memory and storage environments.</li>
-            <li>CF excludes non-essential libraries (e.g., advanced graphics or networking).</li>
-        </ul>
-
-        <h3>3. API and Feature Support</h3>
-        <ul>
-            <li>CF lacks some modern desktop features such as WPF and full WCF support.</li>
-            <li>Includes basic support for Windows Forms, threading, and ADO.NET in limited form.</li>
-        </ul>
-
-        <h3>4. Garbage Collection</h3>
-        <ul>
-            <li>CF uses a more memory-efficient garbage collector designed for mobile hardware.</li>
-        </ul>
-
-        <h3>5. Libraries and Class Libraries</h3>
-        <ul>
-            <li>Only a subset of standard .NET libraries is available.</li>
-            <li>Supports UI, collections, threading, and networking basics.</li>
-        </ul>
-
-        <h3>6. Performance and Optimization for Mobile Devices</h3>
-        <ul>
-            <li>Optimized for startup speed and resource efficiency on constrained devices.</li>
-        </ul>
-
-        <h3>7. Portability</h3>
-        <ul>
-            <li>CF is not compatible with full desktop .NET Framework applications.</li>
-        </ul>
-
-        <h3>8. Development Tools</h3>
-        <ul>
-            <li>Uses Visual Studio with special project types (e.g., Visual Studio 2010).</li>
-        </ul>
-
-        <h3>Main Differences Summary</h3>
-        <ul>
-            <li>CF is a stripped-down version of the full .NET Framework.</li>
-            <li>Best suited for mobile and embedded devices.</li>
-            <li>Standard .NET Framework offers more features for desktop and server apps.</li>
+            <li><strong>.NET CF</strong> is a specialized version of the .NET Framework, ideal for older mobile and
+                embedded systems.
+            </li>
+            <li><strong>.NET Framework</strong> is for full-featured desktop and server applications.</li>
+            <li>Modern development for mobile now typically uses <strong>.NET MAUI</strong> or <strong>Xamarin</strong>,
+                which have superseded .NET CF.
+            </li>
         </ul>
 
 
