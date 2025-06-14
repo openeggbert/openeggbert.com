@@ -1,3 +1,8 @@
+/*
+How to compile:
+g++ -std=c++20 -o tags tags.cpp
+*/
+
 #include <iostream>
 #include <fstream>
 #include <filesystem>
