@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - EXE</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="Technologies/index.html">Technologies</a> /
+        <a href="Technologies/Platforms/index.html">Platforms</a> /
+        <a href="Technologies/Platforms/Windows/index.html">Windows</a> /
+
+        <span id="panel_current">EXE</span>
+    </div>
+    <div id="hierarchy_panel">
+        <a href="Technologies/Platforms/Windows/index.html">Go Up</a>
+        <!--      <a href="Technologies/Programming_languages/index.html">Programming languages</a>-->
+        <!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
+        <!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
+        <!--      <a href="Technologies/Other/index.html">Other</a>-->
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>EXE</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+
+
+        
+        <p>EXE is the executable file format developed by the <a href="Page_does_not_yet_exist/index.html">Microsoft</a> company for the following <a href="Page_does_not_yet_exist/index.html">operating system</a>s: <a href="Page_does_not_yet_exist/index.html">Windows</a>, <a href="Page_does_not_yet_exist/index.html">DOS</a>, <a href="Page_does_not_yet_exist/index.html">OS/2</a>.</p>
+
+        <p>The EXE file contains series of instructions for the processor to be executed.</p>
+
+        <p>Magic number of the EXE file format is: 0x4d 0x5a (which means, each EXE file starts with the <a href="Page_does_not_yet_exist/index.html">ASCII</a> string called "MZ".</p>
+
+        <h2>Formats of the EXE file</h2>
+
+        <h3>DOS</h3>
+        <ul>
+            <li><strong>16-bit DOS MZ Executable (MZ)</strong>
+                <ul>
+                    <li>The original DOS executable format, identifiable by the ASCII letters "MZ" at the start of the file.</li>
+                    <li>Later formats retain an MZ DOS stub header for backward compatibility.</li>
+                </ul>
+            </li>
+            <li><strong>16-bit New Executable (NE)</strong>
+                <ul>
+                    <li>Introduced in multitasking MS-DOS 4.0.</li>
+                    <li>Used in 16-bit OS/2 and Windows, identifiable by "NE" in ASCII.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>OS/2</h3>
+        <ul>
+            <li><strong>32-bit Linear Executable (LX)</strong>
+                <ul>
+                    <li>Introduced in OS/2 2.0 and identifiable by "LX" in ASCII.</li>
+                    <li>Runs only on OS/2 2.0 and higher.</li>
+                </ul>
+            </li>
+            <li><strong>Mixed 16/32-bit Linear Executable (LE)</strong>
+                <ul>
+                    <li>Introduced in OS/2 2.0, identifiable by "LE" in ASCII.</li>
+                    <li>Used for VxD drivers on Windows 3.x, OS/2, and Windows 9x.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Windows</h3>
+        <ul>
+            <li><strong>32-bit Portable Executable (PE)</strong>
+                <p>The PE format is used by Windows 95 and higher.</p>
+                <ul>
+                    <li>Introduced with Windows NT, structured as "fat binaries" with a DOS-specific and Windows-specific section.</li>
+                    <li>The DOS stub (a minimal DOS program) displays "This program cannot be run in DOS mode." Custom DOS stubs can be created.</li>
+                    <li>The Windows part starts with "PE\0\0" (ASCII for "PE" with two null bytes).</li>
+                </ul>
+            </li>
+            <li><strong>64-bit Portable Executable (PE32+)</strong>
+                <ul>
+                    <li>Introduced with 64-bit Windows, an extended PE format with wider fields.</li>
+                    <li>Often allows code to run in either 32-bit or 64-bit mode.</li>
+                    <li>Includes a DOS stub for compatibility.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Other Formats</h3>
+        <ul>
+            <li>Additional EXE formats include W3 (used in <strong>WIN386.EXE</strong>), W4 (compressed LE files in <strong>VMM32.VXD</strong>), and others like DL, MP, P2, and P3 (used by Phar Lap extenders).</li>
+        </ul>
+
+        <h2>Parts of the PE EXE file</h2>
+        <p>EXE file consists of the following parts: headers, sections</p>
+
+        <h3>EXE headers</h3>
+        <ul>
+            <li>MS-DOS Header</li>
+            <li>PE Header</li>
+        </ul>
+
+        <h4>MS-DOS Header</h4>
+        <p>Its length is 64 bytes and contains the relocation information. This header is intended for MS-DOS operating system.</p>
+        <p>Purpose of this header is to show an error message, if such an EXE file is started on the MS-DOS operating system, which is only for historical purposes.</p>
+        <p>Usual text of the message is: This program cannot be run in DOS mode</p>
+
+        <h4>PE Header</h4>
+        <p>The <strong>PE (Portable Executable) header</strong> is part of a Windows <code>.exe</code> file that the operating system reads when it runs the file. This header tells the OS where and how to load the program into memory. It begins with a unique 4-byte signature and includes essential details such as:</p>
+        <ul>
+            <li>The memory location where the executable should start</li>
+            <li>The program's entry point address</li>
+            <li>A checksum</li>
+            <li>Supported processor types</li>
+            <li>The executable's size</li>
+            <li>A list of required libraries, functions, and resources</li>
+        </ul>
+
+        <h5>Section Table</h5>
+        <p>The section table is an array of structures, where each entry represents a section of the executable. Each entry includes information about the section, such as:</p>
+        <ul>
+            <li>Its size in memory</li>
+            <li>Location</li>
+            <li>Specific characteristics</li>
+        </ul>
+
+        <h5>Data Directory</h5>
+        <p>The data directory is an array that points to various tables with essential executable information, including:</p>
+        <ul>
+            <li><strong>Export Table</strong>: Lists functions the executable makes available to other programs.</li>
+            <li><strong>Import Table</strong>: Lists functions it imports from other libraries.</li>
+            <li><strong>Resource Table</strong>: Contains embedded resources (e.g., images).</li>
+            <li><strong>Import Address Table (IAT)</strong>: Holds runtime addresses for imported functions, so they’re accessible when the program runs.</li>
+        </ul>
+
+        <h3>Sections</h3>
+        <p>These are key sections within a <code>.exe</code> file.</p>
+        <ul>
+            <li><strong>.text/.code/CODE/TEXT</strong> — Holds the executable code, or machine instructions, that the CPU runs. This section is vital for disassembly.</li>
+            <li><strong>.tests/TEXTBSS</strong> — Included if incremental linking is enabled.</li>
+            <li><strong>.rdata</strong> — Stores constants and read-only data, such as string literals.</li>
+            <li><strong>.data/DATA</strong> — Typically has read and write access, containing initialized global and static variables that can be accessed from anywhere in the program.</li>
+            <li><strong>.bss/BSS</strong> — Holds uninitialized global and static variables.</li>
+            <li><strong>.rsrc</strong> — Contains embedded resources, like images and icons. Strings may also be stored here.</li>
+            <li><strong>.debug</strong> — Stores debugging information.</li>
+            <li><strong>.idata</strong> — Import data section, which includes details on imported functions.</li>
+            <li><strong>.edata</strong> — Export data section, holding information on exported functions.</li>
+            <li><strong>.reloc</strong> — Contains data necessary for relocating library files in memory.</li>
+        </ul>
+
+        <h2>External links</h2>
+        <ul>
+            <li><a href="https://eshagalawatta.medium.com/analyzing-structure-of-executable-programs-exe-files-821b2d531a4" target="_blank">Medium article on analyzing .exe files</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/.exe" target="_blank">Wikipedia: .exe</a></li>
+        </ul>
+
+
+
+
+
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
