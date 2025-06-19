@@ -99,6 +99,74 @@
         Some elements do not use global timer.
 <br>
         Elements, which are animated, if game is paused, are not using global timer
+        <h3>Gravity</h3>
+
+        
+        
+        
+        <h4>Implementing jumping</h4>
+        <p>To implement a jump mechanic, you can follow these steps:</p>
+
+        <ol>
+            <li><strong>Define Variables:</strong>
+                <ul>
+                    <li>Create variables for the player's velocity, gravity, and whether the player is on the ground.</li>
+                </ul>
+                <pre><code>float velocityY = 0;
+final float gravity = -0.5f;
+boolean onGround = true;
+</code></pre>
+            </li>
+
+            <li><strong>Jump Logic:</strong>
+                <ul>
+                    <li>Implement the jump by applying an upward velocity when the jump key is pressed and the player is on the ground.</li>
+                </ul>
+                <pre><code>if (Gdx.input.isKeyPressed(Input.Keys.SPACE) &amp;&amp; onGround) {
+    velocityY = 10;  // Jump strength
+    onGround = false;
+}
+</code></pre>
+            </li>
+
+            <li><strong>Apply Gravity:</strong>
+                <ul>
+                    <li>Continuously apply gravity to the player's vertical velocity.</li>
+                </ul>
+                <pre><code>velocityY += gravity;
+</code></pre>
+            </li>
+
+            <li><strong>Update Player Position:</strong>
+                <ul>
+                    <li>Update the player's Y position using the current velocity.</li>
+                </ul>
+                <pre><code>player.y += velocityY;
+</code></pre>
+            </li>
+
+            <li><strong>Ground Detection:</strong>
+                <ul>
+                    <li>Check if the player has landed back on the ground to reset the jump.</li>
+                </ul>
+                <pre><code>if (player.y &lt;= groundLevel) {
+    player.y = groundLevel;
+    velocityY = 0;
+    onGround = true;
+}
+</code></pre>
+            </li>
+        </ol>
+
+        <p>By following these steps, you create a basic jumping mechanic where the player can jump when on the ground, and gravity pulls them back down. This can be expanded with more complex mechanics like double jumps or variable jump heights.</p>
+
+        <h4>Gravity</h4>
+        <p><a href="https://gamedev.stackexchange.com/questions/111314/writing-my-own-gravity" target="_blank">https://gamedev.stackexchange.com/questions/111314/writing-my-own-gravity</a></p>
+
+        
+        
+
+
         <h2>Download</h2>
         <ul>
         <li> <a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_Demo.7z"> Speedy Blupi Demo</a>
