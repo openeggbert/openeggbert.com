@@ -1,7 +1,7 @@
 # openeggbert.com
 
 ```
-<a href="Page_Does_Not_Yet_Exist/index.html">mobile</a>
+<a href="Page_does_not_yet_exist/index.html">mobile</a>
 ```
 
 ## Example
@@ -21,7 +21,7 @@ BASE
     <div id="breadcrumb">
       <a href="Blupi/index.html">Blupi</a> /
       <a href="Blupi/Fan_projects/index.html">Fan projects</a> /
-      <a href="Blupi/Games/Blupi-Bouncers/index.html">Blupi-Bouncers</a>
+      <a href="Blupi/Fan_projects/Blupi-Bouncers/index.html">Blupi-Bouncers</a>
     </div>
     
     CHILDREN
