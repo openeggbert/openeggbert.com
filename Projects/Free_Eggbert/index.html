@@ -102,6 +102,8 @@
             href="Page_does_not_yet_exist/index.html">fork</a> of Planet Blupi. Speedy Blupi II is the fork of Speedy
         Blupi I.
         <br>
+        Source code of Planet Blupi was published in 2017.
+        <br>
         <a href="Page_does_not_yet_exist/index.html">Ghidra</a>, the decompilation tool, was used too.
         <br>
         Later, <a href="Page_does_not_yet_exist/index.html">jummy0</a> joined this decompilation project.
@@ -177,6 +179,64 @@
         Each game space has a feature level.
         <br>
         Game space can be cloned. You can have several game spaces with the same Feature level.
+
+        <h2>Source code</h2>
+
+        <pre>
+        action.h
+        actions.h
+        blupi.cpp
+
+        int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+        This is the entry point for whole game and is the part of the Windows API.
+        Its goals: Initialize the game, do the benchmark, set the timer, launch the game loop
+
+        static BOOL DoInit(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow)
+        Reads the config file (config.def)
+        Creates the window or fullscreen
+        Set the cursor to the type: WAIT
+        Create objects
+
+        button.cpp
+        button.h
+        cursor1.cur
+        ddraw.h
+        ddutil.cpp
+        ddutil.h
+        decblupi.cpp
+        decmove.h
+        decor.cpp
+        decor.h
+        dectables.cpp
+        dectables.h
+        def.h
+        dplay.h
+        dsound.h
+        event.cpp
+        event.h
+        fifo.h
+        jauge.cpp
+        jauge.h
+        menu.cpp
+        menu.h
+        misc.cpp
+        misc.h
+        movie.cpp
+        movie.h
+        network.cpp
+        network.h
+        ping.asm
+        pixmap.cpp
+        pixmap.h
+        resource.h
+        resource1.h
+        sound.cpp
+        sound.h
+        text.cpp
+        text.h
+        texttables.h
+        wave.cpp
+        wave.h</pre>
 
     </section>
 </main>
