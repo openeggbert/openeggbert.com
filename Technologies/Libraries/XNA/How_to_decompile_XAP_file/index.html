@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - How to decompile XAP file</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, How_to_decompile_XAP_file"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="Technologies/index.html">Technologies</a> /
+        <a href="Technologies/Libraries/index.html">Libraries</a> /
+        <a href="Technologies/Libraries/XNA/index.html">XNA</a> /
+        <span id="panel_current">How to decompile XAP file</span>
+
+    </div>
+    <div id="hierarchy_panel">
+        <a href="Technologies/Libraries/XNA/index.html">Go Up</a>
+<!--                <a href="Technologies/Libraries/XNA//How_to_decompile_XAP_file/index.html">How to decompile XAP file</a>-->
+        <!--        <a href="Technologies/Libraries/How_to_decompile_XAP_file/index.html">How_to_decompile_XAP_file</a>-->
+        <!--        <a href="Technologies/Libraries/How_to_decompile_XAP_file/index.html">How_to_decompile_XAP_file</a>-->
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>How to decompile XAP file</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+        <p>Decompiling an <a href="Page_does_not_yet_exist/index.html">XAP</a> file (a <a href="Page_does_not_yet_exist/index.html">Windows Phone</a> app package) into C# code and rebuilding it into a new XAP is a multi-step process.</p>
+
+        <h2>Steps</h2>
+
+        <h3><b>Step 1: Extract the Contents of the XAP File</b></h3>
+        <ol>
+            <li><b>Rename the XAP file</b>:
+                <ul>
+                    <li>Change the <code>.xap</code> file extension to <code>.zip</code>.</li>
+                    <li>Extract the ZIP file using any archive tool (e.g., WinRAR, 7-Zip).</li>
+                </ul>
+            </li>
+            <li><b>Analyze the Contents</b>:
+                <ul>
+                    <li>Look for the <code>DLL</code> files in the <code>Bin</code> or <code>App</code> folders. These contain the compiled C# code.</li>
+                    <li>Other assets, such as <code>XAML</code>, images, and configuration files, will also be extracted.</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+
+        <h3><b>Step 2: Decompile the DLL Files</b></h3>
+        <ol>
+            <li><b>Use a Decompiler</b>:
+                <ul>
+                    <li>Tools like ILSpy, dnSpy, or Telerik JustDecompile can be used to decompile <code>.dll</code> files to readable C# code.</li>
+                </ul>
+            </li>
+            <li><b>Steps for Decompilation</b>:
+                <ul>
+                    <li>Open the <code>.dll</code> file in the decompiler.</li>
+                    <li>Explore the namespaces, classes, and methods to understand the code structure.</li>
+                    <li>Export the decompiled code to a Visual Studio project (most decompilers have this feature).</li>
+                </ul>
+            </li>
+            <li><b>Analyze Decompiled Code</b>:
+                <ul>
+                    <li>Review the decompiled code for errors or incomplete segments caused by obfuscation.</li>
+                    <li>Manually reconstruct missing parts if necessary.</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+
+        <h3><b>Step 3: Modify the Decompiled Code (Optional)</b></h3>
+        <ol>
+            <li>Open the exported Visual Studio project.</li>
+            <li>Make any necessary changes to the code.
+                <ul>
+                    <li>Fix errors caused by obfuscation or incompatible constructs.</li>
+                    <li>Modify functionality, if required.</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+
+        <h3><b>Step 4: Rebuild the XAP File</b></h3>
+        <ol>
+            <li><b>Create a New Windows Phone Project</b>:
+                <ul>
+                    <li>In Visual Studio, create a new Windows Phone project of the same version (e.g., Windows Phone 8.0, 8.1).</li>
+                    <li>Use the same name and namespace as the original project (if possible).</li>
+                </ul>
+            </li>
+            <li><b>Add Decompiled Code and Assets</b>:
+                <ul>
+                    <li>Add the decompiled code and assets (images, XAML files, etc.) to the project.</li>
+                    <li>Ensure the <code>AppManifest.xaml</code> file matches the original app's configuration.</li>
+                </ul>
+            </li>
+            <li><b>Fix Dependencies</b>:
+                <ul>
+                    <li>Reference required libraries (.dll) that were part of the original app or are available in the Windows Phone SDK.</li>
+                </ul>
+            </li>
+            <li><b>Build the Project</b>:
+                <ul>
+                    <li>Set the project to build as a Windows Phone app.</li>
+                    <li>Compile the project in Visual Studio to generate a new XAP file.</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+
+        <h3><b>Step 5: Test the New XAP File</b></h3>
+        <ol>
+            <li>Deploy the new XAP to a Windows Phone emulator or device.
+                <ul>
+                    <li>Use tools like the Windows Phone Application Deployment tool (available in the Windows Phone SDK).</li>
+                </ul>
+            </li>
+            <li>Test for functionality and stability.</li>
+        </ol>
+        <hr>
+
+        <h3><b>Additional Notes</b></h3>
+        <ul>
+            <li><b>Legal Considerations</b>: Decompiling and modifying software without explicit permission may violate copyright or licensing agreements.</li>
+            <li><b>Obfuscation</b>: If the original XAP was obfuscated, the decompiled code may not be fully readable or functional, requiring significant effort to reconstruct.</li>
+            <li><b>Re-signing the App</b>: The new XAP must be signed with a valid certificate for deployment.</li>
+        </ul>
+
+        <h2>How to reuse .xnb files</h2>
+        <ol>
+            <li>Extract and place them into the rebuilt project’s <code>Content</code> folder.</li>
+            <li>Match the original folder structure and paths.</li>
+            <li>Set them to <code>Content</code> build action in the IDE.</li>
+            <li>Optionally edit them by decompiling and recompiling using the XNA or MonoGame Pipeline tools.</li>
+        </ol>
+
+        <h2>How to extract wav files from xnb files</h2>
+        <ul>
+            <li><a href="https://forums.terraria.org/index.php?threads/textract-extract-terrarias-images-sound-effects-and-music.937/" target="_blank">https://forums.terraria.org/index.php?threads/textract-extract-terrarias-images-sound-effects-and-music.937/</a></li>
+            <li><a href="https://github.com/Antag99/TExtract" target="_blank">https://github.com/Antag99/TExtract</a></li>
+        </ul>
+
+
+
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
