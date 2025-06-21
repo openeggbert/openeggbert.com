@@ -75,6 +75,28 @@ body {
   font-weight: bold;
 }
 
+#breadcrumb a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: var(--yellow-color);
+  border-radius: 4px;
+  color: var(--dark-yellow-color);
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#breadcrumb a:hover {
+  background-color: #e65100;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
 /* Hierarchical Navigation Panel */
 #hierarchy_panel {
   display: flex; /* Flex layout for folder-like appearance */
@@ -108,7 +130,7 @@ body {
 
 #breadcrumb::before {
   content: "Path: ";
-  padding-right:55px;
+  padding-right:42px;
 }
 
 #hierarchy_panel::before {
