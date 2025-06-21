@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Eggbert - I586</title>
+    <title>Open Eggbert - Pentium 100</title>
     <meta name="description"
           content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
     <meta name="keywords"
           content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
     <meta name="author" content="Robert Vokáč">
 
-    <base href="../../../.." target="_self">
+    <base href="../../../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
@@ -36,14 +36,13 @@
         <a href="Technologies/index.html">Technologies</a> /
         <a href="Technologies/Programming_languages/index.html">Programming languages</a> /
         <a href="Technologies/Programming_languages/Assembly_Language/index.html">Assembly Language</a> /
-        <span id="panel_current">I586</span>
+        <a href="Technologies/Programming_languages/Assembly_Language/I586/index.html">I586</a> /
+        <span id="panel_current">Pentium 100</span>
     </div>
     <div id="hierarchy_panel">
 
-        <a href="Technologies/Programming_languages/Assembly_Language/index.html">Go Up</a>
-        <a href="Technologies/Programming_languages/Assembly_Language/I586/Registers/index.html">Registers</a>
-        <a href="Technologies/Programming_languages/Assembly_Language/I586/Emulators/index.html">Emulators</a>
-        <a href="Technologies/Programming_languages/Assembly_Language/I586/Pentium_100/index.html">Pentium 100</a>
+        <a href="Technologies/Programming_languages/Assembly_Language/I586/index.html">Go Up</a>
+        <!--        <a href="Technologies/Programming_languages/Assembly_Language/I586/Emulator/index.html">Pentium_100</a>-->
         <!--      <a href="Technologies/Programming_languages/index.html">Programming languages</a>-->
         <!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
         <!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
@@ -54,17 +53,47 @@
 
 <main>
     <section>
-        <h1>I586</h1>
+        <h1>Pentium 100</h1>
         <div id="tocButton"></div>
         <div id="toc"></div>
 
-        Instruction set i586 is backwards compatible with instruction sets
-        <a href="Page_does_not_yet_exist/index.html">i486</a>,
-        <a href="Page_does_not_yet_exist/index.html">i386</a>,
-        <a href="Page_does_not_yet_exist/index.html">i286</a>,
-        <a href="Page_does_not_yet_exist/index.html">i186</a>
-        and <a href="Page_does_not_yet_exist/index.html">i86</a>.
-        
+
+        <p>Processor using the <a href="Page_does_not_yet_exist/index.html">i586</a></code> microprocessor launched on 22th March 1993 and discontinued on 15th July 1999.</p>
+
+        <h2>Comparison of Pentium 100 (i586) and Core i7 (2024)</h2>
+
+        <h3>Pentium 100 (i586)</h3>
+        <ul>
+            <li>It has relatively simple architectures with limited instruction set.</li>
+            <li>Pipeline is less complex.</li>
+            <li>Hyper threading is not available.</li>
+            <li>There are no advanced optimizations for out-of-order execution.</li>
+            <li>Simple memory model.</li>
+            <li>Parallelism and thread processing: Pentium uses only one thread.</li>
+            <li>Performance: Emulating Pentium 100 should be much more faster.</li>
+        </ul>
+
+        <h3>Core i7 (2024)</h3>
+        <ul>
+            <li>Instruction set is much more complex (including SIMD extensions like AVX, AVX2, AVX-512).</li>
+            <li>Several pipelines with out-of-order execution of instructions.</li>
+            <li>Branch prediction.</li>
+            <li>Hyper threading.</li>
+            <li>And other advanced optimizations.</li>
+            <li>Complex memory model:
+                <ul>
+                    <li>Several layers of cache (L1, L2, L3)</li>
+                    <li>Cache prefetching</li>
+                    <li>Speculative execution</li>
+                    <li>TLB (Translation Lookaside Buffer) for virtual memory</li>
+                </ul>
+            </li>
+            <li>Parallelism and thread processing: Core i7 has several cores and supports hyper-threading.</li>
+            <li>Performance of Core i7 is about 1000 times bigger than the performance of Pentium 100.</li>
+        </ul>
+
+
+
     </section>
 </main>
 
