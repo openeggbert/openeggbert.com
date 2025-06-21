@@ -408,3 +408,21 @@ section a:hover {
   background-color: #e65100;
   transform: scale(1.05);
 }
+
+a.ref {
+  color: #0056b3;
+  background-color: #eef5ff;
+  padding: 0 8px 0 8px;
+  border-radius: 3px;
+  text-decoration: underline;
+  font-weight: bold;
+  border: 1px solid blue;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+a.ref::before {
+  content: "Ref: ";
+}
+blockquote {
+background: #fff3e0; border: 2px solid orange; padding: 10px;
+}

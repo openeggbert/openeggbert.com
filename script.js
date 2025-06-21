@@ -83,4 +83,11 @@ function loadContent() {
 
 
     }
+
+    //a.ref
+        document.querySelectorAll('a.ref').forEach(function (link) {
+          link.setAttribute('target', '_blank');
+        });
+
+
 }
