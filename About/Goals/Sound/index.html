@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Sound</title>
+    <meta name="description"
+          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
+    <meta name="keywords"
+          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
+    <meta name="author" content="Robert Vokáč">
+
+    <base href="../../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="loadContent()">
+<header>
+    <div id="main_banner">Open Eggbert</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About/index.html">About</a></li>
+            <li><a href="Blupi/index.html">Blupi</a></li>
+            <li><a href="Projects/index.html">Projects</a></li>
+            <li><a href="Technologies/index.html">Technologies</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
+<div id="breadcrumb_hierarchy_panel">
+    <div id="breadcrumb">
+        <a href="About/index.html">About</a> /
+        <a href="About/Goals/index.html">Goals</a> /
+        <span id="panel_current">Sound</span>
+    </div>
+    <div id="hierarchy_panel">
+        <a href="About/Goals/index.html">Go Up</a>
+    </div>
+</div>
+
+
+<main>
+    <section>
+        <h1>Sound</h1>
+        <div id="tocButton"></div>
+        <div id="toc"></div>
+
+        <p>Creating own version of sound effects for the game <b>Speedy Blupi</b> is an exciting project! Here's how to approach it:</p>
+        <hr>
+
+        <h3>1. <b>Analyze the Original Sounds</b></h3>
+        <p>If you want to stay faithful to the game's original atmosphere:</p>
+        <ul>
+            <li><b>Obtain the original sounds</b>: If you have the game files, locate the folder containing the audio (typically in <strong style="background: #BBBBBB;">.wav</strong> or another common format).</li>
+            <li><b>Examine the sounds</b>: Listen to them carefully and take notes:
+                <ul>
+                    <li>Are they simple sound effects or more complex loops?</li>
+                    <li>What style do they have (e.g., retro, realistic, cartoonish)?</li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr>
+
+        <h3>2. <b>Tools for Sound Creation</b></h3>
+        <p>Choose a tool to create or edit sounds:</p>
+        <ul>
+            <li><b>Audacity</b>: Free and great for recording and editing sounds.</li>
+            <li><b>FL Studio / Ableton Live</b>: Professional tools for creating more complex effects.</li>
+            <li><b>Bfxr / Sfxr</b>: Retro sound effect generators, ideal for 2D platformers.</li>
+            <li><b>LMMS</b>: An open-source alternative to FL Studio.</li>
+        </ul>
+
+        <hr>
+
+        <h3>3. <b>Create New Sounds</b></h3>
+        <p>Design sounds that match the actions in the game. Examples:</p>
+        <ul>
+            <li><b>Jumping</b>: Use a short, bouncy or springy sound.</li>
+            <li><b>Collecting items</b>: Create a bright, melodic sound.</li>
+            <li><b>Taking damage</b>: Try a muffled explosion or sharp noise.</li>
+            <li><b>Background loops</b>: Add ambient sounds (e.g., wind, birds).</li>
+        </ul>
+
+        <p>If you want to record custom effects:</p>
+        <ol>
+            <li>Capture real-world sounds (e.g., tapping wood or metal).</li>
+            <li>Use software like Audacity to edit and enhance them with effects.</li>
+        </ol>
+
+        <hr>
+
+        <h3>4. <b>Export the Sounds</b></h3>
+        <ul>
+            <li>Save the sounds in <strong style="background: #BBBBBB;">.wav</strong> format (if your game supports other formats like <strong style="background: #BBBBBB;">.ogg</strong>, you can use that as well).</li>
+            <li>Ensure the <b>sampling rate</b> matches the game's requirements: older games often used 22 kHz or 44.1 kHz.</li>
+        </ul>
+
+
+    </section>
+</main>
+
+<footer>
+    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
+                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
+        License</a> unless otherwise noted.</p>
+</footer>
+</body>
+</html>
