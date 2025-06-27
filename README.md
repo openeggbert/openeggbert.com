@@ -3,7 +3,7 @@
 ## Fix Broken links
 
 ```
-<a href="Page_does_not_yet_exist/index.html">Daniel Roux</a>
+<a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Daniel Roux</a>
 
 <a href="Blupi/Community/Daniel_Roux/index.html">Daniel Roux</a>
 ```
@@ -11,7 +11,7 @@
 ## Page does not yet exist
 
 ```
-<a href="Page_does_not_yet_exist/index.html">mobile</a>
+<a href="Article_does_not_yet_exist_or_link_is_broken/index.html">mobile</a>
 ```
 
 ## Example

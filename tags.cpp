@@ -79,9 +79,9 @@ void processHtmlFile(const fs::path& filePath) {
 
 // Generate a summary HTML file listing each tag and its associated pages
 void generateSummaryHtml() {
-    std::ofstream out("tags_summary.html");
+    std::ofstream out("tags.html");
     if (!out.is_open()) {
-        std::cerr << "Error creating tags_summary.html" << std::endl;
+        std::cerr << "Error creating tags.html" << std::endl;
         return;
     }
 
@@ -109,7 +109,7 @@ void generateSummaryHtml() {
     }
 
     out << "</body></html>\n";
-    std::cout << "Generated tags_summary.html\n";
+    std::cout << "Generated tags.html\n";
 }
 
 int main() {

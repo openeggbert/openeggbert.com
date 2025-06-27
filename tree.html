@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Open Eggbert - Tree</title>
+<style>
+    :root {
+        color-scheme: light dark;
+        --bg: #f8f8f8;
+        --fg: #111;
+        --accent: #ff9900;
+        --line: #ccc;
+        --hover: #ffe9b3;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg: #181818;
+            --fg: #eee;
+            --accent: #ffaa33;
+            --line: #444;
+            --hover: #333;
+        }
+    }
+
+    body {
+        background: var(--bg);
+        color: var(--fg);
+        font-family: "Segoe UI", system-ui, sans-serif;
+        margin: 2em auto;
+        max-width: 800px;
+        padding: 0 1em;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        color: var(--accent);
+        margin-bottom: 2em;
+    }
+
+    ul.tree {
+        padding-left: 1em;
+        position: relative;
+        margin: 0;
+    }
+
+    ul.tree ul {
+        margin-left: 1.5em;
+        padding-left: 1em;
+        border-left: 2px solid var(--line);
+        position: relative;
+    }
+
+    ul.tree li {
+        list-style: none;
+        margin: 0;
+        padding: 0.3em 0 0.3em 0.8em;
+        position: relative;
+    }
+
+    ul.tree li::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -0.9em;
+        width: 1em;
+        height: 100%;
+        border-left: 2px solid var(--line);
+    }
+
+    ul.tree li:last-child::before {
+        height: 0.7em;
+    }
+
+    ul.tree li::after {
+        content: "";
+        position: absolute;
+        top: 0.9em;
+        left: -0.9em;
+        width: 0.9em;
+        height: 0;
+        border-top: 2px solid var(--line);
+    }
+
+    a {
+        color: var(--fg);
+        text-decoration: none;
+        border-radius: 4px;
+        padding: 0.2em 0.4em;
+        display: inline-block;
+        transition: background 0.2s;
+    }
+
+    a:hover {
+        background: var(--hover);
+    }
+</style>
+</head>
+<body>
+<h1>Open Eggbert – All articles</h1>
+<ul class="tree">
+<ul>
+<li><a href="Projects/index.html">Projects</a>
+<ul>
+<li><a href="Projects/Youtubedl_Frontend/index.html">Youtubedl Frontend</a>
+</li>
+<li><a href="Projects/Free_Eggbert/index.html">Free Eggbert</a>
+</li>
+<li><a href="Projects/Sprite_Utils/index.html">Sprite Utils</a>
+</li>
+<li><a href="Projects/Mobile_Eggbert/index.html">Mobile Eggbert</a>
+</li>
+</ul>
+</li>
+<li><a href="index.html/index.html">index.html</a>
+</li>
+<li><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Article does not yet exist or link is broken</a>
+</li>
+<li><a href="Technologies/index.html">Technologies</a>
+<ul>
+<li><a href="Technologies/Libraries/index.html">Libraries</a>
+<ul>
+<li><a href="Technologies/Libraries/SDL/index.html">SDL</a>
+</li>
+<li><a href="Technologies/Libraries/DirectX/index.html">DirectX</a>
+</li>
+<li><a href="Technologies/Libraries/XNA/index.html">XNA</a>
+<ul>
+<li><a href="Technologies/Libraries/XNA/How_to_decompile_XAP_file/index.html">How to decompile XAP file</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Libraries/Windows_API/index.html">Windows API</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Other/index.html">Other</a>
+<ul>
+<li><a href="Technologies/Other/RAM/index.html">RAM</a>
+</li>
+<li><a href="Technologies/Other/Asm.js/index.html">Asm.js</a>
+</li>
+<li><a href="Technologies/Other/Emscripten/index.html">Emscripten</a>
+</li>
+<li><a href="Technologies/Other/Microsoft/index.html">Microsoft</a>
+<ul>
+<li><a href="Technologies/Other/Microsoft/Bill_Gates/index.html">Bill Gates</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Other/Wine/index.html">Wine</a>
+</li>
+<li><a href="Technologies/Other/Reverse_engineering/index.html">Reverse engineering</a>
+</li>
+<li><a href="Technologies/Other/Programming/index.html">Programming</a>
+</li>
+<li><a href="Technologies/Other/WebAssembly/index.html">WebAssembly</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Platforms/index.html">Platforms</a>
+<ul>
+<li><a href="Technologies/Platforms/Windows_Phone/index.html">Windows Phone</a>
+</li>
+<li><a href="Technologies/Platforms/Linux/index.html">Linux</a>
+<ul>
+<li><a href="Technologies/Platforms/Linux/Linus_Torvalds/index.html">Linus Torvalds</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Platforms/Android/index.html">Android</a>
+</li>
+<li><a href="Technologies/Platforms/Windows/index.html">Windows</a>
+<ul>
+<li><a href="Technologies/Platforms/Windows/Windows_95/index.html">Windows 95</a>
+</li>
+<li><a href="Technologies/Platforms/Windows/EXE/index.html">EXE</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Platforms/MacOS/index.html">MacOS</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Applications/index.html">Applications</a>
+<ul>
+<li><a href="Technologies/Applications/Microsoft_Music_Producer/index.html">Microsoft Music Producer</a>
+</li>
+<li><a href="Technologies/Applications/Blender/index.html">Blender</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Programming_languages/index.html">Programming languages</a>
+<ul>
+<li><a href="Technologies/Programming_languages/Assembly_Language/index.html">Assembly Language</a>
+<ul>
+<li><a href="Technologies/Programming_languages/Assembly_Language/I586/index.html">I586</a>
+<ul>
+<li><a href="Technologies/Programming_languages/Assembly_Language/I586/Pentium_100/index.html">Pentium 100</a>
+</li>
+<li><a href="Technologies/Programming_languages/Assembly_Language/I586/Emulators/index.html">Emulators</a>
+</li>
+<li><a href="Technologies/Programming_languages/Assembly_Language/I586/Registers/index.html">Registers</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Programming_languages/Assembly_Language/X86_instruction_set/index.html">X86 instruction set</a>
+</li>
+</ul>
+</li>
+<li><a href="Technologies/Programming_languages/C_Sharp/index.html">C Sharp</a>
+</li>
+<li><a href="Technologies/Programming_languages/C++/index.html">C++</a>
+<ul>
+<li><a href="Technologies/Programming_languages/C++/History/index.html">History</a>
+</li>
+<li><a href="Technologies/Programming_languages/C++/Data_types/index.html">Data types</a>
+</li>
+<li><a href="Technologies/Programming_languages/C++/Versions/index.html">Versions</a>
+</li>
+<li><a href="Technologies/Programming_languages/C++/Key_words/index.html">Key words</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="About/index.html">About</a>
+<ul>
+<li><a href="About/History/index.html">History</a>
+</li>
+<li><a href="About/Future/index.html">Future</a>
+</li>
+<li><a href="About/Useful_websites/index.html">Useful websites</a>
+</li>
+<li><a href="About/Contribute/index.html">Contribute</a>
+</li>
+<li><a href="About/Hall_of_Fame/index.html">Hall of Fame</a>
+</li>
+<li><a href="About/Goals/index.html">Goals</a>
+<ul>
+<li><a href="About/Goals/Sound/index.html">Sound</a>
+</li>
+</ul>
+</li>
+<li><a href="About/Abbreviations/index.html">Abbreviations</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/index.html">Blupi</a>
+<ul>
+<li><a href="Blupi/Blupi_videos/index.html">Blupi videos</a>
+</li>
+<li><a href="Blupi/Community/index.html">Community</a>
+<ul>
+<li><a href="Blupi/Community/Daniel_Roux/index.html">Daniel Roux</a>
+</li>
+<li><a href="Blupi/Community/Mathieu_Schroeter/index.html">Mathieu Schroeter</a>
+</li>
+<li><a href="Blupi/Community/Robert_Vokac/index.html">Robert Vokac</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Fan_projects/index.html">Fan projects</a>
+<ul>
+<li><a href="Blupi/Fan_projects/Blupi-Bouncers/index.html">Blupi-Bouncers</a>
+</li>
+<li><a href="Blupi/Fan_projects/Eggbert_3/index.html">Eggbert 3</a>
+</li>
+<li><a href="Blupi/Fan_projects/X-Edit-Mapper/index.html">X-Edit-Mapper</a>
+</li>
+<li><a href="Blupi/Fan_projects/X-Edit/index.html">X-Edit</a>
+</li>
+<li><a href="Blupi/Fan_projects/BlupiEdit/index.html">BlupiEdit</a>
+</li>
+<li><a href="Blupi/Fan_projects/EggBeater/index.html">EggBeater</a>
+</li>
+<li><a href="Blupi/Fan_projects/Tiled-blupi/index.html">Tiled-blupi</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Images/index.html">Images</a>
+</li>
+<li><a href="Blupi/Blupi_websites/index.html">Blupi websites</a>
+</li>
+<li><a href="Blupi/Epsitec/index.html">Epsitec</a>
+</li>
+<li><a href="Blupi/Games/index.html">Games</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Windows)</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Screens/index.html">Screens</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Hacks/index.html">Hacks</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Hacks/Cheats/index.html">Cheats</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Hacks/Cheatplayer/index.html">Cheatplayer</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Bugs/index.html">Bugs</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/SBI_and_SBII/index.html">SBI and SBII</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Blocks/index.html">Blocks</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Proposal_of_new_features/index.html">Proposal of new features</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Controls/index.html">Controls</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/CONFIG.DEF/index.html">CONFIG.DEF</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Images/index.html">Images</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Images/BLUPI000.BLP/index.html">BLUPI000.BLP</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Troubleshooting/index.html">Troubleshooting</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Covers/index.html">Covers</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/BLP/index.html">BLP</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Level_editor/index.html">Level editor</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/index.html">Levels</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/II/index.html">II</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/II/090/index.html">090</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/II/120/index.html">120</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/II/040/index.html">040</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/DEMO/index.html">DEMO</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/index.html">I</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/204/index.html">204</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/203/index.html">203</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/066/index.html">066</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/205/index.html">205</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/062/index.html">062</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/061/index.html">061</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/064/index.html">064</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/201/index.html">201</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/060/index.html">060</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/200/index.html">200</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/063/index.html">063</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/206/index.html">206</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/202/index.html">202</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/065/index.html">065</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Elements/index.html">Elements</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Directory_Structure/index.html">Directory Structure</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Mods/index.html">Mods</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows)/Level/index.html">Level</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html">Speedy Blupi (Windows Phone)</a>
+<ul>
+<li><a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html">Dada Games</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Games/Blupi_is_Back/index.html">Blupi is Back</a>
+</li>
+<li><a href="Blupi/Games/Planet_Blupi/index.html">Planet Blupi</a>
+</li>
+<li><a href="Blupi/Games/Speedy_Eggbert/index.html">Speedy Eggbert</a>
+</li>
+<li><a href="Blupi/Games/Blupi_at_Home/index.html">Blupi at Home</a>
+</li>
+</ul>
+</li>
+<li><a href="Blupi/Blupi.com/index.html">Blupi.com</a>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</body>
+</html>
