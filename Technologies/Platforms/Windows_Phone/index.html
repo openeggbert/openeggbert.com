@@ -326,6 +326,110 @@
         Github repository: <a href="https://github.com/ReneLergner/WPinternals">https://github.com/ReneLergner/WPinternals</a>
         <br>
         Official website (dead now): <a href="http://www.wpinternals.net/">http://www.wpinternals.net/</a>
+
+        <h2>Windows Device Recovery Tool</h2>
+
+        Windows Device Recovery Tool is a proprietary tool developed by Microsoft used to recover firmware of Windows devices, it runs natively on Windows.
+<br>
+        As of November 2024, it seems, that the this tool dropped the support for Windows Phone devices.
+        <br>
+        Note: In July 2024 this tool was working for Windows Phone devices.
+
+
+
+
+
+
+
+<h2>XAP</h2>
+        <p>XAP is the file format for:</p>
+
+        <ol>
+            <li>mobile apps for the <a href="#">Windows Phone</a> operating system</li>
+            <li><a href="#">Silverlight</a> web apps</li>
+        </ol>
+
+        <p>Since the relase of Windows  Phone 8.1 XAP was replaced by the the <a href="#">APPX</a> file format used to install <a href="#">WinRT</a> apps on the Windows Phone Support.</p>
+
+        <ul>
+            <li><a href="#">Speedy Blupi for Windows Phone</a> uses the XAP file format, this means we can ignore APPX.</li>
+        </ul>
+
+        <p>A XAP file is a <a href="#">ZIP</a> file, but which has the xap file extension (not zip).</p>
+
+        <p>The MIME type for XAP files is: appilcation/x-silverlight-app.</p>
+
+        <p>Microsoft later enabled the possibility to encrypt the XAP file. A standard ZIP extractor does not work for encrypted XAP files.</p>
+
+        <ul>
+            <li>Fortunately, the XAP file of Speedy Blupi is not encrypted and can be opened as a standard ZIP file.</li>
+        </ul>
+
+        <h3>Content of a XAP file</h3>
+
+        <ul>
+            <li>AppManifest.xaml file</li>
+            <li>DLLs, which are required</li>
+            <li>Application / Game resources (images and others)</li>
+        </ul>
+
+        <h3>How to determine the Windows Phone version for which an XAP file was created</h3>
+        <p>You can inspect the contents of the XAP, specifically its <code>WMAppManifest.xml</code> file. This file contains metadata about the app, including the target Windows Phone OS version. Follow these steps:</p>
+        <hr>
+
+        <h4><strong>Step 1: Extract the XAP File</strong></h4>
+        <ol>
+            <li><strong>Rename the XAP file</strong>:
+                <ul>
+                    <li>Change the file extension from <code>.xap</code> to <code>.zip</code>.</li>
+                </ul>
+            </li>
+            <li><strong>Extract the ZIP file</strong>:
+                <ul>
+                    <li>Use a tool like 7-Zip, WinRAR, or any other archive extractor.</li>
+                </ul>
+            </li>
+        </ol>
+        <hr>
+
+        <h4><strong>Step 2: Locate the <code>WMAppManifest.xml</code> File</strong></h4>
+        <ol>
+            <li>Navigate to the extracted folder.</li>
+            <li>Look for the file named <code>WMAppManifest.xml</code>. It's typically located in the root of the XAP or under a folder like <code>App</code>.</li>
+        </ol>
+        <hr>
+
+        <h4><strong>Step 3: Inspect the <code>WMAppManifest.xml</code> File</strong></h4>
+        <ol>
+            <li>Open the <code>WMAppManifest.xml</code> file in a text editor (e.g., Notepad++ or VS Code).</li>
+            <li>Look for the value of the attribute <code>AppPlatformVersion</code> of the tag deployment.</li>
+        </ol>
+
+        <h4><strong>Step 4: Interpret the Version</strong></h4>
+        <ul>
+            <li>Common version numbers:
+                <ul>
+                    <li><strong>7.1</strong>: Windows Phone 7.5.</li>
+                    <li><strong>8.0</strong>: Windows Phone 8.0.</li>
+                    <li><strong>8.1</strong>: Windows Phone 8.1.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>Regarding Speedy Blupi for Windows Phone, that AppPlatformVersion is 7.1, which means, that Speedy Blupi target Windows Phone 7.5 or newer devices.</p>
+
+        <pre><code>&lt;Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1"&gt;</code></pre>
+
+
+
+
+
+
+
+
+
+
+
         <h2>External links </h2>
         "Why The Windows Phone Failed" <a href="https://www.youtube.com/watch?v=SNEF1ujd2Mc">https://www.youtube.com/watch?v=SNEF1ujd2Mc</a>
 
