@@ -326,6 +326,7 @@ h4{color:#FF8C00;}
 h5{color: #a600ff;}
 h6{color: #c3b903;}
 
+/*
 body {
     counter-reset: h2-counter;
 }
@@ -376,7 +377,7 @@ h6 {
 h6::before {
   content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "." counter(h5-counter) "." counter(h6-counter) " ";
 }
-
+/*/
 
 .infobox {
 float:right;border:1px solid black;text-align:left;margin-left:10px;
