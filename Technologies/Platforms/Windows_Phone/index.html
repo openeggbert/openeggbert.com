@@ -313,9 +313,191 @@
             </li>
         </ul>
 
+        <h2>Windows Phone Internals</h2>
 
+        Windows Phone Internals is an open-source tool created by a hacker (XDA user) who goes by the name Heathcliff, that performs tasks like unlocking bootloader, enabling root access, and flash or backup firmware.
+<br>
+        Heathcliff released the first version after few months of working on it.
+        <br>
+        Many Lumia phones are supported.
+        <br>
+        But be careful, this tool is intended only for experienced users and can cause the phone to become unusable permanently.
+        <br>
+        Github repository: <a href="https://github.com/ReneLergner/WPinternals">https://github.com/ReneLergner/WPinternals</a>
+        <br>
+        Official website (dead now): <a href="http://www.wpinternals.net/">http://www.wpinternals.net/</a>
         <h2>External links </h2>
         "Why The Windows Phone Failed" <a href="https://www.youtube.com/watch?v=SNEF1ujd2Mc">https://www.youtube.com/watch?v=SNEF1ujd2Mc</a>
+
+        <h2>Windows Phone namespaces</h2>
+
+        <h3>Microsoft.Devices.Sensors</h3>
+        <p><code>Microsoft.Devices.Sensors</code> is a namespace in the <strong>Windows Phone</strong> platform that provides an API for accessing device sensors. This namespace was primarily designed for developing applications for the Windows Phone 7.x and 8.x operating systems.</p>
+
+        <h4>Functions of <code>Microsoft.Devices.Sensors</code></h4>
+        <p>The API allows developers to access various sensors on a mobile device, such as:</p>
+        <ol>
+            <li><strong>Accelerometer</strong>:
+                <ul>
+                    <li>Measures the acceleration of the device along all three axes (X, Y, Z).</li>
+                    <li>Can be used for detecting device orientation, motion gestures, or game development.</li>
+                </ul>
+            </li>
+            <li><strong>Gyroscope</strong>:
+                <ul>
+                    <li>Measures angular velocity (device rotation around the X, Y, and Z axes).</li>
+                    <li>Used for more precise rotation detection, such as in navigation or gaming.</li>
+                </ul>
+            </li>
+            <li><strong>Compass (Magnetometer)</strong>:
+                <ul>
+                    <li>Detects the Earth's magnetic field and can determine the device's direction relative to the north.</li>
+                    <li>Used in map creation or augmented reality (AR) applications.</li>
+                </ul>
+            </li>
+            <li><strong>Acceleration and Motion Data</strong>:
+                <ul>
+                    <li>A combination of sensors providing complex data on device movement and orientation.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h4>Code Example: Accelerometer</h4>
+        <pre><code>using Microsoft.Devices.Sensors;
+using System;
+
+namespace SensorExample
+{
+    public class AccelerometerExample
+    {
+        private Accelerometer accelerometer;
+
+        public AccelerometerExample()
+        {
+            accelerometer = new Accelerometer();
+            accelerometer.CurrentValueChanged += Accelerometer_CurrentValueChanged;
+            accelerometer.Start();
+        }
+
+        private void Accelerometer_CurrentValueChanged(object sender, SensorReadingEventArgs&lt;AccelerometerReading&gt; e)
+        {
+            var acceleration = e.SensorReading.Acceleration;
+            Console.WriteLine($&quot;X: {acceleration.X}, Y: {acceleration.Y}, Z: {acceleration.Z}&quot;);
+        }
+    }
+}
+</code></pre>
+
+        <h4>Status as of 2025</h4>
+        <p>This namespace and its API are deprecated and were used only for Windows Phone applications. With the end of support for Windows Phone (in 2017), the use of this namespace is limited. Modern mobile application development now focuses on other platforms, such as Xamarin, .NET MAUI, or native app development for iOS and Android, where similar APIs are available.</p>
+        <p>For newer development, it is recommended to use current frameworks and libraries that provide support for working with sensors on modern devices.</p>
+        <hr>
+
+        <h3>Microsoft.Phone.Controls</h3>
+        <p>Provides controls specific to Windows Phone, such as:</p>
+        <ul>
+            <li><strong>Pivot</strong>: A control for horizontal navigation between different panels.</li>
+            <li><strong>Panorama</strong>: A control that enables smooth transitions between larger sections.</li>
+            <li><strong>WebBrowser</strong>: Hosting web pages within the app.</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Phone.Tasks</h3>
+        <p>Used to perform integrated system tasks, such as:</p>
+        <ul>
+            <li><strong>EmailComposeTask</strong>: Opens the interface for sending an email.</li>
+            <li><strong>SmsComposeTask</strong>: Opens the interface for sending an SMS.</li>
+            <li><strong>PhoneCallTask</strong>: Initiates a call to a specific phone number.</li>
+            <li><strong>PhotoChooserTask</strong>: Allows the user to select a photo from the gallery.</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Phone.Shell</h3>
+        <p>Provides access to user interface features, such as:</p>
+        <ul>
+            <li><strong>Tile</strong>: Dynamic tiles on the start screen.</li>
+            <li><strong>ToastNotification</strong>: Sending brief notifications to the user.</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Xna.Framework</h3>
+        <p>Used for games and graphic applications. Contains classes for working with:</p>
+        <ul>
+            <li><strong>Graphics</strong>: Graphic rendering.</li>
+            <li><strong>Audio</strong>: Playing sounds and music.</li>
+            <li><strong>Input</strong>: Handling user inputs.</li>
+        </ul>
+        <p>See: <em>XNA namespaces</em></p>
+        <hr>
+
+        <h3>Microsoft.Phone.Info</h3>
+        <p>Provides device information, such as:</p>
+        <ul>
+            <li><strong>DeviceStatus</strong>: Information about memory, device model, battery status, etc.</li>
+            <li><strong>UserExtendedProperties</strong>: Getting information about the user.</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Devices</h3>
+        <p>Works with device hardware, including:</p>
+        <ul>
+            <li><strong>Camera</strong>: Using the device's camera.</li>
+            <li><strong>VibrateController</strong>: Controlling the device's vibration.</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Phone.Media</h3>
+        <p>Used for working with multimedia:</p>
+        <ul>
+            <li><strong>AudioPlayer</strong>: Playing background music.</li>
+            <li><strong>VideoPlayer</strong>: Playing videos.</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Phone.Reactive</h3>
+        <p>Provides a subset of reactive programming (Reactive Extensions) for asynchronous operations in applications.</p>
+        <hr>
+
+        <h3>System.Device.Location</h3>
+        <p>Works with geolocation:</p>
+        <ul>
+            <li><strong>GeoCoordinateWatcher</strong>: Gets the current location of the device.</li>
+            <li><strong>GeoCoordinate</strong>: Storing coordinates (latitude and longitude).</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Phone.Maps.Controls</h3>
+        <p>Used to implement map features:</p>
+        <ul>
+            <li><strong>Map</strong>: Displaying an interactive map.</li>
+            <li><strong>MapLayer</strong>: Working with layers on the map.</li>
+        </ul>
+        <hr>
+
+        <h3>Microsoft.Advertising.Mobile.UI</h3>
+        <p>Used for integrating ads into apps through the <strong>Microsoft Advertising SDK</strong>.</p>
+        <hr>
+
+        <h3>System.Windows.Controls</h3>
+        <p>Contains basic controls for the user interface, such as:</p>
+        <ul>
+            <li><strong>Button</strong>: A button.</li>
+            <li><strong>TextBox</strong>: A text box.</li>
+            <li><strong>ListBox</strong>: A list of items.</li>
+        </ul>
+        <hr>
+
+        <h3>System.Windows.Media</h3>
+        <p>API for working with multimedia, such as graphics, animations, and sound.</p>
+        <hr>
+
+        <h3>Microsoft.Phone.Notification</h3>
+        <p>Used for working with <strong>Push Notification Services (PNS)</strong> for real-time notifications.</p>
+        <hr>
+
+        <h3>System.IO.IsolatedStorage</h3>
+        <p>Used to store application data locally on the device. It contains classes for working with <strong>Isolated Storage</strong>, which is a sandboxed area for the app.</p>
+        <p>If you are working with Windows Phone, it is recommended to consult the documentation for the specific SDK version, as some namespaces and APIs were only available in certain versions.</p>
 
 
     </section>
