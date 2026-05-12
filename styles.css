@@ -30,6 +30,10 @@ body {
   font-weight: bold; /* Highlight text */
   color: #333; /* Dark gray text color for contrast */
 }
+#main_banner a{
+  text-decoration: none;
+  color: #333; /* Dark gray text color for contrast */
+}
 
 
 
