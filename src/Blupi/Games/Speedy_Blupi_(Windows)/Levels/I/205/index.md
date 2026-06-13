@@ -20,11 +20,7 @@ subpages:
 
 ## Demo Level 6
 
-Sixth of Speedy Blupi's demo levels.
-
-<br>
-
-Unplayable under normal conditions and is intended solely for use with prerecorded inputs.
+Sixth of Speedy Blupi's demo levels. <br> Unplayable under normal conditions and is intended solely for use with prerecorded inputs.
 
 <table>
 <tr>

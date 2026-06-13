@@ -22,19 +22,14 @@ Used programming language is [C#](Article_does_not_yet_exist_or_link_is_broken/i
 
 There was a successful attempt to compile and run it on [Windows](Technologies/Platforms/Windows/index.html) (on 7th July 2024), but after an [EXE](Article_does_not_yet_exist_or_link_is_broken/index.html) file was opened, it froze.
 
-<ul>
-<li> This issue needs some investigation to find a fix.</li>
-</ul>
+<ul> <li> This issue needs some investigation to find a fix.</li> </ul>
 
 ## Source code repository
 
-Original:
-
-[https://github.com/MainMemory/BlupiEdit](https://github.com/MainMemory/BlupiEdit)
+Original: [https://github.com/MainMemory/BlupiEdit](https://github.com/MainMemory/BlupiEdit)
 
 ## Licence
 
 BlupiEdit has no [license](Article_does_not_yet_exist_or_link_is_broken/index.html) attached.
 
-Maybe the default copyright laws apply, meaning that BlupiEdit retains all rights to its [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) and no one may reproduce, distribute, or
-            create derivative works from its work.
+Maybe the default copyright laws apply, meaning that BlupiEdit retains all rights to its [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) and no one may reproduce, distribute, or create derivative works from its work.

@@ -16,33 +16,7 @@ subpages:
 
 ## Recreation of game graphics
 
-The
-
-[3D](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-editor
-
-[Blender](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-may be used to create the 3D models again and to render the
-
-[game](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-graphics again.
-
-<br>
-
-New game graphics will be double the size.
-
-<br>
-
-[Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-or
-
-[Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-may be used too
+The [3D](Article_does_not_yet_exist_or_link_is_broken/index.html) editor [Blender](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used to create the 3D models again and to render the [game](Article_does_not_yet_exist_or_link_is_broken/index.html) graphics again. <br> New game graphics will be double the size. <br> [Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html) or [Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used too
 
 ## New types of transport
 
@@ -88,29 +62,7 @@ Features will be inspired by X-Edit, X-Edit-Mapper, BlupiEdit and tiled-blupi
 
 ## Graphics resolution
 
-Now the size of the block is 64x64 px.
-
-<br>
-
-But the block size could in the future also 128x128, 256x256 or 512x512 px.
-
-<br>
-
-Now in 2025 there are even monitors with this resolution: 7680x4320
-
-<br>
-
-There is always the monitor height like this: 7 and a half of the block, which is theoretical block size 576x576 for monitor with resolution 7680x4320
-
-<br>
-
-**Risks:**
-
-APK Android executable file has limit 150 MB for Google Play. Possible solution: Expansion files
-
-<br>
-
-Naming convention:
+Now the size of the block is 64x64 px. <br> But the block size could in the future also 128x128, 256x256 or 512x512 px. <br> Now in 2025 there are even monitors with this resolution: 7680x4320 <br> There is always the monitor height like this: 7 and a half of the block, which is theoretical block size 576x576 for monitor with resolution 7680x4320 <br> **Risks:** APK Android executable file has limit 150 MB for Google Play. Possible solution: Expansion files <br> Naming convention:
 
 - blupi__frame1__256x256__32bit.png
 - blupi__frame2__256x256__32bit.png
@@ -124,39 +76,13 @@ Naming convention:
 
 ### Resolution
 
-Window or fullscreen resolution is:
-
-<br>
-
-For SBD, SB1, SB2, SED, SE1, SE2 the resolution is always: 640*480 (VGA)
-
-<br>
-
-<br>
-
-OE3 supports also the resolution: 1280 × 960 (QuadVGA)
+Window or fullscreen resolution is: <br> For SBD, SB1, SB2, SED, SE1, SE2 the resolution is always: 640*480 (VGA)<br> <br> OE3 supports also the resolution: 1280 × 960 (QuadVGA)
 
 ## FPS
 
-**Now:**
+**Now:** The FPS is always 20 frames per second <br> **Future:** The FPS could be also 60 or 120, this means more sprites to be rendered <br> **Trends in FPS in the last decades:**
 
-The FPS is always 20 frames per second
-
-<br>
-
-**Future:**
-
-The FPS could be also 60 or 120, this means more sprites to be rendered
-
-<br>
-
-**Trends in FPS in the last decades:**
-
-- **1980s–1990s:** 20–30 FPS was the norm on most gaming devices.
-        <li> <b>2000s:</b> 60 FPS became the target for console and PC games.
-        <li> <b>2010s–2020s:</b> 60 FPS is the norm, while 120 FPS and above are common on gaming monitors and esports devices.
-        <li> <b>Future:</b> 240 Hz and 360 Hz refresh rate monitors exist, but are not widely used outside of specific gaming segments.
-</li></li></li>
+- **1980s–1990s:** 20–30 FPS was the norm on most gaming devices. <li> <b>2000s:</b> 60 FPS became the target for console and PC games. <li> <b>2010s–2020s:</b> 60 FPS is the norm, while 120 FPS and above are common on gaming monitors and esports devices. <li> <b>Future:</b> 240 Hz and 360 Hz refresh rate monitors exist, but are not widely used outside of specific gaming segments. </li></li></li>
 
 ### Ideas
 
@@ -205,15 +131,7 @@ The screen height is always 7 and a half blocks (when not zoomed in).
 
 ## Using artificial intelligence (AI)
 
-Playing other players in the multiplayer.
-
-<br>
-
-AI controls Blupi and play the single game.
-
-<br>
-
-AI generates new worlds.
+Playing other players in the multiplayer. <br> AI controls Blupi and play the single game. <br> AI generates new worlds.
 
 ## World generator (using computer algorithm or artificial intelligence)
 
@@ -368,16 +286,7 @@ Sound or music can be disabled by 2 new buttons instead of clicking Volumn down 
 
 ## Proposal of modding system for Open Eggbert
 
-Open Eggbert Store will be involved too.
-
-<br>
-
-Similarly to Maven building system, every mod will be described in a xml file, but it will be packaged to a ZIP file ending
-        with the extension ".egm" (like Open Eggbert mod).
-
-<br>
-
-*To Do: Update text string modding and translations, potentially adding support for additional languages. This will enhance the ability to modify the game beyond what’s possible with the original version, although it is also possible to modify the string texts within the original EXE files.*
+Open Eggbert Store will be involved too. <br> Similarly to Maven building system, every mod will be described in a xml file, but it will be packaged to a ZIP file ending with the extension ".egm" (like Open Eggbert mod). <br> *To Do: Update text string modding and translations, potentially adding support for additional languages. This will enhance the ability to modify the game beyond what’s possible with the original version, although it is also possible to modify the string texts within the original EXE files.*
 
 <textarea cols="100" readonly="" rows="20" style="font-size: 125%;">
 <?xml version="1.0" encoding="UTF-8"?>
@@ -426,32 +335,14 @@ Similarly to Maven building system, every mod will be described in a xml file, b
 
 ## Open Eggbert Editor
 
-Future Desktop application (C++, Qt).
-
-**Goals:**
+Future Desktop application (C++, Qt). **Goals:**
 
 - creating mods
 - editing and analysing sprites and sprite sheets
 
 ## Game Space Selection
 
-This is Open Eggbert only screen.
-
-<br>
-
-This is main screen for Open Eggbert.
-
-<br>
-
-But if Open Eggbert is launched in a legacy Speedy Blupi/Eggbert directory, then, the main screen for Open Eggbert is Init Screen.
-
-<br>
-
-This screen is not present in Speedy Blupi/Eggbert games.
-
-<br>
-
-As the default, the following game spaces exist:
+This is Open Eggbert only screen. <br> This is main screen for Open Eggbert. <br> But if Open Eggbert is launched in a legacy Speedy Blupi/Eggbert directory, then, the main screen for Open Eggbert is Init Screen. <br> This screen is not present in Speedy Blupi/Eggbert games. <br> As the default, the following game spaces exist:
 
 - Speedy Blupi Demo
 - Speedy Blupi I

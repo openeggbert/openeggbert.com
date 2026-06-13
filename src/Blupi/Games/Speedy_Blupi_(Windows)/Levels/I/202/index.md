@@ -20,11 +20,7 @@ subpages:
 
 ## Demo Level 3
 
-Third of Speedy Blupi's demo levels.
-
-<br>
-
-Unplayable under normal conditions and is intended solely for use with prerecorded inputs.
+Third of Speedy Blupi's demo levels. <br> Unplayable under normal conditions and is intended solely for use with prerecorded inputs.
 
 <table>
 <tr>

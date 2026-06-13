@@ -16,13 +16,7 @@ EggBeater is an application which creates randomized missions:
 
 - Random background, random music tracks, and random environment.
 
-**Author:**
-
-Robert Slayer
-
-<br>
-
-![](https://drive.openeggbert.com/Blupi/Fan_projects/EggBeater/Eggbeater-0.2.0.jpg)
+**Author:** Robert Slayer <br> ![](https://drive.openeggbert.com/Blupi/Fan_projects/EggBeater/Eggbeater-0.2.0.jpg)
 
 ## Links
 

@@ -32,26 +32,11 @@ tags:
 </tr>
 </table>
 
-Blupi is Back is a
-
-[Blupi](Blupi/index.html)
-
-game released in 2024 by its original
-        author
-
-[Daniel Roux](Blupi/Community/Daniel_Roux/index.html)
-
-, fifty years after Blupi's first appearance.
-        Year 2024 is the Blupi's 50th anniversary.
-
-<br>
-
-Blupi is Back is a new Blupi game to be released in 20 year.
+Blupi is Back is a [Blupi](Blupi/index.html) game released in 2024 by its original author [Daniel Roux](Blupi/Community/Daniel_Roux/index.html), fifty years after Blupi's first appearance. Year 2024 is the Blupi's 50th anniversary. <br> Blupi is Back is a new Blupi game to be released in 20 year.
 
 ## Supported platforms
 
-*Note: iOS (iPhone operating system) is not supported. Daniel stated, that iOS is too expensive to develop
-            for.*
+*Note: iOS (iPhone operating system) is not supported. Daniel stated, that iOS is too expensive to develop for.*
 
 ### Android
 

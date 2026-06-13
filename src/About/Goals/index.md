@@ -15,10 +15,8 @@ subpages:
 Create ultimate specification of [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html)/[Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html) games and its related utilities
 
 - This specification should be as sufficient as possible to recreate these games.
-- This specification should completely include all the details related to technical information for [graphics](Article_does_not_yet_exist_or_link_is_broken/index.html), [sounds](Article_does_not_yet_exist_or_link_is_broken/index.html), [cheats](Article_does_not_yet_exist_or_link_is_broken/index.html),
-                hacks, [bugs](Article_does_not_yet_exist_or_link_is_broken/index.html), behaviours.
-- This includes also recording videos of the game play - representing various situations of [Blupi](Blupi/index.html) to preserve the rules, how the game works, for
-                the future and also as the specification.
+- This specification should completely include all the details related to technical information for [graphics](Article_does_not_yet_exist_or_link_is_broken/index.html), [sounds](Article_does_not_yet_exist_or_link_is_broken/index.html), [cheats](Article_does_not_yet_exist_or_link_is_broken/index.html), hacks, [bugs](Article_does_not_yet_exist_or_link_is_broken/index.html), behaviours.
+- This includes also recording videos of the game play - representing various situations of [Blupi](Blupi/index.html) to preserve the rules, how the game works, for the future and also as the specification.
 - Identify SB1 and SE1 screens and their buttons and other items on the screen
 - Identify SB2 and SE2 screens and their buttons and other items on the screen
 - Identify SB1 and SE1 sounds
@@ -28,10 +26,8 @@ Create ultimate specification of [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Window
 - Describe the custom made save format (BLP files)
 - Describe the custom made user info format (BLP files)
 - Describe the custom made demo format (BLP files)
-- Document mods for Speedy Blupi/Eggbert games (record videos, describe levels, describe modded
-                graphics/music/sounds)
-- Record videos playing SB/SE 1/2 (all possible situations) and save them to Open Eggbert channel and
-                videos.openeggbert.com
+- Document mods for Speedy Blupi/Eggbert games (record videos, describe levels, describe modded graphics/music/sounds)
+- Record videos playing SB/SE 1/2 (all possible situations) and save them to Open Eggbert channel and videos.openeggbert.com
 
 ## Create documentation for Speedy Blupi (DadaGames)
 
@@ -41,24 +37,12 @@ Create ultimate specification of Speedy Blupi for Windows Phone released in 2013
 
 ## Decompilation of Speedy Blupi (Epsitec)
 
-[Decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html)
+[Decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html) of Speedy Blupi/Eggbert for [Windows](Technologies/Platforms/Windows/index.html). Then port it to [SDL 3](Article_does_not_yet_exist_or_link_is_broken/index.html) and make it portable.
 
-of Speedy Blupi/Eggbert for
-
-[Windows](Technologies/Platforms/Windows/index.html)
-
-. Then port it to
-
-[SDL 3](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-and make it portable.
-
-- [C++](Technologies/Programming_languages/C++/index.html), [DirectX](Technologies/Libraries/DirectX/index.html)
-                3/5, [Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html), [IDA](Article_does_not_yet_exist_or_link_is_broken/index.html), [x86](Article_does_not_yet_exist_or_link_is_broken/index.html)
-[assembly](Article_does_not_yet_exist_or_link_is_broken/index.html) language, SDL 3
+- [C++](Technologies/Programming_languages/C++/index.html), [DirectX](Technologies/Libraries/DirectX/index.html) 3/5, [Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html), [IDA](Article_does_not_yet_exist_or_link_is_broken/index.html), [x86](Article_does_not_yet_exist_or_link_is_broken/index.html) [assembly](Article_does_not_yet_exist_or_link_is_broken/index.html) language, SDL 3
 - https://github.com/HMVocaloid/Speedy-Eggbert-2-Source-Code-Decomp
 
-## Archive of all Speedy Blupi/Eggbert related websites on theInternet
+## Archive of all Speedy Blupi/Eggbert related websites on the Internet
 
 - [Webs related to Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)
 - https://archive.openeggbert.com/main
@@ -70,66 +54,23 @@ and make it portable.
 - https://youtube.openeggbert.com
 - https://github.com/openeggbert/youtubedl-frontend
 
-## Create newgame assets
+## Create new game assets
 
 ### Music
 
-music (
-
-[MIDI](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-or
-
-[OGA](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-).
-
-[Microsoft
-                Music Producer](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-may be used
+music ([MIDI](Article_does_not_yet_exist_or_link_is_broken/index.html) or [OGA](Article_does_not_yet_exist_or_link_is_broken/index.html)). [Microsoft Music Producer](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used
 
 ### Sounds
 
-sounds (
-
-[WAV](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-or
-
-[OGA](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-)
+sounds ([WAV](Article_does_not_yet_exist_or_link_is_broken/index.html) or [OGA](Article_does_not_yet_exist_or_link_is_broken/index.html))
 
 ### Images
 
-images (
+images ([BMP](Article_does_not_yet_exist_or_link_is_broken/index.html) or [PNG](Article_does_not_yet_exist_or_link_is_broken/index.html)). [Blender](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used. ''[Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html) and [Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html) may not be used.
 
-[BMP](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-or
-
-[PNG](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-).
-
-[Blender](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-may be used. ''
-
-[Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-and
-
-[Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-may not be used.
-
-- Goal is to create the completely new graphic. Possible applications to be used for this task
-                        are Gimp, Inkscape, Blender and others
+- Goal is to create the completely new graphic. Possible applications to be used for this task are Gimp, Inkscape, Blender and others
   - 3D models will be used to create the new prerendered sprites
-  - Game resolution will be 640*480 or 1280*960 (or another technical solution - to be
-                                discussed)
+  - Game resolution will be 640*480 or 1280*960 (or another technical solution - to be discussed)
 
 ## Tasks
 

@@ -10,47 +10,26 @@ subpages:
   href: Technologies/Programming_languages/index.html
 ---
 
-> **Note:**
-> 
->  The correct title of this article is 
-> 
-> **C#**
-> 
-> . The substitution of
->             the 
-> 
-> **#**
-> 
->  symbol is due to technical limitations.
->
+> **Note:** The correct title of this article is **C#**. The substitution of the **#** symbol is due to technical limitations.
 
 ## What is C#?
 
-**C#** (pronounced "C-sharp") is a modern, general-purpose, high-level programming language
-            developed by Microsoft. It supports multiple programming paradigms, including object-oriented, functional,
-            and component-oriented programming.
+**C#** (pronounced "C-sharp") is a modern, general-purpose, high-level programming language developed by Microsoft. It supports multiple programming paradigms, including object-oriented, functional, and component-oriented programming.
 
 - Designed for productivity, safety, and strong software engineering principles.
 - Has a syntax and design philosophy similar to Java.
-- Invented by **Anders Hejlsberg**, along with **Scott Wiltamuth** and **Peter
-                Golde**.
+- Invented by **Anders Hejlsberg**, along with **Scott Wiltamuth** and **Peter Golde**.
 - First released in **2000** as part of Microsoft’s .NET initiative.
-- Continually evolving, with each new version adding powerful features like LINQ, async/await, pattern
-                matching, and records.
+- Continually evolving, with each new version adding powerful features like LINQ, async/await, pattern matching, and records.
 - Official documentation: [learn.microsoft.com/dotnet/csharp](https://learn.microsoft.com/en-us/dotnet/csharp/)
 
 ## C# Runtimes
 
-C# code requires a runtime environment to execute. These runtimes provide services such as memory management,
-            just-in-time compilation, and exception handling.
+C# code requires a runtime environment to execute. These runtimes provide services such as memory management, just-in-time compilation, and exception handling.
 
-- **.NET Framework:** The original runtime for C#, now discontinued. It was Windows-only and
-                closed-source.
-- **Mono:** An open-source, cross-platform C# compiler and runtime, started in 2004 to bring
-                .NET to Linux and mobile devices.
-- **.NET Core / .NET:** A modern, open-source, cross-platform runtime developed by Microsoft.
-                Initially called .NET Core (2016), the platform was unified under the ".NET" name starting from .NET 5
-                in 2020.
+- **.NET Framework:** The original runtime for C#, now discontinued. It was Windows-only and closed-source.
+- **Mono:** An open-source, cross-platform C# compiler and runtime, started in 2004 to bring .NET to Linux and mobile devices.
+- **.NET Core / .NET:** A modern, open-source, cross-platform runtime developed by Microsoft. Initially called .NET Core (2016), the platform was unified under the ".NET" name starting from .NET 5 in 2020.
 
 ## C# in the Web Browser
 
@@ -58,34 +37,27 @@ Several projects allow C# to run inside web browsers using transpilation or WebA
 
 - **Bridge.NET:** Converts C# code into JavaScript.
 - **CSHTML5:** Converts C# and XAML into HTML5/JavaScript.
-- **Blazor:** A Microsoft framework that allows C# code to run in the browser via
-                WebAssembly. [Blazor
-                    official site](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor)
+- **Blazor:** A Microsoft framework that allows C# code to run in the browser via WebAssembly. [Blazor official site](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor)
 
 ## C# in Speedy Blupi for Windows Phone
 
-The Windows Phone version of **Speedy Blupi** was written in **C# 4.0**, though
-            not all language features were used. C# 4.0 was released in 2010, three years before the game launched.
+The Windows Phone version of **Speedy Blupi** was written in **C# 4.0**, though not all language features were used. C# 4.0 was released in 2010, three years before the game launched.
 
 ## Popular C# Decompilers
 
-Decompilers allow developers to inspect compiled .NET assemblies (typically in IL - Intermediate Language)
-            and convert them back to readable C# code.
+Decompilers allow developers to inspect compiled .NET assemblies (typically in IL - Intermediate Language) and convert them back to readable C# code.
 
 ### DnSpy
 
-A powerful .NET debugger and decompiler, now maintained as a community project.<br>
- [GitHub: dnSpyEx/dnSpy](https://github.com/dnSpyEx/dnSpy)
+A powerful .NET debugger and decompiler, now maintained as a community project.<br> [GitHub: dnSpyEx/dnSpy](https://github.com/dnSpyEx/dnSpy)
 
 ### ILSpy
 
-An open-source .NET decompiler with support for metadata inspection and PDF export.<br>
- [GitHub: ICSharpCode/ILSpy](https://github.com/icsharpcode/ILSpy)
+An open-source .NET decompiler with support for metadata inspection and PDF export.<br> [GitHub: ICSharpCode/ILSpy](https://github.com/icsharpcode/ILSpy)
 
 ### Telerik JustDecompile
 
-A once-popular C# decompiler from Telerik. It has since been discontinued.<br>
- [Archived site](https://www.telerik.com/products/decompiler.aspx)
+A once-popular C# decompiler from Telerik. It has since been discontinued.<br> [Archived site](https://www.telerik.com/products/decompiler.aspx)
 
 ## Recommended C# Books
 
@@ -96,67 +68,33 @@ A once-popular C# decompiler from Telerik. It has since been discontinued.<br>
 
 ## .NET Compact Framework 4.0
 
-The **.NET Compact Framework 4.0** is a streamlined version of the full .NET Framework designed
-            for embedded systems and mobile devices with limited resources.
+The **.NET Compact Framework 4.0** is a streamlined version of the full .NET Framework designed for embedded systems and mobile devices with limited resources.
 
 ### Key Differences from Full .NET Framework:
 
-1. **Target Platforms:**<br>
- .NET CF targets mobile devices and embedded systems (e.g.,
-                Windows Mobile, PDAs), whereas the full .NET Framework targets desktops and servers.
-2. **Size and Optimization:**<br>
- .NET CF is significantly smaller and optimized for devices
-                with limited RAM, storage, and CPU power.
-3. **API Coverage:**<br>
- .NET CF includes only a subset of the full .NET libraries. Notably:
+1. **Target Platforms:**<br> .NET CF targets mobile devices and embedded systems (e.g., Windows Mobile, PDAs), whereas the full .NET Framework targets desktops and servers.
+2. **Size and Optimization:**<br> .NET CF is significantly smaller and optimized for devices with limited RAM, storage, and CPU power.
+3. **API Coverage:**<br> .NET CF includes only a subset of the full .NET libraries. Notably:
   - No WPF (Windows Presentation Foundation)
   - Limited WCF (Windows Communication Foundation) support
   - Partial support for ADO.NET and other advanced features
-4. **Garbage Collection:**<br>
- GC in .NET CF is designed to be lighter and more
-                memory-efficient, though it may result in different performance characteristics than desktop GC.
-5. **UI Support:**<br>
- Uses basic Windows Forms. WPF is not supported due to hardware
-                limitations.
-6. **Performance:**<br>
- Optimized for fast startup and low resource consumption. Code must be
-                written with memory and CPU usage in mind.
-7. **Portability:**<br>
- Applications built for .NET CF are not compatible with the full .NET
-                Framework without modification.
-8. **Development Tools:**<br>
- Visual Studio (up to 2010) with specific templates is required.
-                Support has been phased out in modern development environments.
+4. **Garbage Collection:**<br> GC in .NET CF is designed to be lighter and more memory-efficient, though it may result in different performance characteristics than desktop GC.
+5. **UI Support:**<br> Uses basic Windows Forms. WPF is not supported due to hardware limitations.
+6. **Performance:**<br> Optimized for fast startup and low resource consumption. Code must be written with memory and CPU usage in mind.
+7. **Portability:**<br> Applications built for .NET CF are not compatible with the full .NET Framework without modification.
+8. **Development Tools:**<br> Visual Studio (up to 2010) with specific templates is required. Support has been phased out in modern development environments.
 
 ### Summary:
 
-- **.NET CF** is a specialized version of the .NET Framework, ideal for older mobile and
-                embedded systems.
+- **.NET CF** is a specialized version of the .NET Framework, ideal for older mobile and embedded systems.
 - **.NET Framework** is for full-featured desktop and server applications.
-- Modern development for mobile now typically uses **.NET MAUI** or **Xamarin**,
-                which have superseded .NET CF.
+- Modern development for mobile now typically uses **.NET MAUI** or **Xamarin**, which have superseded .NET CF.
 
 ## Running C Sharp code in web browser
 
 ### Blazor
 
-Blazor is
-
-[open source](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-web framework, which can compiles
-
-[C#](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-to
-
-[WASM](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-and then it can run in a
-
-[web browser](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-.
+Blazor is [open source](Article_does_not_yet_exist_or_link_is_broken/index.html) web framework, which can compiles [C#](Article_does_not_yet_exist_or_link_is_broken/index.html) to [WASM](Article_does_not_yet_exist_or_link_is_broken/index.html) and then it can run in a [web browser](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
 #### External links
 
@@ -164,36 +102,11 @@ and then it can run in a
 
 ### Bridge.NET
 
-Bridge.NET is a open source C# to JavaScript Compiler.
-
-<br>
-
-**Official website (dead link):**
-
-[http://bridge.net](http://bridge.net)
-
-Archived at:
-
-[https://web.archive.org/web/20210502211824/https://bridge.net/](https://web.archive.org/web/20210502211824/https://bridge.net/)
-
-<br>
-
-Bridge.NET is no more under active development.
-
-<br>
-
-There is a fork of Bridge.NET named H5. Its Github repository is:
-
-[https://github.com/curiosity-ai/h5](https://github.com/curiosity-ai/h5)
+Bridge.NET is a open source C# to JavaScript Compiler. <br> **Official website (dead link):** [http://bridge.net](http://bridge.net) Archived at: [https://web.archive.org/web/20210502211824/https://bridge.net/](https://web.archive.org/web/20210502211824/https://bridge.net/) <br> Bridge.NET is no more under active development. <br> There is a fork of Bridge.NET named H5. Its Github repository is: [https://github.com/curiosity-ai/h5](https://github.com/curiosity-ai/h5)
 
 ### JSIL
 
-JSIL is a compiler that converts .NET applications and libraries from CIL bytecode into standards-compliant
-        JavaScript, which can run in any modern browser or JavaScript runtime. Unlike other JavaScript cross-compilers,
-        JSIL generates JavaScript that is easy to debug while preserving the original .NET code's behavior and
-        structure. Supporting most .NET-based languages, it works seamlessly with C# and VB.NET, with partial support
-        for F#. The compiler handles nearly all .NET runtime features, including pointers and P/Invoke, and can
-        translate most of the open-source Base Class Library (BCL).
+JSIL is a compiler that converts .NET applications and libraries from CIL bytecode into standards-compliant JavaScript, which can run in any modern browser or JavaScript runtime. Unlike other JavaScript cross-compilers, JSIL generates JavaScript that is easy to debug while preserving the original .NET code's behavior and structure. Supporting most .NET-based languages, it works seamlessly with C# and VB.NET, with partial support for F#. The compiler handles nearly all .NET runtime features, including pointers and P/Invoke, and can translate most of the open-source Base Class Library (BCL).
 
 ## Comparison of C Sharp and Java
 
@@ -507,24 +420,12 @@ Java: `int[1][2]`
 
 ## MAUI
 
-.NET MAUI is cross-platform framework used to create C# apps with graphical user interface.
-
-<br>
-
-MAUI supports Windows, MacOS, Android, iOS (but not Linux).
+.NET MAUI is cross-platform framework used to create C# apps with graphical user interface. <br> MAUI supports Windows, MacOS, Android, iOS (but not Linux).
 
 ## External links
 
-**Official website:**
-
-[http://jsil.org/](http://jsil.org/)
+**Official website:** [http://jsil.org/](http://jsil.org/)
 
 ## Roslyn
 
-Roslyn is .Net compiler, which also provides C# classes to analyse C# source code.
-
-<br>
-
-**Github:**
-
-[https://github.com/dotnet/roslyn](https://github.com/dotnet/roslyn)
+Roslyn is .Net compiler, which also provides C# classes to analyse C# source code. <br> **Github:** [https://github.com/dotnet/roslyn](https://github.com/dotnet/roslyn)

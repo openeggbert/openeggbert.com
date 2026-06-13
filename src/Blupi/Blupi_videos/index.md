@@ -8,10 +8,4 @@ subpages:
   href: Blupi/index.html
 ---
 
-Link:
-
-[https://youtube.openeggbert.com](https://youtube.openeggbert.com)
-
-<br>
-
-![](https://drive.openeggbert.com/Blupi/Blupi_videos/Youtube.openeggbert.jpg)
+Link: [https://youtube.openeggbert.com](https://youtube.openeggbert.com) <br> ![](https://drive.openeggbert.com/Blupi/Blupi_videos/Youtube.openeggbert.jpg)

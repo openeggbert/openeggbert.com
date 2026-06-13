@@ -14,16 +14,4 @@ subpages:
   href: Blupi/Games/index.html
 ---
 
-Dada Games is a game development studio led by
-
-[Daniel Roux](Blupi/Community/Daniel_Roux/index.html)
-
-.
-
-<br>
-
-Dada means Daniel.
-
-<br>
-
-Daniel Roux may be the only member of Dada Games studio.
+Dada Games is a game development studio led by [Daniel Roux](Blupi/Community/Daniel_Roux/index.html). <br> Dada means Daniel. <br> Daniel Roux may be the only member of Dada Games studio.

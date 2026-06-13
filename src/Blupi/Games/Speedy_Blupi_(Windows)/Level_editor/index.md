@@ -63,11 +63,7 @@ Level editor of the game "Speedy Blupi" provides the infinite possibilities to e
 
 ## Screenshots
 
-![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen.png)
-
-<br>
-
-![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen_2.png)
+![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen.png)<br> ![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen_2.png)
 
 ## References
 

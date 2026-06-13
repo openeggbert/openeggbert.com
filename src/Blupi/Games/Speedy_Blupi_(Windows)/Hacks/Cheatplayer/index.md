@@ -16,11 +16,7 @@ subpages:
   href: Blupi/Games/Speedy_Blupi_(Windows)/Hacks/index.html
 ---
 
-Cheatplayer is hidden feature of Speedy Blupi/Eggbert games.
-
-<br>
-
-It can be activated in two ways:
+Cheatplayer is hidden feature of Speedy Blupi/Eggbert games. <br> It can be activated in two ways:
 
 - Modification of one file in the DATA directory (TODO - specify)
 - Type xnjttjpo

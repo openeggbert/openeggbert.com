@@ -123,139 +123,27 @@ tags:
 
 ## Introduction
 
-Speedy Blupi is a 2D
-
-[platformer](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-[game](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-originally developed by Swiss company
-
-[Epsitec](Blupi/Epsitec/index.html)
-
-for the
-
-[Windows](Technologies/Platforms/Windows/index.html)
-
-PC platform.
-
-<br>
-
-Speedy Blupi was initially released as an independent title on 13th September
-
-[1998](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-. It is part of the
-
-[Blupi](Blupi/index.html)
-
-series (games) and serves as the successor to the
-
-[Planet Blupi](Blupi/Games/Planet_Blupi/index.html)
-
-game
-
-<br>
-
-In 2001 Epsitec released Speedy Blupi II, which is the sequel of Speedy Blupi I.
-
-<br>
-
-Speedy Blupi was later republished as Speedy Eggbert by
-
-[eGames](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-(mostly in the US.). Speedy Eggbert was included in the CD-ROM package Arcade Classics alongside other eGames titles.
-
-<br>
-
-Speedy Blupi is known as Speedy Eggbert in North America.
-
-<br>
-
-The
-
-[player](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-controls a character named
-
-[Blupi](Blupi/index.html)
-
-''(
-
-[Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-in the eGames release)''
-
-<br>
-
-i I/II is
-
-[closed source](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-. There is still a small possibility, that the
-
-[source code](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-of Speedy Blupi will be released one day.
-
-<a class="ref" href="https://github.com/colobot/colobot/issues/896">https://github.com/colobot/colobot/issues/896</a>
-
-<a class="ref" href="https://blupi.org/letter.html">https://blupi.org/letter.html</a>
+Speedy Blupi is a 2D [platformer](Article_does_not_yet_exist_or_link_is_broken/index.html) [game](Article_does_not_yet_exist_or_link_is_broken/index.html) originally developed by Swiss company [Epsitec](Blupi/Epsitec/index.html) for the [Windows](Technologies/Platforms/Windows/index.html) PC platform. <br> Speedy Blupi was initially released as an independent title on 13th September [1998](Article_does_not_yet_exist_or_link_is_broken/index.html). It is part of the [Blupi](Blupi/index.html) series (games) and serves as the successor to the [Planet Blupi](Blupi/Games/Planet_Blupi/index.html) game <br> In 2001 Epsitec released Speedy Blupi II, which is the sequel of Speedy Blupi I. <br> Speedy Blupi was later republished as Speedy Eggbert by [eGames](Article_does_not_yet_exist_or_link_is_broken/index.html) (mostly in the US.). Speedy Eggbert was included in the CD-ROM package Arcade Classics alongside other eGames titles. <br> Speedy Blupi is known as Speedy Eggbert in North America. <br> The [player](Article_does_not_yet_exist_or_link_is_broken/index.html) controls a character named [Blupi](Blupi/index.html) ''([Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html) in the eGames release)'' <br> i I/II is [closed source](Article_does_not_yet_exist_or_link_is_broken/index.html). There is still a small possibility, that the [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) of Speedy Blupi will be released one day. <a class="ref" href="https://github.com/colobot/colobot/issues/896">https://github.com/colobot/colobot/issues/896</a><a class="ref" href="https://blupi.org/letter.html">https://blupi.org/letter.html</a>
 
 ## Releasing as Freeware in 2017
 
-In 2017, Speedy Blupi was published as freeware by Epsitec on [https://blupi.org blupi.org].
-
-<a class="ref" href="https://www.blupi.org/">https://www.blupi.org/</a>
+In 2017, Speedy Blupi was published as freeware by Epsitec on [https://blupi.org blupi.org]. <a class="ref" href="https://www.blupi.org/">https://www.blupi.org/</a>
 
 - Planet Blupi was released as open-source under GPLv3 on Github.
 
-To play non-demo versions legally before 2017 it was needed to buy Speedy Blupi I or II (in the form of a CD-ROM box).
-
-<br>
-
-Since 2017 you can legally play Speedy Blupi I/II. ISO files are hosted on the website: https://blupi.org You can extract these ISO files using software like 7-Zip (or some of its alternatives)
-
-<br>
-
-**See:**
-
-[Comparison of Speedy Blupi for Windows and Speedy Eggbert for Windows](Article_does_not_yet_exist_or_link_is_broken/index.html)
+To play non-demo versions legally before 2017 it was needed to buy Speedy Blupi I or II (in the form of a CD-ROM box). <br> Since 2017 you can legally play Speedy Blupi I/II. ISO files are hosted on the website: https://blupi.org You can extract these ISO files using software like 7-Zip (or some of its alternatives) <br> **See:** [Comparison of Speedy Blupi for Windows and Speedy Eggbert for Windows](Article_does_not_yet_exist_or_link_is_broken/index.html)
 
 ## Decompilation started in 2024
 
-[Decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-started in
-
-[2024](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-by two programmers:
-
-[HMVocaloid](Blupi/Community/index.html#HMVocaloid)
-
-and
-
-[jummy](Blupi/Community/index.html#jummy)
+[Decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html) started in [2024](Article_does_not_yet_exist_or_link_is_broken/index.html) by two programmers: [HMVocaloid](Blupi/Community/index.html#HMVocaloid) and [jummy](Blupi/Community/index.html#jummy)
 
 ## Open Eggbert
 
-An open-source reimplementation of Speedy Blupi, known as
-
-[Open Eggbert](About/index.html)
-
-, has been under development since June 2024, aiming to revitalize this classic game.
+An open-source reimplementation of Speedy Blupi, known as [Open Eggbert](About/index.html), has been under development since June 2024, aiming to revitalize this classic game.
 
 ## Sequel
 
-Speedy Blupi II, release as Speedy Eggbert 2 by eGames, introduced new features such as keys and lock barriers, teleporters, and new enemies. The sequel also added a hovercraft vehicle and new themes including slime, cavern, cheese, and palace.
-
-<br>
-
-See:
-
-[Comparison of Speedy Blupi I and Speedy Blupi II](Blupi/Games/Speedy_Blupi_(Windows)/SBI_and_SBII/index.html)
+Speedy Blupi II, release as Speedy Eggbert 2 by eGames, introduced new features such as keys and lock barriers, teleporters, and new enemies. The sequel also added a hovercraft vehicle and new themes including slime, cavern, cheese, and palace. <br> See: [Comparison of Speedy Blupi I and Speedy Blupi II](Blupi/Games/Speedy_Blupi_(Windows)/SBI_and_SBII/index.html)
 
 ## Spin-offs
 
@@ -263,11 +151,7 @@ Eggbert makes an appearance in the game Wild Wheels as a robot character, involv
 
 ## Popularity
 
-Speedy Blupi was released on 13th September 1998 to very little response to the media. Speedy Blupi was not a high-profile game.
-
-<br>
-
-Speedy Blupi got its own fanbase, see Reddit, Discord, Facebook or Twitter.
+Speedy Blupi was released on 13th September 1998 to very little response to the media. Speedy Blupi was not a high-profile game. <br> Speedy Blupi got its own fanbase, see Reddit, Discord, Facebook or Twitter.
 
 - https://www.reddit.com/r/speedyeggbert
 - https://discordapp.com/invite/mPEtFwD https://discord.com/channels/684566221340803092/684569121442234408
@@ -278,35 +162,7 @@ Speedy Blupi got its own fanbase, see Reddit, Discord, Facebook or Twitter.
 
 ## Speedy Blupi for Windows Phone
 
-In
-
-[2013](About/History/index.html)
-
-,
-
-[Speedy Blupi (Windows Phone)](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html)
-
-platform was released.
-
-<br>
-
-This obscure version of the game studio was developed by the
-
-[Dada Games](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html)
-
-game studio led by the developer
-
-[Daniel Roux](Blupi/Community/Daniel_Roux/index.html)
-
-.
-
-<br>
-
-The content on
-
-[openeggbert.com](About/index.html#openeggbert.com)
-
-describes Speedy Blupi games for Windows released in 1998 and 2001, unless otherwise noted.
+In [2013](About/History/index.html), [Speedy Blupi (Windows Phone)](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html) platform was released. <br> This obscure version of the game studio was developed by the [Dada Games](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html) game studio led by the developer [Daniel Roux](Blupi/Community/Daniel_Roux/index.html). <br> The content on [openeggbert.com](About/index.html#openeggbert.com) describes Speedy Blupi games for Windows released in 1998 and 2001, unless otherwise noted.
 
 ## Features
 
@@ -316,11 +172,7 @@ Both the first version and the sequel include a rather lengthy single-player gam
 
 ### Level editor (Mission designer)
 
-You can create your own missions and share them with your friends (
-
-[XCH](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-files)
+You can create your own missions and share them with your friends ([XCH](Article_does_not_yet_exist_or_link_is_broken/index.html) files)
 
 ### Multi player
 
@@ -334,53 +186,15 @@ Replaying games
 
 ## Game overview
 
-The game is set in a central hub from which players can access seven different themed worlds. Each world presents unique challenges and treasure hunting quests. The protagonist, Blupi (or Eggbert), must navigate through these worlds, overcoming obstacles and solving puzzles while avoiding multi-colored Blupis who guard each hub world.
-
-<br>
-
-Speedy Blupi features over forty levels of varying difficulty. The main goal in each level is to collect all treasure chests and reach the endpoint. Players encounter enemies that cannot be destroyed by normal means but can be tackled using special tools such as the Helicopter, Glue Tank, and yellow mines.
+The game is set in a central hub from which players can access seven different themed worlds. Each world presents unique challenges and treasure hunting quests. The protagonist, Blupi (or Eggbert), must navigate through these worlds, overcoming obstacles and solving puzzles while avoiding multi-colored Blupis who guard each hub world. <br> Speedy Blupi features over forty levels of varying difficulty. The main goal in each level is to collect all treasure chests and reach the endpoint. Players encounter enemies that cannot be destroyed by normal means but can be tackled using special tools such as the Helicopter, Glue Tank, and yellow mines.
 
 ## Gameplay Mechanics
 
-Controls: Players start in a practice level to learn basic controls and can discover advanced moves as they progress.
-
-<br>
-
-Tools: Use the Jeep, Skateboard, and Glue Tank to overcome obstacles and defeat enemies.
-
-<br>
-
-Custom Missions: Create and save up to 160 custom missions using a level editor.
+Controls: Players start in a practice level to learn basic controls and can discover advanced moves as they progress. <br> Tools: Use the Jeep, Skateboard, and Glue Tank to overcome obstacles and defeat enemies. <br> Custom Missions: Create and save up to 160 custom missions using a level editor.
 
 ## Relation to Windows desktop operating system
 
-Windows 98 was released on the 25th June 1998.
-
-<a class="ref" href="https://archive.org/details/windows_95_vdi">https://archive.org/details/windows_95_vdi</a>
-
-<br>
-
-Windows 95 was released on the 24th April 1995.
-
-<br>
-
-Speedy Blupi I was released on the 13th September 1998.
-
-<br>
-
-When Speedy Blupi I was released, it was possible to run in on Windows 95 or Windows 98.
-
-<br>
-
-Windows 95 is probably the operating system with the least required resources (
-
-[RAM](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-and
-
-[CPU](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-), where it is possible to run Speedy Blupi (Windows).
+Windows 98 was released on the 25th June 1998.<a class="ref" href="https://archive.org/details/windows_95_vdi">https://archive.org/details/windows_95_vdi</a> <br> Windows 95 was released on the 24th April 1995. <br> Speedy Blupi I was released on the 13th September 1998. <br> When Speedy Blupi I was released, it was possible to run in on Windows 95 or Windows 98. <br> Windows 95 is probably the operating system with the least required resources ([RAM](Article_does_not_yet_exist_or_link_is_broken/index.html) and [CPU](Article_does_not_yet_exist_or_link_is_broken/index.html)), where it is possible to run Speedy Blupi (Windows).
 
 ## Minimum system requirements
 
@@ -404,59 +218,17 @@ For multiplayer game (optional):
 - Internet with a 28.8 K modem or faster
 - Serial connection with a null modem cable (2 players)
 
-Note: The
-
-[FPS](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-of all Speedy Blupi/Eggbert games is 20 frames per second.
+Note: The [FPS](Article_does_not_yet_exist_or_link_is_broken/index.html) of all Speedy Blupi/Eggbert games is 20 frames per second.
 
 ## Versions
 
 ### Version 1
 
-40 single player missions
-
-<br>
-
-? multi-player missions
-
-<br>
-
-7 hub worlds
-
-<br>
-
-The record (minimum) time to finish all the levels in the Speedy Blupi I is: 1h 25m 17s 000ms
-
-<a class="ref" href="https://www.speedrun.com/blupi">https://www.speedrun.com/blupi</a>
+40 single player missions <br> ? multi-player missions <br> 7 hub worlds <br> The record (minimum) time to finish all the levels in the Speedy Blupi I is: 1h 25m 17s 000ms <a class="ref" href="https://www.speedrun.com/blupi">https://www.speedrun.com/blupi</a>
 
 ### Version 2
 
-Speedy Blupi 2 is a sequel of Speedy Blupi 1, which closely mirrors its predecessor, offering a similar single-player campaign. However, it introduced a level editor packed with about 50% more elements, all of which were just as user-friendly and exploitable.
-
-<br>
-
-**Examples of new elements:**
-
-keys, doors, circular saws, wasps, slime.
-
-<br>
-
-60 single player missions
-
-<br>
-
-10 multi-player missions
-
-<br>
-
-? hub worlds
-
-<br>
-
-The record (minimum) time to finish all the levels in the Speedy Blupi II is: 2h 41m 44s 270ms
-
-<a class="ref" href="https://www.speedrun.com/blupi2">https://www.speedrun.com/blupi2</a>
+Speedy Blupi 2 is a sequel of Speedy Blupi 1, which closely mirrors its predecessor, offering a similar single-player campaign. However, it introduced a level editor packed with about 50% more elements, all of which were just as user-friendly and exploitable. <br> **Examples of new elements:** keys, doors, circular saws, wasps, slime. <br> 60 single player missions <br> 10 multi-player missions <br> ? hub worlds <br> The record (minimum) time to finish all the levels in the Speedy Blupi II is: 2h 41m 44s 270ms <a class="ref" href="https://www.speedrun.com/blupi2">https://www.speedrun.com/blupi2</a>
 
 ## How to move
 
@@ -464,21 +236,9 @@ Walking, running, jumping, swimming, climbing, flying with a helicopter, skatebo
 
 ## Look
 
-Height of Blupi in Speedy Blupi is 46px tall. One tile is 64px.
+Height of Blupi in Speedy Blupi is 46px tall. One tile is 64px. <br> ![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_blupi_height.png) <br> One tile in Speedy Blupi is approximately 246 cm (8'1") in each dimension one pixel is about 3.84 cm (1 1/2") in each dimension and a full level in speedy blupi is 245.75 m x 245.75 m (806 ft. x 806 ft.). <br> Blupi has a top speed of 6.14 m/s (14 mph or 22 km/h)
 
-<br>
-
-![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_blupi_height.png)
-
-<br>
-
-One tile in Speedy Blupi is approximately 246 cm (8'1") in each dimension one pixel is about 3.84 cm (1 1/2") in each dimension and a full level in speedy blupi is 245.75 m x 245.75 m (806 ft. x 806 ft.).
-
-<br>
-
-Blupi has a top speed of 6.14 m/s (14 mph or 22 km/h)
-
-- (8 pixels/frame  x  20 frames/second  x  3.84 cm/pixel)
+- (8 pixels/frame x 20 frames/second x 3.84 cm/pixel)
 
 ## Goal
 
@@ -488,9 +248,7 @@ The goal is to solve various levels by navigating through obstacles and using ob
 2. Reach the goal (red arrow) in each level.
 3. Visit all levels.
 
-**In summary:**
-
-The goal of the game is to find all the treasures.
+**In summary:** The goal of the game is to find all the treasures.
 
 ## Defense
 
@@ -498,25 +256,13 @@ Blupi can use green balls to shoot enemies, such as other Blupis and Birds, whil
 
 ## Anti piracy measures by Epsitec
 
-All Epsitec games use the same simple check: they verify the drive from the config, confirm it's a disc drive, and ensure a specific file (e.g., world001 for SB) is on the disc. No further checks are performed.
-
-<br>
-
-This check does not exist in Speedy Eggbert games.
+All Epsitec games use the same simple check: they verify the drive from the config, confirm it's a disc drive, and ensure a specific file (e.g., world001 for SB) is on the disc. No further checks are performed. <br> This check does not exist in Speedy Eggbert games.
 
 ## Limits
 
 ### Element limit
 
-200 elements is the limit for a level.
-
-<br>
-
-This includes glue balls and nearly everything pictured in element.blp like crates, lifts, falling bridges, and several other elements.
-
-<br>
-
-Everything else is an immovable object or background decoration.
+200 elements is the limit for a level. <br> This includes glue balls and nearly everything pictured in element.blp like crates, lifts, falling bridges, and several other elements. <br> Everything else is an immovable object or background decoration.
 
 ### Immovable object limit
 
@@ -528,31 +274,11 @@ Everything else is an immovable object or background decoration.
 
 ## Window
 
-The following games can be launched in the window or fullscreen mode:
-
-<br>
+The following games can be launched in the window or fullscreen mode: <br>
 
 - Speedy Blupi demo/I/II, Speedy Eggbert demo/I/II and Open Eggbert
 
-<br>
-
-If they are launched in window mode, then the size of window is: width=640 height=480
-
-<br>
-
-But Open Eggbert additionally support resizing the window, so it can have any size.
-
-<br>
-
-Title of the window is always "Blupi" for all the games: Speedy Blupi demo/I/II, Speedy Eggbert demo/I/II
-
-<br>
-
-But if the window is not active, then the title is: "Blupi -- stop".
-
-<br>
-
-Title of the window for game Open Eggbert depends on the current game space and it can have one of the following values:
+<br> If they are launched in window mode, then the size of window is: width=640 height=480 <br> But Open Eggbert additionally support resizing the window, so it can have any size. <br> Title of the window is always "Blupi" for all the games: Speedy Blupi demo/I/II, Speedy Eggbert demo/I/II <br> But if the window is not active, then the title is: "Blupi -- stop". <br> Title of the window for game Open Eggbert depends on the current game space and it can have one of the following values:
 
 - Speedy Blupi Demo
 - Speedy Blupi I
@@ -601,11 +327,7 @@ Camera reacts to Blupi's movements with a delay.
 
 ### Global Timer
 
-Some elements do not use global timer.
-
-<br>
-
-Elements, which are animated, if game is paused, are not using global timer
+Some elements do not use global timer. <br> Elements, which are animated, if game is paused, are not using global timer
 
 ### Gravity
 
@@ -613,45 +335,18 @@ Elements, which are animated, if game is paused, are not using global timer
 
 To implement a jump mechanic, you can follow these steps:
 
-1. **Define Variables:**
-
-<pre><code>float velocityY = 0;
-final float gravity = -0.5f;
-boolean onGround = true;
-</code></pre>
+1. **Define Variables:** <pre><code>float velocityY = 0; final float gravity = -0.5f; boolean onGround = true; </code></pre>
   - Create variables for the player's velocity, gravity, and whether the player is on the ground.
-2. **Jump Logic:**
-
-<pre><code>if (Gdx.input.isKeyPressed(Input.Keys.SPACE) &amp;&amp; onGround) {
-    velocityY = 10;  // Jump strength
-    onGround = false;
-}
-</code></pre>
-  - Implement the jump by applying an upward velocity when the jump key is pressed and the player is
-                        on the ground.
-3. **Apply Gravity:**
-
-<pre><code>velocityY += gravity;
-</code></pre>
+2. **Jump Logic:** <pre><code>if (Gdx.input.isKeyPressed(Input.Keys.SPACE) &amp;&amp; onGround) { velocityY = 10; // Jump strength onGround = false; } </code></pre>
+  - Implement the jump by applying an upward velocity when the jump key is pressed and the player is on the ground.
+3. **Apply Gravity:** <pre><code>velocityY += gravity; </code></pre>
   - Continuously apply gravity to the player's vertical velocity.
-4. **Update Player Position:**
-
-<pre><code>player.y += velocityY;
-</code></pre>
+4. **Update Player Position:** <pre><code>player.y += velocityY; </code></pre>
   - Update the player's Y position using the current velocity.
-5. **Ground Detection:**
-
-<pre><code>if (player.y &lt;= groundLevel) {
-    player.y = groundLevel;
-    velocityY = 0;
-    onGround = true;
-}
-</code></pre>
+5. **Ground Detection:** <pre><code>if (player.y &lt;= groundLevel) { player.y = groundLevel; velocityY = 0; onGround = true; } </code></pre>
   - Check if the player has landed back on the ground to reset the jump.
 
-By following these steps, you create a basic jumping mechanic where the player can jump when on the ground,
-            and gravity pulls them back down. This can be expanded with more complex mechanics like double jumps or
-            variable jump heights.
+By following these steps, you create a basic jumping mechanic where the player can jump when on the ground, and gravity pulls them back down. This can be expanded with more complex mechanics like double jumps or variable jump heights.
 
 #### Gravity
 
@@ -659,43 +354,24 @@ By following these steps, you create a basic jumping mechanic where the player c
 
 ## Download
 
-- [ Speedy
-                Blupi Demo](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_Demo.7z)
-<li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_I.7z"> Speedy
-                Blupi I</a>
-<li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_II.7z"> Speedy
-                Blupi II</a>
-<li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Eggbert_Demo.7z">
-                Speedy Eggbert Demo</a>
-<li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Eggbert_1.7z"> Speedy
-                Eggbert I</a>
-<li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Eggbert_2.7z"> Speedy
-                Eggbert II</a>
-</li></li></li></li></li>
+- [ Speedy Blupi Demo](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_Demo.7z) <li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_I.7z"> Speedy Blupi I</a> <li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_II.7z"> Speedy Blupi II</a> <li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Eggbert_Demo.7z"> Speedy Eggbert Demo</a> <li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Eggbert_1.7z"> Speedy Eggbert I</a> <li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Eggbert_2.7z"> Speedy Eggbert II</a> </li></li></li></li></li>
 
 ## Common
 
-**[Speedy Blupi (Epsitec)](Article_does_not_yet_exist_or_link_is_broken/index.html):** In [1998](Article_does_not_yet_exist_or_link_is_broken/index.html) the [Epsitec](Blupi/Epsitec/index.html)
-            company released the game [Speedy Blupi (Epsitec)](Article_does_not_yet_exist_or_link_is_broken/index.html) for the
-            Windows platform.
+**[Speedy Blupi (Epsitec)](Article_does_not_yet_exist_or_link_is_broken/index.html):** In [1998](Article_does_not_yet_exist_or_link_is_broken/index.html) the [Epsitec](Blupi/Epsitec/index.html) company released the game [Speedy Blupi (Epsitec)](Article_does_not_yet_exist_or_link_is_broken/index.html) for the Windows platform.
 
 - In [2001](Article_does_not_yet_exist_or_link_is_broken/index.html) Epsitec released Speedy Blupi II, the [sequel](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
-**[Speedy Blupi (Dada Games)](Article_does_not_yet_exist_or_link_is_broken/index.html):** In [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) [Daniel
-            Roux](Article_does_not_yet_exist_or_link_is_broken/index.html), employee of the Epsitec company, released [Speedy
-            Blupi (Dada Games)](Article_does_not_yet_exist_or_link_is_broken/index.html) for the Windows Phone platform. It was released as a product of a [Dada Games](Article_does_not_yet_exist_or_link_is_broken/index.html) game studio.
+**[Speedy Blupi (Dada Games)](Article_does_not_yet_exist_or_link_is_broken/index.html):** In [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) [Daniel Roux](Article_does_not_yet_exist_or_link_is_broken/index.html), employee of the Epsitec company, released [Speedy Blupi (Dada Games)](Article_does_not_yet_exist_or_link_is_broken/index.html) for the Windows Phone platform. It was released as a product of a [Dada Games](Article_does_not_yet_exist_or_link_is_broken/index.html) game studio.
 
 ### Description
 
-The game, firstly developed by Epsitec for Windows PCs, later developed by Daniel Roux and Dada Game for
-            Windows Phone device, centers around a main hub. The protagonist, Blupi—also called Eggbert—embarks on
-            challenging treasure-hunting quests across several uniquely themed worlds connected to this central hub.
+The game, firstly developed by Epsitec for Windows PCs, later developed by Daniel Roux and Dada Game for Windows Phone device, centers around a main hub. The protagonist, Blupi—also called Eggbert—embarks on challenging treasure-hunting quests across several uniquely themed worlds connected to this central hub.
 
 The game features richly detailed backgrounds and thematic elements, including:
 
 - **Nature-inspired settings**: Trees, grass, bushes, spiderwebs.
-- **Fantasy and playful worlds**: Kid-themed areas, small houses, castle facades, and
-                playground-inspired elements.
+- **Fantasy and playful worlds**: Kid-themed areas, small houses, castle facades, and playground-inspired elements.
 
 ### Lives
 
@@ -705,9 +381,7 @@ Blupi collects eggs (lives), he can have a maximum of 10 eggs (lives in stock).
 
 trees, grass, bushes, houses, columns, spider webs, children's world
 
-The marine plant remains purely a background decoration, even though it's included in the object sprite
-            sheet. It doesn’t interact with any objects or elements but will overwrite other decorations if placed on
-            the same tile. As far as I know, it's the only animated decoration in the game.
+The marine plant remains purely a background decoration, even though it's included in the object sprite sheet. It doesn’t interact with any objects or elements but will overwrite other decorations if placed on the same tile. As far as I know, it's the only animated decoration in the game.
 
 ### Blocks
 
@@ -715,11 +389,9 @@ Blocks have different themes.
 
 Transparent or partially permeable blocks.
 
-Some blocks are impermeable but as an obstacle only partially, for example the first quarter of the block is
-            an obstacle or a triangle on the right.
+Some blocks are impermeable but as an obstacle only partially, for example the first quarter of the block is an obstacle or a triangle on the right.
 
-**Block motifs:** mechanical, rocky, slimy (green), cheese, technical, pipes, grass with earth, palace,
-            house facade, bricks, library, wooden wall, children's world
+**Block motifs:** mechanical, rocky, slimy (green), cheese, technical, pipes, grass with earth, palace, house facade, bricks, library, wooden wall, children's world
 
 - **Hidden block:** (invisible, but impermeable)
 - **Water block:** Blupi can swim but must surface to avoid drowning.
@@ -732,19 +404,13 @@ Some blocks are impermeable but as an obstacle only partially, for example the f
 
 ### Key Gameplay Mechanics
 
-- Blupi can pick up a bomb and detonate it in another place - usually for detonating crates (a special
-                type of block).
-- If Blupi do not escape in time after detonating the bomb, then the bomb explosion will take one life
-                from them.
+- Blupi can pick up a bomb and detonate it in another place - usually for detonating crates (a special type of block).
+- If Blupi do not escape in time after detonating the bomb, then the bomb explosion will take one life from them.
 - Blupi can move crates
-- Blupi can collect red, green or blue keys, after obtaining them, doors of the given color will open for
-                them, if such door is reached.
-- Yellow doors will open for Blupi after obtaining a given number of chests (the number of needed chests
-                is on the door sign).
-- Teleports: transfer Blupi from one place to another. Teleports are named after the beginning of the
-                Greek alphabet (4 types of teleports)
-- Blupi can use tubes in the air - Blupi can move over dangerous surfaces such as lava or mines and
-                others
+- Blupi can collect red, green or blue keys, after obtaining them, doors of the given color will open for them, if such door is reached.
+- Yellow doors will open for Blupi after obtaining a given number of chests (the number of needed chests is on the door sign).
+- Teleports: transfer Blupi from one place to another. Teleports are named after the beginning of the Greek alphabet (4 types of teleports)
+- Blupi can use tubes in the air - Blupi can move over dangerous surfaces such as lava or mines and others
 - After falling on a spring Blupi jumps higher
 - A special blue block disappears for a moment and reappears.
 - Collapsible bridges crumble after a delay, rebuilding after a short time.
@@ -752,15 +418,13 @@ Some blocks are impermeable but as an obstacle only partially, for example the f
 **Types of transport:** hovercraft, helicopter (engine with propeller), skateboard, car, tank
 
 - These destroy mines: skateboard, car, tank,
-- **Hovercraft:** A fast, floating vehicle that can move over water, lava, or quicksand but is
-                vulnerable to projectiles.
+- **Hovercraft:** A fast, floating vehicle that can move over water, lava, or quicksand but is vulnerable to projectiles.
 
 ### Elements
 
 **Lollipop:** can be taken by Blupi, then Blupi jumps more for a while.
 
-**Invisibility potion:** Blupi can collect shields or drink a drink that makes him immortal and invisible
-            for a while for enemies and homing bombs.
+**Invisibility potion:** Blupi can collect shields or drink a drink that makes him immortal and invisible for a while for enemies and homing bombs.
 
 - In SB1 it's only for multiplayer. In SB2 it affects also homing bombs (single player)
 
@@ -770,8 +434,7 @@ There is a central hub, which points to world hubs. Each world hub points to sev
 
 **Treasure Collection:** Blupi collects treasure chests in each level to unlock new areas and progress.
 
-Blupi can collect green slime balls (maximum ten) and then throw them from tank or helicopter from a distance
-            at enemies.
+Blupi can collect green slime balls (maximum ten) and then throw them from tank or helicopter from a distance at enemies.
 
 ### Multiplayer
 
@@ -786,18 +449,13 @@ This is only supported in the Epsitec version of the game.
 - Lava: blupi takes one life
 - Slime trap: takes one life from a blupi
 - Circular machine: takes one life from a Blupi.
-  - If you go through them in a hovercraft, jeep or glue tank, you won’t die, but you still will if
-                        you use a helicopter or skateboard.
+  - If you go through them in a hovercraft, jeep or glue tank, you won’t die, but you still will if you use a helicopter or skateboard.
 - **Circular machine switch:** An interactive element, which activates or deactivates Circular machine
 - There is an element that causes a blupi to walk in the opposite direction for a while
-- Lightning: takes a blupi's life, but the lightning only flashes for a moment, then it is still for a
-                moment
-- Squashing device: makes a blupi fall from above for a moment, then the blupi flies down slower and has a
-                different gravity
-- Other enemies that cause life loss are a digger, a shark, a bird, a living slime, a mine ball, and
-                flying or riding blue blupi
-- **Wasp:** does not take a Blupi's life, it inflates Blupi, Blupi then float temporarily. Blupi swells
-                up after being stung by a wasp, but deflates after a certain time or when it hits a mine on the top.
+- Lightning: takes a blupi's life, but the lightning only flashes for a moment, then it is still for a moment
+- Squashing device: makes a blupi fall from above for a moment, then the blupi flies down slower and has a different gravity
+- Other enemies that cause life loss are a digger, a shark, a bird, a living slime, a mine ball, and flying or riding blue blupi
+- **Wasp:** does not take a Blupi's life, it inflates Blupi, Blupi then float temporarily. Blupi swells up after being stung by a wasp, but deflates after a certain time or when it hits a mine on the top.
 
 ## Versions
 

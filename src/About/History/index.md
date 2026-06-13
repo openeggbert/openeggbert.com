@@ -16,8 +16,6 @@ subpages:
 - 2001 - Speedy Blupi II was released
 - 2013 - [Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html) was released
 - 2019 - Windows Store for Windows Phone platform was killed by Microsoft
-- Summer 2024 - Speedy Eggbert II was partially decompiled using Ghidra and the original Planet Blupi
-                source code
-- Autumn 2024 - Speedy Blupi for Windows Phone was decompiled using ILSpy and make playeble on modern
-                platforms
+- Summer 2024 - Speedy Eggbert II was partially decompiled using Ghidra and the original Planet Blupi source code
+- Autumn 2024 - Speedy Blupi for Windows Phone was decompiled using ILSpy and make playeble on modern platforms
 - March 2025 - Speedy Blupi for Windows Phone was started being rewritten to C++

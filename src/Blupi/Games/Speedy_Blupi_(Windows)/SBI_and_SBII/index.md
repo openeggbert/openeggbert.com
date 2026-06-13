@@ -22,12 +22,7 @@ Comparison of Speedy Blupi I and Speedy Blupi II
 
 ## Differences
 
-Dream blocks, which were present in Speedy Blupi I, were removed in Speedy Blupi II
-
-<br>
-
-Certain details in the EXE files of the both versions I and II suggest that SB1 and SB2 share the same codebase,
-        with SB2 simply being a newer version.
+Dream blocks, which were present in Speedy Blupi I, were removed in Speedy Blupi II <br> Certain details in the EXE files of the both versions I and II suggest that SB1 and SB2 share the same codebase, with SB2 simply being a newer version.
 
 ## Recycled levels
 

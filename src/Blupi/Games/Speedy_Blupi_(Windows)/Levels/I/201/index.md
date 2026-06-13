@@ -20,11 +20,7 @@ subpages:
 
 ## Demo Level 2
 
-Second of Speedy Blupi's demo levels.
-
-<br>
-
-Unplayable under normal conditions and is intended solely for use with prerecorded inputs.
+Second of Speedy Blupi's demo levels. <br> Unplayable under normal conditions and is intended solely for use with prerecorded inputs.
 
 <table>
 <tr>

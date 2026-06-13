@@ -14,7 +14,7 @@ Creating own version of sound effects for the game **Speedy Blupi** is an exciti
 
 ---
 
-### 1.Analyze the Original Sounds
+### 1. Analyze the Original Sounds
 
 If you want to stay faithful to the game's original atmosphere:
 
@@ -25,7 +25,7 @@ If you want to stay faithful to the game's original atmosphere:
 
 ---
 
-### 2.Tools for Sound Creation
+### 2. Tools for Sound Creation
 
 Choose a tool to create or edit sounds:
 
@@ -36,7 +36,7 @@ Choose a tool to create or edit sounds:
 
 ---
 
-### 3.Create New Sounds
+### 3. Create New Sounds
 
 Design sounds that match the actions in the game. Examples:
 
@@ -52,7 +52,7 @@ If you want to record custom effects:
 
 ---
 
-### 4.Export the Sounds
+### 4. Export the Sounds
 
 - Save the sounds in <strong style="background: #BBBBBB;">.wav</strong> format (if your game supports other formats like <strong style="background: #BBBBBB;">.ogg</strong>, you can use that as well).
 - Ensure the **sampling rate** matches the game's requirements: older games often used 22 kHz or 44.1 kHz.

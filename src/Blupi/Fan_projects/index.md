@@ -24,56 +24,23 @@ subpages:
   href: Blupi/Fan_projects/Tiled-blupi/index.html
 ---
 
-These are several
-
-[Blupi](Blupi/index.html)
-
-fan projects.
-
-<br>
-
-These are applications developed by third party persons - not original developers of
-
-[Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-/
-
-[Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-.
-
-<br>
-
-[Daniel Roux](Blupi/Community/Daniel_Roux/index.html)
-
-, the original author of Speedy Blupi I/II and other
-        games, mentioned, he is happy about these projects.
-
-<br>
+These are several [Blupi](Blupi/index.html) fan projects. <br> These are applications developed by third party persons - not original developers of [Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)/[Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> [Daniel Roux](Blupi/Community/Daniel_Roux/index.html), the original author of Speedy Blupi I/II and other games, mentioned, he is happy about these projects. <br>
 
 <div style="margin-left: 20px;"><i>Fan projects and modifications are absolutely allowed and they appreciate the
             fans' enthusiasm. as long as the fans aren't doing it for money, it's all cool</i>
 </div>
 
-<br>
-
-**Video on Youtube:**
-
-[https://www.youtube.com/watch?v=iea_6DIFCmY](https://www.youtube.com/watch?v=iea_6DIFCmY)
+<br> **Video on Youtube:** [https://www.youtube.com/watch?v=iea_6DIFCmY](https://www.youtube.com/watch?v=iea_6DIFCmY)
 
 ## List of Fan projects
 
-- **[BlupiEdit](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Tool for editing Blupi-related
-            content.
-- **[tiled-blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Game development tool for Blupi
-                projects.
+- **[BlupiEdit](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Tool for editing Blupi-related content.
+- **[tiled-blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Game development tool for Blupi projects.
 - **[X-Edit](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Editing software for Blupi games.
 - **[X-Edit-Mapper](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Mapping tool for Blupi games.
-- **Speedy Eggbert - Godot prototype** - Prototype demonstration video:
-                [https://www.youtube.com/watch?v=KD7QKwXwzXQ](https://www.youtube.com/watch?v=KD7QKwXwzXQ)
+- **Speedy Eggbert - Godot prototype** - Prototype demonstration video: [https://www.youtube.com/watch?v=KD7QKwXwzXQ](https://www.youtube.com/watch?v=KD7QKwXwzXQ)
 - **[Eggbert 3](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Upcoming game in the Eggbert series.
-- **[Open Eggbert](About/index.html) (2024 - development started)** - New
-                open-source project in development.
+- **[Open Eggbert](About/index.html) (2024 - development started)** - New open-source project in development.
 
 ## Screenshots
 
@@ -83,23 +50,11 @@ Screenshot not yet added.
 
 ### tiled-blupi
 
-![](https://drive.openeggbert.com/Blupi/Fan_projects/199763579-3d3ac10d-ad32-4c60-b1ab-ff776b3b777b.png)
-
-<br>
-
-Source:
-
-[https://user-images.githubusercontent.com/6082665/199763579-3d3ac10d-ad32-4c60-b1ab-ff776b3b777b.png](https://user-images.githubusercontent.com/6082665/199763579-3d3ac10d-ad32-4c60-b1ab-ff776b3b777b.png)
+![](https://drive.openeggbert.com/Blupi/Fan_projects/199763579-3d3ac10d-ad32-4c60-b1ab-ff776b3b777b.png) <br> Source: [https://user-images.githubusercontent.com/6082665/199763579-3d3ac10d-ad32-4c60-b1ab-ff776b3b777b.png](https://user-images.githubusercontent.com/6082665/199763579-3d3ac10d-ad32-4c60-b1ab-ff776b3b777b.png)
 
 ### X-Edit
 
-![](https://drive.openeggbert.com/Blupi/Fan_projects/849px-X-Edit_screenshot.jpg)
-
-<br>
-
-Source:
-
-[https://openeggbert.com/images/thumb/8/8f/X-Edit_screenshot.jpg/849px-X-Edit_screenshot.jpg](https://openeggbert.com/images/thumb/8/8f/X-Edit_screenshot.jpg/849px-X-Edit_screenshot.jpg)
+![](https://drive.openeggbert.com/Blupi/Fan_projects/849px-X-Edit_screenshot.jpg) <br> Source: [https://openeggbert.com/images/thumb/8/8f/X-Edit_screenshot.jpg/849px-X-Edit_screenshot.jpg](https://openeggbert.com/images/thumb/8/8f/X-Edit_screenshot.jpg/849px-X-Edit_screenshot.jpg)
 
 ### X-Edit-Mapper
 
@@ -107,13 +62,7 @@ Screenshot not yet added.
 
 ### Speedy Eggbert - Godot prototype
 
-![](https://drive.openeggbert.com/Blupi/Fan_projects/Speedy_Eggbert_-_Godot_prototype.png)
-
-<br>
-
-Source:
-
-[https://blupi.net/images/Speedy_Eggbert_-_Godot_prototype](https://blupi.net/images/Speedy_Eggbert_-_Godot_prototype)
+![](https://drive.openeggbert.com/Blupi/Fan_projects/Speedy_Eggbert_-_Godot_prototype.png) <br> Source: [https://blupi.net/images/Speedy_Eggbert_-_Godot_prototype](https://blupi.net/images/Speedy_Eggbert_-_Godot_prototype)
 
 ### Eggbert 3
 

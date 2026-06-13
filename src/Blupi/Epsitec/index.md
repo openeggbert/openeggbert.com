@@ -23,28 +23,4 @@ subpages:
 </tr>
 </table>
 
-Epsitec is a  Swiss company, which developed
-
-[Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html)
-
-I and Speedy Blupi II.
-
-<br>
-
-Epsitec was never a
-
-[game](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-company.
-
-<br>
-
-Speedy Blupi III was never created. The reason may be, that the game
-
-[development](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-was not profitable for Epsitec.
-
-<br>
-
-Epsitec now develops software for small businesses.
+Epsitec is a Swiss company, which developed [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html) I and Speedy Blupi II. <br> Epsitec was never a [game](Article_does_not_yet_exist_or_link_is_broken/index.html) company. <br> Speedy Blupi III was never created. The reason may be, that the game [development](Article_does_not_yet_exist_or_link_is_broken/index.html) was not profitable for Epsitec. <br> Epsitec now develops software for small businesses.

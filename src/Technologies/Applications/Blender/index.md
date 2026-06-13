@@ -32,15 +32,7 @@ Free 3D modeling tool.
 
 ### Change view
 
-Orbit (rotate) - middle mouse button
-
-<br>
-
-Zooming - wheel mouse button
-
-<br>
-
-Panning (move view) - Shift and middle mouse button
+Orbit (rotate) - middle mouse button <br> Zooming - wheel mouse button <br> Panning (move view) - Shift and middle mouse button
 
 ## Properties
 

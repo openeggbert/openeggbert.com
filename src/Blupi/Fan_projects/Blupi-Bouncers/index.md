@@ -12,19 +12,7 @@ subpages:
   href: Blupi/Fan_projects/index.html
 ---
 
-**Developed:**
-
-in C++ and SFML.
-
-<br>
-
-**Author:**
-
-Miles Per Hour
-
-<br>
-
-<img src="Blupi/Fan_projects/Blupi-Bouncers/Blupi-Bouncers.jpg" alt="Blupi-Bouncers" width="600">
+**Developed:** in C++ and SFML.<br> **Author:** Miles Per Hour<br> <img src="Blupi/Fan_projects/Blupi-Bouncers/Blupi-Bouncers.jpg" alt="Blupi-Bouncers" width="600">
 
 ## External links
 

@@ -12,15 +12,11 @@ tags:
 - Running C or C++ code in web browser
 ---
 
-Asm.js is a strict subset of [JavaScript](Article_does_not_yet_exist_or_link_is_broken/index.html),
-            that [C](Article_does_not_yet_exist_or_link_is_broken/index.html)/[C++](Technologies/Programming_languages/C++/index.html)
-            code can be compiled to.
+Asm.js is a strict subset of [JavaScript](Article_does_not_yet_exist_or_link_is_broken/index.html), that [C](Article_does_not_yet_exist_or_link_is_broken/index.html)/[C++](Technologies/Programming_languages/C++/index.html) code can be compiled to.
 
-An asm.js compiled C/C++ code can run in any [web browser](Article_does_not_yet_exist_or_link_is_broken/index.html),
-            because it is JavaScript.
+An asm.js compiled C/C++ code can run in any [web browser](Article_does_not_yet_exist_or_link_is_broken/index.html), because it is JavaScript.
 
-Asm.js is strongly typed because it uses techniques like explicit conversion of values to numbers using bit
-            operations.
+Asm.js is strongly typed because it uses techniques like explicit conversion of values to numbers using bit operations.
 
 ## Performance
 

@@ -56,9 +56,7 @@ Screen is part of the game, which represents one of many application screens.
 
 ### Editor screen
 
-![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen.png)
-
-![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen_2.png)
+![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen.png) ![](https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Screens/windows/II/editor_screen_2.png)
 
 ## Speedy Eggbert Demo
 

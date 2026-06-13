@@ -59,6 +59,57 @@ def _raw(el):
     return str(el).strip()
 
 
+# ── Inline-run grouping ───────────────────────────────────────────────────────
+
+_INLINE_TAGS = frozenset({
+    'a', 'abbr', 'b', 'br', 'cite', 'code', 'em', 'i', 'img',
+    'kbd', 'mark', 'q', 's', 'samp', 'small', 'span', 'strong',
+    'sub', 'sup', 'u', 'var',
+})
+
+
+def _is_inline_node(node):
+    """True for text nodes and inline HTML elements."""
+    if isinstance(node, Comment):
+        return False
+    if isinstance(node, NavigableString):
+        return True
+    return isinstance(node, Tag) and node.name in _INLINE_TAGS
+
+
+def _block_children_md(children, skip_fn=None):
+    """Convert block-container children to a list of Markdown strings.
+    Consecutive inline nodes (text + inline tags) are grouped into one paragraph
+    so un-wrapped inline content in <section>/<div> is not split up."""
+    parts = []
+    buf = []
+
+    def flush():
+        if buf:
+            raw = ''.join(_inline(n) for n in buf)
+            # Collapse whitespace runs (incl. newlines) to single space so that
+            # indented continuation lines don't become Markdown code blocks.
+            text = re.sub(r'\s+', ' ', raw).strip()
+            if text:
+                parts.append(text)
+            buf.clear()
+
+    for child in children:
+        if skip_fn is not None and skip_fn(child):
+            flush()
+            continue
+        if _is_inline_node(child):
+            buf.append(child)
+        else:
+            flush()
+            md = _block(child)
+            if md and md.strip():
+                parts.append(md.strip())
+
+    flush()
+    return parts
+
+
 # ── Inline conversion ─────────────────────────────────────────────────────────
 
 def _inline(node):
@@ -156,7 +207,8 @@ def _list_to_md(tag, depth=0):
                 nested_others.append(child)
             else:
                 inline_parts.append(_inline(child))
-        text = ''.join(inline_parts).strip()
+        raw = ''.join(inline_parts)
+        text = re.sub(r'\s+', ' ', raw).strip()
         indent = '  ' * depth
         lines.append(f'{indent}{prefix}{text}')
         for n in nested_lists:
@@ -176,8 +228,12 @@ def _table_to_md(tag):
     md_rows = []
     for i, row in enumerate(rows):
         cells  = row.find_all(['th', 'td'])
-        values = [''.join(_inline(c) for c in cell.children).strip()
-                  for cell in cells]
+        values = []
+        for cell in cells:
+            raw = ''.join(_inline(c) for c in cell.children)
+            # Pipe-table cells cannot contain newlines — collapse all whitespace
+            cell_text = re.sub(r'\s+', ' ', raw).strip()
+            values.append(cell_text)
         md_rows.append('| ' + ' | '.join(values) + ' |')
         if i == 0:
             md_rows.append('|' + ' --- |' * len(values))
@@ -197,11 +253,14 @@ def _block(el, _depth=0):
     # ── Headings ──
     if tag in ('h2', 'h3', 'h4', 'h5', 'h6'):
         level = int(tag[1])
-        return '#' * level + ' ' + el.get_text(strip=True)
+        text = re.sub(r'\s+', ' ', el.get_text()).strip()
+        return '#' * level + ' ' + text
 
     # ── Paragraphs ──
     if tag == 'p':
-        return ''.join(_inline(c) for c in el.children).strip()
+        raw = ''.join(_inline(c) for c in el.children)
+        # Collapse internal whitespace to prevent indented Markdown code blocks
+        return re.sub(r'\s+', ' ', raw).strip()
 
     # ── Lists ──
     if tag in ('ul', 'ol'):
@@ -229,8 +288,7 @@ def _block(el, _depth=0):
 
     # ── Blockquote ──
     if tag == 'blockquote':
-        inner_parts = [_block(c) for c in el.children]
-        inner = '\n\n'.join(p for p in inner_parts if p.strip())
+        inner = '\n\n'.join(_block_children_md(el.children))
         return '\n'.join('> ' + line for line in inner.splitlines())
 
     # ── HR ──
@@ -259,14 +317,12 @@ def _block(el, _depth=0):
         # Styled divs: keep as raw HTML
         if div_style:
             return _raw(el)
-        # Generic div: recurse into children
-        parts = [_block(c) for c in el.children]
-        return '\n\n'.join(p for p in parts if p.strip())
+        # Generic div: group inline runs into paragraphs, then block elements
+        return '\n\n'.join(_block_children_md(el.children))
 
     # ── Section wrapper ──
     if tag == 'section':
-        parts = [_block(c) for c in el.children]
-        return '\n\n'.join(p for p in parts if p.strip())
+        return '\n\n'.join(_block_children_md(el.children))
 
     # ── Inline tags appearing at block level ──
     if tag in ('b', 'strong', 'i', 'em', 'a', 's', 'span', 'code', 'u'):
@@ -281,21 +337,18 @@ def _section_to_md(container):
     Convert the contents of <main> (or <main><section>) to Markdown.
     Skips h1 (becomes front-matter title), tocButton/toc divs, and tags ul.
     """
-    parts = []
-    for child in container.children:
-        # Skip h1 — written by the build template
-        if isinstance(child, Tag) and child.name == 'h1':
-            continue
-        # Skip toc placeholders
-        if isinstance(child, Tag) and child.get('id') in ('tocButton', 'toc'):
-            continue
-        # Skip tags list — goes into front-matter
-        if isinstance(child, Tag) and child.name == 'ul' and child.get('id') == 'tags':
-            continue
-        md = _block(child)
-        if md and md.strip():
-            parts.append(md.strip())
-    return '\n\n'.join(parts)
+    def _skip(child):
+        if not isinstance(child, Tag):
+            return False
+        if child.name == 'h1':
+            return True
+        if child.get('id') in ('tocButton', 'toc'):
+            return True
+        if child.name == 'ul' and child.get('id') == 'tags':
+            return True
+        return False
+
+    return '\n\n'.join(_block_children_md(container.children, skip_fn=_skip))
 
 
 # ── Convert one HTML file ─────────────────────────────────────────────────────

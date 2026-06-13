@@ -28,7 +28,7 @@ def _page(title, base_href, page_config_js, content, tags_html, main_attrs=''):
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Eggbert - {title}</title>
+    <title>{'Open Eggbert' if title == 'Open Eggbert' else f'Open Eggbert - {title}'}</title>
     <base href="{base_href}" target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">

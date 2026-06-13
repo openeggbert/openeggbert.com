@@ -38,74 +38,15 @@ subpages:
 </tr>
 </table>
 
-Free Eggbert is the revival of the computer games Speedy Blupi demo/1/2 and Speedy Eggbert demo/1/2.
-
-<br>
-
-<br>
-
-Free Eggbert is the
-
-[decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-of these games using tools
-        like Ghidra and IDA. It's free and open-source.
+Free Eggbert is the revival of the computer games Speedy Blupi demo/1/2 and Speedy Eggbert demo/1/2. <br> <br> Free Eggbert is the [decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html) of these games using tools like Ghidra and IDA. It's free and open-source.
 
 - Reverse engineering and knowledge of X86 assembly is used.
 
 ## Origin
 
-Probably in
+Probably in [2024](Article_does_not_yet_exist_or_link_is_broken/index.html) [HMVocaloid](Article_does_not_yet_exist_or_link_is_broken/index.html) started the decompilation of the [EXE](Article_does_not_yet_exist_or_link_is_broken/index.html) files of the game Speedy Eggbert 2. <br> The source code of the game [Planet Blupi](Blupi/Games/Planet_Blupi/index.html) was used, because [Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html) I is the [fork](Article_does_not_yet_exist_or_link_is_broken/index.html) of Planet Blupi. Speedy Blupi II is the fork of Speedy Blupi I. <br> Source code of Planet Blupi was published in 2017. <br> [Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html), the decompilation tool, was used too. <br> Later, [jummy0](Article_does_not_yet_exist_or_link_is_broken/index.html) joined this decompilation project. Latest commits published by jummy0 are in December 2024.
 
-[2024](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-[HMVocaloid](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-started the decompilation of the
-
-[EXE](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-files of the game Speedy
-        Eggbert 2.
-
-<br>
-
-The source code of the game
-
-[Planet Blupi](Blupi/Games/Planet_Blupi/index.html)
-
-was used, because
-
-[Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-I is the
-
-[fork](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-of Planet Blupi. Speedy Blupi II is the fork of Speedy
-        Blupi I.
-
-<br>
-
-Source code of Planet Blupi was published in 2017.
-
-<br>
-
-[Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-, the decompilation tool, was used too.
-
-<br>
-
-Later,
-
-[jummy0](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-joined this decompilation project.
-        Latest commits published by jummy0 are in December 2024.
-
-- Based on information on Discord it seems, that jummy0 lost his files related to the decompilation. This
-                means broken, lost or stolen computer.
+- Based on information on Discord it seems, that jummy0 lost his files related to the decompilation. This means broken, lost or stolen computer.
 
 ## Repositories
 
@@ -136,37 +77,11 @@ Compilation option: represents set of features, which are supported by the gener
 
 ## Legacy mode
 
-If legacy mode is enabled in
-
-[CONFIG.DEF](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-, then the game will
-        behave as much as possible as the original games
-        developed by Daniel Roux.
-
-<br>
-
-If legacy mode is disabled, then all the game new features, graphics, sounds, music, etc. of the game will be
-        present and activated
-
-<br>
-
-The third possibility is to set the value of LegacyMode, which contains comma separated list of the game only
-        features, which will be additionally activated and supported. This means, that Legacy mode is enabled, but some
-        new features are activated.
-
-<br>
-
-For example disable cheat, even the game behaves like Speedy Eggbert I
+If legacy mode is enabled in [CONFIG.DEF](Article_does_not_yet_exist_or_link_is_broken/index.html), then the game will behave as much as possible as the original games developed by Daniel Roux. <br> If legacy mode is disabled, then all the game new features, graphics, sounds, music, etc. of the game will be present and activated <br> The third possibility is to set the value of LegacyMode, which contains comma separated list of the game only features, which will be additionally activated and supported. This means, that Legacy mode is enabled, but some new features are activated. <br> For example disable cheat, even the game behaves like Speedy Eggbert I
 
 ## Future
 
-Free Eggbert will be one computer game, which will be able to be behave like one of these games Speedy
-        Blupi/Eggbert I/II/1/2.
-
-<br>
-
-There will be created a DirectX 3 implementation based on SDL 3 named Free Direct.
+Free Eggbert will be one computer game, which will be able to be behave like one of these games Speedy Blupi/Eggbert I/II/1/2. <br> There will be created a DirectX 3 implementation based on SDL 3 named Free Direct.
 
 - SDL 3 supoprts many platforms like Windows, Linux, MacOS, Android, iPhone, Web and others
 
@@ -174,19 +89,7 @@ Windows API will be replaced by Free API, which will be partial reimplementation
 
 ## Game space (proposal)
 
-Game space is a directory with the defined structure.
-
-<br>
-
-Player has one or more game spaces.
-
-<br>
-
-Each game space has a feature level.
-
-<br>
-
-Game space can be cloned. You can have several game spaces with the same Feature level.
+Game space is a directory with the defined structure. <br> Player has one or more game spaces. <br> Each game space has a feature level. <br> Game space can be cloned. You can have several game spaces with the same Feature level.
 
 ## Source code
 

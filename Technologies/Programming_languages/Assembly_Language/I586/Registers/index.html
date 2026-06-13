@@ -28,18 +28,9 @@ PAGE_CONFIG = {
 <h1>Registers</h1>
 <div id="tocButton"></div>
 <div id="toc"></div>
-<p>Only some registers can be modified via the instruction in the executable file.</p>
-<p><br></p>
-<p>The other are modified by the internal state of the processor, for example in the case, an overflow happened.</p>
+<p>Only some registers can be modified via the instruction in the executable file. <br> The other are modified by the internal state of the processor, for example in the case, an overflow happened.</p>
 <h2>Types of registers based on the data length</h2>
-<p>64-bit registers - These do not exist in the i586 instruction set. They exist only in the 64-bit processors.
-        Their names start with the R character.</p>
-<p><br></p>
-<p>32-bit registers - Their names start with the E character.</p>
-<p><br></p>
-<p>16-bit registers</p>
-<p><br></p>
-<p>8-bit registers</p>
+<p>64-bit registers - These do not exist in the i586 instruction set. They exist only in the 64-bit processors. Their names start with the R character. <br> 32-bit registers - Their names start with the E character. <br> 16-bit registers <br> 8-bit registers</p>
 <h2>Categories of registers</h2>
 <ul>
 <li>General registers</li>
@@ -56,69 +47,34 @@ PAGE_CONFIG = {
 <p>There are four data 32-bit data registers: EAX, EBX, ECX, EDX</p>
 <ul>
 <li>Lower halves of the 32-bit registers can be used as four 16-bit data registers: AX, BX, CX and DX.</li>
-<li>Lower and higher halves of the above-mentioned four 16-bit registers can be used as eight 8-bit data
-                registers: AH, AL, BH, BL, CH, CL, DH, and DL.</li>
+<li>Lower and higher halves of the above-mentioned four 16-bit registers can be used as eight 8-bit data registers: AH, AL, BH, BL, CH, CL, DH, and DL.</li>
 </ul>
 <p>Regarding the 64-bit processors: There are also four data 64-bit data registers: RAX, RBX, RCX, RDX</p>
 <h2>Pointer registers</h2>
-<p>There are three data 32-bit pointer registers: EIP, ESP, EBP</p>
-<p><br></p>
-<p>Their 16-bit equivalent are IP, SP, BP</p>
+<p>There are three data 32-bit pointer registers: EIP, ESP, EBP <br> Their 16-bit equivalent are IP, SP, BP</p>
 <h3>Instruction Pointer (EIP)</h3>
-<p>The 32-bit</p>
-<p><strong>EIP</strong></p>
-<p>register holds the address of the next instruction to be executed. When combined with the</p>
-<p><strong>CS</strong></p>
-<p>register (as</p>
-<p><strong>CS:EIP</strong></p>
-<p>), it provides the full address of the current instruction within the code
-        segment.</p>
+<p>The 32-bit <strong>EIP</strong> register holds the address of the next instruction to be executed. When combined with the <strong>CS</strong> register (as <strong>CS:EIP</strong>), it provides the full address of the current instruction within the code segment.</p>
 <ul>
-<li>The <strong>CS:EIP</strong> pair gives the logical address pointing to the instruction that the processor will
-                execute next.</li>
+<li>The <strong>CS:EIP</strong> pair gives the logical address pointing to the instruction that the processor will execute next.</li>
 </ul>
 <h3>Stack Pointer (ESP)</h3>
-<p>The 32-bit</p>
-<p><strong>ESP</strong></p>
-<p>register holds the offset within the stack. When used with the</p>
-<p><strong>SS</strong></p>
-<p>register (</p>
-<p><strong>SS:ESP</strong></p>
-<p>),
-        it refers to the current location in the stack.</p>
+<p>The 32-bit <strong>ESP</strong> register holds the offset within the stack. When used with the <strong>SS</strong> register (<strong>SS:ESP</strong>), it refers to the current location in the stack.</p>
 <ul>
 <li>The <strong>SS:ESP</strong> pair provides the complete address within the stack segment.</li>
 </ul>
 <h3>Base Pointer (EBP)</h3>
-<p>The 32-bit</p>
-<p><strong>EBP</strong></p>
-<p>register helps in referencing the parameters passed to a subroutine. The address from the</p>
-<p><strong>SS</strong></p>
-<p>register is combined with the offset in</p>
-<p><strong>EBP</strong></p>
-<p>to locate the function parameters.</p>
-<p><strong>EBP</strong></p>
-<p>can also be
-        used with</p>
-<p><strong>ESI</strong></p>
-<p>and</p>
-<p><strong>EDI</strong></p>
-<p>for special addressing.</p>
+<p>The 32-bit <strong>EBP</strong> register helps in referencing the parameters passed to a subroutine. The address from the <strong>SS</strong> register is combined with the offset in <strong>EBP</strong> to locate the function parameters. <strong>EBP</strong> can also be used with <strong>ESI</strong> and <strong>EDI</strong> for special addressing.</p>
 <ul>
-<li>The <strong>SS:EBP</strong> pair points to the base of the current stack frame, facilitating access to function arguments
-                and local variables.</li>
+<li>The <strong>SS:EBP</strong> pair points to the base of the current stack frame, facilitating access to function arguments and local variables.</li>
 </ul>
 <h2>Index registers</h2>
-<p>There are two data 32-bit pointer registers: ESI, EDI</p>
-<p><br></p>
-<p>Their 16-bit equivalent are SI, DI</p>
+<p>There are two data 32-bit pointer registers: ESI, EDI <br> Their 16-bit equivalent are SI, DI</p>
 <h3>Source Index (SI)</h3>
 <p>It is used as source index for string operations.</p>
 <h3>Destination Index (DI)</h3>
 <p>It is used as destination index for string operations.</p>
 <h2>Control registers</h2>
-<p>Many instructions involve comparisons and mathematical calculations and change the status of the flags and some
-        other conditional instructions test the value of these status flags to take the control flow to other location.</p>
+<p>Many instructions involve comparisons and mathematical calculations and change the status of the flags and some other conditional instructions test the value of these status flags to take the control flow to other location.</p>
 <h2>Segment registers</h2>
 <p>Segments are specific areas defined in a program for containing data, code and stack.</p>
 <h2>External links</h2>

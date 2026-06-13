@@ -20,9 +20,7 @@ subpages:
 
 ## Dream 1
 
-**World:**
-
-Dream World
+**World:** Dream World
 
 <table>
 <tr>

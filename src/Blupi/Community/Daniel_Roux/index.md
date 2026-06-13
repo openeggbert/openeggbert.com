@@ -38,17 +38,8 @@ subpages:
 </tr>
 </table>
 
-Daniel is author of many
-
-[Blupi](Blupi/index.html)
-
-games, the acclaimed author behind the Blupi series of games.
-        Discover more about his life, his contributions to the gaming industry, and explore the visual media related to his works.
+Daniel is author of many [Blupi](Blupi/index.html) games, the acclaimed author behind the Blupi series of games. Discover more about his life, his contributions to the gaming industry, and explore the visual media related to his works.
 
 ## Photos of Daniel Roux
 
-<img src="https://smaky.ch/wp-content/uploads/2024/05/Musee_Bolo_Archives_Daniel_Roux-uai-720x894.jpg" alt="" width="600px">
-
-<img src="https://smaky.ch/wp-content/uploads/2024/06/Musee_Bolo_Archives_SMAKY_Famille_Daniel_Roux.webp" alt="" width="600px">
-
-<img src="https://smaky.ch/wp-content/uploads/2024/06/Copyright_Musee_Bolo_archives_ELEMICRO_Une_Souris_Intelligente_Photo_2-uai-888x666.webp" alt="" width="600px">
+<img src="https://smaky.ch/wp-content/uploads/2024/05/Musee_Bolo_Archives_Daniel_Roux-uai-720x894.jpg" alt="" width="600px"> <img src="https://smaky.ch/wp-content/uploads/2024/06/Musee_Bolo_Archives_SMAKY_Famille_Daniel_Roux.webp" alt="" width="600px"> <img src="https://smaky.ch/wp-content/uploads/2024/06/Copyright_Musee_Bolo_archives_ELEMICRO_Une_Souris_Intelligente_Photo_2-uai-888x666.webp" alt="" width="600px">

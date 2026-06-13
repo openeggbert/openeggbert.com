@@ -55,11 +55,5 @@ subpages:
 | Kid's Stuff World | Hub • Level 1 • Level 2 • Level 3 • Level 4 • Level 5 |
 | Special | Start • Training • Final |
 | Multiplayer | Level 1 • Level 2 • Level 3 • Level 4 • Level 5 • Level 6 • Level 7 • Level 8 • Level 9 • Level 10 |
-| Demo | [Level 1](Speedy_Blupi_(Windows)/Levels (I)/200) •
-                    [Level 2](Speedy_Blupi_(Windows)/Levels (I)/201) •
-                    [Level 3](Speedy_Blupi_(Windows)/Levels (I)/202) •
-                    [Level 4](Speedy_Blupi_(Windows)/Levels (I)/203) •
-                    [Level 5](Speedy_Blupi_(Windows)/Levels (I)/204) •
-                    [Level 6](Speedy_Blupi_(Windows)/Levels (I)/205) •
-                    [Level 7](Speedy_Blupi_(Windows)/Levels (I)/206) |
+| Demo | [Level 1](Speedy_Blupi_(Windows)/Levels (I)/200) • [Level 2](Speedy_Blupi_(Windows)/Levels (I)/201) • [Level 3](Speedy_Blupi_(Windows)/Levels (I)/202) • [Level 4](Speedy_Blupi_(Windows)/Levels (I)/203) • [Level 5](Speedy_Blupi_(Windows)/Levels (I)/204) • [Level 6](Speedy_Blupi_(Windows)/Levels (I)/205) • [Level 7](Speedy_Blupi_(Windows)/Levels (I)/206) |
 | Glitch | Start, mission #0 • Mission #100 |

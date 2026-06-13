@@ -19,16 +19,9 @@ subpages:
 
         </style>
 
-These are "Speedy Blupi" related websites.
+These are "Speedy Blupi" related websites. They are downloadable as WARC files at: [https://drive.openeggbert.com/blupiwarc](https://drive.openeggbert.com/blupiwarc).
 
-        They are downloadable as WARC files at:
-
-[https://drive.openeggbert.com/blupiwarc](https://drive.openeggbert.com/blupiwarc)
-
-.
-
-- You can replay these WARC files at [https://replayweb.page/](https://replayweb.page/) or use
-                tools like PyWB.
+- You can replay these WARC files at [https://replayweb.page/](https://replayweb.page/) or use tools like PyWB.
 
 **Backlog:**
 

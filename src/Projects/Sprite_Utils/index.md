@@ -8,31 +8,19 @@ subpages:
   href: Projects/index.html
 ---
 
-Repository:
-
-[https://github.com/openeggbert/sprite-utils](https://github.com/openeggbert/sprite-utils)
+Repository: [https://github.com/openeggbert/sprite-utils](https://github.com/openeggbert/sprite-utils)
 
 ## Description
 
-Application used to work with sprite images - highlighting borders, adding more sprites in one image
-
-<br>
-
-Sprite Utils is a Java application used to manage sprite positions in images.
+Application used to work with sprite images - highlighting borders, adding more sprites in one image <br> Sprite Utils is a Java application used to manage sprite positions in images.
 
 - Sprite positions are saved in spritesheet.csv
 
-Syntax:
-
-`java -jar sprite-utils.jar command --option1 valueOfOption1 --option2 valueOfOption2 ... --optionN valueOfOptionN`
+Syntax: `java -jar sprite-utils.jar command --option1 valueOfOption1 --option2 valueOfOption2 ... --optionN valueOfOptionN`
 
 ## Usage
 
-A graphics editor like KolourPaint, MS Paint or an alternative is used.
-
-<br>
-
-It is repeatedly checked whether the positions of the sprites are rendered in the correct places.
+A graphics editor like KolourPaint, MS Paint or an alternative is used. <br> It is repeatedly checked whether the positions of the sprites are rendered in the correct places.
 
 ## Options
 
@@ -50,11 +38,7 @@ It is repeatedly checked whether the positions of the sprites are rendered in th
 
 ### Command: draw
 
-Rectangles are drawn around the sprites and each sprite is labeled with its number. in the image
-
-<br>
-
-**Example:**
+Rectangles are drawn around the sprites and each sprite is labeled with its number. in the image <br> **Example:**
 
 ```
 
@@ -71,9 +55,7 @@ draw \
 
 ## Format of CSV file spritesheet.csv
 
-**Note:**
-
-The file *spritesheet.csv.computed.csv is intended to be used in Open Eggbert - for image mods
+**Note:** The file *spritesheet.csv.computed.csv is intended to be used in Open Eggbert - for image mods
 
 ### Columns
 

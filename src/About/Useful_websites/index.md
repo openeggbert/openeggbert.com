@@ -10,15 +10,11 @@ subpages:
 
 These are websites related to Speedy Blupi or Open Eggbert, but not directly.
 
-- Like a wiki page about x86 instruction set, which includes nothing about Speedy Blupi, but it is still
-                needed.
+- Like a wiki page about x86 instruction set, which includes nothing about Speedy Blupi, but it is still needed.
 
-They are downloadable as WARC files at:
+They are downloadable as WARC files at: [https://drive.openeggbert.com/usefulwarc/](https://drive.openeggbert.com/usefulwarc/)
 
-[https://drive.openeggbert.com/usefulwarc/](https://drive.openeggbert.com/usefulwarc/)
-
-- You can replay these WARC files at [https://replayweb.page/](https://replayweb.page/) or use
-                tools like PyWB.
+- You can replay these WARC files at [https://replayweb.page/](https://replayweb.page/) or use tools like PyWB.
 
 ## Webs
 

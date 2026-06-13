@@ -20,15 +20,7 @@ subpages:
 
 ## Dream 6
 
-**World:**
-
-Dream World
-
-<br>
-
-**Note:**
-
-This is the final level in Speedy Blupi I's Dream World.
+**World:** Dream World <br> **Note:** This is the final level in Speedy Blupi I's Dream World.
 
 <table>
 <tr>

@@ -29,82 +29,22 @@ PAGE_CONFIG = {
 <div id="tocButton"></div>
 <div id="toc"></div>
 <h2>Windows (operating system)</h2>
-<p>Both</p>
-<p><a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi</a></p>
-<p>I/II and</p>
-<p><a href="Blupi/Games/Speedy_Eggbert/index.html">Speedy Eggbert</a></p>
-<p>1/2 work on the operating system</p>
-<p><a href="Technologies/Platforms/Windows/Windows_95/index.html">Windows 95</a></p>
-<p>or later, even including the latest</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Windows 11</a></p>
-<p>.</p>
+<p>Both <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi</a> I/II and <a href="Blupi/Games/Speedy_Eggbert/index.html">Speedy Eggbert</a> 1/2 work on the operating system <a href="Technologies/Platforms/Windows/Windows_95/index.html">Windows 95</a> or later, even including the latest <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Windows 11</a>.</p>
 <h3>DirectPlay is missing</h3>
-<p>Solution: Install</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">DirectPlay</a></p>
-<p><br></p>
-<p><em>DirectPlay is an outdated component that is disabled by default on modern <a href="Technologies/Platforms/Windows/index.html">Windows</a> systems.</em></p>
-<p><br></p>
-<p><em>Although DirectPlay is not required for single-player mode, it is necessary for multiplayer functionality. However, having DirectPlay disabled might occasionally cause issues when launching the game.</em></p>
-<p><br></p>
-<p>Other issues can be caused by the Antivirus. Or try to change the compatibility mode.</p>
+<p>Solution: Install <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">DirectPlay</a> <br> <em>DirectPlay is an outdated component that is disabled by default on modern <a href="Technologies/Platforms/Windows/index.html">Windows</a> systems.</em> <br> <em>Although DirectPlay is not required for single-player mode, it is necessary for multiplayer functionality. However, having DirectPlay disabled might occasionally cause issues when launching the game.</em> <br> Other issues can be caused by the Antivirus. Or try to change the compatibility mode.</p>
 <h3>Blue boxes shown, if launched in windowed mode on Windows operating system</h3>
-<p>Right-click the game's</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">EXE</a></p>
-<p>file and select "Properties".  Go to the Compatibility tab, check "Reduced color mode", and select "16-bit (65536) color".</p>
+<p>Right-click the game's <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">EXE</a> file and select "Properties". Go to the Compatibility tab, check "Reduced color mode", and select "16-bit (65536) color".</p>
 <h3>DxWnd</h3>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">DxWnd</a></p>
-<p>is a Windows hooker intercepts system calls to allow</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Win32</a></p>
-<p>programs to operate within a window. This tool enhances application compatibility, improves video modes, adjusts timing, and emulates CD data and audio tracks. It is particularly useful for running older Windows games.</p>
-<p><br></p>
-<p><a href="https://sourceforge.net/projects/dxwnd/">https://sourceforge.net/projects/dxwnd/</a></p>
-<h3>Windowed mode has wrong height  477 instead of the correct one 480</h3>
-<p><strong>Wrong resolution:</strong></p>
-<p>640x477</p>
-<p><br></p>
-<p><strong>Correct resolution:</strong></p>
-<p>640x480</p>
-<p><br></p>
-<p>This bug causes also the strange distortion around the mouse cursor.</p>
-<p><br></p>
-<p><strong>How to fix:</strong></p>
-<p>Open the EXE file in hex editor, search for the hex bytes</p>
-<p><code>8d 81 20 fe ff ff</code></p>
-<p>and replace the</p>
-<p><code>20</code></p>
-<p>with</p>
-<p><code>1d</code></p>
-<p>. then search for</p>
-<p><code>8d 81 e0 01 00 00</code></p>
-<p>and replace the</p>
-<p><code>e0</code></p>
-<p>with</p>
-<p><code>e3</code></p>
-<p>. This makes the window 3 pixels taller</p>
+<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">DxWnd</a> is a Windows hooker intercepts system calls to allow <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Win32</a> programs to operate within a window. This tool enhances application compatibility, improves video modes, adjusts timing, and emulates CD data and audio tracks. It is particularly useful for running older Windows games. <br> <a href="https://sourceforge.net/projects/dxwnd/">https://sourceforge.net/projects/dxwnd/</a></p>
+<h3>Windowed mode has wrong height 477 instead of the correct one 480</h3>
+<p><strong>Wrong resolution:</strong> 640x477 <br> <strong>Correct resolution:</strong> 640x480 <br> This bug causes also the strange distortion around the mouse cursor. <br> <strong>How to fix:</strong> Open the EXE file in hex editor, search for the hex bytes <code>8d 81 20 fe ff ff</code> and replace the <code>20</code> with <code>1d</code>. then search for <code>8d 81 e0 01 00 00</code> and replace the <code>e0</code> with <code>e3</code>. This makes the window 3 pixels taller</p>
 <h2>Linux (operating system)</h2>
 <h3>How to run on Linux</h3>
-<p>Use Wine:</p>
-<p><a href="https://www.winehq.org/">https://www.winehq.org/</a></p>
-<p><br></p>
-<p>There are some issues, when you run the Windows version of Speedy Blupi/Eggbert on</p>
-<p><a href="Technologies/Platforms/Linux/index.html">Linux</a></p>
-<p>via</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Wine</a></p>
-<p>.</p>
+<p>Use Wine: <a href="https://www.winehq.org/">https://www.winehq.org/</a> <br> There are some issues, when you run the Windows version of Speedy Blupi/Eggbert on <a href="Technologies/Platforms/Linux/index.html">Linux</a> via <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Wine</a>.</p>
 <h3>How to run on Linux</h3>
-<p>Use Windows 95 or</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Windows 98</a></p>
-<p>and</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">DOSBox</a></p>
-<p>and</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">RetroArch</a></p>
-<p><a class="ref" href="https://www.youtube.com/watch?v=9xynDgexf5Y">https://www.youtube.com/watch?v=9xynDgexf5Y</a></p>
-<p><a class="ref" href="https://www.retroarch.com/">https://www.retroarch.com/</a></p>
-<p><a class="ref" href="https://www.libretro.com/">https://www.libretro.com/</a></p>
+<p>Use Windows 95 or <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Windows 98</a> and <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">DOSBox</a> and <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">RetroArch</a> <a class="ref" href="https://www.youtube.com/watch?v=9xynDgexf5Y">https://www.youtube.com/watch?v=9xynDgexf5Y</a> <a class="ref" href="https://www.retroarch.com/">https://www.retroarch.com/</a> <a class="ref" href="https://www.libretro.com/">https://www.libretro.com/</a></p>
 <h3>Background music does not work in Wine</h3>
-<p>Wine usually outpus this error:</p>
-<p><br></p>
-<p><code>0194:err:winediag:MIDIMAP_drvOpen No software synthesizer midi port found, Midi sound output probably won't work.</code></p>
+<p>Wine usually outpus this error: <br> <code>0194:err:winediag:MIDIMAP_drvOpen No software synthesizer midi port found, Midi sound output probably won't work.</code></p>
 <h4>How to fix it:</h4>
 <ol>
 <li>install <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">fluidsynth</a> <em>(for Debian: apt install fluidsynth)</em></li>
@@ -114,87 +54,39 @@ PAGE_CONFIG = {
 <li>http://www.vogonsdrivers.com/getfile.php?fileid=500</li>
 </ul>
 </li>
-<li>Run:  <code>fluidsynth -a pulseaudio /path/to/soundfont</code>
+<li>Run: <code>fluidsynth -a pulseaudio /path/to/soundfont</code>
   - Add an <code>&amp;</code> at the end, if you want to run it in the background. Or you can configure its autostart at the boot</li>
 </ol>
 <p><em>Note: Sound game effects works. Format for sound is <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">WAV</a>. Format for background music is MIDI.</em></p>
 <h3>Multiplayer mode does not work in Wine</h3>
 <h4>How to fix it:</h4>
-<p>Install directplay:</p>
-<p><code>winetricks directplay</code></p>
-<p>(Successfully tested)</p>
-<p><br></p>
-<p>https://github.com/RazZziel/wine-dplay</p>
-<p><br></p>
-<p>https://github.com/solemnwarning/ipxwrapper</p>
+<p>Install directplay: <code>winetricks directplay</code> (Successfully tested) <br> https://github.com/RazZziel/wine-dplay <br> https://github.com/solemnwarning/ipxwrapper</p>
 <h3>Saving custom levels to XCH files does not work in Wine</h3>
 <h3>Loading custom levels from XCH files does not work in Wine</h3>
 <h3>Blue boxes shown, if launched in windowed mode on Linux via Wine</h3>
 <p>Maybe several different solutions exist, one of the is:</p>
 <blockquote>
-<p>apt install xserver-xephyr</p>
-<p><br></p>
-<pre><code>    #Working on LXQT:
-</code></pre>
-<p><br></p>
-<pre><code>    Xephyr :1 -ac -screen 800x600x16 &amp; DISPLAY=:1 xfwm4 &amp; DISPLAY=:1 wine egames.exe
-</code></pre>
+<p>apt install xserver-xephyr <br> #Working on LXQT: <br> Xephyr :1 -ac -screen 800x600x16 &amp; DISPLAY=:1 xfwm4 &amp; DISPLAY=:1 wine egames.exe</p>
 </blockquote>
 <p>See more at: https://wiki.winehq.org/256_Color_Mode</p>
 <h3>Play MIDI on Linux (stub)</h3>
-<p>https://www.reddit.com/r/linuxquestions/comments/x91k5c/simple_midi_player_on_linux/</p>
-<p><br></p>
-<p><code>timidity</code></p>
+<p>https://www.reddit.com/r/linuxquestions/comments/x91k5c/simple_midi_player_on_linux/ <br> <code>timidity</code></p>
 <h2>Other operating systems</h2>
 <h3>How to run on Android</h3>
-<p>External link: https://www.reddit.com/r/EmulationOnAndroid/</p>
-<p><br></p>
-<p>Use one of these:</p>
+<p>External link: https://www.reddit.com/r/EmulationOnAndroid/ <br> Use one of these:</p>
 <ol>
 <li><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">ExaGear</a> <a class="ref" href="https://www.reddit.com/r/EmulationOnAndroid/comments/8c5c6p/classic_pc_game_speedy_eggbert_works_on_android/">https://www.reddit.com/r/EmulationOnAndroid/comments/8c5c6p/classic_pc_game_speedy_eggbert_works_on_android/</a><a class="ref" href="https://www.exagear.wiki/index.php?title=Installation_instructions">https://www.exagear.wiki/index.php?title=Installation_instructions</a>
   - <a href="https://drive.openeggbert.com/Speedy_Blupi/Screenshots/Android/speedy_blupi_on_android_via_exagear.webp">https://drive.openeggbert.com/Speedy_Blupi/Screenshots/Android/speedy_blupi_on_android_via_exagear.webp</a></li>
 <li><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Winlator</a></li>
 <li><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Limbo PC Emulator</a> with Windows 95 or later operating system installed</li>
 </ol>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Gamepad</a></p>
-<p>can be simulated by:</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">GameKeyboard +</a></p>
-<p><a class="ref" href="https://play.google.com/store/apps/details?id=com.locnet.gamekeyboard2">https://play.google.com/store/apps/details?id=com.locnet.gamekeyboard2</a></p>
+<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Gamepad</a> can be simulated by: <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">GameKeyboard +</a> <a class="ref" href="https://play.google.com/store/apps/details?id=com.locnet.gamekeyboard2">https://play.google.com/store/apps/details?id=com.locnet.gamekeyboard2</a></p>
 <h3>How to run on Raspberry Pi</h3>
-<p>Not yet tested: https://github.com/ryanfortner/exagear-rpi</p>
-<p><br></p>
-<p>Not yet tested: https://box86.org/</p>
-<p><a class="ref" href="https://www.youtube.com/watch?v=OT17OQNiGcA">https://www.youtube.com/watch?v=OT17OQNiGcA</a></p>
+<p>Not yet tested: https://github.com/ryanfortner/exagear-rpi <br> Not yet tested: https://box86.org/ <a class="ref" href="https://www.youtube.com/watch?v=OT17OQNiGcA">https://www.youtube.com/watch?v=OT17OQNiGcA</a></p>
 <h3>How to run on ReactOS</h3>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">ReactOS</a></p>
-<p>is a</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">free</a></p>
-<p>and</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">open-source</a></p>
-<p>operating system for</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">i586</a></p>
-<p>/</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">amd64</a></p>
-<p>personal computers intended to be binary-compatible with computer programs and device drivers developed for Windows Server 2003 and later versions of</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Microsoft</a></p>
-<p><a href="Technologies/Platforms/Windows/index.html">Windows</a></p>
-<p>.</p>
-<p><a class="ref" href="https://reactos.org/">https://reactos.org/</a></p>
-<p><br></p>
-<p>Speedy Blupi/Eggbert runs on React OS in "Limbo PC Emulator" on Android</p>
-<p><strong>without issues</strong></p>
-<p><br></p>
-<p>Speedy Blupi/Eggbert runs on React OS in</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">VirtualBox</a></p>
-<p><strong>with issues:</strong></p>
-<p>Blupi/Eggbert is moving left or right even in case, no key is pressed, until the top arrow key is pressed. But gameplay is possible, if you consider this issue.</p>
+<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">ReactOS</a> is a <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">free</a> and <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">open-source</a> operating system for <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">i586</a>/<a href="Article_does_not_yet_exist_or_link_is_broken/index.html">amd64</a> personal computers intended to be binary-compatible with computer programs and device drivers developed for Windows Server 2003 and later versions of <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Microsoft</a> <a href="Technologies/Platforms/Windows/index.html">Windows</a>.<a class="ref" href="https://reactos.org/">https://reactos.org/</a> <br> Speedy Blupi/Eggbert runs on React OS in "Limbo PC Emulator" on Android <strong>without issues</strong> <br> Speedy Blupi/Eggbert runs on React OS in <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">VirtualBox</a> <strong>with issues:</strong> Blupi/Eggbert is moving left or right even in case, no key is pressed, until the top arrow key is pressed. But gameplay is possible, if you consider this issue.</p>
 <h3>How to run in browser</h3>
-<p><strong>Warning:</strong></p>
-<p>Speedy Eggbert (Blupi maybe too) can be run via</p>
-<p><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Boxed Wine</a></p>
-<p>, but it is buggy, slow, with blue boxes around, sound is working, but is jerky, the game crashes very soon. How to fix this issues, was not yet investigated.</p>
-<p><br></p>
-<p><strong>Steps:</strong></p>
+<p><strong>Warning:</strong> Speedy Eggbert (Blupi maybe too) can be run via <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Boxed Wine</a>, but it is buggy, slow, with blue boxes around, sound is working, but is jerky, the game crashes very soon. How to fix this issues, was not yet investigated. <br> <strong>Steps:</strong></p>
 <ol>
 <li>Download BoxedWine for web (build-?.zip files):http://208.113.165.28:8080/job/Boxedwine/job/master/</li>
 <li>Unzip the zip file, go to Web directory.</li>
@@ -215,33 +107,19 @@ PAGE_CONFIG = {
 <li>Add the following to "Launch options" on the shortcut: <code>PROTON_USE_WINED3D=1 PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 %command% -nocd</code></li>
 <li>Switch back to gaming mode (if you were on desktop mode), make sure the controller profile is set to Keyboard + Mouse, launch it</li>
 </ol>
-<p>Background music is not working. You can fix it by installing Qsynth and sound fonts.</p>
-<p><br></p>
-<p><a class="ref" href="https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/">https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/</a></p>
-<p><a class="ref" href="https://web.archive.org/web/20240709191020/https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/">https://web.archive.org/web/20240709191020/https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/</a></p>
-<p><br></p>
-<p>https://drive.openeggbert.com/Speedy_Blupi/Screenshots/Steam_Deck/peak-gaming-performance-v0-apj3kg8qrvv81.png</p>
+<p>Background music is not working. You can fix it by installing Qsynth and sound fonts. <br> <a class="ref" href="https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/">https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/</a> <a class="ref" href="https://web.archive.org/web/20240709191020/https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/">https://web.archive.org/web/20240709191020/https://www.reddit.com/r/speedyeggbert/comments/ucddzf/peak_gaming_performance/</a> <br> https://drive.openeggbert.com/Speedy_Blupi/Screenshots/Steam_Deck/peak-gaming-performance-v0-apj3kg8qrvv81.png</p>
 <h2>All operating systems</h2>
 <h3>Speedy Blupi game requires CD-ROM</h3>
-<p>''Note: Speedy Eggbert does not have these CD-ROM checks.''</p>
-<pre><code>    There are 3 possible ways to fix it:
-</code></pre>
+<p>''Note: Speedy Eggbert does not have these CD-ROM checks.'' There are 3 possible ways to fix it:</p>
 <ol>
-<li>Open the file{install dir}/DATA/Config.def with a text editor (like notepad, for example).
-        #<em> Change line like </em><em>CD-Rom=V:\US</em><em> to </em><em>CD-Rom=-nocd</em>*</li>
+<li>Open the file{install dir}/DATA/Config.def with a text editor (like notepad, for example). #<em> Change line like </em><em>CD-Rom=V:\US</em><em> to </em><em>CD-Rom=-nocd</em>*</li>
 <li>Run the Blupi EXE file with the argument <strong>-nocd</strong></li>
 <li>Change offset <strong>4f6</strong>(for SB1) or <strong>506</strong> (for SB2) from <strong>75</strong> to <strong>eb</strong></li>
 </ol>
 <h3>Cannot change to 16 bit color depth in the Settings screen</h3>
-<p>Game considers your computer to be slow.</p>
-<p><br></p>
-<p>Solution: Edit the file data/config.def and set Benchmark=9999.</p>
+<p>Game considers your computer to be slow. <br> Solution: Edit the file data/config.def and set Benchmark=9999.</p>
 <h3>Dummy DirectPlay - make the EXE files run without DirectX installed</h3>
-<p>https://github.com/CnCNet/dummy-dplayx</p>
-<p><br></p>
-<p>This was not yet tested. Investigation is needed.</p>
-<p><br></p>
-<p>This program behaves as a ''stub'' to DirectPlay, but that just stops errors and nothing else.</p>
+<p>https://github.com/CnCNet/dummy-dplayx <br> This was not yet tested. Investigation is needed. <br> This program behaves as a ''stub'' to DirectPlay, but that just stops errors and nothing else.</p>
 <h3>How to upgrade the EXE files to DirectX 11/12</h3>
 <p>https://github.com/dege-diosg/dgVoodoo2/</p>
 <h3>winevdm - to be investigated</h3>
@@ -249,10 +127,7 @@ PAGE_CONFIG = {
 <h3>Fix some compatibility and performance issues on modern DirectX versions, if exist</h3>
 <p>https://github.com/narzoul/DDrawCompat</p>
 <h3>How the 3D models of Eggbert were created</h3>
-<p>This software was used:</p>
-<p><strong>Ray Dream Studio</strong></p>
-<p><br></p>
-<p>http://www.win3x.org/win3board/viewtopic.php?t=13786\</p>
+<p>This software was used: <strong>Ray Dream Studio</strong> <br> http://www.win3x.org/win3board/viewtopic.php?t=13786\</p>
 <h3>How to show keyboard and mouse presses in the realtime</h3>
 <p>Maybe this will work: https://github.com/Jax-Core/Keystrokes</p>
 <h3>How to play multiplayer over Internet</h3>
@@ -264,9 +139,7 @@ PAGE_CONFIG = {
 <li>Open the player and take world 300 to 320 <a class="ref" href="https://www.youtube.com/watch?v=CclakPC0rxE">https://www.youtube.com/watch?v=CclakPC0rxE</a></li>
 <li>Delete the old level and create a new level or load another level</li>
 <li>Play the level.
-  - If you loose a life, the replay can have a mistake. This maybe impacts only version 2, because
-                        there the death animation is not deterministic (2 Eggbert death animations exist) (Missing
-                        reference, it needs to be added)</li>
+  - If you loose a life, the replay can have a mistake. This maybe impacts only version 2, because there the death animation is not deterministic (2 Eggbert death animations exist) (Missing reference, it needs to be added)</li>
 </ol>
 <p>This is stub, extend this section (https://www.youtube.com/watch?v=CclakPC0rxE)</p>
 </section>

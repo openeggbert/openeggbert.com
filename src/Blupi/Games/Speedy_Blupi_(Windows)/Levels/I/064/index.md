@@ -20,15 +20,7 @@ subpages:
 
 ## Dream 4
 
-**World:**
-
-Dream World
-
-<br>
-
-**Note:**
-
-Both this level and Mechanical 5 have the most chests out of any level in Speedy Blupi I
+**World:** Dream World <br> **Note:** Both this level and Mechanical 5 have the most chests out of any level in Speedy Blupi I
 
 <table>
 <tr>

@@ -16,25 +16,11 @@ subpages:
   href: Blupi/Games/Speedy_Blupi_(Windows)/Hacks/index.html
 ---
 
-**Cheat codes**
-
-offer benefits that surpass regular gameplay, typically designed to make the gameplay easier.
+**Cheat codes** offer benefits that surpass regular gameplay, typically designed to make the gameplay easier.
 
 - Cheat codes are activated from within the game itself during the gameplay. There were implemented by the original game developers.
 
-Cheat codes in Speedy Blupi produce a wide variety of effects.
-
-<br>
-
-Cheat codes are available in all versions of Speedy Blupi (but with some differences)
-
-<br>
-
-The effects are the same in both the Blupi and Eggbert versions of the game. Speedy Blupi 2 added new cheats and made some adjustments to the existing ones.
-
-<br>
-
-There are two types of cheats:
+Cheat codes in Speedy Blupi produce a wide variety of effects. <br> Cheat codes are available in all versions of Speedy Blupi (but with some differences) <br> The effects are the same in both the Blupi and Eggbert versions of the game. Speedy Blupi 2 added new cheats and made some adjustments to the existing ones. <br> There are two types of cheats:
 
 1. one-time
 2. long-term - if enabled, cheat code text is shown in the upper edge of the screen. Long term cheat is enabled until the cheat is typed again.

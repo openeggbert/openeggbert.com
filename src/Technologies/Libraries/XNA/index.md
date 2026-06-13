@@ -57,31 +57,7 @@ subpages:
 <td>https://msdn.microsoft.com/xna/</td>
 </tr></table>
 
-XNA is a game framework. The
-
-[C#](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-programming language is usually used to create games with the XNA game framework.
-
-<br>
-
-XNA is used by
-
-[Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-.
-
-<br>
-
-**Specification:**
-
-[XNA Game Studio 4.0 Refresh | Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/xna/bb200104(v=xnagamestudio.41))
-
-(Archived at:
-
-[https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz](https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz)
-
-)
+XNA is a game framework. The [C#](Article_does_not_yet_exist_or_link_is_broken/index.html) programming language is usually used to create games with the XNA game framework. <br> XNA is used by [Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> **Specification:** [XNA Game Studio 4.0 Refresh | Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/xna/bb200104(v=xnagamestudio.41)) (Archived at: [https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz](https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz))
 
 ## Alternative implementations
 
@@ -109,15 +85,7 @@ https://github.com/Halofreak1990/JavaXNA
 
 ### FNA
 
-FNA is an alternative implementation of the XNA game framework.
-
-<br>
-
-Author: Ethan Lee
-
-<br>
-
-https://fna-xna.github.io/
+FNA is an alternative implementation of the XNA game framework. <br> Author: Ethan Lee <br> https://fna-xna.github.io/
 
 ### ANX
 
@@ -125,7 +93,7 @@ https://github.com/rrz-dev/anx.framework
 
 ### XNI
 
-**Overview**  XNI is an iOS static library for game development, built in Objective-C with iOS SDK. It mirrors core components of XNA Framework 4.0, offering essential tools like <b style="background:#bbbbbb">Game</b>, <b style="background:#bbbbbb">SpriteBatch</b>, and <b style="background:#bbbbbb">ContentManager</b>.
+**Overview** XNI is an iOS static library for game development, built in Objective-C with iOS SDK. It mirrors core components of XNA Framework 4.0, offering essential tools like <b style="background:#bbbbbb">Game</b>, <b style="background:#bbbbbb">SpriteBatch</b>, and <b style="background:#bbbbbb">ContentManager</b>.
 
 **Current Version:** **0.4.4** – not a full XNA implementation, but sufficient for App Store game development.
 
@@ -137,14 +105,14 @@ https://github.com/rrz-dev/anx.framework
 - **Content Management:** Basic <b style="background:#bbbbbb">.x</b> model loading.
 - **Planned:** Exploring GamerServices for Game Center integration.
 
-**Motivation**  Developer Matej Jan, a longtime XNA supporter, sought a strong iOS game framework. Unimpressed by TouchXNA and ExEn, he created XNI using Objective-C.
+**Motivation** Developer Matej Jan, a longtime XNA supporter, sought a strong iOS game framework. Unimpressed by TouchXNA and ExEn, he created XNI using Objective-C.
 
 **Limitations**
 
 - Still in early development, lacking full GamerServices.
 - Limited 3D model functionality.
 
-**Usage**  XNI has powered multiple App Store games, now with setup guides for easy Xcode integration.
+**Usage** XNI has powered multiple App Store games, now with setup guides for easy Xcode integration.
 
 ### Why XNA 3D games look ugly?
 
@@ -152,63 +120,63 @@ https://github.com/rrz-dev/anx.framework
 
 ---
 
-#### 1.Outdated Technology
+#### 1. Outdated Technology
 
 - **XNA Framework** was last updated in 2013, and Microsoft has discontinued support for it. Technologies such as modern shader effects, global illumination, or advanced physics simulations are not natively supported.
 - Modern engines like Unity or Unreal Engine provide ready-to-use tools for beautiful lighting, materials, and effects that XNA lacks.
 
 ---
 
-#### 2.Lack of Support for Modern Rendering Techniques
+#### 2. Lack of Support for Modern Rendering Techniques
 
 - XNA uses DirectX 9, meaning advanced techniques like **deferred rendering**, **screen-space ambient occlusion (SSAO)**, or **physically-based rendering (PBR)** are not available.
 - Unless the developer writes their own shader implementations and effects, the game might rely on basic rendering, which looks flat and outdated.
 
 ---
 
-#### 3.Limited Tools for Graphics Content
+#### 3. Limited Tools for Graphics Content
 
 - XNA doesn’t provide an integrated scene editor—everything must be coded manually or through external tools (e.g., Blender, Maya).
 - Animations, textures, and materials often had to be processed manually or through custom pipelines, which increases the risk of the final result looking unprofessional.
 
 ---
 
-#### 4.Lack of Modern Lighting
+#### 4. Lack of Modern Lighting
 
 - The **lighting model** in XNA is often limited to basic models like **Phong** or simple **Lambertian lighting**, which are outdated and look artificial compared to PBR techniques used in modern games.
 - It lacks advanced dynamic lighting, reflections, shadows, or effects like volumetric fog.
 
 ---
 
-#### 5.Low-Quality Textures
+#### 5. Low-Quality Textures
 
 - Indie developers often work with limited resources, using simple or low-budget textures. XNA games may look "flat" due to insufficient detail or the absence of procedural textures.
 - Textures may suffer from low resolution or lack normal maps (for surface detail).
 
 ---
 
-#### 6.Lack of Post-Processing Effects
+#### 6. Lack of Post-Processing Effects
 
 - Modern games rely on effects like **bloom**, **motion blur**, **depth of field**, or **color grading**, which enhance visual appeal. In XNA, these must be implemented manually through shaders, which most developers don’t do.
 - The absence of these effects leads to a "raw" appearance in the rendering.
 
 ---
 
-#### 7.Developers Were Often Beginners
+#### 7. Developers Were Often Beginners
 
 - XNA was popular among beginner developers learning 3D programming. Many projects suffered from a lack of experience in graphics, optimization, or design.
 - The quality of the result often reflected the team's skill, not just the capabilities of the framework itself.
 
 ---
 
-#### 8.Basic Physics
+#### 8. Basic Physics
 
 - XNA doesn't have built-in physics support. If the developer didn’t add libraries like **Bullet** or **BEPUphysics**, the physics could be very basic or nonexistent.
 - Physics and interaction with the environment are key for realistic-looking games.
 
 ---
 
-#### 9.Lack of Modern Tools and Support
+#### 9. Lack of Modern Tools and Support
 
 - Modern engines provide visual editors, easy shader management, and built-in materials, which XNA lacks. A game created without these tools may feel incomplete.
 

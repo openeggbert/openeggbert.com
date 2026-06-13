@@ -29,8 +29,7 @@ subpages:
 - Propose new features
 - Implement bug fixes or feature requests from GitHub Issues
 
-Once you've made your decision on what you'd like to do, please inform us beforehand.
-            This ensures that the issue you're interested in hasn't already been addressed or is being worked on in newer versions.
+Once you've made your decision on what you'd like to do, please inform us beforehand. This ensures that the issue you're interested in hasn't already been addressed or is being worked on in newer versions.
 
 ## Documentation
 
@@ -49,11 +48,7 @@ For example:
 
 ### Discord:
 
-Discord is chat platform for
-
-**Open Eggbert**
-
-.
+Discord is chat platform for **Open Eggbert**.
 
 Invite link: [https://discord.gg/kDz8Yzw5Wz](https://discord.gg/kDz8Yzw5Wz)
 

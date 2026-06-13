@@ -70,82 +70,7 @@ subpages:
 </tr>
 </table>
 
-Mobile Eggbert is a
-
-[2D](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-[platformer](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-[game](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-based on
-
-[Speedy
-        Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-.
-
-<br>
-
-The
-
-[ILSpy](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-decompiler was used to get back the
-
-[C Sharp|C#](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-[source
-        code](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-of
-
-[Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-. The decompiled
-        source code is not the same, as the original was. Comments and names of local variables are lost.
-
-<br>
-
-The discontinued
-
-[XNA](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-4 game framework is replaced by
-
-[MonoGame](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-game framework. MonoGame is almost a
-
-[drop-in replacement](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-for the XNA. There are several
-        implementations of XNA 4.0 game framework (like
-
-[FNA](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-or others).
-
-<br>
-
-See also:
-
-[Alternative implementations of XNA](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-<br>
-
-Work on Mobile Eggbert started on 23rd November 2024.
-
-<br>
-
-Already on 23rd November 2024 the game was successfully decompiled and made runnable without any errors on
-        desktop (Windows and Linux). The support for mouse and keyboard was added.
-
-<br>
-
-On 25th November Mobile Eggbert was released for Windows and Linux:
-
-[https://drive.openeggbert.com/Mobile_Eggbert/](https://drive.openeggbert.com/Mobile_Eggbert/)
+Mobile Eggbert is a [2D](Article_does_not_yet_exist_or_link_is_broken/index.html) [platformer](Article_does_not_yet_exist_or_link_is_broken/index.html) [game](Article_does_not_yet_exist_or_link_is_broken/index.html) based on [Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> The [ILSpy](Article_does_not_yet_exist_or_link_is_broken/index.html) decompiler was used to get back the [C Sharp|C#](Article_does_not_yet_exist_or_link_is_broken/index.html) [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) of [Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html). The decompiled source code is not the same, as the original was. Comments and names of local variables are lost. <br> The discontinued [XNA](Article_does_not_yet_exist_or_link_is_broken/index.html) 4 game framework is replaced by [MonoGame](Article_does_not_yet_exist_or_link_is_broken/index.html) game framework. MonoGame is almost a [drop-in replacement](Article_does_not_yet_exist_or_link_is_broken/index.html) for the XNA. There are several implementations of XNA 4.0 game framework (like [FNA](Article_does_not_yet_exist_or_link_is_broken/index.html) or others). <br> See also: [Alternative implementations of XNA](Article_does_not_yet_exist_or_link_is_broken/index.html) <br> Work on Mobile Eggbert started on 23rd November 2024. <br> Already on 23rd November 2024 the game was successfully decompiled and made runnable without any errors on desktop (Windows and Linux). The support for mouse and keyboard was added. <br> On 25th November Mobile Eggbert was released for Windows and Linux: [https://drive.openeggbert.com/Mobile_Eggbert/](https://drive.openeggbert.com/Mobile_Eggbert/)
 
 - It works without any issues.
 
@@ -153,80 +78,33 @@ On 25th November Mobile Eggbert was released for Windows and Linux:
 
 Mobile Eggbert was started, because:
 
-1. [Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html) is a discontinued closed-source
-                proprietary mobile [operating system](Article_does_not_yet_exist_or_link_is_broken/index.html) (developed by [Microsoft](Article_does_not_yet_exist_or_link_is_broken/index.html) company for [smart phones](Article_does_not_yet_exist_or_link_is_broken/index.html)).
-2. Devices with Windows Phones are no more produced. Windows Phone operating system cannot be installed on
-                other modern devices.
-3. Without physical device with Windows Phone installed the emulator is the only way to run Speedy Blupi
-                (2013) nowdays. But the emulator probably will not work in the future, as it is a closed-source
-                proprietary technology.
-4. Because the source code of Speedy Blupi (2013) is not available, it is not possible to make
-                improvements or bug fixes.
+1. [Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html) is a discontinued closed-source proprietary mobile [operating system](Article_does_not_yet_exist_or_link_is_broken/index.html) (developed by [Microsoft](Article_does_not_yet_exist_or_link_is_broken/index.html) company for [smart phones](Article_does_not_yet_exist_or_link_is_broken/index.html)).
+2. Devices with Windows Phones are no more produced. Windows Phone operating system cannot be installed on other modern devices.
+3. Without physical device with Windows Phone installed the emulator is the only way to run Speedy Blupi (2013) nowdays. But the emulator probably will not work in the future, as it is a closed-source proprietary technology.
+4. Because the source code of Speedy Blupi (2013) is not available, it is not possible to make improvements or bug fixes.
 
 ## Current status
 
-Mobile Eggbert works on Windows and Linux.
-
-<br>
-
-Mobile Eggbert starts on Android, but it is buggy: scaling is wrong, touch controls are not working correctly,
-        worlds are not loading.
+Mobile Eggbert works on Windows and Linux. <br> Mobile Eggbert starts on Android, but it is buggy: scaling is wrong, touch controls are not working correctly, worlds are not loading.
 
 ## Issues and the future
 
-Mobile Eggbert is buggy on Android and must be fixed.
-
-<br>
-
-Accelerometer support is not yet available. It will be added for the Android platform.
-
-<br>
-
-Local variables must be renamed to the correct names.
-
-<br>
-
-Comments must be added.
-
-<br>
-
-Some refactoring is planned.
-
-<br>
-
-Porting to FNA or an alternative XNA 4.0 is planned to be done.
-
-<br>
-
-If the C# version will be kept, then there will be probably 3 modules: mobile-eggbert-core,
-        mobile-eggbert-desktop and mobile-eggbert-android.
-
-<br>
-
-Mobile Eggbert is being just rewritten to C++. MonoGame is replaced by CNA.
+Mobile Eggbert is buggy on Android and must be fixed. <br> Accelerometer support is not yet available. It will be added for the Android platform. <br> Local variables must be renamed to the correct names. <br> Comments must be added. <br> Some refactoring is planned. <br> Porting to FNA or an alternative XNA 4.0 is planned to be done. <br> If the C# version will be kept, then there will be probably 3 modules: mobile-eggbert-core, mobile-eggbert-desktop and mobile-eggbert-android. <br> Mobile Eggbert is being just rewritten to C++. MonoGame is replaced by CNA.
 
 ## Reasons to Rewrite Mobile Eggbert in C++ and CNA
 
-- **Performance Gains** – C++ allows for more efficient memory management and CPU usage, improving the
-                game's responsiveness.
-- **Direct Hardware Access** – CNA (built on SDL 3) provides direct access to graphics, input, and
-                sound hardware, leading to better optimization.
-- **Cross-Platform Compatibility** – SDL-based frameworks ensure support across Windows, Linux, and
-                macOS without relying on .NET.
-- **Future-Proofing** – XNA has been deprecated, and MonoGame is tied to .NET, which evolves
-                frequently. C++ offers long-term stability.
+- **Performance Gains** – C++ allows for more efficient memory management and CPU usage, improving the game's responsiveness.
+- **Direct Hardware Access** – CNA (built on SDL 3) provides direct access to graphics, input, and sound hardware, leading to better optimization.
+- **Cross-Platform Compatibility** – SDL-based frameworks ensure support across Windows, Linux, and macOS without relying on .NET.
+- **Future-Proofing** – XNA has been deprecated, and MonoGame is tied to .NET, which evolves frequently. C++ offers long-term stability.
 - **Console Support** – SDL-based frameworks are commonly used for developing console games.
-- **Better Dependency Management** – C++ eliminates .NET version dependency issues encountered with
-                MonoGame.
+- **Better Dependency Management** – C++ eliminates .NET version dependency issues encountered with MonoGame.
 
 ## Reasons not to Rewrite Mobile Eggbert in C++ and CNA
 
-- **Development Complexity** – C++ requires manual memory management and has a steeper learning curve
-                compared to C#.
-- **Less Built-in Features** – CNA may require more custom coding for engine components that MonoGame
-                provides natively.
-- **Longer Development Time** – Transitioning to C++ might take longer due to lower-level coding
-                requirements.
+- **Development Complexity** – C++ requires manual memory management and has a steeper learning curve compared to C#.
+- **Less Built-in Features** – CNA may require more custom coding for engine components that MonoGame provides natively.
+- **Longer Development Time** – Transitioning to C++ might take longer due to lower-level coding requirements.
 
 ## External links
 

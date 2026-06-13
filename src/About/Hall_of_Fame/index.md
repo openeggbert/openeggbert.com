@@ -10,20 +10,11 @@ subpages:
 
 ## Introduction
 
-Hall of Fame is list of important items related to the
-
-**Open Eggbert**
-
-project.
+Hall of Fame is list of important items related to the **Open Eggbert** project.
 
 ## Abbreviations
 
-HPP = High Priority Project - project of great importance, intended for the future
-
-<br>
-
-TTL = Technology to learn - For Speedy Blupi purposes, it is usually needed to learn only a subset of the given
-        technology
+HPP = High Priority Project - project of great importance, intended for the future <br> TTL = Technology to learn - For Speedy Blupi purposes, it is usually needed to learn only a subset of the given technology
 
 ## Speedy Blupi (Epsitec)
 
@@ -37,18 +28,12 @@ TTL = Technology to learn - For Speedy Blupi purposes, it is usually needed to l
 | [React OS](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | React OS is an operating system, where it is possible to run Speedy Blupi/Eggbert |
 | [C++](Technologies/Programming_languages/C++/index.html) 98 | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | Programming language used to develop Speedy Blupi/Eggbert |
 | [Pentium 100](Technologies/Programming_languages/Assembly_Language/I586/Pentium_100/index.html) |  |  |  | Minimum CPU requirements for Speedy Blupi |
-| [ExaGear](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Android application, which provides the possibility to run the original on the Android operating
-                    system |
-| [Winlator](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Android application, which provides the possibility to run the original on the Android operating
-                    system |
-| [Limbo x86 PC Emulator](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Android application, which provides the possibility to run Windows 95 or React OS operating systems
-                    on the Android operating system and then run the original Speedy Blupi/Eggbert games |
-| [VirtualBox](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Application, which provides the possibility to run Windows 95 or React OS or other operating systems
-                    on desktop (Windows, Linux) and then run the original Speedy Blupi/Eggbert games |
-| [VMware Workstation](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Application, which provides the possibility to run Windows 95 or React OS or other operating systems
-                    on desktop (Windows, Linux) and then run the original Speedy Blupi/Eggbert games |
-| [Qemu](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Application, which provides the possibility to run Windows 95 or React OS or other operating systems
-                    on desktop (Windows, Linux) and then run the original Speedy Blupi/Eggbert games |
+| [ExaGear](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Android application, which provides the possibility to run the original on the Android operating system |
+| [Winlator](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Android application, which provides the possibility to run the original on the Android operating system |
+| [Limbo x86 PC Emulator](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Android application, which provides the possibility to run Windows 95 or React OS operating systems on the Android operating system and then run the original Speedy Blupi/Eggbert games |
+| [VirtualBox](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Application, which provides the possibility to run Windows 95 or React OS or other operating systems on desktop (Windows, Linux) and then run the original Speedy Blupi/Eggbert games |
+| [VMware Workstation](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Application, which provides the possibility to run Windows 95 or React OS or other operating systems on desktop (Windows, Linux) and then run the original Speedy Blupi/Eggbert games |
+| [Qemu](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Application, which provides the possibility to run Windows 95 or React OS or other operating systems on desktop (Windows, Linux) and then run the original Speedy Blupi/Eggbert games |
 | [Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  | Yes | C++ decompiler |
 | [IDA](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  | Yes | C++ decompiler |
 | [Wine](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Provides the ability to run Speedy Blupi/Eggbert (Windows) on the Linux operating system |
@@ -66,8 +51,7 @@ TTL = Technology to learn - For Speedy Blupi purposes, it is usually needed to l
 
 | Item | Stars (0-3) | HPP | TTL | Description |
 | --- | --- | --- | --- | --- |
-| [Speedy-Eggbert-2-Source-Code-Decomp](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Attempt to decompile Speedy Eggbert 2
-                    <nowiki>https://github.com/HMVocaloid/Speedy-Eggbert-2-Source-Code-Decomp</nowiki> |
+| [Speedy-Eggbert-2-Source-Code-Decomp](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Attempt to decompile Speedy Eggbert 2 <nowiki>https://github.com/HMVocaloid/Speedy-Eggbert-2-Source-Code-Decomp</nowiki> |
 | [SDL](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | SDL may be used for the C++ implementation of Open Eggbert |
 | [Emscripten](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  | Yes | Compiles C++ to JavaScript |
 

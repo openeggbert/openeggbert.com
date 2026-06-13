@@ -9,3 +9,10 @@ tags
 check
 tree
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+

@@ -34,8 +34,7 @@ Founder of [Open Eggbert](About/index.html)
 
 **Website:** [https://robertvokac.com](https://robertvokac.com)
 
-**Uses:** Linux, CLion, [IDE](Article_does_not_yet_exist_or_link_is_broken/index.html), LXQT,
-            [Debian](Article_does_not_yet_exist_or_link_is_broken/index.html), [Firefox](Article_does_not_yet_exist_or_link_is_broken/index.html), Windows, Visual Studio Community
+**Uses:** Linux, CLion, [IDE](Article_does_not_yet_exist_or_link_is_broken/index.html), LXQT, [Debian](Article_does_not_yet_exist_or_link_is_broken/index.html), [Firefox](Article_does_not_yet_exist_or_link_is_broken/index.html), Windows, Visual Studio Community
 
 ## Hobbies
 

@@ -39,31 +39,19 @@ BLP is the file extension used for most data files in Speedy Blupi and Speedy Bl
 
 ## Binary format for levels
 
-![](Images/Caution_sign_used_on_roads_pn.svg.png)
-
-Details are needed to be added here.
+![](Images/Caution_sign_used_on_roads_pn.svg.png) Details are needed to be added here.
 
 ## Binary format for saves
 
-![](Images/Caution_sign_used_on_roads_pn.svg.png)
-
-Details are needed to be added here.
+![](Images/Caution_sign_used_on_roads_pn.svg.png) Details are needed to be added here.
 
 ## Binary format for user info
 
-![](Images/Caution_sign_used_on_roads_pn.svg.png)
-
-Details are needed to be added here.
+![](Images/Caution_sign_used_on_roads_pn.svg.png) Details are needed to be added here.
 
 ## Binary format for demos
 
-![](Images/Caution_sign_used_on_roads_pn.svg.png)
-
-Details are needed to be added here.
-
-<br>
-
-Note: Source code of Planet Blupi may contain information, how demo format in Speedy Blupi works.
+![](Images/Caution_sign_used_on_roads_pn.svg.png) Details are needed to be added here. <br> Note: Source code of Planet Blupi may contain information, how demo format in Speedy Blupi works.
 
 - [https://github.com/blupi-games/planetblupi](https://github.com/blupi-games/planetblupi)
 

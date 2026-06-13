@@ -12,76 +12,7 @@ subpages:
   href: Blupi/Fan_projects/index.html
 ---
 
-**X-Edit-Mapper**
-
-is an
-
-[application](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-, which export
-
-[Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-/
-
-[Speedy Eggbert](Blupi/Games/Speedy_Eggbert/index.html)
-
-levels from
-
-[BLP](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-or
-
-[XCH](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-format to
-
-[PNG](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-images.
-
-<br>
-
-**Author:**
-
-Messerschmitt262a2a (
-
-[Youtube channel](https://www.youtube.com/@Messerschmitt262a2a)
-
-)
-
-<br>
-
-**X-Edit-Mapper**
-
-is
-
-[closed source](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-[application](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-,
-        its
-
-[source code](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-is not available.
-
-<br>
-
-It was developed 2019 It is not yet known, if it is now actively (but privately) developed.
-
-<br>
-
-As it is closed source, it does not exist on Github.
-
-<br>
-
-Used programming language is probably
-
-[C#](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-.
+**X-Edit-Mapper** is an [application](Article_does_not_yet_exist_or_link_is_broken/index.html), which export [Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html) / [Speedy Eggbert](Blupi/Games/Speedy_Eggbert/index.html) levels from [BLP](Article_does_not_yet_exist_or_link_is_broken/index.html) or [XCH](Article_does_not_yet_exist_or_link_is_broken/index.html) format to [PNG](Article_does_not_yet_exist_or_link_is_broken/index.html) images. <br> **Author:** Messerschmitt262a2a ([Youtube channel](https://www.youtube.com/@Messerschmitt262a2a) ) <br> **X-Edit-Mapper** is [closed source](Article_does_not_yet_exist_or_link_is_broken/index.html) [application](Article_does_not_yet_exist_or_link_is_broken/index.html), its [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) is not available. <br> It was developed 2019 It is not yet known, if it is now actively (but privately) developed. <br> As it is closed source, it does not exist on Github. <br> Used programming language is probably [C#](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
 ## Download
 
@@ -89,25 +20,9 @@ Used programming language is probably
 
 ## Investigation
 
-Further investigation is needed.
+Further investigation is needed. <br> X-Edit-Mapper runs on [Linux](Technologies/Platforms/Linux/index.html) via [Wine](Article_does_not_yet_exist_or_link_is_broken/index.html), but xnafx40_redist.msi may be needed to be installed. <br>
 
-<br>
-
-X-Edit-Mapper runs on
-
-[Linux](Technologies/Platforms/Linux/index.html)
-
-via
-
-[Wine](Article_does_not_yet_exist_or_link_is_broken/index.html)
-
-,
-        but xnafx40_redist.msi may be needed to be installed.
-
-<br>
-
-- [
-                https://drive.openeggbert.com/Blupi/Fan_projects/X-Edit-Mapper/xnafx40_redist.msi](https://drive.openeggbert.com/Blupi/Fan_projects/X-Edit-Mapper/xnafx40_redist.msi)
+- [ https://drive.openeggbert.com/Blupi/Fan_projects/X-Edit-Mapper/xnafx40_redist.msi](https://drive.openeggbert.com/Blupi/Fan_projects/X-Edit-Mapper/xnafx40_redist.msi)
 
 ## Screenshot
 
@@ -117,30 +32,8 @@ Does not exist.
 
 ## Licence
 
-**X-Edit-Mapper**
-
-has no license attached.
-
-<br>
-
-Maybe the default copyright laws apply, meaning that
-
-**X-Edit-Mapper**
-
-retains all rights to its source code
-        and no one may reproduce, distribute,
-        or create derivative works from its work.
+**X-Edit-Mapper** has no license attached. <br> Maybe the default copyright laws apply, meaning that **X-Edit-Mapper** retains all rights to its source code and no one may reproduce, distribute, or create derivative works from its work.
 
 ## Features
 
-X-Edit-Mapper has an issue. Even levels without scrolling or only with on of type of scrolling (horizontal /
-        vertical) are rendered to huge PNG file.
-        This feature would be fixed in
-
-[Open Eggbert](About/index.html)
-
-.
-
-<br>
-
-Features of X-Edit-Mapper are planned to be implemented in Open Eggbert.
+X-Edit-Mapper has an issue. Even levels without scrolling or only with on of type of scrolling (horizontal / vertical) are rendered to huge PNG file. This feature would be fixed in [Open Eggbert](About/index.html). <br> Features of X-Edit-Mapper are planned to be implemented in Open Eggbert.

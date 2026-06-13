@@ -16,15 +16,7 @@ subpages:
 
 ## Potion drink
 
-This drinks makes Blupi invisible.
-
-<br>
-
-In Speedy Blupi I potion drink is only intened for multiplayer (no effect against enemies in single player)
-
-<br>
-
-In Speedy Blupi II potion drink also affects homing bombs
+This drinks makes Blupi invisible. <br> In Speedy Blupi I potion drink is only intened for multiplayer (no effect against enemies in single player) <br> In Speedy Blupi II potion drink also affects homing bombs
 
 ## Treasure
 
