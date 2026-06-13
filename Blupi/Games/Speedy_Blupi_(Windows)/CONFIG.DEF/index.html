@@ -4,18 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - CONFIG.DEF</title>
-
     <base href="../../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-
-<style>
-    th {text-align: left;}
-</style>
-
 <script>
 PAGE_CONFIG = {
   breadcrumb: [
@@ -30,115 +24,59 @@ PAGE_CONFIG = {
 };
 </script>
 <main>
-    <section>
-        <h1>CONFIG.DEF</h1>
-        <div id="tocButton"></div>
-        <div id="toc"></div>
-
-        CONFIG.DEF is a text configuration file placed in the DATA directory
-        <br>
-        This file has different names between games: CONFIG.DEF, Config.def, config.def
-        <br>
-        It has differences between games.
-        <br>
-        Note: Possible values 0 or 1 means disabled or enabled.
-
-        <table>
-            <tr>
-                <th>Key</th>
-                <th>Description</th>
-                <th>Possible values</th>
-                <th>Example</th>
-                <th>Default or initial value</th>
-                <th>Mandatory</th>
-                <th>Supported in games</th>
-            <tr>
-            <tr>
-                <td>FullScreen=0</td>
-                <td></td>
-                <td>0,1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>Yes</td>
-                <td>SBD,SB1,SB2,SED,SE1,SE2,OE3</td>
-            <tr>
-            <tr>
-                <td>TrueColor</td>
-                <td></td>
-                <td>8,16,24</td>
-                <td></td>
-                <td></td>
-                <td>Yes</td>
-                <td></td>
-            <tr>
-            <tr>
-                <td>MouseType</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>Yes</td>
-                <td></td>
-            <tr>
-            <tr>
-                <td>SpeedRate</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>Yes</td>
-                <td></td>
-            <tr>
-            <tr>
-                <td>Timer</td>
-                <td></td>
-                <td>a number</td>
-                <td>50ms</td>
-                <td>50ms</td>
-                <td>Yes</td>
-                <td></td>
-            <tr>
-            <tr>
-                <td>StrictCompatibility</td>
-                <td>If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
-                    new OE features will be disabled.
-                </td>
-                <td>0,1</td>
-                <td>1</td>
-                <td>0</td>
-                <td>No</td>
-                <td>OE3</td>
-            <tr>
-            <tr>
-                <td>DisplayResolutionStandard</td>
-                <td>VGA:width=640 height=480 QuadVGA:width=1280 height=960</td>
-                <td>VGA, QuadVGA</td>
-                <td>QuadVGA</td>
-                <td>QuadVGA</td>
-                <td>No</td>
-                <td>OE3</td>
-            <tr>
-            <tr>
-                <td>Cheats</td>
-                <td>If enabled, cheats will be enabled, otherwise cheats will be disabled.</td>
-                <td>0,1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>No</td>
-                <td>OE3</td>
-            <tr>
-
-        </table>
-        <h3>Across versions</h3>
-
-<pre>
+<section>
+<h1>CONFIG.DEF</h1>
+<div id="tocButton"></div>
+<div id="toc"></div>
+<p>CONFIG.DEF is a text configuration file placed in the DATA directory</p>
+<p><br></p>
+<p>This file has different names between games: CONFIG.DEF, Config.def, config.def</p>
+<p><br></p>
+<p>It has differences between games.</p>
+<p><br></p>
+<p>Note: Possible values 0 or 1 means disabled or enabled.</p>
+<p>| Key | Description | Possible values | Example | Default or initial value | Mandatory | Supported in games | FullScreen=0 |  | 0,1 | 0 | 1 | Yes | SBD,SB1,SB2,SED,SE1,SE2,OE3 | TrueColor |  | 8,16,24 |  |  | Yes |  | MouseType |  |  |  |  | Yes |  | SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| FullScreen=0 |  | 0,1 | 0 | 1 | Yes | SBD,SB1,SB2,SED,SE1,SE2,OE3 | TrueColor |  | 8,16,24 |  |  | Yes |  | MouseType |  |  |  |  | Yes |  | SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| FullScreen=0 |  | 0,1 | 0 | 1 | Yes | SBD,SB1,SB2,SED,SE1,SE2,OE3 | TrueColor |  | 8,16,24 |  |  | Yes |  | MouseType |  |  |  |  | Yes |  | SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| TrueColor |  | 8,16,24 |  |  | Yes |  | MouseType |  |  |  |  | Yes |  | SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| TrueColor |  | 8,16,24 |  |  | Yes |  | MouseType |  |  |  |  | Yes |  | SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| MouseType |  |  |  |  | Yes |  | SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| MouseType |  |  |  |  | Yes |  | SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| SpeedRate |  |  |  |  | Yes |  | Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| Timer |  | a number | 50ms | 50ms | Yes |  | StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| StrictCompatibility | If enabled, OE will behaves as much as possible as games released in 1998 and 2002, this means, that
+                    new OE features will be disabled. | 0,1 | 1 | 0 | No | OE3 | DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| DisplayResolutionStandard | VGA:width=640 height=480 QuadVGA:width=1280 height=960 | VGA, QuadVGA | QuadVGA | QuadVGA | No | OE3 | Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+| Cheats | If enabled, cheats will be enabled, otherwise cheats will be disabled. | 0,1 | 0 | 1 | No | OE3 |
+|  |</p>
+<h3>Across versions</h3>
+<pre><code>
         FullScreen=0
         TrueColor=8
         MouseType=1
         SpeedRate=1
         Timer=50ms
-        StrictCompatibility=0</pre>
-    </section>
+        StrictCompatibility=0
+</code></pre>
+</section>
 </main>
 
 </body>

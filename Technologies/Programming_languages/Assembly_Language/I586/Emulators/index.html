@@ -4,14 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - Emulators</title>
-
     <base href="../../../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-
 <script>
 PAGE_CONFIG = {
   breadcrumb: [
@@ -26,90 +24,86 @@ PAGE_CONFIG = {
 };
 </script>
 <main>
-    <section>
-        <h1>Emulators</h1>
-        <div id="tocButton"></div>
-        <div id="toc"></div>
-
-        <h2>Choosing a tool</h2>
-        For pure Pentium 100 emulation, where you need to faithfully emulate the behavior of the older processor at the
-        clock cycle level, Bochs or PCem will be best.
-        <br>For running applications that do not require timing accuracy but just functional compatibility, QEMU or even
-        DOSBox may be suitable.
-
-        <h2>Speedy Blupi </h2>
-        The Pentium 100 emulation should be sufficient for the 1998 game Speedy Blupi, which requires DirectX 3 and C++
+<section>
+<h1>Emulators</h1>
+<div id="tocButton"></div>
+<div id="toc"></div>
+<h2>Choosing a tool</h2>
+<p>For pure Pentium 100 emulation, where you need to faithfully emulate the behavior of the older processor at the
+        clock cycle level, Bochs or PCem will be best.</p>
+<p><br></p>
+<p>For running applications that do not require timing accuracy but just functional compatibility, QEMU or even
+        DOSBox may be suitable.</p>
+<h2>Speedy Blupi</h2>
+<p>The Pentium 100 emulation should be sufficient for the 1998 game Speedy Blupi, which requires DirectX 3 and C++
         98, as long as the emulator can provide sufficient speed and compatibility with the Pentium instruction set and
-        also supports DirectX 3.
-        <br>
-        To run this game in an emulated environment, consider the following options:
-        <br>
-        PCem - This emulator is very accurate at emulating older processors including the Pentium and has good support
+        also supports DirectX 3.</p>
+<p><br></p>
+<p>To run this game in an emulated environment, consider the following options:</p>
+<p><br></p>
+<p>PCem - This emulator is very accurate at emulating older processors including the Pentium and has good support
         for older graphics and sound cards. This makes it suitable for games that require specific versions of DirectX,
-        such as DirectX 3.
-        <br>
-        QEMU - It can also be used if emulation of specific hardware is not required. However, DirectX 3 support may be
+        such as DirectX 3.</p>
+<p><br></p>
+<p>QEMU - It can also be used if emulation of specific hardware is not required. However, DirectX 3 support may be
         limited, as QEMU focuses on basic functional emulation rather than the details of late 1990s graphical
-        interfaces.
-        <br>
-        VirtualBox with Windows 98 - If you prefer virtualization, it is possible to create a virtual machine with
+        interfaces.</p>
+<p><br></p>
+<p>VirtualBox with Windows 98 - If you prefer virtualization, it is possible to create a virtual machine with
         Windows 98 on which you can install DirectX 3 and run the game directly. VirtualBox will not emulate the Pentium
-        100 exactly, but it will generally offer sufficient performance and compatibility for older games.
-        <br>
-        When it comes to DirectX 3, it is important to have sufficient graphics output support in the emulator or
-        virtual machine so that the game runs smoothly and without visual issues.
-        <h2>Emulators</h2>
-
-        <h3>Bochs</h3>
-        Bochs is an open-source x86 emulator designed to emulate the x86 architecture in detail at the clock-level.
+        100 exactly, but it will generally offer sufficient performance and compatibility for older games.</p>
+<p><br></p>
+<p>When it comes to DirectX 3, it is important to have sufficient graphics output support in the emulator or
+        virtual machine so that the game runs smoothly and without visual issues.</p>
+<h2>Emulators</h2>
+<h3>Bochs</h3>
+<p>Bochs is an open-source x86 emulator designed to emulate the x86 architecture in detail at the clock-level.
         Unlike QEMU, Bochs is slower but can be more accurate, making it suitable for research purposes or debugging
         low-level code. Bochs emulates older x86 processors, including i386, i486, and Pentium. This makes it suitable
-        for emulating a processor as precise as the Pentium 100.
-
-        <h3>DOSBox</h3>
-        DOSBox is a DOS emulator for the x86 architecture, optimized for running DOS games and applications. It emulates
-        older x86 processors, but is focused more on game compatibility than on exact emulation of Pentium processors.
-        <br>
-        DOSBox can be used for old applications that ran on Pentiums, but is not intended for complex hardware emulation
-        or more modern applications that require more accurate hardware-level emulation.
-        <br>
-        Some DirectX games are reported to work on a patched version of DOSBox
-
-        <ul>
-            <li><a href="https://www.vogons.org/viewtopic.php?t=35814">https://www.vogons.org/viewtopic.php?t=35814</a>
-            </li>
-        </ul>
-        <h3>PCem</h3>
-        PCem is a PC hardware emulator aimed at older systems. It offers high-fidelity emulation of older processors,
+        for emulating a processor as precise as the Pentium 100.</p>
+<h3>DOSBox</h3>
+<p>DOSBox is a DOS emulator for the x86 architecture, optimized for running DOS games and applications. It emulates
+        older x86 processors, but is focused more on game compatibility than on exact emulation of Pentium processors.</p>
+<p><br></p>
+<p>DOSBox can be used for old applications that ran on Pentiums, but is not intended for complex hardware emulation
+        or more modern applications that require more accurate hardware-level emulation.</p>
+<p><br></p>
+<p>Some DirectX games are reported to work on a patched version of DOSBox</p>
+<ul>
+<li><a href="https://www.vogons.org/viewtopic.php?t=35814">https://www.vogons.org/viewtopic.php?t=35814</a></li>
+</ul>
+<h3>PCem</h3>
+<p>PCem is a PC hardware emulator aimed at older systems. It offers high-fidelity emulation of older processors,
         including Intel Pentium, i386, and i486, and also emulates a wide range of graphics cards, sound cards, and
-        other peripherals.
-        <br>
-        It is a great emulator for older operating systems and games. Unlike QEMU and Bochs, PCem is specifically aimed
-        at retro-gaming and old applications.
-        <h3>Qemu</h3>
-        QEMU is an open-source emulator and virtualization tool. It can emulates several processor architectures
-        including x86 (Pentium 100 too).
-        <br><strong>How QEMU works?</strong><br>
-
-        QEMU translates instructions (dynamic binary translation - DBT): Blocks of binary code are translated from the
-        source to the target instruction set
-        <br>
-        Memory, I/O ports and other peripheries are emulated. This includes also: graphics card, disks, keyboard and
-        other devices
-        <br>
-        An open-source Virtual BIOS is used, like SeaBIOS. This BIOS initializes and manages virtual hardware, which is
-        similar to a real PC with Pentium 100
-        <br>
-        Speed and accuracy: QEMU does not typically emulate the Pentium 100 processor with maximum cycle-accurate
+        other peripherals.</p>
+<p><br></p>
+<p>It is a great emulator for older operating systems and games. Unlike QEMU and Bochs, PCem is specifically aimed
+        at retro-gaming and old applications.</p>
+<h3>Qemu</h3>
+<p>QEMU is an open-source emulator and virtualization tool. It can emulates several processor architectures
+        including x86 (Pentium 100 too).</p>
+<p><br></p>
+<p><strong>How QEMU works?</strong></p>
+<p><br></p>
+<p>QEMU translates instructions (dynamic binary translation - DBT): Blocks of binary code are translated from the
+        source to the target instruction set</p>
+<p><br></p>
+<p>Memory, I/O ports and other peripheries are emulated. This includes also: graphics card, disks, keyboard and
+        other devices</p>
+<p><br></p>
+<p>An open-source Virtual BIOS is used, like SeaBIOS. This BIOS initializes and manages virtual hardware, which is
+        similar to a real PC with Pentium 100</p>
+<p><br></p>
+<p>Speed and accuracy: QEMU does not typically emulate the Pentium 100 processor with maximum cycle-accurate
         emulation, but rather focuses on functional emulation, trying to emulate instruction and memory behavior as
         accurately as possible. This makes QEMU more suitable for running legacy systems and applications than for
-        researching timing at the cycle level.
-        <h3>Virtual Box</h3>
-        VirtualBox is a virtualization software that primarily uses hardware-assisted virtualization, not pure
+        researching timing at the cycle level.</p>
+<h3>Virtual Box</h3>
+<p>VirtualBox is a virtualization software that primarily uses hardware-assisted virtualization, not pure
         emulation. It is not primarily designed to emulate old processors such as the Pentium 100, but can be used with
         disk images for older operating systems. However, it cannot directly emulate old hardware, which is a
-        disadvantage compared to the emulators mentioned above.
-    </section>
+        disadvantage compared to the emulators mentioned above.</p>
+</section>
 </main>
 
 </body>

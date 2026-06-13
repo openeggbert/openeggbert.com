@@ -1,0 +1,118 @@
+---
+title: SBI and SBII
+breadcrumb:
+- label: Blupi
+  href: Blupi/index.html
+- label: Games
+  href: Blupi/Games/index.html
+- label: Speedy Blupi (Windows)
+  href: Blupi/Games/Speedy_Blupi_(Windows)/index.html
+- label: SBI and SBII
+  href: Blupi/Games/Speedy_Blupi_(Windows)/SBI_and_SBII/index.html
+subpages:
+- label: Go Up
+  href: Blupi/Games/Speedy_Blupi_(Windows)/index.html
+tags:
+- Comparisons
+---
+
+## Introduction
+
+Comparison of Speedy Blupi I and Speedy Blupi II
+
+## Differences
+
+Dream blocks, which were present in Speedy Blupi I, were removed in Speedy Blupi II
+
+<br>
+
+Certain details in the EXE files of the both versions I and II suggest that SB1 and SB2 share the same codebase,
+        with SB2 simply being a newer version.
+
+## Recycled levels
+
+Several levels in Speedy Blupi I were recycled in Speedy Blupi II
+
+<table>
+<th colspan="3">Comparison of recycled levels</th>
+
+<tr>
+<th>SB1</th>
+<th></th>
+<th>SB2</th>
+</tr>
+<tr>
+<td>Training</td>
+<td>=</td>
+<td>Training</td>
+</tr>
+<tr>
+<td>Rocks 2
+                </td>
+<td>=</td>
+<td>Bricks 3</td>
+</tr>
+<tr>
+<td>Rocks 3
+                </td>
+<td>=</td>
+<td>Cheese 1</td>
+</tr>
+<tr>
+<td>Rocks 4
+                </td>
+<td>=</td>
+<td>Rocks 3</td>
+</tr>
+<tr>
+<td>Technical 4
+                </td>
+<td>=</td>
+<td>Technical 3</td>
+</tr>
+<tr>
+<td>Technical 5
+                </td>
+<td>=</td>
+<td>Technical 5</td>
+</tr>
+<tr>
+<td>Dream 3
+                </td>
+<td>=</td>
+<td>Bricks 4</td>
+</tr>
+<tr>
+<td>Dream 6
+                </td>
+<td>=</td>
+<td>Slime 4</td>
+</tr>
+<tr>
+<td>Kid's Stuff 1
+                </td>
+<td>=</td>
+<td>Kid's Stuff 3</td>
+</tr>
+<tr>
+<td>Kid's Stuff 4
+                </td>
+<td>=
+                </td>
+<td>Slime 3</td>
+</tr>
+<tr>
+<td>Mechanical 2
+                </td>
+<td>=</td>
+<td>Cheese 5</td>
+</tr>
+<tr>
+<td>Mechanical 8
+                </td>
+<td>=
+                </td>
+<td>Mechanical 8
+                </td>
+</tr>
+</table>
