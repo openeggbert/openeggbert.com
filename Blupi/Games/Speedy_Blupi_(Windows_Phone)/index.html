@@ -4,65 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - Speedy Blupi (Windows Phone)</title>
-    <meta name="description"
-          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
-    <meta name="keywords"
-          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
-    <meta name="author" content="Robert Vokáč">
 
     <base href="../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="loadContent()">
-<header>
-    <div id="main_banner"><a href="index.html">Open Eggbert</a></div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About/index.html">About</a></li>
-            <li><a href="Blupi/index.html">Blupi</a></li>
-            <li><a href="Projects/index.html">Projects</a></li>
-            <li><a href="Technologies/index.html">Technologies</a></li>
-        </ul>
-    </nav>
+<body>
 
-</header>
-
-<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-<div id="breadcrumb_hierarchy_panel">
-    <div id="breadcrumb">
-        <a href="Blupi/index.html">Blupi</a> /
-        <a href="Blupi/Games/index.html">Games</a> /
-        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html">Speedy Blupi (Windows Phone)</a>
-
-    </div>
-    <div id="hierarchy_panel">
-        <a href="Blupi/Games/index.html">Go Up</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html">Dada Games</a>
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Elements/index.html">Elements</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Bugs/index.html">Bugs</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Controls/index.html">Controls</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Covers/index.html">Covers</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/SBI_and_SBII/index.html">SBI and SBII</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Directory_Structure/index.html">Directory Structure</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/BLP/index.html">BLP</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Images/index.html">Images</a>-->
-<!--        <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/CONFIG.DEF/index.html">CONFIG.DEF</a>-->
-        <!--      <a href="Blupi/Platforms/index.html">Platforms</a>-->
-        <!--      <a href="Blupi/Libraries/index.html">Libraries</a>-->
-        <!--      <a href="Blupi/Other/index.html">Other</a>-->
-    </div>
-</div>
-
-
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Blupi", href: "Blupi/index.html"},
+    {label: "Games", href: "Blupi/Games/index.html"},
+    {label: "Speedy Blupi (Windows Phone)", href: "Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Blupi/Games/index.html"},
+    {label: "Dada Games", href: "Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html"}
+  ]
+};
+</script>
 <main>
     <section>
         <h1>Speedy Blupi (Windows Phone)</h1>
         <div id="tocButton"></div>
         <div id="toc"></div>
-
 
         <table class="infobox">
             <tr>
@@ -96,7 +63,6 @@
             <tr><td colspan="2">Speedy Blupi running on 9 Nokia Lumias</td> </tr>
         </table>
 
-
         <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi</a> (Data Games) is a game for the <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Windows Phone</a> platform developed for the <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Windows Phone</a> platform and officially released in <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">2013</a> by game studio <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html">Dada Games</a> led by <a href="Blupi/Community/Daniel_Roux/index.html">Daniel Roux</a>. This game was developed by Daniel Roux in its spare time.
 <br>
         This Windows Phone release was simply titled "Speedy Blupi", although it was based on <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Speedy Blupi II</a>. it also contains updated levels and new features added ''after'' SB2. It was probably created rewriting Speedy Blupi II from C++ to C# and from DirectX 3.0 to XNA 4.0, then new features were added.
@@ -121,7 +87,6 @@
     <li> play Mobile Eggbert, which is the decompiled version ported to modern devices: Windows, Linux, Android, Web
         <ul><li><a href="https://drive.openeggbert.com/Mobile_Eggbert/">https://drive.openeggbert.com/Mobile_Eggbert/</a></li></ul>
     </li>
-
 
 </ol>
 <h2>Porting to modern devices </h2>
@@ -342,17 +307,10 @@
         <li><a href="https://sizeof.cat/post/windows-phone-bootloader-unlock-enable-root-nokia-lumia/">https://sizeof.cat/post/windows-phone-bootloader-unlock-enable-root-nokia-lumia/</a></li>
         </ul>
 
-
         <ul id="tags"><li>Games created by Daniel Roux</li></ul>
-
 
     </section>
 </main>
 
-<footer>
-    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
-        License</a> unless otherwise noted.</p>
-</footer>
 </body>
 </html>

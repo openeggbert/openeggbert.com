@@ -4,64 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - Directory Structure</title>
-    <meta name="description"
-          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
-    <meta name="keywords"
-          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
-    <meta name="author" content="Robert Vokáč">
 
     <base href="../../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="loadContent()">
-<header>
-    <div id="main_banner"><a href="index.html">Open Eggbert</a></div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About/index.html">About</a></li>
-            <li><a href="Blupi/index.html">Blupi</a></li>
-            <li><a href="Projects/index.html">Projects</a></li>
-            <li><a href="Technologies/index.html">Technologies</a></li>
-        </ul>
-    </nav>
+<body>
 
-</header>
-
-
-<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-<div id="breadcrumb_hierarchy_panel">
-    <div id="breadcrumb">
-        <a href="Blupi/index.html">Blupi</a> /
-        <a href="Blupi/Games/index.html">Games</a> /
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Windows)</a> /
-        <span id="panel_current"><a
-                href="Blupi/Games/Speedy_Blupi_(Windows)/Directory_Structure/index.html">Directory Structure</a></span>
-
-
-    </div>
-    <div id="hierarchy_panel">
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Go Up</a>
-
-        <!-- <a href="Blupi/Programming_languages/index.html">Programming languages</a>-->
-
-        <!-- <a href="Blupi/Platforms/index.html">Platforms</a>-->
-
-        <!-- <a href="Blupi/Libraries/index.html">Libraries</a>-->
-
-        <!-- <a href="Blupi/Other/index.html">Other</a>-->
-    </div>
-</div>
-
-
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Blupi", href: "Blupi/index.html"},
+    {label: "Games", href: "Blupi/Games/index.html"},
+    {label: "Speedy Blupi (Windows)", href: "Blupi/Games/Speedy_Blupi_(Windows)/index.html"},
+    {label: "Directory Structure", href: "Blupi/Games/Speedy_Blupi_(Windows)/Directory_Structure/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Blupi/Games/Speedy_Blupi_(Windows)/index.html"}
+  ]
+};
+</script>
 <main>
     <section>
         <h1>Directory Structure</h1>
         <div id="tocButton"></div>
         <div id="toc"></div>
-
 
         <h2>Image or IMAGE08 directory </h2>
         This directory contain images with 8 bit depth.
@@ -146,15 +114,8 @@
             <li>SOUND</li>
         </ul>
 
-
     </section>
 </main>
 
-<footer>
-    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0
-        International
-        License</a> unless otherwise noted.</p>
-</footer>
 </body>
 </html>

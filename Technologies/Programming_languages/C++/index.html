@@ -4,53 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - C++</title>
-    <meta name="description"
-          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
-    <meta name="keywords"
-          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
-    <meta name="author" content="Robert Vokáč">
 
     <base href="../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="loadContent()">
-<header>
-    <div id="main_banner"><a href="index.html">Open Eggbert</a></div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About/index.html">About</a></li>
-            <li><a href="Blupi/index.html">Blupi</a></li>
-            <li><a href="Projects/index.html">Projects</a></li>
-            <li><a href="Technologies/index.html">Technologies</a></li>
-        </ul>
-    </nav>
+<body>
 
-</header>
-
-<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-<div id="breadcrumb_hierarchy_panel">
-    <div id="breadcrumb">
-        <a href="Technologies/index.html">Technologies</a> /
-        <a href="Technologies/Programming_languages/index.html">Programming languages</a> /
-
-        <span id="panel_current">C++</span>
-    </div>
-    <div id="hierarchy_panel">
-        <a href="Technologies/Programming_languages/index.html">Go Up</a>
-        <a href="Technologies/Programming_languages/C++/History/index.html">History</a>
-        <a href="Technologies/Programming_languages/C++/Versions/index.html">Versions</a>
-        <a href="Technologies/Programming_languages/C++/Key_words/index.html">Key words</a>
-
-        <!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
-        <!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
-        <!--      <a href="Technologies/Other/index.html">Other</a>-->
-    </div>
-</div>
-
-
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Technologies", href: "Technologies/index.html"},
+    {label: "Programming languages", href: "Technologies/Programming_languages/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Technologies/Programming_languages/index.html"},
+    {label: "History", href: "Technologies/Programming_languages/C++/History/index.html"},
+    {label: "Versions", href: "Technologies/Programming_languages/C++/Versions/index.html"},
+    {label: "Key words", href: "Technologies/Programming_languages/C++/Key_words/index.html"}
+  ]
+};
+</script>
 <main>
     <section>
         <h1>C++</h1>
@@ -107,7 +82,6 @@
                 building scalable software, C++ provides the tools and flexibility needed for success.
             </li>
         </ul>
-
 
         <b>Key Features of C++:</b>
 
@@ -407,7 +381,6 @@
         <h3>1998</h3>
         <p>The first official standard of C++ was published and is known as C++98.</p>
 
-
         <h2>The Future of C++: 10, 100, and 1000 Years Ahead</h2>
 
         <h3>The Next 10 Years: Evolution and Adaptation</h3>
@@ -539,14 +512,8 @@
             <li>The Design and Evolution of C++”</li>
         </ul>
 
-
     </section>
 </main>
 
-<footer>
-    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
-        License</a> unless otherwise noted.</p>
-</footer>
 </body>
 </html>

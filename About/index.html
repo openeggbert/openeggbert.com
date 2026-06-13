@@ -4,52 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - About</title>
-    <meta name="description"
-          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
-    <meta name="keywords"
-          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
-    <meta name="author" content="Robert Vokáč">
 
     <base href=".." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="loadContent()">
-<header>
-    <div id="main_banner"><a href="index.html">Open Eggbert</a></div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About/index.html">About</a></li>
-            <li><a href="Blupi/index.html">Blupi</a></li>
-            <li><a href="Projects/index.html">Projects</a></li>
-            <li><a href="Technologies/index.html">Technologies</a></li>
-        </ul>
-    </nav>
+<body>
 
-</header>
-
-<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-<div id="breadcrumb_hierarchy_panel">
-    <div id="breadcrumb">
-        <a href="About/index.html">About</a>
-        <span id="panel_current"></span>
-    </div>
-    <div id="hierarchy_panel">
-        <a href="./index.html">Go Up</a>
-        <a href="About/Contribute/index.html">Contribute</a>
-        <a href="About/Abbreviations/index.html">Abbreviations</a>
-        <a href="About/History/index.html">History</a>
-        <a href="About/Future/index.html">Future</a>
-        <a href="About/Goals/index.html">Goals</a>
-        <a href="About/Hall_of_Fame/index.html">Hall of Fame</a>
-        <a href="About/Useful_websites/index.html">Useful websites</a>
-
-    </div>
-</div>
-
-
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "About", href: "About/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "./index.html"},
+    {label: "Contribute", href: "About/Contribute/index.html"},
+    {label: "Abbreviations", href: "About/Abbreviations/index.html"},
+    {label: "History", href: "About/History/index.html"},
+    {label: "Future", href: "About/Future/index.html"},
+    {label: "Goals", href: "About/Goals/index.html"},
+    {label: "Hall of Fame", href: "About/Hall_of_Fame/index.html"},
+    {label: "Useful websites", href: "About/Useful_websites/index.html"}
+  ]
+};
+</script>
 <main>
     <h1>About</h1>
 
@@ -77,7 +56,6 @@
     <br><b>Mods for Speedy Blupi for Windows:</b> <a href="https://drive.openeggbert.com/Mods/">Link</a>
     <h2>OpenEggbert.com</h2>
 
-
     openeggbert.com is domain purchased on the 18th June 2024 by <a href="Blupi/Community/Robert_Vokac/index.html">Robert Vokac</a> (the founder of Open Eggbert)
 
     <h2>Misc</h2>
@@ -91,10 +69,5 @@
     Jesse Savoie — 03/18/2023 1:23 AM Oh, and one more thing: I've given up trying to add a functional dream button to the SB2 editor. In the EXE file, 34970 - 349a0 controls what that button does, but it can't go past 349a7 without messing up another button, so I've hit a dead end.
 </main>
 
-<footer>
-    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
-        License</a> unless otherwise noted.</p>
-</footer>
 </body>
 </html>

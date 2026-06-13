@@ -4,73 +4,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - Speedy Blupi (Windows)</title>
-    <meta name="description"
-          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
-    <meta name="keywords"
-          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
-    <meta name="author" content="Robert Vokáč">
 
     <base href="../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="loadContent()">
-<header>
-    <div id="main_banner"><a href="index.html">Open Eggbert</a></div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About/index.html">About</a></li>
-            <li><a href="Blupi/index.html">Blupi</a></li>
-            <li><a href="Projects/index.html">Projects</a></li>
-            <li><a href="Technologies/index.html">Technologies</a></li>
-        </ul>
-    </nav>
+<body>
 
-</header>
-
-<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-<div id="breadcrumb_hierarchy_panel">
-    <div id="breadcrumb">
-        <a href="Blupi/index.html">Blupi</a> /
-        <a href="Blupi/Games/index.html">Games</a> /
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Windows)</a>
-
-    </div>
-    <div id="hierarchy_panel">
-        <a href="Blupi/Games/index.html">Go Up</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Blocks/index.html">Blocks</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Elements/index.html">Elements</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Bugs/index.html">Bugs</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Controls/index.html">Controls</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Covers/index.html">Covers</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/SBI_and_SBII/index.html">SBI and SBII</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Directory_Structure/index.html">Directory Structure</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/BLP/index.html">BLP</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Images/index.html">Images</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/CONFIG.DEF/index.html">CONFIG.DEF</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Level/index.html">Level</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Levels/index.html">Levels</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Screens/index.html">Screens</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Hacks/index.html">Hacks</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Level_editor/index.html">Level editor</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Mods/index.html">Mods</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Troubleshooting/index.html">Troubleshooting</a>
-        <a href="Blupi/Games/Speedy_Blupi_(Windows)/Proposal_of_new_features/index.html">Proposal of new features</a>
-        <!--      <a href="Blupi/Platforms/index.html">Platforms</a>-->
-        <!--      <a href="Blupi/Libraries/index.html">Libraries</a>-->
-        <!--      <a href="Blupi/Other/index.html">Other</a>-->
-    </div>
-</div>
-
-
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Blupi", href: "Blupi/index.html"},
+    {label: "Games", href: "Blupi/Games/index.html"},
+    {label: "Speedy Blupi (Windows)", href: "Blupi/Games/Speedy_Blupi_(Windows)/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Blupi/Games/index.html"},
+    {label: "Blocks", href: "Blupi/Games/Speedy_Blupi_(Windows)/Blocks/index.html"},
+    {label: "Elements", href: "Blupi/Games/Speedy_Blupi_(Windows)/Elements/index.html"},
+    {label: "Bugs", href: "Blupi/Games/Speedy_Blupi_(Windows)/Bugs/index.html"},
+    {label: "Controls", href: "Blupi/Games/Speedy_Blupi_(Windows)/Controls/index.html"},
+    {label: "Covers", href: "Blupi/Games/Speedy_Blupi_(Windows)/Covers/index.html"},
+    {label: "SBI and SBII", href: "Blupi/Games/Speedy_Blupi_(Windows)/SBI_and_SBII/index.html"},
+    {label: "Directory Structure", href: "Blupi/Games/Speedy_Blupi_(Windows)/Directory_Structure/index.html"},
+    {label: "BLP", href: "Blupi/Games/Speedy_Blupi_(Windows)/BLP/index.html"},
+    {label: "Images", href: "Blupi/Games/Speedy_Blupi_(Windows)/Images/index.html"},
+    {label: "CONFIG.DEF", href: "Blupi/Games/Speedy_Blupi_(Windows)/CONFIG.DEF/index.html"},
+    {label: "Level", href: "Blupi/Games/Speedy_Blupi_(Windows)/Level/index.html"},
+    {label: "Levels", href: "Blupi/Games/Speedy_Blupi_(Windows)/Levels/index.html"},
+    {label: "Screens", href: "Blupi/Games/Speedy_Blupi_(Windows)/Screens/index.html"},
+    {label: "Hacks", href: "Blupi/Games/Speedy_Blupi_(Windows)/Hacks/index.html"},
+    {label: "Level editor", href: "Blupi/Games/Speedy_Blupi_(Windows)/Level_editor/index.html"},
+    {label: "Mods", href: "Blupi/Games/Speedy_Blupi_(Windows)/Mods/index.html"},
+    {label: "Troubleshooting", href: "Blupi/Games/Speedy_Blupi_(Windows)/Troubleshooting/index.html"},
+    {label: "Proposal of new features", href: "Blupi/Games/Speedy_Blupi_(Windows)/Proposal_of_new_features/index.html"}
+  ]
+};
+</script>
 <main>
     <section>
         <h1>Speedy Blupi (Windows)</h1>
         <div id="tocButton"></div>
         <div id="toc"></div>
-
 
         <table class="infobox">
             <tr>
@@ -173,7 +149,6 @@
         <a href="Blupi/Community/index.html#HMVocaloid">HMVocaloid</a> and
             <a href="Blupi/Community/index.html#jummy">jummy</a>
 
-
 <h2>Open Eggbert </h2>
         An open-source reimplementation of Speedy Blupi, known as <a href="About/index.html">Open Eggbert</a>, has been under development since June 2024, aiming to revitalize this classic game.
 
@@ -264,7 +239,6 @@
                 </ul>
             </li>
 
-
             <li><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Mouse</a></li>
             <li><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Joypad</a> (optional)</li>
         </ul>
@@ -333,8 +307,6 @@
 <br>
         This check does not exist in Speedy Eggbert games.
 
-
-
         <h2>Limits</h2>
         <h3>Element limit</h3>
 
@@ -348,7 +320,6 @@
         10000 immovable objects is the limit for a level (because it's 100x100 tiles).
                 <h3>Decoration limit</h3>
         10000 decorations is the limit for a level (because it's 100x100 tiles).
-
 
         <h2>Window</h2>
         The following games can be launched in the window or fullscreen mode:
@@ -375,7 +346,6 @@
             <li>Open Eggbert</li>
         </ul>
 
-
         <h2>File types</h2>
         <ul>
             <li>BLP</li>
@@ -385,8 +355,6 @@
                 <div style="background: orange;"><p>XCH is custom made binary used for Speedy Blupi/Eggbert demo/1/2 games.</p>
                 <p><i>Note: ZIP or 7Z compression may works for XCH very well - compression ratio even about 5%.</i></p>
                 <p>It may be possible to share XCH files as QR codes - investigation is needed.</p></div></li>
-
-
 
         </ul>
 
@@ -422,7 +390,6 @@
         <br>
         Elements, which are animated, if game is paused, are not using global timer
         <h3>Gravity</h3>
-
 
         <h4>Implementing jumping</h4>
         <p>To implement a jump mechanic, you can follow these steps:</p>
@@ -489,7 +456,6 @@ boolean onGround = true;
         <p><a href="https://gamedev.stackexchange.com/questions/111314/writing-my-own-gravity" target="_blank">https://gamedev.stackexchange.com/questions/111314/writing-my-own-gravity</a>
         </p>
 
-
         <h2>Download</h2>
         <ul>
             <li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Blupi_Demo.7z"> Speedy
@@ -505,7 +471,6 @@ boolean onGround = true;
             <li><a href="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows)/Speedy_Eggbert_2.7z"> Speedy
                 Eggbert II</a>
         </ul>
-
 
         <h2>Common</h2>
         <p><b><a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Speedy Blupi (Epsitec)</a>:</b> In <a
@@ -653,7 +618,6 @@ boolean onGround = true;
         <h3>Demo version</h3>
         <b>The Demo version of Speedy Blupi/Eggbert contains:</b>
 
-
         <ol>
             <li>One training level</li>
             <li>One complete single player level</li>
@@ -669,7 +633,6 @@ boolean onGround = true;
             <li>Settings for 10 different players.</li>
         </ol>
 
-
         <ul id="tags">
             <li>Games created by Daniel Roux</li>
         </ul>
@@ -677,10 +640,5 @@ boolean onGround = true;
     </section>
 </main>
 
-<footer>
-    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
-        License</a> unless otherwise noted.</p>
-</footer>
 </body>
 </html>

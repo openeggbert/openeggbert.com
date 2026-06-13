@@ -4,57 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - Windows Phone</title>
-    <meta name="description"
-          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
-    <meta name="keywords"
-          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
-    <meta name="author" content="Robert Vokáč">
 
     <base href="../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="loadContent()">
-<header>
-    <div id="main_banner"><a href="index.html">Open Eggbert</a></div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About/index.html">About</a></li>
-            <li><a href="Blupi/index.html">Blupi</a></li>
-            <li><a href="Projects/index.html">Projects</a></li>
-            <li><a href="Technologies/index.html">Technologies</a></li>
-        </ul>
-    </nav>
+<body>
 
-</header>
-
-<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-<div id="breadcrumb_hierarchy_panel">
-    <div id="breadcrumb">
-        <a href="Technologies/index.html">Technologies</a> /
-        <a href="Technologies/Platforms/index.html">Platforms</a> /
-
-        <span id="panel_current">Windows Phone</span>
-    </div>
-    <div id="hierarchy_panel">
-        <a href="Technologies/Platforms/index.html">Go Up</a>
-        <!--              <a href="Technologies/Platforms/Windows_Phone/EXE/index.html">EXE</a>-->
-        <!--              <a href="Technologies/Platforms/Windows_Phone/Windows_Phone/index.html">Windows Phone</a>-->
-        <!--      <a href="Technologies/Platforms/index.html">Platforms</a>-->
-        <!--      <a href="Technologies/Libraries/index.html">Libraries</a>-->
-        <!--      <a href="Technologies/Other/index.html">Other</a>-->
-    </div>
-</div>
-
-
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Technologies", href: "Technologies/index.html"},
+    {label: "Platforms", href: "Technologies/Platforms/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Technologies/Platforms/index.html"}
+  ]
+};
+</script>
 <main>
     <section>
         <h1>Windows Phone</h1>
         <div id="tocButton"></div>
         <div id="toc"></div>
-
 
         <table class="infobox">
             <tr>
@@ -82,7 +55,6 @@
                 <th>Source model</th>
                 <td>Closed-source</td>
         </table>
-
 
         Windows Phone (WP) is a discontinued mobile <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">operating system</a>
         developed by <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Microsoft</a> for <a
@@ -335,12 +307,6 @@
         <br>
         Note: In July 2024 this tool was working for Windows Phone devices.
 
-
-
-
-
-
-
 <h2>XAP</h2>
         <p>XAP is the file format for:</p>
 
@@ -419,16 +385,6 @@
         <p>Regarding Speedy Blupi for Windows Phone, that AppPlatformVersion is 7.1, which means, that Speedy Blupi target Windows Phone 7.5 or newer devices.</p>
 
         <pre><code>&lt;Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1"&gt;</code></pre>
-
-
-
-
-
-
-
-
-
-
 
         <h2>External links </h2>
         "Why The Windows Phone Failed" <a href="https://www.youtube.com/watch?v=SNEF1ujd2Mc">https://www.youtube.com/watch?v=SNEF1ujd2Mc</a>
@@ -603,14 +559,8 @@ namespace SensorExample
         <p>Used to store application data locally on the device. It contains classes for working with <strong>Isolated Storage</strong>, which is a sandboxed area for the app.</p>
         <p>If you are working with Windows Phone, it is recommended to consult the documentation for the specific SDK version, as some namespaces and APIs were only available in certain versions.</p>
 
-
     </section>
 </main>
 
-<footer>
-    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
-        License</a> unless otherwise noted.</p>
-</footer>
 </body>
 </html>

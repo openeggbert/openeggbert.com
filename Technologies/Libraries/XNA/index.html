@@ -4,55 +4,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Eggbert - XNA</title>
-    <meta name="description"
-          content="Open Eggbert, a free and open-source game, reimagines the Speedy Blupi experience with modern design using C++ and SDL 3. Explore OpenEggbert.com, the ultimate fan site packed with Speedy Blupi resources, including websites, files, GitHub links, and YouTube videos."/>
-    <meta name="keywords"
-          content="Blupi, Speedy Blupi, Speedy Eggbert, Decompilation, C++, DirextX 3, SDL 3, CNA, XNA"/>
-    <meta name="author" content="Robert Vokáč">
 
     <base href="../../.." target="_self">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
     <script type="text/javascript" src="script.js"></script>
 </head>
-<body onload="loadContent()">
-<header>
-    <div id="main_banner"><a href="index.html">Open Eggbert</a></div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About/index.html">About</a></li>
-            <li><a href="Blupi/index.html">Blupi</a></li>
-            <li><a href="Projects/index.html">Projects</a></li>
-            <li><a href="Technologies/index.html">Technologies</a></li>
-        </ul>
-    </nav>
+<body>
 
-</header>
-
-<!-- Combined Breadcrumb and Hierarchical Navigation Panel -->
-<div id="breadcrumb_hierarchy_panel">
-    <div id="breadcrumb">
-        <a href="Technologies/index.html">Technologies</a> /
-        <a href="Technologies/Libraries/index.html">Libraries</a> /
-        <span id="panel_current">XNA</span>
-
-    </div>
-    <div id="hierarchy_panel">
-        <a href="Technologies/Libraries/index.html">Go Up</a>
-                <a href="Technologies/Libraries/XNA/How_to_decompile_XAP_file/index.html">How to decompile XAP file</a>
-        <!--        <a href="Technologies/Libraries/XNA/index.html">XNA</a>-->
-        <!--        <a href="Technologies/Libraries/XNA/index.html">XNA</a>-->
-    </div>
-</div>
-
-
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Technologies", href: "Technologies/index.html"},
+    {label: "Libraries", href: "Technologies/Libraries/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Technologies/Libraries/index.html"},
+    {label: "How to decompile XAP file", href: "Technologies/Libraries/XNA/How_to_decompile_XAP_file/index.html"}
+  ]
+};
+</script>
 <main>
     <section>
         <h1>XNA</h1>
         <div id="tocButton"></div>
         <div id="toc"></div>
-
 
         <table class="infobox">
             <tr colspan="2">
@@ -101,17 +77,13 @@
                 <td>https://msdn.microsoft.com/xna/</td>
         </table>
 
-        XNA is a game framework. The <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">C#</a> programming language is usually used to created games with the XNA game framework.
+        XNA is a game framework. The <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">C#</a> programming language is usually used to create games with the XNA game framework.
 <br>
         XNA is used by <a href="Article_does_not_yet_exist_or_link_is_broken/index.html">Speedy Blupi for Windows Phone</a>.
         <br>
         <b>Specification:</b> <a href="https://learn.microsoft.com/en-us/previous-versions/windows/xna/bb200104(v=xnagamestudio.41)">XNA Game Studio 4.0 Refresh | Microsoft Learn</a>
         (Archived at: <a href="https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz">https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz</a>)
 <h2>Alternative implementations </h2>
-
-
-<h3>JXNA </h3>
-        Discontinued.
 
 <h3>CNA </h3>
         In-progress C++ XNA-like wrapper around SDL 3.
@@ -244,8 +216,6 @@
         <h4>Summary</h4>
         <p>XNA games may look "ugly" mainly due to technology limitations, inexperienced developers, and a lack of advanced features. While XNA is no longer a modern solution, it provides a great foundation for learning game development and understanding basic 3D graphics principles. However, for modern development, it’s better to use up-to-date engines like Godot, Unity, or Unreal Engine.</p>
 
-
-
 <h2>XNB</h2>
         <p>Xnb files (.xnb) are content files typically used by the Microsoft <a href="#">XNA</a> Framework or <a href="#">MonoGame</a> to store assets like images, sounds, and other resources in a precompiled, efficient format for runtime use. These files are included in the <a href="#">XAP</a> because they are required for the app or game to render graphics, play sounds, or load other assets.</p>
 
@@ -272,8 +242,6 @@
         <h3>How to create New .xnb Files</h3>
         <p>Use the <strong>MonoGame Content Pipeline Tool</strong> or an XNA Content Pipeline project in Visual Studio to create new <code>.xnb</code> files from your custom assets.</p>
 
-
-
         <h2>Books </h2>
         Learning XNA 4.0: Game Development for the PC, Xbox 360, and Windows Phone 7
 
@@ -293,10 +261,5 @@
     </section>
 </main>
 
-<footer>
-    <p>Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"
-                                     rel="noopener noreferrer">Creative Commons Attribution-ShareAlike 4.0 International
-        License</a> unless otherwise noted.</p>
-</footer>
 </body>
 </html>
