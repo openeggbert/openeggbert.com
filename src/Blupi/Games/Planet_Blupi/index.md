@@ -14,6 +14,16 @@ tags:
 - Games created by Daniel Roux
 ---
 
+<table class="infobox">
+<tr>
+<th colspan="2">Planet Blupi</th>
+</tr>
+<tr>
+<th>Play online</th>
+<td><a href="https://planetblupi.openeggbert.com" target="_blank">https://planetblupi.openeggbert.com</a></td>
+</tr>
+</table>
+
 Planet Blupi is an enchanting strategy and adventure game for PC, seamlessly blending action with intellectually stimulating challenges. Beneath its calm and gentle exterior lies a captivating experience full of surprises. Perfect for players aged 12 to 99, it’s an engaging diversion that keeps you on your toes.
 
 ## System Requirements

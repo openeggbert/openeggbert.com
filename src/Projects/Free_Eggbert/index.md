@@ -36,6 +36,18 @@ subpages:
 <th>Development status</th>
 <td>Decompilation of EXE files</td>
 </tr>
+<tr>
+<th>Website</th>
+<td><a href="https://freeeggbert.openeggbert.com" target="_blank">https://freeeggbert.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Free Direct (DirectX-like library)</th>
+<td><a href="https://freedirect.openeggbert.com" target="_blank">https://freedirect.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Free API (Windows API reimplementation)</th>
+<td><a href="https://freeapi.openeggbert.com" target="_blank">https://freeapi.openeggbert.com</a></td>
+</tr>
 </table>
 
 Free Eggbert is the revival of the computer games Speedy Blupi demo/1/2 and Speedy Eggbert demo/1/2. <br> <br> Free Eggbert is the [decompilation](Technologies/Other/Reverse_engineering/index.html) of these games using tools like Ghidra and IDA. It's free and open-source.

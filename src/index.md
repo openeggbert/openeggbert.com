@@ -23,13 +23,61 @@ title: Open Eggbert
 <td><a href="https://discord.gg/kDz8Yzw5Wz" target="_blank">https://discord.gg/kDz8Yzw5Wz</a></td>
 </tr>
 <tr>
-<th>Play Speedy Blupi for Windows Phone</th>
+<th>Play Speedy Blupi online</th>
 <td><a href="https://speedyblupi.com/" target="_blank">https://speedyblupi.com/</a></td>
 </tr>
 <tr>
 <th>File storage</th>
 <td><a href="https://drive.openeggbert.com" target="_blank">https://drive.openeggbert.com</a>
 </td></tr>
+<tr>
+<th>Free Eggbert</th>
+<td><a href="https://freeeggbert.openeggbert.com" target="_blank">https://freeeggbert.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Mobile Eggbert</th>
+<td><a href="https://mobileeggbert.openeggbert.com" target="_blank">https://mobileeggbert.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Planet Blupi</th>
+<td><a href="https://planetblupi.openeggbert.com" target="_blank">https://planetblupi.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Galaxy Eggbert</th>
+<td><a href="https://galaxyeggbert.openeggbert.com" target="_blank">https://galaxyeggbert.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>CNA (XNA-like C++ library)</th>
+<td><a href="https://cna.openeggbert.com" target="_blank">https://cna.openeggbert.com</a> | <a href="https://libcna.com" target="_blank">https://libcna.com</a></td>
+</tr>
+<tr>
+<th>Free Direct (DirectX-like library)</th>
+<td><a href="https://freedirect.openeggbert.com" target="_blank">https://freedirect.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Free API (Windows API reimplementation)</th>
+<td><a href="https://freeapi.openeggbert.com" target="_blank">https://freeapi.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Sharp Runtime</th>
+<td><a href="https://sharpruntime.openeggbert.com" target="_blank">https://sharpruntime.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Nova3D</th>
+<td><a href="https://nova3d.openeggbert.com" target="_blank">https://nova3d.openeggbert.com</a> | <a href="https://libnova3d.com" target="_blank">https://libnova3d.com</a></td>
+</tr>
+<tr>
+<th>EasyGL</th>
+<td><a href="https://easygl.openeggbert.com" target="_blank">https://easygl.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>MetaGL</th>
+<td><a href="https://metagl.openeggbert.com" target="_blank">https://metagl.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>MeshCraft</th>
+<td><a href="https://meshcraft.openeggbert.com" target="_blank">https://meshcraft.openeggbert.com</a></td>
+</tr>
 <tr>
 <th>Google Drive Backup</th>
 <td>
@@ -78,7 +126,7 @@ title: Open Eggbert
 
 - Speedy Blupi I was released in [1998](Article_does_not_yet_exist_or_link_is_broken/index.html). Speedy Blupi II was released in [2001](Article_does_not_yet_exist_or_link_is_broken/index.html) and is the [sequel](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
-**[Speedy Blupi (Dada Games)](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html):** a game created and released by [Daniel Roux](Blupi/Community/Daniel_Roux/index.html) in [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) for the [Windows Phone](Technologies/Platforms/Windows_Phone/index.html) platform (finished) <br> **[Free Eggbert: ](Article_does_not_yet_exist_or_link_is_broken/index.html)** is the revival of [Speedy Blupi (Epsitec)](Blupi/Games/Speedy_Blupi_(Windows)/index.html) , that brings this game to life in a modern way using the Free Direct library.
+**[Speedy Blupi (Dada Games)](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html):** a game created and released by [Daniel Roux](Blupi/Community/Daniel_Roux/index.html) in [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) for the [Windows Phone](Technologies/Platforms/Windows_Phone/index.html) platform (finished) — playable at [speedyblupi.com](https://speedyblupi.com/) (Windows Phone version + experimental decompiled web version) <br> **[Free Eggbert: ](Article_does_not_yet_exist_or_link_is_broken/index.html)** is the revival of [Speedy Blupi (Epsitec)](Blupi/Games/Speedy_Blupi_(Windows)/index.html) , that brings this game to life in a modern way using the Free Direct library.
 
 - Multiple platforms will be supported: [Windows](Technologies/Platforms/Windows/index.html), [Linux](Technologies/Platforms/Linux/index.html), [MacOS](Technologies/Platforms/MacOS/index.html), [Android](Technologies/Platforms/Android/index.html), [Web](Article_does_not_yet_exist_or_link_is_broken/index.html) (via Emscripten)
 - Used technologies: C++ (programming language), Free Direct (game library)

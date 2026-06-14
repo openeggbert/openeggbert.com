@@ -68,6 +68,14 @@ subpages:
 <th>Game frameworks</th>
 <td>MonoGame, FNA, KNI, CNA, XNA 4.0, SDL 3</td>
 </tr>
+<tr>
+<th>Website</th>
+<td><a href="https://mobileeggbert.openeggbert.com" target="_blank">https://mobileeggbert.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>CNA library website</th>
+<td><a href="https://cna.openeggbert.com" target="_blank">https://cna.openeggbert.com</a> | <a href="https://libcna.com" target="_blank">https://libcna.com</a></td>
+</tr>
 </table>
 
 Mobile Eggbert is a [2D](Article_does_not_yet_exist_or_link_is_broken/index.html) [platformer](Article_does_not_yet_exist_or_link_is_broken/index.html) [game](Article_does_not_yet_exist_or_link_is_broken/index.html) based on [Speedy Blupi for Windows Phone](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html). <br> The [ILSpy](Article_does_not_yet_exist_or_link_is_broken/index.html) decompiler was used to get back the [C Sharp|C#](Technologies/Programming_languages/C_Sharp/index.html) [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) of [Speedy Blupi for Windows Phone](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html). The decompiled source code is not the same, as the original was. Comments and names of local variables are lost. <br> The discontinued [XNA](Technologies/Libraries/XNA/index.html) 4 game framework is replaced by [MonoGame](Article_does_not_yet_exist_or_link_is_broken/index.html) game framework. MonoGame is almost a [drop-in replacement](Article_does_not_yet_exist_or_link_is_broken/index.html) for the XNA. There are several implementations of XNA 4.0 game framework (like [FNA](Article_does_not_yet_exist_or_link_is_broken/index.html) or others). <br> See also: [Alternative implementations of XNA](Article_does_not_yet_exist_or_link_is_broken/index.html) <br> Work on Mobile Eggbert started on 23rd November 2024. <br> Already on 23rd November 2024 the game was successfully decompiled and made runnable without any errors on desktop (Windows and Linux). The support for mouse and keyboard was added. <br> On 25th November Mobile Eggbert was released for Windows and Linux: [https://drive.openeggbert.com/Mobile_Eggbert/](https://drive.openeggbert.com/Mobile_Eggbert/)

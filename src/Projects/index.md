@@ -24,15 +24,21 @@ subpages:
 
 ## Active projects
 
-| Name | Status | Description |
-| --- | --- | --- |
-| Free Eggbert |  |  |
-| Mobile Eggbert |  |  |
-| Sprite Utils |  |  |
-| CNA |  | XNA like implementation in C++ and using SDL 3 | Free Direct |  | DirectX3 like wrapper around the CNA library | Free Api |  | Reimplementation of the subset of Windows Api |
-| CNA |  | XNA like implementation in C++ and using SDL 3 |
-| Free Direct |  | DirectX3 like wrapper around the CNA library |
-| Free Api |  | Reimplementation of the subset of Windows Api |
+| Name | Website | Status | Description |
+| --- | --- | --- | --- |
+| Free Eggbert | [freeeggbert.openeggbert.com](https://freeeggbert.openeggbert.com) |  | Revival of Speedy Blupi (Epsitec) |
+| Mobile Eggbert | [mobileeggbert.openeggbert.com](https://mobileeggbert.openeggbert.com) |  | Revival of Speedy Blupi (Windows Phone) |
+| Planet Blupi | [planetblupi.openeggbert.com](https://planetblupi.openeggbert.com) |  |  |
+| Galaxy Eggbert | [galaxyeggbert.openeggbert.com](https://galaxyeggbert.openeggbert.com) |  |  |
+| Sharp Runtime | [sharpruntime.openeggbert.com](https://sharpruntime.openeggbert.com) |  |  |
+| CNA | [cna.openeggbert.com](https://cna.openeggbert.com) / [libcna.com](https://libcna.com) |  | XNA-like C++ library using SDL 3 |
+| Free Direct | [freedirect.openeggbert.com](https://freedirect.openeggbert.com) |  | DirectX3-like wrapper around CNA |
+| Free API | [freeapi.openeggbert.com](https://freeapi.openeggbert.com) |  | Reimplementation of Windows API subset |
+| Nova3D | [nova3d.openeggbert.com](https://nova3d.openeggbert.com) / [libnova3d.com](https://libnova3d.com) |  |  |
+| EasyGL | [easygl.openeggbert.com](https://easygl.openeggbert.com) |  |  |
+| MetaGL | [metagl.openeggbert.com](https://metagl.openeggbert.com) |  |  |
+| MeshCraft | [meshcraft.openeggbert.com](https://meshcraft.openeggbert.com) |  |  |
+| Sprite Utils |  |  |  |
 
 ## Cancelled projects
 

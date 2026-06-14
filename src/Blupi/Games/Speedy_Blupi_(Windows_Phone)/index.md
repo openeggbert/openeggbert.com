@@ -42,7 +42,7 @@ tags:
 </tr>
 <tr>
 <th>Play online</th>
-<td><a href="https://speedyblupi.com">https://speedyblupi.com</a></td>
+<td><a href="https://speedyblupi.com">https://speedyblupi.com</a> (Windows Phone version + experimental decompiled web version)</td>
 </tr>
 <tr><td colspan="2"><img src="https://drive.openeggbert.com/Blupi/Games/Speedy_Blupi_(Windows_Phone)/9_Nokia_Lumias_running_Speedy_Blupi_20241116_152918.jpg" style="width:400px;"/></td></tr>
 <tr><td colspan="2">Speedy Blupi running on 9 Nokia Lumias</td> </tr>
@@ -53,11 +53,12 @@ tags:
 - [Visual Studio](Article_does_not_yet_exist_or_link_is_broken/index.html) 2010 or 2012 were probably used to developed Speedy Blupi for Windows Phone. Or [XNA Game Studio](Technologies/Libraries/XNA/index.html) could be also used for the development.
 - [.NET Compact Framework](Article_does_not_yet_exist_or_link_is_broken/index.html) 4.0 was used for the development.
 
-Speedy Blupi for Windows Phone is closed-source and its original source code is not available. <br> It seems, that Speedy Blupi for Windows Phone has almost no new features, if compared to Speedy Blupi I and Speedy Blupi II. <br> The graphics is almost the same, but there are some differences. Riding the jeep or jetpack provides some new animations in the game, [Blupi](Blupi/index.html)/[Eggbert](Blupi/Games/Speedy_Eggbert/index.html) is moving down or up. <br> **How to play** Speedy Blupi (Dada Games) - you have 2 options:
+Speedy Blupi for Windows Phone is closed-source and its original source code is not available. <br> It seems, that Speedy Blupi for Windows Phone has almost no new features, if compared to Speedy Blupi I and Speedy Blupi II. <br> The graphics is almost the same, but there are some differences. Riding the jeep or jetpack provides some new animations in the game, [Blupi](Blupi/index.html)/[Eggbert](Blupi/Games/Speedy_Eggbert/index.html) is moving down or up. <br> **How to play** Speedy Blupi (Dada Games) - you have 3 options:
 
 1. buy a [Windows Phone](Technologies/Platforms/Windows_Phone/index.html), unlock the bootloader (Windows Phone 8.1), sideload the app (XAP file)
 2. play Mobile Eggbert, which is the decompiled version ported to modern devices: Windows, Linux, Android, Web
   - [https://drive.openeggbert.com/Mobile_Eggbert/](https://drive.openeggbert.com/Mobile_Eggbert/)
+3. play the experimental decompiled version running directly in the web browser at [https://speedyblupi.com](https://speedyblupi.com)
 
 ## Porting to modern devices
 
