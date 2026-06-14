@@ -6,8 +6,6 @@ breadcrumb:
 - label: Community
   href: Blupi/Community/index.html
 - label: Daniel Roux
-  href: Blupi/Community/Daniel Roux/index.html
-- label: Daniel Roux
   href: Blupi/Community/Daniel_Roux/index.html
 subpages:
 - label: Go Up

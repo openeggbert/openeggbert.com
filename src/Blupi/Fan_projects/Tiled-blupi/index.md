@@ -6,8 +6,6 @@ breadcrumb:
 - label: Fan projects
   href: Blupi/Fan_projects/index.html
 - label: Tiled-blupi
-  href: Blupi/Games/Tiled-blupi/index.html
-- label: Tiled-blupi
   href: Blupi/Fan_projects/Tiled-blupi/index.html
 subpages:
 - label: Go Up

@@ -6,8 +6,6 @@ breadcrumb:
 - label: Community
   href: Blupi/Community/index.html
 - label: Mathieu Schroeter
-  href: Blupi/Community/Mathieu Schroeter/index.html
-- label: Mathieu Schroeter
   href: Blupi/Community/Mathieu_Schroeter/index.html
 subpages:
 - label: Go Up

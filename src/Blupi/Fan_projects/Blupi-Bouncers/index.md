@@ -6,8 +6,6 @@ breadcrumb:
 - label: Fan projects
   href: Blupi/Fan_projects/index.html
 - label: Blupi-Bouncers
-  href: Blupi/Games/Blupi-Bouncers/index.html
-- label: Blupi-Bouncers
   href: Blupi/Fan_projects/Blupi-Bouncers/index.html
 subpages:
 - label: Go Up

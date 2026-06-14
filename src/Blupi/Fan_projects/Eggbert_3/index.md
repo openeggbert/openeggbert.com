@@ -6,8 +6,6 @@ breadcrumb:
 - label: Fan projects
   href: Blupi/Fan_projects/index.html
 - label: Eggbert 3
-  href: Blupi/Games/Eggbert_3/index.html
-- label: Eggbert 3
   href: Blupi/Fan_projects/Eggbert_3/index.html
 subpages:
 - label: Go Up
