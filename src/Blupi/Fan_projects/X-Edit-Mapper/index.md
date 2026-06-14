@@ -7,6 +7,8 @@ breadcrumb:
   href: Blupi/Fan_projects/index.html
 - label: X-Edit-Mapper
   href: Blupi/Games/X-Edit-Mapper/index.html
+- label: X-Edit-Mapper
+  href: Blupi/Fan_projects/X-Edit-Mapper/index.html
 subpages:
 - label: Go Up
   href: Blupi/Fan_projects/index.html

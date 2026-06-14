@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Libraries
   href: Technologies/Libraries/index.html
+- label: SDL
+  href: Technologies/Libraries/SDL/index.html
 subpages:
 - label: Go Up
   href: Technologies/Libraries/index.html

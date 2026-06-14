@@ -7,6 +7,8 @@ breadcrumb:
   href: Technologies/Programming_languages/index.html
 - label: Assembly Language
   href: Technologies/Programming_languages/Assembly_Language/index.html
+- label: X86 instruction set
+  href: Technologies/Programming_languages/Assembly_Language/X86_instruction_set/index.html
 subpages:
 - label: Go Up
   href: Technologies/Programming_languages/Assembly_Language/index.html

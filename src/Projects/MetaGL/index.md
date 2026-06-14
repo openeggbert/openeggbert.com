@@ -3,6 +3,8 @@ title: MetaGL
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: MetaGL
+  href: Projects/MetaGL/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

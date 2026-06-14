@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Programming languages
   href: Technologies/Programming_languages/index.html
+- label: C Sharp
+  href: Technologies/Programming_languages/C_Sharp/index.html
 subpages:
 - label: Go Up
   href: Technologies/Programming_languages/index.html

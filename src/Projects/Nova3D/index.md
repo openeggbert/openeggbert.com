@@ -3,6 +3,8 @@ title: Nova3D
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: Nova3D
+  href: Projects/Nova3D/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

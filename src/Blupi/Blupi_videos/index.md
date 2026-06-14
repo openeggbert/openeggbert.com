@@ -3,6 +3,8 @@ title: Blupi videos
 breadcrumb:
 - label: Blupi
   href: Blupi/index.html
+- label: Blupi videos
+  href: Blupi/Blupi_videos/index.html
 subpages:
 - label: Go Up
   href: Blupi/index.html

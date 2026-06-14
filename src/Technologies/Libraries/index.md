@@ -3,6 +3,8 @@ title: Libraries
 breadcrumb:
 - label: Technologies
   href: Technologies/index.html
+- label: Libraries
+  href: Technologies/Libraries/index.html
 subpages:
 - label: Go Up
   href: Technologies/index.html

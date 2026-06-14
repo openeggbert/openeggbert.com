@@ -9,6 +9,8 @@ breadcrumb:
   href: Blupi/Games/Speedy_Blupi_(Windows)/index.html
 - label: Hacks
   href: Blupi/Games/Speedy_Blupi_(Windows)/Hacks/index.html
+- label: Cheats
+  href: Blupi/Games/Speedy_Blupi_(Windows)/Hacks/Cheats/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/Speedy_Blupi_(Windows)/Hacks/index.html

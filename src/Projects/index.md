@@ -3,6 +3,8 @@ title: Projects
 breadcrumb:
 - label: Home
   href: index.html
+- label: Projects
+  href: Projects/index.html
 subpages:
 - label: Go Up
   href: ./index.html

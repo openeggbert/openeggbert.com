@@ -3,6 +3,8 @@ title: Mobile Eggbert
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: Mobile Eggbert
+  href: Projects/Mobile_Eggbert/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

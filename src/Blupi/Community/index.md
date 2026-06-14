@@ -3,6 +3,8 @@ title: Community
 breadcrumb:
 - label: Blupi
   href: Blupi/index.html
+- label: Community
+  href: Blupi/Community/index.html
 subpages:
 - label: Go Up
   href: Blupi/index.html

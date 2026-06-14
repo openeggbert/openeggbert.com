@@ -3,6 +3,8 @@ title: Galaxy Eggbert
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: Galaxy Eggbert
+  href: Projects/Galaxy_Eggbert/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

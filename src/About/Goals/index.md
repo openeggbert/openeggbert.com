@@ -3,6 +3,8 @@ title: Goals
 breadcrumb:
 - label: About
   href: About/index.html
+- label: Goals
+  href: About/Goals/index.html
 subpages:
 - label: Go Up
   href: About/index.html

@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Libraries
   href: Technologies/Libraries/index.html
+- label: XNA
+  href: Technologies/Libraries/XNA/index.html
 subpages:
 - label: Go Up
   href: Technologies/Libraries/index.html

@@ -7,6 +7,8 @@ breadcrumb:
   href: Blupi/Fan_projects/index.html
 - label: EggBeater
   href: Blupi/Games/EggBeater/index.html
+- label: EggBeater
+  href: Blupi/Fan_projects/EggBeater/index.html
 subpages:
 - label: Go Up
   href: Blupi/Fan_projects/index.html

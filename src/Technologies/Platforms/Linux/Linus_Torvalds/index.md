@@ -7,6 +7,8 @@ breadcrumb:
   href: Technologies/Platforms/index.html
 - label: Linux
   href: Technologies/Platforms/Linux/index.html
+- label: Linus Torvalds
+  href: Technologies/Platforms/Linux/Linus_Torvalds/index.html
 subpages:
 - label: Go Up
   href: Technologies/Platforms/Linux/index.html

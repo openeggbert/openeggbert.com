@@ -7,6 +7,8 @@ breadcrumb:
   href: Technologies/Programming_languages/index.html
 - label: C++
   href: Technologies/Programming_languages/C++/index.html
+- label: Key words
+  href: Technologies/Programming_languages/C++/Key_words/index.html
 subpages:
 - label: Go Up
   href: Technologies/Programming_languages/C++/index.html

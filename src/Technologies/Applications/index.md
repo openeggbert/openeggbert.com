@@ -3,6 +3,8 @@ title: Applications
 breadcrumb:
 - label: Technologies
   href: Technologies/index.html
+- label: Applications
+  href: Technologies/Applications/index.html
 subpages:
 - label: Go Up
   href: Technologies/index.html

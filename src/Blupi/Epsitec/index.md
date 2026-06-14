@@ -3,6 +3,8 @@ title: Epsitec
 breadcrumb:
 - label: Blupi
   href: Blupi/index.html
+- label: Epsitec
+  href: Blupi/Epsitec/index.html
 subpages:
 - label: Go Up
   href: Blupi/index.html

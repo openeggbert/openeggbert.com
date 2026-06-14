@@ -3,6 +3,8 @@ title: Contribute
 breadcrumb:
 - label: About
   href: About/index.html
+- label: Contribute
+  href: About/Contribute/index.html
 subpages:
 - label: Go Up
   href: About/index.html

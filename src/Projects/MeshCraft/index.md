@@ -3,6 +3,8 @@ title: MeshCraft
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: MeshCraft
+  href: Projects/MeshCraft/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

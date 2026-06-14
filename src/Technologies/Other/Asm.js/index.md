@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Other
   href: Technologies/Other/index.html
+- label: Asm.js
+  href: Technologies/Other/Asm.js/index.html
 subpages:
 - label: Go Up
   href: Technologies/Other/index.html

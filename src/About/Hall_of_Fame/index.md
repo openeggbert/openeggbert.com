@@ -3,6 +3,8 @@ title: Hall of Fame
 breadcrumb:
 - label: About
   href: About/index.html
+- label: Hall of Fame
+  href: About/Hall_of_Fame/index.html
 subpages:
 - label: Go Up
   href: About/index.html

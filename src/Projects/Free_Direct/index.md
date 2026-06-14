@@ -3,6 +3,8 @@ title: Free Direct
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: Free Direct
+  href: Projects/Free_Direct/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

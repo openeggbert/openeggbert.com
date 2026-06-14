@@ -7,6 +7,8 @@ breadcrumb:
   href: Technologies/Platforms/index.html
 - label: Windows
   href: Technologies/Platforms/Windows/index.html
+- label: Windows 95
+  href: Technologies/Platforms/Windows/Windows_95/index.html
 subpages:
 - label: Go Up
   href: Technologies/Platforms/Windows/index.html

@@ -3,6 +3,8 @@ title: Sprite Utils
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: Sprite Utils
+  href: Projects/Sprite_Utils/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

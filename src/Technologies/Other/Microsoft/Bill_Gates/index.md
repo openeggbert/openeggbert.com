@@ -7,6 +7,8 @@ breadcrumb:
   href: Technologies/Other/index.html
 - label: Microsoft
   href: Technologies/Other/Microsoft/index.html
+- label: Bill Gates
+  href: Technologies/Other/Microsoft/Bill_Gates/index.html
 subpages:
 - label: Go Up
   href: Technologies/Other/index.html

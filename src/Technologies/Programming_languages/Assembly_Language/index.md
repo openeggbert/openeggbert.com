@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Programming languages
   href: Technologies/Programming_languages/index.html
+- label: Assembly Language
+  href: Technologies/Programming_languages/Assembly_Language/index.html
 subpages:
 - label: Go Up
   href: Technologies/Programming_languages/index.html

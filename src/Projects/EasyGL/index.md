@@ -3,6 +3,8 @@ title: EasyGL
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: EasyGL
+  href: Projects/EasyGL/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

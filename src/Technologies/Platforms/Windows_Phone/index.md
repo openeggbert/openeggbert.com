@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Platforms
   href: Technologies/Platforms/index.html
+- label: Windows Phone
+  href: Technologies/Platforms/Windows_Phone/index.html
 subpages:
 - label: Go Up
   href: Technologies/Platforms/index.html

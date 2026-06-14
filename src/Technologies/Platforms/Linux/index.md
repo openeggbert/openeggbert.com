@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Platforms
   href: Technologies/Platforms/index.html
+- label: Linux
+  href: Technologies/Platforms/Linux/index.html
 subpages:
 - label: Go Up
   href: Technologies/Platforms/index.html

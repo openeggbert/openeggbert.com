@@ -7,6 +7,8 @@ breadcrumb:
   href: Technologies/Programming_languages/index.html
 - label: Assembly Language
   href: Technologies/Programming_languages/Assembly_Language/index.html
+- label: I586
+  href: Technologies/Programming_languages/Assembly_Language/I586/index.html
 subpages:
 - label: Go Up
   href: Technologies/Programming_languages/Assembly_Language/index.html

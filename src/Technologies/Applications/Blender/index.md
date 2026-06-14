@@ -5,6 +5,8 @@ breadcrumb:
   href: Technologies/index.html
 - label: Applications
   href: Technologies/Applications/index.html
+- label: Blender
+  href: Technologies/Applications/Blender/index.html
 subpages:
 - label: Go Up
   href: Technologies/Applications/index.html

@@ -3,6 +3,8 @@ title: Youtube Frontend
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: Youtube Frontend
+  href: Projects/Youtube_Frontend/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

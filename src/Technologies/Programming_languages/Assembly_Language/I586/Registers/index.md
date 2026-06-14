@@ -9,6 +9,8 @@ breadcrumb:
   href: Technologies/Programming_languages/Assembly_Language/index.html
 - label: I586
   href: Technologies/Programming_languages/Assembly_Language/I586/index.html
+- label: Registers
+  href: Technologies/Programming_languages/Assembly_Language/I586/Registers/index.html
 subpages:
 - label: Go Up
   href: Technologies/Programming_languages/Assembly_Language/I586/index.html

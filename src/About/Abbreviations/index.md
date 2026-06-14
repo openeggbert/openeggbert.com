@@ -3,6 +3,8 @@ title: Abbreviations
 breadcrumb:
 - label: About
   href: About/index.html
+- label: Abbreviations
+  href: About/Abbreviations/index.html
 subpages:
 - label: Go Up
   href: About/index.html

@@ -3,6 +3,8 @@ title: About
 breadcrumb:
 - label: Home
   href: index.html
+- label: About
+  href: About/index.html
 subpages:
 - label: Go Up
   href: ./index.html

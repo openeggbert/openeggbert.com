@@ -3,6 +3,8 @@ title: History
 breadcrumb:
 - label: About
   href: About/index.html
+- label: History
+  href: About/History/index.html
 subpages:
 - label: Go Up
   href: About/index.html

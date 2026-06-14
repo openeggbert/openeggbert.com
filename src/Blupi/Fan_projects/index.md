@@ -3,6 +3,8 @@ title: Fan projects
 breadcrumb:
 - label: Blupi
   href: Blupi/index.html
+- label: Fan projects
+  href: Blupi/Fan_projects/index.html
 subpages:
 - label: Go Up
   href: Blupi/index.html

@@ -5,6 +5,8 @@ breadcrumb:
   href: Blupi/index.html
 - label: Games
   href: Blupi/Games/index.html
+- label: Speedy Eggbert
+  href: Blupi/Games/Speedy_Eggbert/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/index.html

@@ -11,6 +11,8 @@ breadcrumb:
   href: Blupi/Games/Speedy_Blupi_(Windows)/Levels/index.html
 - label: I
   href: Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/index.html
+- label: '203'
+  href: Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/203/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/Speedy_Blupi_(Windows)/Levels/I/index.html

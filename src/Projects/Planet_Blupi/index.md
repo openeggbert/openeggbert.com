@@ -3,6 +3,8 @@ title: Planet Blupi (Open Eggbert fork)
 breadcrumb:
 - label: Projects
   href: Projects/index.html
+- label: Planet Blupi (Open Eggbert fork)
+  href: Projects/Planet_Blupi/index.html
 subpages:
 - label: Go Up
   href: Projects/index.html

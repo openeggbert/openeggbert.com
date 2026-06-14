@@ -3,6 +3,8 @@ title: ARTICLENAME
 breadcrumb:
 - label: Home
   href: index.html
+- label: ARTICLENAME
+  href: Template/index.html
 subpages:
 - label: Go Up
   href: ./index.html

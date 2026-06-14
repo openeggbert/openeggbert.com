@@ -5,6 +5,8 @@ breadcrumb:
   href: About/index.html
 - label: Goals
   href: About/Goals/index.html
+- label: Sound
+  href: About/Goals/Sound/index.html
 subpages:
 - label: Go Up
   href: About/Goals/index.html
