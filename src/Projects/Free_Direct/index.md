@@ -21,22 +21,77 @@ subpages:
 <td>C++</td>
 </tr>
 <tr>
-<th>Based on</th>
-<td><a href="Projects/CNA/index.html">CNA</a></td>
+<th>C++ standard</th>
+<td>C++20</td>
+</tr>
+<tr>
+<th>Reimplements</th>
+<td>Subset of DirectX 3 (2D)</td>
+</tr>
+<tr>
+<th>Built on</th>
+<td><a href="Technologies/Libraries/SDL/index.html">SDL 3</a></td>
 </tr>
 <tr>
 <th>Licence</th>
-<td>GPLv3 or later</td>
+<td>MIT</td>
 </tr>
 </table>
 
-Free Direct is a [DirectX](Technologies/Libraries/DirectX/index.html) 3-like wrapper around [CNA](Projects/CNA/index.html). It reimplements the DirectX 3 API used by the original [Speedy Blupi (Epsitec)](Blupi/Games/Speedy_Blupi_(Windows)/index.html) game, allowing the decompiled source code of [Free Eggbert](Projects/Free_Eggbert/index.html) to run on modern platforms without DirectX.
+**Free Direct** is a C++ project that reimplements a narrow, game-driven subset of [DirectX](Technologies/Libraries/DirectX/index.html) 3 (2D) using SDL 3 as an internal backend. The goal is not full DirectX compatibility, but a focused, minimal implementation sufficient to run [Speedy Blupi (Epsitec)](Blupi/Games/Speedy_Blupi_(Windows)/index.html) on modern platforms without Windows.
 
-## Role in the stack
+## Architecture
 
 ```
+DirectX 3 (subset)
+      ↓
+Free Direct
+      ↓
 SDL 3
-  └── CNA  (XNA-like API)
-        └── Free Direct  (DirectX 3-like API)
-              └── Free Eggbert
+```
+
+## Implemented components
+
+| Component | Status |
+| --- | --- |
+| **DirectDraw** | Implemented (narrow subset for Speedy Blupi) |
+| **DirectSound** | Partially implemented (SDL 3 audio backend) |
+| **DirectPlay** | Stubbed (dummy implementations) |
+| **Direct3D** | Not implemented (not used by target game) |
+
+**DirectDraw features:**
+- Surface creation for primary and system-memory/offscreen surfaces
+- `Blt` / `BltFast` with clipping and source color key handling
+- `Lock` / `Unlock` for direct pixel access
+- Palette support (`CreatePalette`, `SetEntries`, `GetEntries`, `SetPalette`)
+- Primary surface presentation through SDL renderer
+- 8-bit rendering with palette conversion on present
+
+**DirectSound features:**
+- SDL 3-backed audio playback for static PCM buffers
+- Supported formats: 8-bit unsigned and 16-bit signed LE, mono/stereo, 11025/22050/44100 Hz
+- `Play()`, `Stop()`, `GetStatus()`, `SetVolume()`, `SetPan()`
+
+## Presentation model
+
+- `Blt` / `BltFast` write to CPU pixel buffers and mark the primary surface dirty
+- `Flip` or Blt-to-primary triggers presentation: throttle check → dirty check → SDL_Texture upload → SDL_RenderPresent
+- VSync is enabled by default via `SDL_SetRenderVSync`
+- Target FPS configurable via `FREE_DIRECT_TARGET_FPS=<n>`
+
+## Debug options
+
+| Environment variable | Effect |
+| --- | --- |
+| `FREE_DIRECT_DEBUG_DDRAW=1` | Log DirectDraw calls |
+| `FREE_DIRECT_DEBUG_DSOUND=1` | Log DirectSound calls |
+| `FREE_DIRECT_DEBUG_COLORKEY=1` | Log color key diagnostics |
+| `FREE_DIRECT_DEBUG_PERF=1` | Log performance counters (presents/s, blts/s) |
+
+## Build
+
+```bash
+cmake -B build
+cmake --build build
+./build/FREE_DIRECT
 ```
