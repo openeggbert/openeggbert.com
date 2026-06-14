@@ -12,7 +12,7 @@ subpages:
 - 1958 - [Daniel Roux](Blupi/Community/Daniel_Roux/index.html) was born
 - 1975 - the [Microsoft](Technologies/Other/Microsoft/index.html) technology company was founded
 - 1991- the first version of the [Linux](Technologies/Platforms/Linux/index.html) [operating system](Article_does_not_yet_exist_or_link_is_broken/index.html) was released
-- 1998-09-13 - Speedy Blupi I was. This day is the birth day of Speedy Blupi, which should we celebrated
+- 1998-09-13 - Speedy Blupi I was released. This day is the birth day of Speedy Blupi, which should we celebrated
 - 2001 - Speedy Blupi II was released
 - 2013 - [Speedy Blupi for Windows Phone](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html) was released
 - 2019 - Windows Store for Windows Phone platform was killed by Microsoft

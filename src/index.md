@@ -138,7 +138,7 @@ title: Open Eggbert
 - C# (programming language) version: The [XAP](Article_does_not_yet_exist_or_link_is_broken/index.html) executable file was decompiled. The [XNA](Technologies/Libraries/XNA/index.html) 4.0 game engine was replaced by its alternative implementations: [MonoGame](Article_does_not_yet_exist_or_link_is_broken/index.html), [FNA](Article_does_not_yet_exist_or_link_is_broken/index.html), [KNI Engine](Article_does_not_yet_exist_or_link_is_broken/index.html). Mobile Eggbert runs on several platforms: [Windows](Technologies/Platforms/Windows/index.html), [Linux](Technologies/Platforms/Linux/index.html), [Android](Technologies/Platforms/Android/index.html), web browser. Status: finished (but issues exist)
 - C++ (programming language) version: [Speedy Blupi (Dada Games)](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html) is being rewritten from C# to C++. XNA 4.0 is being replaced by the CNA library. Status: In progress
 
-**CNA:** XNA 4.0 like wrapper around the SDL 3 library<br> **Free Direct:** DirectX 3 like wrapper around the CNA library<br> **Free Api:** Reimplementation of Windows Api used by the Speedy Blupi (Epsitec) game.
+**[CNA](Projects/CNA/index.html):** XNA 4.0 like wrapper around the SDL 3 library<br> **[Free Direct](Projects/Free_Direct/index.html):** DirectX 3 like wrapper around the CNA library<br> **[Free API](Projects/Free_Api/index.html):** Reimplementation of Windows API used by the Speedy Blupi (Epsitec) game.
 
 ## Future
 

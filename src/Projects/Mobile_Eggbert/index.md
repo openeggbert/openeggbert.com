@@ -62,7 +62,7 @@ subpages:
 </tr>
 <tr>
 <th>Programming languages</th>
-<td><a href="aaa" target="_blank">C#, C++</a></td>
+<td><a href="Technologies/Programming_languages/C_Sharp/index.html">C#</a>, <a href="Technologies/Programming_languages/C++/index.html">C++</a></td>
 </tr>
 <tr>
 <th>Game frameworks</th>
