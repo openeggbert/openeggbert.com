@@ -100,16 +100,14 @@ PAGE_CONFIG = {
 <h2>Commands</h2>
 <h3>Command: draw</h3>
 <p>Rectangles are drawn around the sprites and each sprite is labeled with its number. in the image <br> <strong>Example:</strong></p>
-<pre><code>
-java -jar /rv/data/desktop/code/github.com/openeggbert/sprite-utils/target/sprite-utils-0.0.0-SNAPSHOT-jar-with-dependencies.jar \
+<pre><code>java -jar sprite-utils.jar \
 draw \
---dir /rv/data/desktop/code/github.com/openeggbert/open-eggbert-legacy-assets/speedy_eggbert_1/IMAGE08  \
---rectangle-color 255,0,0  \
---sprite-sheet-path /rv/data/desktop/code/github.com/openeggbert/open-eggbert/assets/default-spritesheets/speedy_blupi_I.spritesheet.csv  \
+--dir /path/to/open-eggbert-legacy-assets/speedy_eggbert_1/IMAGE08 \
+--rectangle-color 255,0,0 \
+--sprite-sheet-path /path/to/open-eggbert/assets/default-spritesheets/speedy_blupi_I.spritesheet.csv \
 --row 5 \
 --file-name OBJECT.BLP \
 --double-sized-number true
-
 </code></pre>
 <h2>Format of CSV file spritesheet.csv</h2>
 <p><strong>Note:</strong> The file *spritesheet.csv.computed.csv is intended to be used in Open Eggbert - for image mods</p>
@@ -204,20 +202,6 @@ draw \
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>blupi000.blp</td>
-<td>Yellow_Eggbert_Born</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td></td>
-<td>0</td>
-<td>28</td>
-<td>20</td>
-<td></td>
-<td>ok</td>
-<td>1</td>
-</tr>
 <tr>
 <td>blupi000.blp</td>
 <td>Yellow_Eggbert_Born</td>
@@ -749,9 +733,11 @@ draw \
 
 </code></pre>
 <h3>How to create rectangles based on the sprite sheet CSV file (example)</h3>
-<p>java -jar /rv/data/desktop/code/code.nanoboot.org/nanoboot/sprite-utils/target/sprite-utils-0.0.0-SNAPSHOT-jar-with-dependencies.jar draw --dir /rv/data/desktop/code/code.nanoboot.org/nanoboot/open-eggbert-legacy-assets/speedy_eggbert_1/IMAGE08 --rectangle-color 0,255,0 --sprite-sheet-path /rv/data/desktop/code/code.nanoboot.org/nanoboot/open-eggbert/assets/default-spritesheets/speedy_blupi_I.spritesheet.csv --row 4 --file-name BLUPI000.BLP ;</p>
+<pre><code>java -jar sprite-utils.jar draw --dir /path/to/speedy_eggbert_1/IMAGE08 --rectangle-color 0,255,0 --sprite-sheet-path /path/to/speedy_blupi_I.spritesheet.csv --row 4 --file-name BLUPI000.BLP
+</code></pre>
 <h3>How to run Speedy Blupi/Eggbert in window mode on Linux without blue backgrounds</h3>
-<p>cd /rv/data/desktop/code/code.nanoboot.org/nanoboot/open-eggbert-legacy-assets/speedy_eggbert_1;Xephyr :1 -ac -screen 800x600x16 &amp; DISPLAY=:1 xfwm4 &amp; DISPLAY=:1 wine Eggbert1.exe</p>
+<pre><code>cd /path/to/speedy_eggbert_1 ; Xephyr :1 -ac -screen 800x600x16 &amp; DISPLAY=:1 xfwm4 &amp; DISPLAY=:1 wine Eggbert1.exe
+</code></pre>
 </section>
 </main>
 

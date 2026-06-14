@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - Free Direct</title>
+    <base href="../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Projects", href: "Projects/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Projects/index.html"}
+  ]
+};
+</script>
+<main>
+<section>
+<h1>Free Direct</h1>
+<div id="tocButton"></div>
+<div id="toc"></div>
+<table class="infobox">
+<tr>
+<th colspan="2">Free Direct</th>
+</tr>
+<tr>
+<th>Website</th>
+<td><a href="https://freedirect.openeggbert.com" target="_blank">https://freedirect.openeggbert.com</a></td>
+</tr>
+<tr>
+<th>Programming language</th>
+<td>C++</td>
+</tr>
+<tr>
+<th>Based on</th>
+<td><a href="Projects/CNA/index.html">CNA</a></td>
+</tr>
+<tr>
+<th>Licence</th>
+<td>GPLv3 or later</td>
+</tr>
+</table>
+
+<p>Free Direct is a <a href="Technologies/Libraries/DirectX/index.html">DirectX</a> 3-like wrapper around <a href="Projects/CNA/index.html">CNA</a>. It reimplements the DirectX 3 API used by the original <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Epsitec)</a> game, allowing the decompiled source code of <a href="Projects/Free_Eggbert/index.html">Free Eggbert</a> to run on modern platforms without DirectX.</p>
+<h2>Role in the stack</h2>
+<pre><code>SDL 3
+  └── CNA  (XNA-like API)
+        └── Free Direct  (DirectX 3-like API)
+              └── Free Eggbert
+</code></pre>
+</section>
+</main>
+
+</body>
+</html>

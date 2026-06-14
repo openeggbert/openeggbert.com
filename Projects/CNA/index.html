@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Eggbert - CNA</title>
+    <base href="../.." target="_self">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<script>
+PAGE_CONFIG = {
+  breadcrumb: [
+    {label: "Projects", href: "Projects/index.html"}
+  ],
+  subpages: [
+    {label: "Go Up", href: "Projects/index.html"}
+  ]
+};
+</script>
+<main>
+<section>
+<h1>CNA</h1>
+<div id="tocButton"></div>
+<div id="toc"></div>
+<table class="infobox">
+<tr>
+<th colspan="2">CNA</th>
+</tr>
+<tr>
+<th>Website</th>
+<td><a href="https://cna.openeggbert.com" target="_blank">https://cna.openeggbert.com</a> | <a href="https://libcna.com" target="_blank">https://libcna.com</a></td>
+</tr>
+<tr>
+<th>Programming language</th>
+<td>C++</td>
+</tr>
+<tr>
+<th>Based on</th>
+<td>SDL 3</td>
+</tr>
+<tr>
+<th>Licence</th>
+<td>GPLv3 or later</td>
+</tr>
+</table>
+
+<p>CNA is an <a href="Technologies/Libraries/XNA/index.html">XNA</a> 4.0-like game framework written in <a href="Technologies/Programming_languages/C++/index.html">C++</a> and built on top of <a href="Technologies/Libraries/SDL/index.html">SDL 3</a>. It serves as the graphics, input, audio and windowing layer for <a href="Projects/Mobile_Eggbert/index.html">Mobile Eggbert</a> (C++ version) and <a href="Projects/Free_Eggbert/index.html">Free Eggbert</a>.</p>
+<p>CNA provides a familiar XNA-style API so that code originally written for XNA 4.0 (such as the decompiled Speedy Blupi for Windows Phone) can be ported to C++ while keeping the same structure.</p>
+<h2>Role in the stack</h2>
+<pre><code>SDL 3
+  └── CNA  (XNA-like API)
+        └── Free Direct  (DirectX 3-like API)
+              └── Free Eggbert / Mobile Eggbert (C++)
+</code></pre>
+<h2>Platforms</h2>
+<p>SDL 3 supports many platforms, so CNA inherits support for: <a href="Technologies/Platforms/Windows/index.html">Windows</a>, <a href="Technologies/Platforms/Linux/index.html">Linux</a>, <a href="Technologies/Platforms/MacOS/index.html">MacOS</a>, <a href="Technologies/Platforms/Android/index.html">Android</a>, Web (via Emscripten) and others.</p>
+</section>
+</main>
+
+</body>
+</html>
