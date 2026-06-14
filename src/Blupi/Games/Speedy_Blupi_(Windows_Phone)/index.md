@@ -5,8 +5,6 @@ breadcrumb:
   href: Blupi/index.html
 - label: Games
   href: Blupi/Games/index.html
-- label: Speedy Blupi (Windows Phone)
-  href: Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/index.html

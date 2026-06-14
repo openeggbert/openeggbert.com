@@ -3,8 +3,6 @@ title: Images
 breadcrumb:
 - label: Blupi
   href: Blupi/index.html
-- label: Images
-  href: Blupi/Images/index.html
 subpages:
 - label: Go Up
   href: Blupi/index.html

@@ -3,8 +3,6 @@ title: Games
 breadcrumb:
 - label: Blupi
   href: Blupi/index.html
-- label: Games
-  href: Blupi/Games/index.html
 subpages:
 - label: Go Up
   href: Blupi/index.html

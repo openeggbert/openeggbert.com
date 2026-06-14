@@ -1,8 +1,8 @@
 ---
 title: ARTICLENAME
 breadcrumb:
-- label: Template
-  href: Template/index.html
+- label: Home
+  href: index.html
 subpages:
 - label: Go Up
   href: ./index.html

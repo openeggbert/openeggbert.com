@@ -7,8 +7,6 @@ breadcrumb:
   href: Blupi/Games/index.html
 - label: Speedy Blupi (Windows)
   href: Blupi/Games/Speedy_Blupi_(Windows)/index.html
-- label: Level editor
-  href: Blupi/Games/Speedy_Blupi_(Windows)/Level_editor/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/Speedy_Blupi_(Windows)/index.html

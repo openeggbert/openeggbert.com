@@ -7,8 +7,6 @@ breadcrumb:
   href: Blupi/Games/index.html
 - label: Speedy Blupi (Windows)
   href: Blupi/Games/Speedy_Blupi_(Windows)/index.html
-- label: Images
-  href: Blupi/Games/Speedy_Blupi_(Windows)/Images/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/Speedy_Blupi_(Windows)/index.html

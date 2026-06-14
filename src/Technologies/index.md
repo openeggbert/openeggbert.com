@@ -1,8 +1,8 @@
 ---
 title: Technologies
 breadcrumb:
-- label: Technologies
-  href: Technologies/index.html
+- label: Home
+  href: index.html
 subpages:
 - label: Go Up
   href: ./index.html

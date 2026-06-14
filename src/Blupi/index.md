@@ -1,8 +1,8 @@
 ---
 title: Blupi
 breadcrumb:
-- label: Blupi
-  href: Blupi/index.html
+- label: Home
+  href: index.html
 subpages:
 - label: Go Up
   href: ./index.html

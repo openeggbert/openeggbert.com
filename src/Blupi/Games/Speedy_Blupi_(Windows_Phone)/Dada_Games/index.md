@@ -7,8 +7,6 @@ breadcrumb:
   href: Blupi/Games/index.html
 - label: Speedy Blupi (Windows Phone)
   href: Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html
-- label: Dada Games
-  href: Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/index.html

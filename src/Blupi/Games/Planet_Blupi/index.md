@@ -5,8 +5,6 @@ breadcrumb:
   href: Blupi/index.html
 - label: Games
   href: Blupi/Games/index.html
-- label: Planet Blupi
-  href: Blupi/Games/Planet_Blupi/index.html
 subpages:
 - label: Go Up
   href: Blupi/Games/index.html

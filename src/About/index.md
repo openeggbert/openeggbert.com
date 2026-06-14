@@ -1,8 +1,8 @@
 ---
 title: About
 breadcrumb:
-- label: About
-  href: About/index.html
+- label: Home
+  href: index.html
 subpages:
 - label: Go Up
   href: ./index.html
