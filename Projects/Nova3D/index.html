@@ -33,7 +33,108 @@ PAGE_CONFIG = {
 <th>Website</th>
 <td><a href="https://nova3d.openeggbert.com" target="_blank">https://nova3d.openeggbert.com</a> | <a href="https://libnova3d.com" target="_blank">https://libnova3d.com</a></td>
 </tr>
+<tr>
+<th>Programming language</th>
+<td>C++</td>
+</tr>
+<tr>
+<th>C++ standard</th>
+<td>C++20</td>
+</tr>
+<tr>
+<th>Licence</th>
+<td>MIT</td>
+</tr>
+<tr>
+<th>Based on</th>
+<td><a href="https://github.com/u3d-community/U3D" target="_blank">Urho3D / U3D</a> (MIT, © 2008–2022 the Urho3D project)</td>
+</tr>
+<tr>
+<th>Graphics backend</th>
+<td><a href="Projects/CNA/index.html">CNA</a> (SDL 3 / OpenGL / OpenGL ES)</td>
+</tr>
 </table>
+
+<p><strong>Nova3D</strong> is a modified version of <a href="https://github.com/u3d-community/U3D">Urho3D</a> — a cross-platform, open-source, MIT-licensed 3D game engine. Nova3D reuses Urho3D source code directly (math, containers, scene graph, resource system, and more), and replaces Urho3D's native OpenGL/Direct3D backends with <a href="Projects/CNA/index.html">CNA</a> — a C++ reimplementation of the XNA 4.0 API built on SDL 3.</p>
+<p>The public C++ API uses <code>namespace Urho3D</code>. Game code written against Urho3D is intended to compile against Nova3D with minimal changes.</p>
+<h2>Architecture</h2>
+<pre><code>Game code
+      ↓
+Nova3D public API   (namespace Urho3D, include/Urho3D/)
+      ↓
+Nova3D scene, resource, renderer, UI, physics
+ — adapted from Urho3D source —
+      ↓
+IGraphicsBackend  (CnaGraphicsAdapter)
+      ↓
+CNA  —  C++ XNA 4.0 backend  (SDL3 / OpenGL / OpenGL ES)
+</code></pre>
+<h2>Public API overview</h2>
+<table>
+<thead>
+<tr>
+<th>Header</th>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Urho3D/Context.h</code></td>
+<td><code>Urho3D::Context</code></td>
+<td>Subsystem registry and event dispatcher</td>
+</tr>
+<tr>
+<td><code>Urho3D/Engine.h</code></td>
+<td><code>Urho3D::Engine</code></td>
+<td>Main loop and engine lifetime</td>
+</tr>
+<tr>
+<td><code>Urho3D/Application.h</code></td>
+<td><code>Urho3D::Application</code></td>
+<td>Base class for user applications</td>
+</tr>
+<tr>
+<td><code>Urho3D/Scene/Scene.h</code></td>
+<td><code>Urho3D::Scene</code></td>
+<td>Root of the scene graph</td>
+</tr>
+<tr>
+<td><code>Urho3D/Scene/Node.h</code></td>
+<td><code>Urho3D::Node</code></td>
+<td>Scene-graph node with transform hierarchy</td>
+</tr>
+<tr>
+<td><code>Urho3D/Graphics/Camera.h</code></td>
+<td><code>Urho3D::Camera</code></td>
+<td>Camera component</td>
+</tr>
+<tr>
+<td><code>Urho3D/Graphics/StaticModel.h</code></td>
+<td><code>Urho3D::StaticModel</code></td>
+<td>Static mesh component</td>
+</tr>
+<tr>
+<td><code>Urho3D/Graphics/Light.h</code></td>
+<td><code>Urho3D::Light</code></td>
+<td>Light component</td>
+</tr>
+<tr>
+<td><code>Urho3D/Resource/ResourceCache.h</code></td>
+<td><code>Urho3D::ResourceCache</code></td>
+<td>Resource loading and caching</td>
+</tr>
+</tbody>
+</table>
+<h2>Platforms</h2>
+<p>Through CNA and SDL 3: <a href="Technologies/Platforms/Windows/index.html">Windows</a>, <a href="Technologies/Platforms/Linux/index.html">Linux</a>, <a href="Technologies/Platforms/MacOS/index.html">MacOS</a>, <a href="Technologies/Platforms/Android/index.html">Android</a>, Web (Emscripten).</p>
+<h2>Build</h2>
+<pre><code class="language-bash">cmake -S . -B cmake-build-debug -DCMAKE_BUILD_TYPE=Debug -DBUILD_TESTING=ON
+ninja -C cmake-build-debug
+</code></pre>
+<h2>Attribution</h2>
+<p>Nova3D directly reuses Urho3D MIT-licensed source for: math, containers, IO, scene graph, resource system, graphics components. All adapted files carry the original Urho3D copyright notice plus the Nova3D contributor notice.</p>
+<p>Copyright (c) 2008–2022 the Urho3D project. Copyright (c) 2024–2026 Robert Vokac and the Nova3D contributors.</p>
 </section>
 </main>
 

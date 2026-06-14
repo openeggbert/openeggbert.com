@@ -33,7 +33,88 @@ PAGE_CONFIG = {
 <th>Website</th>
 <td><a href="https://metagl.openeggbert.com" target="_blank">https://metagl.openeggbert.com</a></td>
 </tr>
+<tr>
+<th>Programming language</th>
+<td>C++</td>
+</tr>
+<tr>
+<th>C++ standard</th>
+<td>C++23</td>
+</tr>
+<tr>
+<th>Targets</th>
+<td>OpenGL ES 3.0+</td>
+</tr>
+<tr>
+<th>Used by</th>
+<td><a href="Projects/EasyGL/index.html">EasyGL</a></td>
+</tr>
 </table>
+
+<p><strong>MetaGL</strong> is a low-level, type-safe C++23 wrapper targeting OpenGL ES 3.0 or higher. It is the foundation layer used by <a href="Projects/EasyGL/index.html">EasyGL</a> and provides:</p>
+<ul>
+<li>Runtime OpenGL function loading via a host-supplied <code>GetProcAddress</code> callback</li>
+<li>Type-safe <code>enum class</code> wrappers for OpenGL constants (buffer targets, shader types, texture formats, etc.)</li>
+<li>Thin inline-style wrapper functions in the <code>metagl</code> namespace (<code>metagl::GlBindBuffer</code>, <code>metagl::GlClear</code>, …)</li>
+<li>No windowing, no context creation — the host application owns the GL context lifecycle</li>
+</ul>
+<h2>Architecture</h2>
+<pre><code>Host application
+      └── provides GL context + GetProcAddress callback
+              └── EasyGL   (OOP wrapper, namespace easygl)
+                      └── MetaGL  (function pointers + type-safe API, namespace metagl)
+                              └── actual OpenGL driver
+</code></pre>
+<h2>Public API overview</h2>
+<table>
+<thead>
+<tr>
+<th>Header</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>metagl/Types.hpp</code></td>
+<td>Primitive GL type aliases (<code>GLuint</code>, <code>GLint</code>, <code>GlGetProcAddressFn</code>, …)</td>
+</tr>
+<tr>
+<td><code>metagl/Enums.hpp</code></td>
+<td>Type-safe <code>enum class</code> wrappers for GL constants</td>
+</tr>
+<tr>
+<td><code>metagl/Functions.hpp</code></td>
+<td>Declarations of all <code>metagl::Gl*</code> wrapper functions</td>
+</tr>
+<tr>
+<td><code>metagl/Loader.hpp</code></td>
+<td><code>metagl::Initialize()</code> / <code>metagl::IsInitialized()</code></td>
+</tr>
+<tr>
+<td><code>metagl/metagl.hpp</code></td>
+<td>Umbrella header</td>
+</tr>
+</tbody>
+</table>
+<h2>Usage</h2>
+<pre><code class="language-cpp">#include &lt;metagl/metagl.hpp&gt;
+
+// Initialize once after host creates the GL context:
+metagl::Initialize(my_get_proc_address);
+
+// Use type-safe wrappers:
+metagl::GlClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+metagl::GlClear(metagl::ClearBufferBit::Color | metagl::ClearBufferBit::Depth);
+
+metagl::GLuint shader = metagl::GlCreateShader(metagl::ShaderType::Vertex);
+</code></pre>
+<h2>Design notes</h2>
+<p>Raw OpenGL values (<code>GL_ARRAY_BUFFER</code>, <code>GL_VERTEX_SHADER</code>, …) stay internal to MetaGL. Callers use <code>enum class</code> values; conversions to <code>GLenum</code> happen inside <code>metagl::detail</code>. No OpenGL headers are exposed in public headers. Plain OpenGL and OpenGL ES older than 3.0 are not supported.</p>
+<h2>Build</h2>
+<p>MetaGL is intended to be consumed as a CMake subdirectory:</p>
+<pre><code class="language-cmake">add_subdirectory(../meta-gl meta-gl)
+target_link_libraries(my-target PRIVATE meta-gl::meta-gl)
+</code></pre>
 </section>
 </main>
 

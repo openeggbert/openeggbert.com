@@ -33,7 +33,85 @@ PAGE_CONFIG = {
 <th>Website</th>
 <td><a href="https://sharpruntime.openeggbert.com" target="_blank">https://sharpruntime.openeggbert.com</a></td>
 </tr>
+<tr>
+<th>Programming language</th>
+<td>C++</td>
+</tr>
+<tr>
+<th>C++ standard</th>
+<td>C++23</td>
+</tr>
+<tr>
+<th>Licence</th>
+<td>MIT</td>
+</tr>
+<tr>
+<th>Based on</th>
+<td>Partly derived from <a href="https://github.com/dotnet/runtime" target="_blank">.NET Runtime</a> (MIT, © .NET Foundation)</td>
+</tr>
+<tr>
+<th>Used by</th>
+<td><a href="Projects/CNA/index.html">CNA</a></td>
+</tr>
 </table>
+
+<p><strong>Sharp Runtime</strong> is a C++ reimplementation of a small C#/.NET runtime subset, mainly used by <a href="Projects/CNA/index.html">CNA</a> and game ports.</p>
+<p>The goal is to provide a lightweight, .NET-inspired foundation layer for C++ projects, with a focus on familiar API design (<code>System::*</code>-like namespaces), clean and modern C++ implementation, and compatibility with higher-level frameworks like CNA.</p>
+<blockquote>
+<p>Sharp Runtime is <strong>not</strong> a full .NET runtime or CLR implementation. It is a pragmatic subset designed for use in native C++ applications.</p>
+</blockquote>
+<h2>Role in the stack</h2>
+<pre><code>Sharp Runtime  (System::* types, exceptions, events, delegates)
+      └── CNA  (XNA-like API)
+            └── Mobile Eggbert (C++), Galaxy Eggbert, MeshCraft, ...
+</code></pre>
+<h2>Goals</h2>
+<ul>
+<li>Recreate useful parts of the .NET API in idiomatic C++</li>
+<li>Provide building blocks: exceptions, events/delegates, basic system types</li>
+<li>Serve as a foundation for <a href="Projects/CNA/index.html">CNA</a></li>
+<li>Keep the codebase simple, readable, and well-documented</li>
+</ul>
+<h2>Attribution</h2>
+<p>Sharp Runtime is partly derived from the .NET runtime (<a href="https://github.com/dotnet/runtime">dotnet/runtime</a>, MIT License, © .NET Foundation and Contributors). The public API design of <code>System::*</code> types — class names, method signatures, namespace structure, and enum values — is based on the .NET standard library. Some algorithmic implementations (number formatting, date/time arithmetic, Unicode handling) are informed by or translated from the dotnet/runtime source code. The C++ implementation is original work by Robert Vokac and contributors.</p>
+<h2>Implementation status</h2>
+<p>Each class or function is annotated with one of these statuses in Doxygen comments:</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Todo</td>
+<td>Not implemented yet</td>
+</tr>
+<tr>
+<td>Stub</td>
+<td>Skeleton only, returns placeholder or fails</td>
+</tr>
+<tr>
+<td>Partial</td>
+<td>Partially implemented, may be incomplete</td>
+</tr>
+<tr>
+<td>Implemented</td>
+<td>Functionally complete</td>
+</tr>
+<tr>
+<td>Verified</td>
+<td>Validated against expected .NET behavior</td>
+</tr>
+</tbody>
+</table>
+<h2>Build</h2>
+<pre><code class="language-bash">cmake -S . -B build
+cmake --build build
+</code></pre>
+<h2>Scope</h2>
+<p>Sharp Runtime intentionally does <strong>not</strong> aim to implement: the CLR (Common Language Runtime), JIT compilation, or full .NET standard compatibility. It focuses on a practical subset useful for native development.</p>
 </section>
 </main>
 

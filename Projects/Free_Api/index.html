@@ -38,17 +38,111 @@ PAGE_CONFIG = {
 <td>C++</td>
 </tr>
 <tr>
+<th>C++ standard</th>
+<td>C++20</td>
+</tr>
+<tr>
 <th>Reimplements</th>
-<td>Subset of <a href="Technologies/Libraries/Windows_API/index.html">Windows API</a></td>
+<td>Subset of <a href="Technologies/Libraries/Windows_API/index.html">Windows API</a> (~1998 Win32 era)</td>
+</tr>
+<tr>
+<th>Built on</th>
+<td><a href="Technologies/Libraries/SDL/index.html">SDL 3</a></td>
 </tr>
 <tr>
 <th>Licence</th>
-<td>GPLv3 or later</td>
+<td>MIT</td>
 </tr>
 </table>
 
-<p>Free API is a partial reimplementation of the <a href="Technologies/Libraries/Windows_API/index.html">Windows API</a> used by the original <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Epsitec)</a> game. It allows the decompiled source code of <a href="Projects/Free_Eggbert/index.html">Free Eggbert</a> to compile and run on non-Windows platforms without depending on the actual Windows API or compatibility layers like Wine.</p>
-<p>Only the subset of Windows API calls that Speedy Blupi actually uses is reimplemented.</p>
+<p><strong>Free API</strong> is an experimental C++ project that reimplements a minimal subset of the <a href="Technologies/Libraries/Windows_API/index.html">Windows API</a> (WinAPI), roughly targeting functionality available around 1998 (Win32 era). It allows <a href="Projects/Free_Eggbert/index.html">Free Eggbert</a> (the decompiled Speedy Blupi) to run on non-Windows platforms without depending on Windows or compatibility layers like Wine.</p>
+<h2>Architecture</h2>
+<pre><code>WinAPI (subset ~1998)
+      ↓
+  Free API
+      ↓
+    SDL 3
+</code></pre>
+<h2>Implemented features</h2>
+<p><strong>Application entry:</strong>
+- <code>WinMain</code> abstraction (mapping to <code>main</code>)</p>
+<p><strong>Windowing:</strong>
+- Window creation (<code>CreateWindowEx</code>), message loop (<code>PeekMessage</code>, <code>DispatchMessage</code>), window procedures (<code>WNDPROC</code>)</p>
+<p><strong>Input (SDL 3 → WinAPI message translation):</strong>
+- Mouse motion → <code>WM_MOUSEMOVE</code>
+- Mouse buttons → <code>WM_LBUTTONDOWN/UP</code>, <code>WM_RBUTTONDOWN/UP</code>, <code>WM_MBUTTONDOWN/UP</code>
+- Keyboard → <code>WM_KEYDOWN</code> / <code>WM_KEYUP</code> with <code>VK_*</code> codes (letters, digits, navigation, function keys F1–F12, control keys)
+- Text input → <code>WM_CHAR</code>
+- Window focus → <code>WM_ACTIVATEAPP</code></p>
+<p><strong>MIDI music (<code>mmsystem.h</code>) — TinySoundFont + TinyMidiLoader:</strong>
+- MCI_OPEN/PLAY/CLOSE for MIDI sequencer files
+- Renders MIDI to stereo float PCM via TinySoundFont and feeds it to an SDL 3 audio stream
+- Requires a SoundFont 2 (.sf2) file for audio synthesis
+- Supports MIDI Type 0 and 1 files</p>
+<p><strong>Multimedia timer:</strong>
+- <code>timeSetEvent</code> / <code>timeKillEvent</code> implemented with <code>SDL_AddTimer</code> / <code>SDL_RemoveTimer</code></p>
+<p><strong>System utilities:</strong>
+- <code>GetTickCount</code>, <code>Sleep</code>, <code>OutputDebugString</code></p>
+<h2>Debug options</h2>
+<table>
+<thead>
+<tr>
+<th>Environment variable</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FREE_API_DEBUG_INPUT=1</code></td>
+<td>Log all translated input messages</td>
+</tr>
+<tr>
+<td><code>FREE_API_DEBUG_MIDI=1</code></td>
+<td>Log per-call MIDI debug info</td>
+</tr>
+</tbody>
+</table>
+<h2>SoundFont requirement</h2>
+<p>A SoundFont 2 (.sf2) file is required for MIDI music playback. Lookup order:
+1. <code>FREE_API_SOUNDFONT</code> environment variable
+2. <code>assets/soundfont/default.sf2</code>
+3. <code>soundfont/default.sf2</code></p>
+<p>Free SoundFonts: <a href="https://schristiancollins.com/generaluser.php">GeneralUser GS</a>, <a href="https://packages.debian.org/fluid-soundfont-gm">FluidR3_GM</a></p>
+<h2>Platform support</h2>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux</td>
+<td>Supported via SDL 3</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>Supported via SDL 3</td>
+</tr>
+<tr>
+<td>macOS</td>
+<td>Supported via SDL 3</td>
+</tr>
+<tr>
+<td>Android</td>
+<td>Supported (SoundFont must be packaged in assets)</td>
+</tr>
+<tr>
+<td>Web (Emscripten)</td>
+<td>Supported (may need user gesture for audio)</td>
+</tr>
+</tbody>
+</table>
+<h2>Build</h2>
+<pre><code class="language-bash">cmake -B build
+cmake --build build
+</code></pre>
 </section>
 </main>
 

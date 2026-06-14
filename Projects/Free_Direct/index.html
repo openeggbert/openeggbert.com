@@ -38,21 +38,107 @@ PAGE_CONFIG = {
 <td>C++</td>
 </tr>
 <tr>
-<th>Based on</th>
-<td><a href="Projects/CNA/index.html">CNA</a></td>
+<th>C++ standard</th>
+<td>C++20</td>
+</tr>
+<tr>
+<th>Reimplements</th>
+<td>Subset of DirectX 3 (2D)</td>
+</tr>
+<tr>
+<th>Built on</th>
+<td><a href="Technologies/Libraries/SDL/index.html">SDL 3</a></td>
 </tr>
 <tr>
 <th>Licence</th>
-<td>GPLv3 or later</td>
+<td>MIT</td>
 </tr>
 </table>
 
-<p>Free Direct is a <a href="Technologies/Libraries/DirectX/index.html">DirectX</a> 3-like wrapper around <a href="Projects/CNA/index.html">CNA</a>. It reimplements the DirectX 3 API used by the original <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Epsitec)</a> game, allowing the decompiled source code of <a href="Projects/Free_Eggbert/index.html">Free Eggbert</a> to run on modern platforms without DirectX.</p>
-<h2>Role in the stack</h2>
-<pre><code>SDL 3
-  └── CNA  (XNA-like API)
-        └── Free Direct  (DirectX 3-like API)
-              └── Free Eggbert
+<p><strong>Free Direct</strong> is a C++ project that reimplements a narrow, game-driven subset of <a href="Technologies/Libraries/DirectX/index.html">DirectX</a> 3 (2D) using SDL 3 as an internal backend. The goal is not full DirectX compatibility, but a focused, minimal implementation sufficient to run <a href="Blupi/Games/Speedy_Blupi_(Windows)/index.html">Speedy Blupi (Epsitec)</a> on modern platforms without Windows.</p>
+<h2>Architecture</h2>
+<pre><code>DirectX 3 (subset)
+      ↓
+Free Direct
+      ↓
+SDL 3
+</code></pre>
+<h2>Implemented components</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DirectDraw</strong></td>
+<td>Implemented (narrow subset for Speedy Blupi)</td>
+</tr>
+<tr>
+<td><strong>DirectSound</strong></td>
+<td>Partially implemented (SDL 3 audio backend)</td>
+</tr>
+<tr>
+<td><strong>DirectPlay</strong></td>
+<td>Stubbed (dummy implementations)</td>
+</tr>
+<tr>
+<td><strong>Direct3D</strong></td>
+<td>Not implemented (not used by target game)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DirectDraw features:</strong>
+- Surface creation for primary and system-memory/offscreen surfaces
+- <code>Blt</code> / <code>BltFast</code> with clipping and source color key handling
+- <code>Lock</code> / <code>Unlock</code> for direct pixel access
+- Palette support (<code>CreatePalette</code>, <code>SetEntries</code>, <code>GetEntries</code>, <code>SetPalette</code>)
+- Primary surface presentation through SDL renderer
+- 8-bit rendering with palette conversion on present</p>
+<p><strong>DirectSound features:</strong>
+- SDL 3-backed audio playback for static PCM buffers
+- Supported formats: 8-bit unsigned and 16-bit signed LE, mono/stereo, 11025/22050/44100 Hz
+- <code>Play()</code>, <code>Stop()</code>, <code>GetStatus()</code>, <code>SetVolume()</code>, <code>SetPan()</code></p>
+<h2>Presentation model</h2>
+<ul>
+<li><code>Blt</code> / <code>BltFast</code> write to CPU pixel buffers and mark the primary surface dirty</li>
+<li><code>Flip</code> or Blt-to-primary triggers presentation: throttle check → dirty check → SDL_Texture upload → SDL_RenderPresent</li>
+<li>VSync is enabled by default via <code>SDL_SetRenderVSync</code></li>
+<li>Target FPS configurable via <code>FREE_DIRECT_TARGET_FPS=&lt;n&gt;</code></li>
+</ul>
+<h2>Debug options</h2>
+<table>
+<thead>
+<tr>
+<th>Environment variable</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>FREE_DIRECT_DEBUG_DDRAW=1</code></td>
+<td>Log DirectDraw calls</td>
+</tr>
+<tr>
+<td><code>FREE_DIRECT_DEBUG_DSOUND=1</code></td>
+<td>Log DirectSound calls</td>
+</tr>
+<tr>
+<td><code>FREE_DIRECT_DEBUG_COLORKEY=1</code></td>
+<td>Log color key diagnostics</td>
+</tr>
+<tr>
+<td><code>FREE_DIRECT_DEBUG_PERF=1</code></td>
+<td>Log performance counters (presents/s, blts/s)</td>
+</tr>
+</tbody>
+</table>
+<h2>Build</h2>
+<pre><code class="language-bash">cmake -B build
+cmake --build build
+./build/FREE_DIRECT
 </code></pre>
 </section>
 </main>

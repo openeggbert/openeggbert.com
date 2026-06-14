@@ -33,7 +33,75 @@ PAGE_CONFIG = {
 <th>Website</th>
 <td><a href="https://galaxyeggbert.openeggbert.com" target="_blank">https://galaxyeggbert.openeggbert.com</a></td>
 </tr>
+<tr>
+<th>Programming language</th>
+<td>C++</td>
+</tr>
+<tr>
+<th>Based on</th>
+<td><a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html">Speedy Blupi (Dada Games)</a></td>
+</tr>
+<tr>
+<th>Dependencies</th>
+<td><a href="Projects/CNA/index.html">CNA</a>, <a href="Projects/Nova3D/index.html">Nova3D</a></td>
+</tr>
+<tr>
+<th>Platforms</th>
+<td>Windows, Linux, Android, Web (Emscripten)</td>
+</tr>
+<tr>
+<th>Licence</th>
+<td>GPLv3 or later</td>
+</tr>
 </table>
+
+<p><strong>Galaxy Eggbert</strong> is the 3D remake of the game <a href="Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html">Speedy Blupi</a>. It is built using <a href="Projects/CNA/index.html">CNA</a> as the game framework and <a href="Projects/Nova3D/index.html">Nova3D</a> for 3D rendering.</p>
+<h2>Platforms</h2>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>Backend</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux</td>
+<td>SDL_Renderer or EasyGL</td>
+<td>Supported</td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>SDL_Renderer</td>
+<td>Supported</td>
+</tr>
+<tr>
+<td>Web (Emscripten)</td>
+<td>SDL_Renderer</td>
+<td>Experimental</td>
+</tr>
+<tr>
+<td>Android</td>
+<td>—</td>
+<td>Planned</td>
+</tr>
+</tbody>
+</table>
+<h2>Web build</h2>
+<p>The web build uses <code>emscripten_set_main_loop</code> (backed by <code>requestAnimationFrame</code>) instead of a busy loop. A fixed-timestep accumulator ensures gameplay speed is identical to Linux/Windows regardless of the browser's RAF cadence. Save data is stored in IndexedDB (IDBFS), persisted as <code>/save/.cna_isolated_storage/SpeedyBlupi</code>.</p>
+<h2>Build (Linux)</h2>
+<pre><code class="language-bash">cmake -S . -B build-linux \
+  -DCNA_BACKEND_SDL_RENDERER=OFF \
+  -DCNA_BACKEND_EASY_GL=ON
+cmake --build build-linux --target GalaxyEggbert
+</code></pre>
+<h2>Build (Web / Emscripten)</h2>
+<pre><code class="language-bash">source /path/to/emsdk/emsdk_env.sh
+emcmake cmake -S . -B cmake-build-web -DCMAKE_BUILD_TYPE=Debug
+cmake --build cmake-build-web -j
+emrun cmake-build-web/GalaxyEggbert.html
+</code></pre>
 </section>
 </main>
 

@@ -33,7 +33,90 @@ PAGE_CONFIG = {
 <th>Website</th>
 <td><a href="https://easygl.openeggbert.com" target="_blank">https://easygl.openeggbert.com</a></td>
 </tr>
+<tr>
+<th>Programming language</th>
+<td>C++</td>
+</tr>
+<tr>
+<th>C++ standard</th>
+<td>C++20</td>
+</tr>
+<tr>
+<th>Targets</th>
+<td>OpenGL, OpenGL ES</td>
+</tr>
+<tr>
+<th>Built on</th>
+<td><a href="Projects/MetaGL/index.html">MetaGL</a></td>
+</tr>
+<tr>
+<th>Used by</th>
+<td><a href="Projects/CNA/index.html">CNA</a> (EasyGL backend)</td>
+</tr>
 </table>
+
+<p><strong>EasyGL</strong> is a toolkit-independent C++20 wrapper over OpenGL and OpenGL ES. It provides a small, modern API for common rendering tasks while keeping platform integration in the host application.</p>
+<p>The host application owns window creation, GL context creation/activation, event processing, and swap/present. EasyGL does not create windows or contexts — it only wraps OpenGL calls.</p>
+<h2>Architecture</h2>
+<pre><code>Host application (SDL, GLFW, Qt, ...)
+      └── provides GL context + GetProcAddress callback
+              └── EasyGL  (OOP wrapper, namespace easygl)
+                      └── MetaGL  (function pointers + type-safe API, namespace metagl)
+                              └── actual OpenGL driver
+</code></pre>
+<h2>Public API overview</h2>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>easygl::Device</code></td>
+<td>Initialization, state, draw commands</td>
+</tr>
+<tr>
+<td><code>easygl::Capabilities</code> / <code>easygl::ContextInfo</code></td>
+<td>Runtime capability/context inspection</td>
+</tr>
+<tr>
+<td><code>easygl::Shader</code>, <code>easygl::Program</code></td>
+<td>Shader compile/link/use</td>
+</tr>
+<tr>
+<td><code>easygl::Buffer</code>, <code>easygl::VertexArray</code></td>
+<td>GPU vertex resources</td>
+</tr>
+<tr>
+<td><code>easygl::Texture</code></td>
+<td>GPU texture resources</td>
+</tr>
+<tr>
+<td><code>easygl::Feature</code></td>
+<td>Explicit feature queries and gating</td>
+</tr>
+</tbody>
+</table>
+<h2>Quick start</h2>
+<pre><code class="language-cpp">#include &lt;easygl/easygl.hpp&gt;
+
+// After host creates and activates a GL context:
+easygl::Device device;
+device.initialize(my_get_proc_address);
+
+// Check feature support at runtime:
+if (device.supports(easygl::Feature::PolygonMode)) { ... }
+</code></pre>
+<h2>Build</h2>
+<pre><code class="language-bash">cmake -S . -B build \
+  -DEASYGL_BUILD_TESTS=ON \
+  -DEASYGL_BUILD_EXAMPLES=ON
+cmake --build build
+</code></pre>
+<h2>Notes</h2>
+<p>OpenGL/OpenGL ES differences are handled through capability checks. Some features are OpenGL-only (e.g. polygon mode); query support at runtime via <code>device.supports(...)</code>. No windowing toolkit lock-in — SDL, GLFW, Qt etc. stay in host code.</p>
 </section>
 </main>
 
