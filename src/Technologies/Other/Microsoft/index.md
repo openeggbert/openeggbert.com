@@ -24,7 +24,7 @@ Microsoft was founded in [1975](Article_does_not_yet_exist_or_link_is_broken/ind
 
 ## Relation to Speedy Blupi
 
-Speedy Blupi released in [1998](Article_does_not_yet_exist_or_link_is_broken/index.html) uses [DirectX](Technologies/Libraries/DirectX/index.html) and [Windows API](Article_does_not_yet_exist_or_link_is_broken/index.html). These two technologies are Windows-only related. <br> Speedy Blupi released in [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) runs on the [Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html) platforms and uses the [XNA](Article_does_not_yet_exist_or_link_is_broken/index.html) framework.
+Speedy Blupi released in [1998](Article_does_not_yet_exist_or_link_is_broken/index.html) uses [DirectX](Technologies/Libraries/DirectX/index.html) and [Windows API](Technologies/Libraries/Windows_API/index.html). These two technologies are Windows-only related. <br> Speedy Blupi released in [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) runs on the [Windows Phone](Technologies/Platforms/Windows_Phone/index.html) platforms and uses the [XNA](Technologies/Libraries/XNA/index.html) framework.
 
 ## Micro$oft
 

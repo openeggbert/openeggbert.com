@@ -14,7 +14,7 @@ subpages:
   href: Technologies/Programming_languages/Assembly_Language/I586/index.html
 ---
 
-Processor using the [i586](Article_does_not_yet_exist_or_link_is_broken/index.html) microprocessor launched on 22th March 1993 and discontinued on 15th July 1999.
+Processor using the [i586](Technologies/Programming_languages/Assembly_Language/I586/index.html) microprocessor launched on 22th March 1993 and discontinued on 15th July 1999.
 
 ## Comparison of Pentium 100 (i586) and Core i7 (2024)
 

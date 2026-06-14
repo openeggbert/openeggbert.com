@@ -20,7 +20,7 @@ This article is devoted to collect content about the C++ programming language.
 
 - The goal is to describe all aspects of C++ in a simple form.
 
-C++ is [programming language](Article_does_not_yet_exist_or_link_is_broken/index.html) created in [1985](Article_does_not_yet_exist_or_link_is_broken/index.html) by [Bjarne Stroustrup](Article_does_not_yet_exist_or_link_is_broken/index.html).
+C++ is [programming language](Technologies/Programming_languages/index.html) created in [1985](Article_does_not_yet_exist_or_link_is_broken/index.html) by [Bjarne Stroustrup](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
 C++ is based on the C programming language. OOP in C++ was inspired by the Simula67 programming language. Almost all C programs are valid C++ programs.
 

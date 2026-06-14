@@ -12,15 +12,15 @@ subpages:
   href: Blupi/Fan_projects/index.html
 ---
 
-**BlupiEdit** is a level editor for the [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html)/[Speedy Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html) series of computer [games](Article_does_not_yet_exist_or_link_is_broken/index.html).
+**BlupiEdit** is a level editor for the [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html)/[Speedy Eggbert](Blupi/Games/Speedy_Eggbert/index.html) series of computer [games](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
 It was developed in 2014. Since 2014 there is no development activity on this application.
 
 No fork of this application exists on Github.
 
-Used programming language is [C#](Article_does_not_yet_exist_or_link_is_broken/index.html).
+Used programming language is [C#](Technologies/Programming_languages/C_Sharp/index.html).
 
-There was a successful attempt to compile and run it on [Windows](Technologies/Platforms/Windows/index.html) (on 7th July 2024), but after an [EXE](Article_does_not_yet_exist_or_link_is_broken/index.html) file was opened, it froze.
+There was a successful attempt to compile and run it on [Windows](Technologies/Platforms/Windows/index.html) (on 7th July 2024), but after an [EXE](Technologies/Platforms/Windows/EXE/index.html) file was opened, it froze.
 
 <ul> <li> This issue needs some investigation to find a fix.</li> </ul>
 

@@ -36,16 +36,16 @@ Welcome to our comprehensive list of games featuring Blupi, also known as Speedy
 - **[Blupi Explorer](Article_does_not_yet_exist_or_link_is_broken/index.html) (1993)** - Exploration game with educational elements.
 - **[Blupimania](Article_does_not_yet_exist_or_link_is_broken/index.html) (1994)** - A challenging puzzle game.
 - **[Planet Blupi](Blupi/Games/Planet_Blupi/index.html) (1997)** - Real-Time Strategy game set on a fictional planet.
-- **[Speedy Blupi I](Article_does_not_yet_exist_or_link_is_broken/index.html) (1998)** - A popular platformer game.
-- **[Speedy Eggbert 1](Article_does_not_yet_exist_or_link_is_broken/index.html)** - The first entry in the Speedy Eggbert series.
-- **[Speedy Blupi II](Article_does_not_yet_exist_or_link_is_broken/index.html) (2001)** - Sequel to Speedy Blupi I.
+- **[Speedy Blupi I](Blupi/Games/Speedy_Blupi_(Windows)/index.html) (1998)** - A popular platformer game.
+- **[Speedy Eggbert 1](Blupi/Games/Speedy_Eggbert/index.html)** - The first entry in the Speedy Eggbert series.
+- **[Speedy Blupi II](Blupi/Games/Speedy_Blupi_(Windows)/index.html) (2001)** - Sequel to Speedy Blupi I.
 - **[Speedy Eggbert 2](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Follow-up to Speedy Eggbert 1.
 - **[CoLoBot](Article_does_not_yet_exist_or_link_is_broken/index.html) (2001)** - Educational game teaching programming basics.
 - **[Ceebot](Article_does_not_yet_exist_or_link_is_broken/index.html) (2002)** - Programming-focused game.
 - **[Buzzing Cars](Article_does_not_yet_exist_or_link_is_broken/index.html) (2002)** - Racing and driving game.
 - **[Blupimania II](Article_does_not_yet_exist_or_link_is_broken/index.html) (2003)** - Second installment in the Blupimania puzzle series.
-- **[Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html) (2013)** - Mobile adaptation of Speedy Blupi.
-- **[Blupi is Back](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Latest project reviving the Blupi character.
+- **[Speedy Blupi for Windows Phone](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html) (2013)** - Mobile adaptation of Speedy Blupi.
+- **[Blupi is Back](Blupi/Games/Blupi_is_Back/index.html)** - Latest project reviving the Blupi character.
 
 ## Speedy Blupi games
 

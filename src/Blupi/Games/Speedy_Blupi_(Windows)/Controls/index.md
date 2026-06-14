@@ -178,7 +178,7 @@ Speedy Blupi/Eggbert I/II/1/2 supports these types of controls: [keyboard](Artic
 | Select menu button | Left Click |
 | Set [game speed](Article_does_not_yet_exist_or_link_is_broken/index.html) to 1x | F5 |
 | Set [game speed](Article_does_not_yet_exist_or_link_is_broken/index.html) to 2x | F6<br> F7<br> F8 |
-| Input [cheats](Article_does_not_yet_exist_or_link_is_broken/index.html) | A–Z |
+| Input [cheats](Blupi/Games/Speedy_Blupi_(Windows)/Hacks/Cheats/index.html) | A–Z |
 
 ## Open Eggbert additionally adds these changes
 

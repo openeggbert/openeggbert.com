@@ -38,7 +38,7 @@ subpages:
 </tr>
 </table>
 
-Mathieu Schroeter is an employee of the [Epsitec](Blupi/Epsitec/index.html) company, who is mainly responsible for releasing [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html) I/II as freeware in 2017. <br> Additionaly thanks to Mathieu some other [Blupi](Blupi/index.html) games were released as freeware or even the source code was released. <br> Mathieu also released the original [C++](Technologies/Programming_languages/C++/index.html) source code of [Planet Blupi](Blupi/Games/Planet_Blupi/index.html). Additionally, he ported Planet Blupi to modern platforms using the [SDL](Article_does_not_yet_exist_or_link_is_broken/index.html) 2 game library.
+Mathieu Schroeter is an employee of the [Epsitec](Blupi/Epsitec/index.html) company, who is mainly responsible for releasing [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html) I/II as freeware in 2017. <br> Additionaly thanks to Mathieu some other [Blupi](Blupi/index.html) games were released as freeware or even the source code was released. <br> Mathieu also released the original [C++](Technologies/Programming_languages/C++/index.html) source code of [Planet Blupi](Blupi/Games/Planet_Blupi/index.html). Additionally, he ported Planet Blupi to modern platforms using the [SDL](Technologies/Libraries/SDL/index.html) 2 game library.
 
 ## Releasing source code of Planet Blupi in 2017
 

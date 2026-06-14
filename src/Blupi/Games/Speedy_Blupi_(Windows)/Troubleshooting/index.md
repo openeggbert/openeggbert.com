@@ -24,7 +24,7 @@ Solution: Install [DirectPlay](Article_does_not_yet_exist_or_link_is_broken/inde
 
 ### Blue boxes shown, if launched in windowed mode on Windows operating system
 
-Right-click the game's [EXE](Article_does_not_yet_exist_or_link_is_broken/index.html) file and select "Properties". Go to the Compatibility tab, check "Reduced color mode", and select "16-bit (65536) color".
+Right-click the game's [EXE](Technologies/Platforms/Windows/EXE/index.html) file and select "Properties". Go to the Compatibility tab, check "Reduced color mode", and select "16-bit (65536) color".
 
 ### DxWnd
 
@@ -38,7 +38,7 @@ Right-click the game's [EXE](Article_does_not_yet_exist_or_link_is_broken/index.
 
 ### How to run on Linux
 
-Use Wine: [https://www.winehq.org/](https://www.winehq.org/) <br> There are some issues, when you run the Windows version of Speedy Blupi/Eggbert on [Linux](Technologies/Platforms/Linux/index.html) via [Wine](Article_does_not_yet_exist_or_link_is_broken/index.html).
+Use Wine: [https://www.winehq.org/](https://www.winehq.org/) <br> There are some issues, when you run the Windows version of Speedy Blupi/Eggbert on [Linux](Technologies/Platforms/Linux/index.html) via [Wine](Technologies/Other/Wine/index.html).
 
 ### How to run on Linux
 
@@ -101,7 +101,7 @@ Not yet tested: https://github.com/ryanfortner/exagear-rpi <br> Not yet tested: 
 
 ### How to run on ReactOS
 
-[ReactOS](Article_does_not_yet_exist_or_link_is_broken/index.html) is a [free](Article_does_not_yet_exist_or_link_is_broken/index.html) and [open-source](Article_does_not_yet_exist_or_link_is_broken/index.html) operating system for [i586](Article_does_not_yet_exist_or_link_is_broken/index.html)/[amd64](Article_does_not_yet_exist_or_link_is_broken/index.html) personal computers intended to be binary-compatible with computer programs and device drivers developed for Windows Server 2003 and later versions of [Microsoft](Article_does_not_yet_exist_or_link_is_broken/index.html) [Windows](Technologies/Platforms/Windows/index.html).<a class="ref" href="https://reactos.org/">https://reactos.org/</a> <br> Speedy Blupi/Eggbert runs on React OS in "Limbo PC Emulator" on Android **without issues** <br> Speedy Blupi/Eggbert runs on React OS in [VirtualBox](Article_does_not_yet_exist_or_link_is_broken/index.html) **with issues:** Blupi/Eggbert is moving left or right even in case, no key is pressed, until the top arrow key is pressed. But gameplay is possible, if you consider this issue.
+[ReactOS](Article_does_not_yet_exist_or_link_is_broken/index.html) is a [free](Article_does_not_yet_exist_or_link_is_broken/index.html) and [open-source](Article_does_not_yet_exist_or_link_is_broken/index.html) operating system for [i586](Technologies/Programming_languages/Assembly_Language/I586/index.html)/[amd64](Article_does_not_yet_exist_or_link_is_broken/index.html) personal computers intended to be binary-compatible with computer programs and device drivers developed for Windows Server 2003 and later versions of [Microsoft](Technologies/Other/Microsoft/index.html) [Windows](Technologies/Platforms/Windows/index.html).<a class="ref" href="https://reactos.org/">https://reactos.org/</a> <br> Speedy Blupi/Eggbert runs on React OS in "Limbo PC Emulator" on Android **without issues** <br> Speedy Blupi/Eggbert runs on React OS in [VirtualBox](Article_does_not_yet_exist_or_link_is_broken/index.html) **with issues:** Blupi/Eggbert is moving left or right even in case, no key is pressed, until the top arrow key is pressed. But gameplay is possible, if you consider this issue.
 
 ### How to run in browser
 

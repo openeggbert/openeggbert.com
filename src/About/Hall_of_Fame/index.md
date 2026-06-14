@@ -36,24 +36,24 @@ HPP = High Priority Project - project of great importance, intended for the futu
 | [Qemu](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Application, which provides the possibility to run Windows 95 or React OS or other operating systems on desktop (Windows, Linux) and then run the original Speedy Blupi/Eggbert games |
 | [Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  | Yes | C++ decompiler |
 | [IDA](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  | Yes | C++ decompiler |
-| [Wine](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Provides the ability to run Speedy Blupi/Eggbert (Windows) on the Linux operating system |
+| [Wine](Technologies/Other/Wine/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Provides the ability to run Speedy Blupi/Eggbert (Windows) on the Linux operating system |
 | [fluidsynth](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Linux program providing the support to play MIDI files |
 | [Ray Dream Studio](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | 3D software used to create some graphics for Speedy Blupi games |
-| [x86 Assembly language](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | x86 Assembly language |
+| [x86 Assembly language](Technologies/Programming_languages/Assembly_Language/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | x86 Assembly language |
 
 ## Speedy Blupi (Dada Games)
 
 | Item | Stars (0-3) | HPP | TTL | Description |
 | --- | --- | --- | --- | --- |
-| [XNA](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes |  |
+| [XNA](Technologies/Libraries/XNA/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes |  |
 
 ## Common
 
 | Item | Stars (0-3) | HPP | TTL | Description |
 | --- | --- | --- | --- | --- |
 | [Speedy-Eggbert-2-Source-Code-Decomp](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Attempt to decompile Speedy Eggbert 2 <nowiki>https://github.com/HMVocaloid/Speedy-Eggbert-2-Source-Code-Decomp</nowiki> |
-| [SDL](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | SDL may be used for the C++ implementation of Open Eggbert |
-| [Emscripten](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  | Yes | Compiles C++ to JavaScript |
+| [SDL](Technologies/Libraries/SDL/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | SDL may be used for the C++ implementation of Open Eggbert |
+| [Emscripten](Technologies/Other/Emscripten/index.html) |  |  | Yes | Compiles C++ to JavaScript |
 
 ## Open Eggbert Cpp
 
@@ -63,11 +63,11 @@ HPP = High Priority Project - project of great importance, intended for the futu
 | Free Api | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes |  |  |
 | ~~[OpenGL](Article_does_not_yet_exist_or_link_is_broken/index.html)~~ | ~~<img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20">~~ | ~~Yes~~ | ~~Yes~~ | ~~OpenGL is used by the LibGDX game framework~~ |
 | [Vulkan](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes | Yes | Vulkan may be an alternative backend for Open Eggbert game engine |
-| [Blender](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes | Yes | 3D graphics software tool |
+| [Blender](Technologies/Applications/Blender/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes | Yes | 3D graphics software tool |
 | ~~[SVG](Article_does_not_yet_exist_or_link_is_broken/index.html)~~ | ~~<img src="About/Hall_of_Fame/star.jpg" alt="" width="20">~~ |  |  | ~~Vector format used to create new graphics for Open Eggbert~~ |
 | [WebGL](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes | Yes | Based on OpenGL, but in browser |
 | [WebGPU](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes | Yes | Based mostly on Vulkan, but in browser |
-| [Canvas](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | Canvas is a container, which is used to draw 2D shapes and images ([HTML](Article_does_not_yet_exist_or_link_is_broken/index.html), [JavaFX](Article_does_not_yet_exist_or_link_is_broken/index.html), [Java2D](Article_does_not_yet_exist_or_link_is_broken/index.html), [Android](Article_does_not_yet_exist_or_link_is_broken/index.html)) |
+| [Canvas](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | Canvas is a container, which is used to draw 2D shapes and images ([HTML](Article_does_not_yet_exist_or_link_is_broken/index.html), [JavaFX](Article_does_not_yet_exist_or_link_is_broken/index.html), [Java2D](Article_does_not_yet_exist_or_link_is_broken/index.html), [Android](Technologies/Platforms/Android/index.html)) |
 | [Design patterns](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | Design Patterns |
 | [UML](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes | UML |
 
@@ -75,12 +75,12 @@ HPP = High Priority Project - project of great importance, intended for the futu
 
 | Item | Stars (0-3) | HPP | TTL | Description |
 | --- | --- | --- | --- | --- |
-| [Mobile Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | decompiled version of Speedy Blupi (Dada Games) |
+| [Mobile Eggbert](Projects/Mobile_Eggbert/index.html) |  |  |  | decompiled version of Speedy Blupi (Dada Games) |
 | [MonoGame](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  |  |
 | [FNA](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  |  |
 | [KNI](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  |  |
 | [Blazor](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  |  |
-| [C Sharp](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes |  |
+| [C Sharp](Technologies/Programming_languages/C_Sharp/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  | Yes |  |
 | [ILSpy](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  | Yes |  |
 | CNA | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes |  |  |
 
@@ -92,11 +92,11 @@ HPP = High Priority Project - project of great importance, intended for the futu
 | [BMP](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Speedy Blupi graphic assets use the BMP format |
 | [MIDI](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Speedy Blupi music assets use the MIDI format |
 | [WAV](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Speedy Blupi WAV assets use the WAV format |
-| [Android](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes |  | Operating system, where both the original and reimplementation can be launched |
-| [BlupiEdit](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Speedy Blupi/Eggbert level editor |
-| [tiled-blupi](Article_does_not_yet_exist_or_link_is_broken/index.html) |  |  |  | Speedy Blupi/Eggbert level editor |
-| [X-Edit](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Speedy Blupi/Eggbert level editor |
-| [X-Edit-Mapper](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Exports levels to PNG files |
+| [Android](Technologies/Platforms/Android/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> | Yes |  | Operating system, where both the original and reimplementation can be launched |
+| [BlupiEdit](Blupi/Fan_projects/BlupiEdit/index.html) |  |  |  | Speedy Blupi/Eggbert level editor |
+| [tiled-blupi](Blupi/Fan_projects/Tiled-blupi/index.html) |  |  |  | Speedy Blupi/Eggbert level editor |
+| [X-Edit](Blupi/Fan_projects/X-Edit/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Speedy Blupi/Eggbert level editor |
+| [X-Edit-Mapper](Blupi/Fan_projects/X-Edit-Mapper/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Exports levels to PNG files |
 | [Blupi](Blupi/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Character created by Daniel Roux in 1974 |
 | [MediaWiki](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | Software, which openeggbert runs on |
 | [ChatGPT](Article_does_not_yet_exist_or_link_is_broken/index.html) | <img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"><img src="About/Hall_of_Fame/star.jpg" alt="" width="20"> |  |  | A great helper enabling you to reach your goal faster and better |

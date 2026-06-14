@@ -18,15 +18,15 @@ subpages:
 
 ## Daniel Roux
 
-[Daniel Roux](Blupi/Community/Daniel_Roux/index.html) is the author (developer) of: Speedy Blupi I, Speedy Blupi II, [Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html) (2013)
+[Daniel Roux](Blupi/Community/Daniel_Roux/index.html) is the author (developer) of: Speedy Blupi I, Speedy Blupi II, [Speedy Blupi for Windows Phone](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html) (2013)
 
 ## Mathieu Schroeter
 
-See [Mathieu Schroeter](Article_does_not_yet_exist_or_link_is_broken/index.html)
+See [Mathieu Schroeter](Blupi/Community/Mathieu_Schroeter/index.html)
 
 ## Messerschmitt262a2a
 
-Author of [X-Edit](Article_does_not_yet_exist_or_link_is_broken/index.html) and [X-Edit-Mapper](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> Author of several hundreds of Speedy Eggbert videos on Youtube channel Messerschmitt262a2a
+Author of [X-Edit](Blupi/Fan_projects/X-Edit/index.html) and [X-Edit-Mapper](Blupi/Fan_projects/X-Edit-Mapper/index.html). <br> Author of several hundreds of Speedy Eggbert videos on Youtube channel Messerschmitt262a2a
 
 - Several these videos are very important.
 
@@ -48,16 +48,16 @@ Examples of contributions:
 
 Author of Speedy-Eggbert-2-Source-Code-Decomp.
 
-- Speedy-Eggbert-2-Source-Code-Decomp is an attempt to decompile [Speedy Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html) 2 source code using Planet Blupi [C++](Article_does_not_yet_exist_or_link_is_broken/index.html) source code.
+- Speedy-Eggbert-2-Source-Code-Decomp is an attempt to decompile [Speedy Eggbert](Blupi/Games/Speedy_Eggbert/index.html) 2 source code using Planet Blupi [C++](Technologies/Programming_languages/C++/index.html) source code.
 - Jummy is also involved in this decompilation
 
 ## MainMemory
 
-Author of [BlupiEdit](Article_does_not_yet_exist_or_link_is_broken/index.html) and [tiled-blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)
+Author of [BlupiEdit](Blupi/Fan_projects/BlupiEdit/index.html) and [tiled-blupi](Blupi/Fan_projects/Tiled-blupi/index.html)
 
 ## ALBatross
 
-Author of [Eggbert 3](Article_does_not_yet_exist_or_link_is_broken/index.html)
+Author of [Eggbert 3](Blupi/Fan_projects/Eggbert_3/index.html)
 
 ## Somari Taken
 
@@ -65,7 +65,7 @@ Author of many SE2 mods.
 
 ## Robert Slayer
 
-Author of the [EggBeater](Article_does_not_yet_exist_or_link_is_broken/index.html) application
+Author of the [EggBeater](Blupi/Fan_projects/EggBeater/index.html) application
 
 ## Robert Vokac
 

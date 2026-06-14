@@ -123,7 +123,7 @@ tags:
 
 ## Introduction
 
-Speedy Blupi is a 2D [platformer](Article_does_not_yet_exist_or_link_is_broken/index.html) [game](Article_does_not_yet_exist_or_link_is_broken/index.html) originally developed by Swiss company [Epsitec](Blupi/Epsitec/index.html) for the [Windows](Technologies/Platforms/Windows/index.html) PC platform. <br> Speedy Blupi was initially released as an independent title on 13th September [1998](Article_does_not_yet_exist_or_link_is_broken/index.html). It is part of the [Blupi](Blupi/index.html) series (games) and serves as the successor to the [Planet Blupi](Blupi/Games/Planet_Blupi/index.html) game <br> In 2001 Epsitec released Speedy Blupi II, which is the sequel of Speedy Blupi I. <br> Speedy Blupi was later republished as Speedy Eggbert by [eGames](Article_does_not_yet_exist_or_link_is_broken/index.html) (mostly in the US.). Speedy Eggbert was included in the CD-ROM package Arcade Classics alongside other eGames titles. <br> Speedy Blupi is known as Speedy Eggbert in North America. <br> The [player](Article_does_not_yet_exist_or_link_is_broken/index.html) controls a character named [Blupi](Blupi/index.html) ''([Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html) in the eGames release)'' <br> i I/II is [closed source](Article_does_not_yet_exist_or_link_is_broken/index.html). There is still a small possibility, that the [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) of Speedy Blupi will be released one day. <a class="ref" href="https://github.com/colobot/colobot/issues/896">https://github.com/colobot/colobot/issues/896</a><a class="ref" href="https://blupi.org/letter.html">https://blupi.org/letter.html</a>
+Speedy Blupi is a 2D [platformer](Article_does_not_yet_exist_or_link_is_broken/index.html) [game](Article_does_not_yet_exist_or_link_is_broken/index.html) originally developed by Swiss company [Epsitec](Blupi/Epsitec/index.html) for the [Windows](Technologies/Platforms/Windows/index.html) PC platform. <br> Speedy Blupi was initially released as an independent title on 13th September [1998](Article_does_not_yet_exist_or_link_is_broken/index.html). It is part of the [Blupi](Blupi/index.html) series (games) and serves as the successor to the [Planet Blupi](Blupi/Games/Planet_Blupi/index.html) game <br> In 2001 Epsitec released Speedy Blupi II, which is the sequel of Speedy Blupi I. <br> Speedy Blupi was later republished as Speedy Eggbert by [eGames](Article_does_not_yet_exist_or_link_is_broken/index.html) (mostly in the US.). Speedy Eggbert was included in the CD-ROM package Arcade Classics alongside other eGames titles. <br> Speedy Blupi is known as Speedy Eggbert in North America. <br> The [player](Article_does_not_yet_exist_or_link_is_broken/index.html) controls a character named [Blupi](Blupi/index.html) ''([Eggbert](Blupi/Games/Speedy_Eggbert/index.html) in the eGames release)'' <br> i I/II is [closed source](Article_does_not_yet_exist_or_link_is_broken/index.html). There is still a small possibility, that the [source code](Article_does_not_yet_exist_or_link_is_broken/index.html) of Speedy Blupi will be released one day. <a class="ref" href="https://github.com/colobot/colobot/issues/896">https://github.com/colobot/colobot/issues/896</a><a class="ref" href="https://blupi.org/letter.html">https://blupi.org/letter.html</a>
 
 ## Releasing as Freeware in 2017
 
@@ -135,7 +135,7 @@ To play non-demo versions legally before 2017 it was needed to buy Speedy Blupi 
 
 ## Decompilation started in 2024
 
-[Decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html) started in [2024](Article_does_not_yet_exist_or_link_is_broken/index.html) by two programmers: [HMVocaloid](Blupi/Community/index.html#HMVocaloid) and [jummy](Blupi/Community/index.html#jummy)
+[Decompilation](Technologies/Other/Reverse_engineering/index.html) started in [2024](Article_does_not_yet_exist_or_link_is_broken/index.html) by two programmers: [HMVocaloid](Blupi/Community/index.html#HMVocaloid) and [jummy](Blupi/Community/index.html#jummy)
 
 ## Open Eggbert
 
@@ -194,7 +194,7 @@ Controls: Players start in a practice level to learn basic controls and can disc
 
 ## Relation to Windows desktop operating system
 
-Windows 98 was released on the 25th June 1998.<a class="ref" href="https://archive.org/details/windows_95_vdi">https://archive.org/details/windows_95_vdi</a> <br> Windows 95 was released on the 24th April 1995. <br> Speedy Blupi I was released on the 13th September 1998. <br> When Speedy Blupi I was released, it was possible to run in on Windows 95 or Windows 98. <br> Windows 95 is probably the operating system with the least required resources ([RAM](Article_does_not_yet_exist_or_link_is_broken/index.html) and [CPU](Article_does_not_yet_exist_or_link_is_broken/index.html)), where it is possible to run Speedy Blupi (Windows).
+Windows 98 was released on the 25th June 1998.<a class="ref" href="https://archive.org/details/windows_95_vdi">https://archive.org/details/windows_95_vdi</a> <br> Windows 95 was released on the 24th April 1995. <br> Speedy Blupi I was released on the 13th September 1998. <br> When Speedy Blupi I was released, it was possible to run in on Windows 95 or Windows 98. <br> Windows 95 is probably the operating system with the least required resources ([RAM](Technologies/Other/RAM/index.html) and [CPU](Article_does_not_yet_exist_or_link_is_broken/index.html)), where it is possible to run Speedy Blupi (Windows).
 
 ## Minimum system requirements
 
@@ -358,11 +358,11 @@ By following these steps, you create a basic jumping mechanic where the player c
 
 ## Common
 
-**[Speedy Blupi (Epsitec)](Article_does_not_yet_exist_or_link_is_broken/index.html):** In [1998](Article_does_not_yet_exist_or_link_is_broken/index.html) the [Epsitec](Blupi/Epsitec/index.html) company released the game [Speedy Blupi (Epsitec)](Article_does_not_yet_exist_or_link_is_broken/index.html) for the Windows platform.
+**[Speedy Blupi (Epsitec)](Blupi/Games/Speedy_Blupi_(Windows)/index.html):** In [1998](Article_does_not_yet_exist_or_link_is_broken/index.html) the [Epsitec](Blupi/Epsitec/index.html) company released the game [Speedy Blupi (Epsitec)](Blupi/Games/Speedy_Blupi_(Windows)/index.html) for the Windows platform.
 
 - In [2001](Article_does_not_yet_exist_or_link_is_broken/index.html) Epsitec released Speedy Blupi II, the [sequel](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
-**[Speedy Blupi (Dada Games)](Article_does_not_yet_exist_or_link_is_broken/index.html):** In [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) [Daniel Roux](Article_does_not_yet_exist_or_link_is_broken/index.html), employee of the Epsitec company, released [Speedy Blupi (Dada Games)](Article_does_not_yet_exist_or_link_is_broken/index.html) for the Windows Phone platform. It was released as a product of a [Dada Games](Article_does_not_yet_exist_or_link_is_broken/index.html) game studio.
+**[Speedy Blupi (Dada Games)](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html):** In [2013](Article_does_not_yet_exist_or_link_is_broken/index.html) [Daniel Roux](Blupi/Community/Daniel_Roux/index.html), employee of the Epsitec company, released [Speedy Blupi (Dada Games)](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html) for the Windows Phone platform. It was released as a product of a [Dada Games](Blupi/Games/Speedy_Blupi_(Windows_Phone)/Dada_Games/index.html) game studio.
 
 ### Description
 

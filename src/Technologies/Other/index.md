@@ -106,7 +106,7 @@ Software is set of [computer programs](Article_does_not_yet_exist_or_link_is_bro
 
 ### Source code
 
-Source code is a plaint text computer program written in a [programming language](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> A [programmer](Article_does_not_yet_exist_or_link_is_broken/index.html) writes the human readable source code, which describes the behaviour of the given program. <br> Computer only understands machine code, which are ones and zeroes, which means, to execute the program, its source code must be translated to the machine code (ones and zeroes). Or the source code is interpreted via an interpreter, in this case, the source code is loaded into the memory and translated to the machine code, while the program is running (executed).
+Source code is a plaint text computer program written in a [programming language](Technologies/Programming_languages/index.html). <br> A [programmer](Article_does_not_yet_exist_or_link_is_broken/index.html) writes the human readable source code, which describes the behaviour of the given program. <br> Computer only understands machine code, which are ones and zeroes, which means, to execute the program, its source code must be translated to the machine code (ones and zeroes). Or the source code is interpreted via an interpreter, in this case, the source code is loaded into the memory and translated to the machine code, while the program is running (executed).
 
 ### Unix
 

@@ -22,11 +22,11 @@ subpages:
 
 ### Desktop
 
-Desktop is the platform for computing. <br> Examples of the Desktop platforms are: [Windows](Technologies/Platforms/Windows/index.html), [Linux](Technologies/Platforms/Linux/index.html), [MacOS](Article_does_not_yet_exist_or_link_is_broken/index.html).
+Desktop is the platform for computing. <br> Examples of the Desktop platforms are: [Windows](Technologies/Platforms/Windows/index.html), [Linux](Technologies/Platforms/Linux/index.html), [MacOS](Technologies/Platforms/MacOS/index.html).
 
 ### Mobile platform
 
-Examples of the Mobile platform are: [Android](Article_does_not_yet_exist_or_link_is_broken/index.html), [iOS](Article_does_not_yet_exist_or_link_is_broken/index.html), [Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> Hardware types of mobile platform: [smart phone](Article_does_not_yet_exist_or_link_is_broken/index.html), [tablet](Article_does_not_yet_exist_or_link_is_broken/index.html)
+Examples of the Mobile platform are: [Android](Technologies/Platforms/Android/index.html), [iOS](Article_does_not_yet_exist_or_link_is_broken/index.html), [Windows Phone](Technologies/Platforms/Windows_Phone/index.html). <br> Hardware types of mobile platform: [smart phone](Article_does_not_yet_exist_or_link_is_broken/index.html), [tablet](Article_does_not_yet_exist_or_link_is_broken/index.html)
 
 #### Smart phone
 

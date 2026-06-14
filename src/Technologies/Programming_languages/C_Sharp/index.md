@@ -94,7 +94,7 @@ The **.NET Compact Framework 4.0** is a streamlined version of the full .NET Fra
 
 ### Blazor
 
-Blazor is [open source](Article_does_not_yet_exist_or_link_is_broken/index.html) web framework, which can compiles [C#](Article_does_not_yet_exist_or_link_is_broken/index.html) to [WASM](Article_does_not_yet_exist_or_link_is_broken/index.html) and then it can run in a [web browser](Article_does_not_yet_exist_or_link_is_broken/index.html).
+Blazor is [open source](Article_does_not_yet_exist_or_link_is_broken/index.html) web framework, which can compiles [C#](Technologies/Programming_languages/C_Sharp/index.html) to [WASM](Technologies/Other/WebAssembly/index.html) and then it can run in a [web browser](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
 #### External links
 

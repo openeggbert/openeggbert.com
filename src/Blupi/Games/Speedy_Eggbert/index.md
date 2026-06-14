@@ -18,7 +18,7 @@ tags:
 
 Speedy Eggbert is the renamed (rebranded) version of [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html) released by [eGames](Article_does_not_yet_exist_or_link_is_broken/index.html) company.
 
-- The text [Blupi](Blupi/index.html) was replaced by [Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html), although somewhere the text Blupi still exists.
+- The text [Blupi](Blupi/index.html) was replaced by [Eggbert](Blupi/Games/Speedy_Eggbert/index.html), although somewhere the text Blupi still exists.
 
 There are almost no differences between Speedy Blupi and Speedy Eggbert. <br> **See:** [Comparison of Speedy Blupi (Windows) and Speedy Eggbert (Windows)](Article_does_not_yet_exist_or_link_is_broken/index.html)
 
@@ -41,6 +41,6 @@ Speedy Eggbert was reviewed in the PC Gamer magazine and scored 4% <a class="ref
 
 ## Spyware
 
-CD-ROM discs by eGames contain spyware named "timesink". <a class="ref" href="https://web.archive.org/web/20151130214547/https://spywaresignatures.com/details/?spyware=timesink">https://web.archive.org/web/20151130214547/https://spywaresignatures.com/details/?spyware=timesink</a><a class="ref" href="https://www.computerworld.com/article/1366428/egames-settles-with-michigan-to-remove-ad-software.html">https://www.computerworld.com/article/1366428/egames-settles-with-michigan-to-remove-ad-software.html</a><a class="ref" href="https://en.wikipedia.org/wiki/EGames_(video_game_developer)#Bundled_adware">https://en.wikipedia.org/wiki/EGames_(video_game_developer)#Bundled_adware</a> <br> "timesink" should not be harmful, especially on a modern pc, but can be annoying (maybe the high usage [CPU](Article_does_not_yet_exist_or_link_is_broken/index.html) and [RAM](Article_does_not_yet_exist_or_link_is_broken/index.html)). <br> Spyware may be trying to contact a server, which now no more exists. <br> The goal of this spyware is to deliver advertisements on the infected computer. <br> "timesink" creates some files on the computer, where it is installed.
+CD-ROM discs by eGames contain spyware named "timesink". <a class="ref" href="https://web.archive.org/web/20151130214547/https://spywaresignatures.com/details/?spyware=timesink">https://web.archive.org/web/20151130214547/https://spywaresignatures.com/details/?spyware=timesink</a><a class="ref" href="https://www.computerworld.com/article/1366428/egames-settles-with-michigan-to-remove-ad-software.html">https://www.computerworld.com/article/1366428/egames-settles-with-michigan-to-remove-ad-software.html</a><a class="ref" href="https://en.wikipedia.org/wiki/EGames_(video_game_developer)#Bundled_adware">https://en.wikipedia.org/wiki/EGames_(video_game_developer)#Bundled_adware</a> <br> "timesink" should not be harmful, especially on a modern pc, but can be annoying (maybe the high usage [CPU](Article_does_not_yet_exist_or_link_is_broken/index.html) and [RAM](Technologies/Other/RAM/index.html)). <br> Spyware may be trying to contact a server, which now no more exists. <br> The goal of this spyware is to deliver advertisements on the infected computer. <br> "timesink" creates some files on the computer, where it is installed.
 
 ## Troubleshooting

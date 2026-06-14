@@ -24,7 +24,7 @@ subpages:
   href: Blupi/Fan_projects/Tiled-blupi/index.html
 ---
 
-These are several [Blupi](Blupi/index.html) fan projects. <br> These are applications developed by third party persons - not original developers of [Speedy Blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)/[Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> [Daniel Roux](Blupi/Community/Daniel_Roux/index.html), the original author of Speedy Blupi I/II and other games, mentioned, he is happy about these projects. <br>
+These are several [Blupi](Blupi/index.html) fan projects. <br> These are applications developed by third party persons - not original developers of [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html)/[Eggbert](Blupi/Games/Speedy_Eggbert/index.html). <br> [Daniel Roux](Blupi/Community/Daniel_Roux/index.html), the original author of Speedy Blupi I/II and other games, mentioned, he is happy about these projects. <br>
 
 <div style="margin-left: 20px;"><i>Fan projects and modifications are absolutely allowed and they appreciate the
             fans' enthusiasm. as long as the fans aren't doing it for money, it's all cool</i>
@@ -34,12 +34,12 @@ These are several [Blupi](Blupi/index.html) fan projects. <br> These are applica
 
 ## List of Fan projects
 
-- **[BlupiEdit](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Tool for editing Blupi-related content.
-- **[tiled-blupi](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Game development tool for Blupi projects.
-- **[X-Edit](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Editing software for Blupi games.
-- **[X-Edit-Mapper](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Mapping tool for Blupi games.
+- **[BlupiEdit](Blupi/Fan_projects/BlupiEdit/index.html)** - Tool for editing Blupi-related content.
+- **[tiled-blupi](Blupi/Fan_projects/Tiled-blupi/index.html)** - Game development tool for Blupi projects.
+- **[X-Edit](Blupi/Fan_projects/X-Edit/index.html)** - Editing software for Blupi games.
+- **[X-Edit-Mapper](Blupi/Fan_projects/X-Edit-Mapper/index.html)** - Mapping tool for Blupi games.
 - **Speedy Eggbert - Godot prototype** - Prototype demonstration video: [https://www.youtube.com/watch?v=KD7QKwXwzXQ](https://www.youtube.com/watch?v=KD7QKwXwzXQ)
-- **[Eggbert 3](Article_does_not_yet_exist_or_link_is_broken/index.html)** - Upcoming game in the Eggbert series.
+- **[Eggbert 3](Blupi/Fan_projects/Eggbert_3/index.html)** - Upcoming game in the Eggbert series.
 - **[Open Eggbert](About/index.html) (2024 - development started)** - New open-source project in development.
 
 ## Screenshots

@@ -12,7 +12,7 @@ subpages:
   href: Technologies/Platforms/Windows/index.html
 ---
 
-EXE is the executable file format developed by the [Microsoft](Article_does_not_yet_exist_or_link_is_broken/index.html) company for the following [operating system](Article_does_not_yet_exist_or_link_is_broken/index.html)s: [Windows](Technologies/Platforms/Windows/index.html), [DOS](Article_does_not_yet_exist_or_link_is_broken/index.html), [OS/2](Article_does_not_yet_exist_or_link_is_broken/index.html).
+EXE is the executable file format developed by the [Microsoft](Technologies/Other/Microsoft/index.html) company for the following [operating system](Article_does_not_yet_exist_or_link_is_broken/index.html)s: [Windows](Technologies/Platforms/Windows/index.html), [DOS](Article_does_not_yet_exist_or_link_is_broken/index.html), [OS/2](Article_does_not_yet_exist_or_link_is_broken/index.html).
 
 The EXE file contains series of instructions for the processor to be executed.
 

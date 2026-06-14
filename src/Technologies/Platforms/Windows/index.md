@@ -14,7 +14,7 @@ subpages:
   href: Technologies/Platforms/Windows/Windows_95/index.html
 ---
 
-Windows is the proprietary operating system developed by [Microsoft](Article_does_not_yet_exist_or_link_is_broken/index.html).
+Windows is the proprietary operating system developed by [Microsoft](Technologies/Other/Microsoft/index.html).
 
 ## Relation to Speedy Blupi
 

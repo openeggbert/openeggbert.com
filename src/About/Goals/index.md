@@ -12,10 +12,10 @@ subpages:
 
 ## Create documentation for Speedy Blupi (Epsitec)
 
-Create ultimate specification of [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html)/[Eggbert](Article_does_not_yet_exist_or_link_is_broken/index.html) games and its related utilities
+Create ultimate specification of [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows)/index.html)/[Eggbert](Blupi/Games/Speedy_Eggbert/index.html) games and its related utilities
 
 - This specification should be as sufficient as possible to recreate these games.
-- This specification should completely include all the details related to technical information for [graphics](Article_does_not_yet_exist_or_link_is_broken/index.html), [sounds](Article_does_not_yet_exist_or_link_is_broken/index.html), [cheats](Article_does_not_yet_exist_or_link_is_broken/index.html), hacks, [bugs](Article_does_not_yet_exist_or_link_is_broken/index.html), behaviours.
+- This specification should completely include all the details related to technical information for [graphics](Article_does_not_yet_exist_or_link_is_broken/index.html), [sounds](Article_does_not_yet_exist_or_link_is_broken/index.html), [cheats](Blupi/Games/Speedy_Blupi_(Windows)/Hacks/Cheats/index.html), hacks, [bugs](Blupi/Games/Speedy_Blupi_(Windows)/Bugs/index.html), behaviours.
 - This includes also recording videos of the game play - representing various situations of [Blupi](Blupi/index.html) to preserve the rules, how the game works, for the future and also as the specification.
 - Identify SB1 and SE1 screens and their buttons and other items on the screen
 - Identify SB2 and SE2 screens and their buttons and other items on the screen
@@ -37,9 +37,9 @@ Create ultimate specification of Speedy Blupi for Windows Phone released in 2013
 
 ## Decompilation of Speedy Blupi (Epsitec)
 
-[Decompilation](Article_does_not_yet_exist_or_link_is_broken/index.html) of Speedy Blupi/Eggbert for [Windows](Technologies/Platforms/Windows/index.html). Then port it to [SDL 3](Article_does_not_yet_exist_or_link_is_broken/index.html) and make it portable.
+[Decompilation](Technologies/Other/Reverse_engineering/index.html) of Speedy Blupi/Eggbert for [Windows](Technologies/Platforms/Windows/index.html). Then port it to [SDL 3](Article_does_not_yet_exist_or_link_is_broken/index.html) and make it portable.
 
-- [C++](Technologies/Programming_languages/C++/index.html), [DirectX](Technologies/Libraries/DirectX/index.html) 3/5, [Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html), [IDA](Article_does_not_yet_exist_or_link_is_broken/index.html), [x86](Article_does_not_yet_exist_or_link_is_broken/index.html) [assembly](Article_does_not_yet_exist_or_link_is_broken/index.html) language, SDL 3
+- [C++](Technologies/Programming_languages/C++/index.html), [DirectX](Technologies/Libraries/DirectX/index.html) 3/5, [Ghidra](Article_does_not_yet_exist_or_link_is_broken/index.html), [IDA](Article_does_not_yet_exist_or_link_is_broken/index.html), [x86](Technologies/Programming_languages/Assembly_Language/X86_instruction_set/index.html) [assembly](Technologies/Programming_languages/Assembly_Language/index.html) language, SDL 3
 - https://github.com/HMVocaloid/Speedy-Eggbert-2-Source-Code-Decomp
 
 ## Archive of all Speedy Blupi/Eggbert related websites on the Internet
@@ -58,7 +58,7 @@ Create ultimate specification of Speedy Blupi for Windows Phone released in 2013
 
 ### Music
 
-music ([MIDI](Article_does_not_yet_exist_or_link_is_broken/index.html) or [OGA](Article_does_not_yet_exist_or_link_is_broken/index.html)). [Microsoft Music Producer](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used
+music ([MIDI](Article_does_not_yet_exist_or_link_is_broken/index.html) or [OGA](Article_does_not_yet_exist_or_link_is_broken/index.html)). [Microsoft Music Producer](Technologies/Applications/Microsoft_Music_Producer/index.html) may be used
 
 ### Sounds
 
@@ -66,7 +66,7 @@ sounds ([WAV](Article_does_not_yet_exist_or_link_is_broken/index.html) or [OGA](
 
 ### Images
 
-images ([BMP](Article_does_not_yet_exist_or_link_is_broken/index.html) or [PNG](Article_does_not_yet_exist_or_link_is_broken/index.html)). [Blender](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used. ''[Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html) and [Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html) may not be used.
+images ([BMP](Article_does_not_yet_exist_or_link_is_broken/index.html) or [PNG](Article_does_not_yet_exist_or_link_is_broken/index.html)). [Blender](Technologies/Applications/Blender/index.html) may be used. ''[Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html) and [Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html) may not be used.
 
 - Goal is to create the completely new graphic. Possible applications to be used for this task are Gimp, Inkscape, Blender and others
   - 3D models will be used to create the new prerendered sprites

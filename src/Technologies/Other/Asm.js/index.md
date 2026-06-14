@@ -22,7 +22,7 @@ Asm.js is strongly typed because it uses techniques like explicit conversion of 
 
 Asm.js is more performant, than JavaScript, because it is a highly-optimized subset of JavaScript.
 
-Asm.js is usually less performant than [WebAssembly](Article_does_not_yet_exist_or_link_is_broken/index.html).
+Asm.js is usually less performant than [WebAssembly](Technologies/Other/WebAssembly/index.html).
 
 ## What after asm.js?
 

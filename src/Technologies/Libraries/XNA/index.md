@@ -57,7 +57,7 @@ subpages:
 <td>https://msdn.microsoft.com/xna/</td>
 </tr></table>
 
-XNA is a game framework. The [C#](Article_does_not_yet_exist_or_link_is_broken/index.html) programming language is usually used to create games with the XNA game framework. <br> XNA is used by [Speedy Blupi for Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html). <br> **Specification:** [XNA Game Studio 4.0 Refresh | Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/xna/bb200104(v=xnagamestudio.41)) (Archived at: [https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz](https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz))
+XNA is a game framework. The [C#](Technologies/Programming_languages/C_Sharp/index.html) programming language is usually used to create games with the XNA game framework. <br> XNA is used by [Speedy Blupi for Windows Phone](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html). <br> **Specification:** [XNA Game Studio 4.0 Refresh | Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/xna/bb200104(v=xnagamestudio.41)) (Archived at: [https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz](https://drive.openeggbert.com/XNA/xna_learn.microsoft.com.tar.gz))
 
 ## Alternative implementations
 

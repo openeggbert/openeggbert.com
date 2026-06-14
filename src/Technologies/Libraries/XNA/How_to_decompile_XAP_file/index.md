@@ -12,7 +12,7 @@ subpages:
   href: Technologies/Libraries/XNA/index.html
 ---
 
-Decompiling an [XAP](Article_does_not_yet_exist_or_link_is_broken/index.html) file (a [Windows Phone](Article_does_not_yet_exist_or_link_is_broken/index.html) app package) into C# code and rebuilding it into a new XAP is a multi-step process.
+Decompiling an [XAP](Article_does_not_yet_exist_or_link_is_broken/index.html) file (a [Windows Phone](Technologies/Platforms/Windows_Phone/index.html) app package) into C# code and rebuilding it into a new XAP is a multi-step process.
 
 ## Steps
 

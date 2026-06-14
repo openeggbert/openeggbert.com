@@ -87,7 +87,7 @@ Both the homing bombs and Blupi riding helicopter or hovercraft are affected by 
 
 ## Fake walls
 
-This is a glitch. Create a moving platform, but do not define the second position. Then such wall will be visually the same as the other walls, but Blupi/Eggbert can walk through. This can be used to create secret walls. [Level editor](Article_does_not_yet_exist_or_link_is_broken/index.html)
+This is a glitch. Create a moving platform, but do not define the second position. Then such wall will be visually the same as the other walls, but Blupi/Eggbert can walk through. This can be used to create secret walls. [Level editor](Blupi/Games/Speedy_Blupi_(Windows)/Level_editor/index.html)
 
 ## Items and objects like moving platforms
 

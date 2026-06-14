@@ -36,7 +36,7 @@ subpages:
 <td>Closed-source</td>
 </tr></table>
 
-Windows Phone (WP) is a discontinued mobile [operating system](Article_does_not_yet_exist_or_link_is_broken/index.html) developed by [Microsoft](Article_does_not_yet_exist_or_link_is_broken/index.html) for [smartphone](Article_does_not_yet_exist_or_link_is_broken/index.html)
+Windows Phone (WP) is a discontinued mobile [operating system](Article_does_not_yet_exist_or_link_is_broken/index.html) developed by [Microsoft](Technologies/Other/Microsoft/index.html) for [smartphone](Article_does_not_yet_exist_or_link_is_broken/index.html)
 
 <nowiki></nowiki>
 
@@ -62,7 +62,7 @@ Windows 10 Mobile was announced in 2015. <br> Many Windows Phone 8.1 devices wer
 
 ## Windows Phone Store
 
-Windows Phone Store was used to distribute: music, videos, podcasts, third-party applications and game. <br> Third-party applications and games for Windows Phone can be based on [XNA](Article_does_not_yet_exist_or_link_is_broken/index.html) or several another technologies (https://en.wikipedia.org/wiki/Windows_Phone). The used programming language can be one of: C#, Visual Basic.NET ,C++, HTML5/JavaScript <br> Windows Phone Store was killed and replaced by Windows Store in 2015. <br> On 16th December 2019, Microsoft killed the part of Windows Store for the Windows Phone support.
+Windows Phone Store was used to distribute: music, videos, podcasts, third-party applications and game. <br> Third-party applications and games for Windows Phone can be based on [XNA](Technologies/Libraries/XNA/index.html) or several another technologies (https://en.wikipedia.org/wiki/Windows_Phone). The used programming language can be one of: C#, Visual Basic.NET ,C++, HTML5/JavaScript <br> Windows Phone Store was killed and replaced by Windows Store in 2015. <br> On 16th December 2019, Microsoft killed the part of Windows Store for the Windows Phone support.
 
 - This means, that since that day no application can be installed on Windows Phone devices using Windows Store.
 

@@ -15,4 +15,5 @@ __pycache__/
 *.pyo
 .venv/
 venv/
+fix_links.py
 

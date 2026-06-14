@@ -16,7 +16,7 @@ subpages:
 
 ## Recreation of game graphics
 
-The [3D](Article_does_not_yet_exist_or_link_is_broken/index.html) editor [Blender](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used to create the 3D models again and to render the [game](Article_does_not_yet_exist_or_link_is_broken/index.html) graphics again. <br> New game graphics will be double the size. <br> [Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html) or [Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used too
+The [3D](Article_does_not_yet_exist_or_link_is_broken/index.html) editor [Blender](Technologies/Applications/Blender/index.html) may be used to create the 3D models again and to render the [game](Article_does_not_yet_exist_or_link_is_broken/index.html) graphics again. <br> New game graphics will be double the size. <br> [Gimp](Article_does_not_yet_exist_or_link_is_broken/index.html) or [Inkscape](Article_does_not_yet_exist_or_link_is_broken/index.html) may be used too
 
 ## New types of transport
 
