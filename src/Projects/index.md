@@ -24,8 +24,6 @@ subpages:
   href: Projects/Free_Direct/index.html
 - label: Free Api
   href: Projects/Free_Api/index.html
-- label: Nova3D
-  href: Projects/Nova3D/index.html
 - label: EasyGL
   href: Projects/EasyGL/index.html
 - label: MetaGL
@@ -36,8 +34,6 @@ subpages:
   href: Projects/Sprite_Utils/index.html
 - label: Youtube Frontend
   href: Projects/Youtube_Frontend/index.html
-- label: Simple3D
-  href: Projects/Simple3D/index.html
 ---
 
 ## Active projects
@@ -52,8 +48,6 @@ subpages:
 | [CNA](Projects/CNA/index.html) | [cna.openeggbert.com](https://cna.openeggbert.com) / [libcna.com](https://libcna.com) |  | XNA-like C++ library using SDL 3 |
 | [Free Direct](Projects/Free_Direct/index.html) | [freedirect.openeggbert.com](https://freedirect.openeggbert.com) |  | DirectX 3-like wrapper around CNA |
 | [Free API](Projects/Free_Api/index.html) | [freeapi.openeggbert.com](https://freeapi.openeggbert.com) |  | Reimplementation of Windows API subset |
-| [Nova3D](Projects/Nova3D/index.html) | [nova3d.openeggbert.com](https://nova3d.openeggbert.com) / [libnova3d.com](https://libnova3d.com) |  |  |
-| [Simple3D](Projects/Simple3D/index.html) | [simple3d.openeggbert.com](https://simple3d.openeggbert.com) / [libsimple3d.com](https://libsimple3d.com) |  | Clean C++23/Lua 3D/2D game framework built on Urho3D |
 | [EasyGL](Projects/EasyGL/index.html) | [easygl.openeggbert.com](https://easygl.openeggbert.com) |  |  |
 | [MetaGL](Projects/MetaGL/index.html) | [metagl.openeggbert.com](https://metagl.openeggbert.com) |  |  |
 | [MeshCraft](Projects/MeshCraft/index.html) | [meshcraft.openeggbert.com](https://meshcraft.openeggbert.com) |  |  |

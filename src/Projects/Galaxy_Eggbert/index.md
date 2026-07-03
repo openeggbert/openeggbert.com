@@ -28,7 +28,7 @@ subpages:
 </tr>
 <tr>
 <th>Dependencies</th>
-<td><a href="Projects/CNA/index.html">CNA</a>, <a href="Projects/Nova3D/index.html">Nova3D</a></td>
+<td><a href="Projects/CNA/index.html">CNA</a></td>
 </tr>
 <tr>
 <th>Platforms</th>
@@ -40,7 +40,7 @@ subpages:
 </tr>
 </table>
 
-**Galaxy Eggbert** is the 3D remake of the game [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html). It is built using [CNA](Projects/CNA/index.html) as the game framework and [Nova3D](Projects/Nova3D/index.html) for 3D rendering.
+**Galaxy Eggbert** is the 3D remake of the game [Speedy Blupi](Blupi/Games/Speedy_Blupi_(Windows_Phone)/index.html). It is built using [CNA](Projects/CNA/index.html) as the game framework.
 
 ## Platforms
 

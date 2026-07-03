@@ -115,14 +115,13 @@ but have no real article yet.
   - Galaxy Eggbert first build
   - Start of CNA, Free Direct, Free API development
   - Start of sharpruntime development
-  - Nova3D project start
 - [ ] "Autumn 2024 - Speedy Blupi for Windows Phone was decompiled" — add exact date (November 23–25, 2024)
 - [ ] "playeble" typo → "playable"
 
 ### `src/About/Hall_of_Fame/index.md`
 - [ ] "MediaWiki" entry is incorrect — the site no longer runs on MediaWiki; remove or update
 - [ ] Free Direct and Free Api entries have no description — add short descriptions
-- [ ] Add entries for new projects: Galaxy Eggbert, Nova3D, Sharp Runtime, EasyGL, MetaGL, MeshCraft
+- [ ] Add entries for new projects: Galaxy Eggbert, Sharp Runtime, EasyGL, MetaGL, MeshCraft
 - [ ] Add entry for SDL 3 (currently only SDL without version)
 - [ ] Update CNA entry (now a real project, not just an idea)
 - [ ] Add entry for TinySoundFont (used in Free API)
@@ -288,7 +287,7 @@ but have no real article yet.
 
 ## 8. Images and media
 
-- [ ] Main page has only 2 screenshots — add Galaxy Eggbert, Nova3D demo, MeshCraft screenshot
+- [ ] Main page has only 2 screenshots — add Galaxy Eggbert, MeshCraft screenshot
 - [ ] `src/About/Hall_of_Fame/star.jpg` is used inline with `<img>` tags; the stars approach is functional but brittle — consider using Unicode ★ characters instead for simpler maintenance
 - [ ] `src/Blupi/Community/Daniel_Roux/index.md` — photos are hotlinked from `smaky.ch`; consider mirroring to `drive.openeggbert.com` in case the source goes down
 - [ ] Most project pages (CNA, Free Direct, Free API, etc.) have no screenshots — add screenshots or diagrams where appropriate
@@ -298,7 +297,6 @@ but have no real article yet.
 ## 9. Projects section — remaining gaps
 
 - [ ] `src/Projects/Sharp_Runtime/index.md` — add implementation status table (which System::* classes are done)
-- [ ] `src/Projects/Nova3D/index.md` — add screenshot of BlupiDemo sample running
 - [ ] `src/Projects/Galaxy_Eggbert/index.md` — add screenshot, add World Format link (there's a `World Format.md` in the repo)
 - [ ] `src/Projects/MeshCraft/index.md` — add screenshot (`mesh_craft_screenshot.png` exists in the repo)
 - [ ] `src/Projects/Planet_Blupi/index.md` — add build instructions specific to the OE fork
